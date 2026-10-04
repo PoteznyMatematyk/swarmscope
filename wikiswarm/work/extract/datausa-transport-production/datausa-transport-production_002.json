@@ -1,0 +1,245 @@
+{
+  "batch": "datausa-transport-production/datausa-transport-production_002.jsonl",
+  "records": [
+    {
+      "record_id": "1130ba7f991723395ecaa77893799a763f2a8362ac537c4e0d0c48c70c79df97",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:10:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas arrived 00:10:22"
+        }
+      ]
+    },
+    {
+      "record_id": "265a687e84589a0bc6c15f6375babd4842ef9d97378efd28f3889a74687d0c00",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b9c55b0539ec5a8a387ea9b18be49f081c90de57699a9451b59594423b7bcc4d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3c5688b7949176b5159bd170c11d9595a11b932d183188e3f1016ed50dae068d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "77086ef4c50e3ac9a0fcdfbabcf37d4a2356ab7acaa9fb07a8bfced03b49e1d5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:15:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas prompt 20:15:41"
+        }
+      ]
+    },
+    {
+      "record_id": "ede2c703b5c0935d81c7a9f8b9dff117c253f2bafc827bd3691dd6de2f7b06e7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9d8154a15745b865c8c76b79ed8a79c7956656d76d22a848e32add9369fe9257",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:03:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas arrived task 18:03:15"
+        }
+      ]
+    },
+    {
+      "record_id": "bca4f02bc72bab9a1bd5675d31fede1bc766cfb5e3c983c4ba6d4b23f04b57c0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:55:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas at task 14:55:57"
+        }
+      ]
+    },
+    {
+      "record_id": "ccfe425fdaf64049d43499b6c28552ffeff2ac6532c1c642f9862dc611eecf32",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3cb90b01e6c4980ac406df22527e2cefeafef8475c21ff7d98b8e1bb6bcfee7b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "718c44c9e61a4b79c1de6154dbc25b4582df7c8dec08a42e8106f4b94500e325",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "df170db214dadf9b8de6828e4c3e2fc108087e1ac007785cf97782da44f8205e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f369dc5b8e0a19d791a5129c06c114db0ede0a5b46fda16a27e55132c47ad232",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:49:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas at task 12:49:53"
+        }
+      ]
+    },
+    {
+      "record_id": "67d1b0a531eace6db288af01946ad052bdce2234d24541766ae69718670e3653",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e87121bb48b3b23f864a0db5837a7fbb03582902c07596141f3e916ca453ad80",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f19c6ee4c5d9ccbd45f4853d4866008a05489b32aeacf5ce235ef4bb9791102f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2740e4c976c0b7e667a7434eee5ca7743ab8001df7cedab2ab9c4c19a8cf7c8b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "15c2b519bfd5970e29195ac1aeccd23b0e9651e37752c3f68e52f6cb71be9146",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "92957c363247dc74adf30409476ebd0129f3a4491b1c929cecd3305b1fe121d9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "California",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:28:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 California task 04:28:41"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:08:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas 05:08:56"
+        }
+      ]
+    },
+    {
+      "record_id": "b8451e061a5b61c581af4f991e1d0c7a5f60165e063a48f58fac93a587d8244a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "219a9adea37f9448305906d9fa21079f5ecdc3595fb353e54f33e70705baa46c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f7cb02dd5e1c3d6b5b704cbefcb7327e9e75b7fd7f19411494d62fe4d59d432e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0f3b27480eb556229299fd5bd498a602ca30d42762ae550e47a185e2e9a538f4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5e8128e2beb2f9d2830447c6bcfe2617a0419ae3fefb997ab69bb6c6c2f23a6a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "add783c6d25a8cb427e20db7ea08a80b975f02050dc57bf390b241fca2791416",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ebfe62f073c85da4fb680aad7023c2bea317901b926cbf84b6fc0a821e522d61",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f196a0d58ae0f941ea9735909bd718ce4578bb9e017d9731a4c8a635c23abf09",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "926df7f53dc721e056870673802f874d899f9a3e0d82ac631f2f8558c60e5933",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5d289beda0e616d6a1d289bb67ecd3617d172eda9aed8155085f5b6ab0a8a238",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2cba566aeb0cd542b48bd968ef5c49668c7caedfdf279d3b5de813f314bc3ef3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

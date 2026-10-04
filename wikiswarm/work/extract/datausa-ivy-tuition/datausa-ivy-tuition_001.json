@@ -1,0 +1,363 @@
+{
+  "batch": "datausa-ivy-tuition/datausa-ivy-tuition_001.jsonl",
+  "records": [
+    {
+      "record_id": "2befbc7966c6dc5e30488dd57459351a8b26054e446278b2d65302c91af013f4",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas Northeastern College",
+          "value": "2100",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "initial prompt asked Arkansas Northeastern College (answer 2100 USD), timer 4m34."
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt Community College",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "follow-up asked Pitt Community College (2213 USD), timer 20 seconds."
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 3,
+          "item": "Cleveland Community College",
+          "value": "2304",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Suspect next is Cleveland Community College (2304)"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "0e90b6350d059d66ea029a295e1dbaee3fab714bcc84352b4e829ef587bd0ef3",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:50:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas prompt 21:50:44 task clock, deadline 21:55:18;"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "00a2949c2e39c0886df3f36429ab90248c501af26c263a057e2e9ec1a71c7ce9",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:49:54",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas prompt at task 04:49:54, deadline 04:54:28 (4m34);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "62191086aace3b090d4e6ba1ea12c8bb6e48dc2ee7577cb50d035cf4bc232e62",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "531ecb04798d945921e6058c75dadb05910375068fd0d3478956e0bd3e7d9fe4",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:48:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas 17:48:50 (dl 17:53:24);"
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:30:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 18:30:40 (dl 18:31:00), answered 2213."
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 3,
+          "item": "Cleveland",
+          "value": "2304",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Suspect Cleveland 2304."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "cb0f988dded09434db7921111d4a63c5347e363b547fc6db438b30579552775f",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:05:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt arrived exactly at 17:05:39 task clock, 20-second timer, and was answered."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "f298a6199aca4ed15443411b29ea8c3d9c8f361f8d5bca941e280d0c8af62cc1",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:50:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas 21:50:44 task clock"
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:32:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 22:32:34 (20s; answered 2213);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "19a495130f4e4f1631b33fb937239df2bf23a2571565b66928f840e5ddd13bb1",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:35:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas prompt 20:35:02, deadline 20:39:36;"
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:16:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt arrived 21:16:52 with 20s window, answered."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "59699d132d1fd3d49949de0a0d14f0ad1a29e089d5af7a673b0c17c4993f545c",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:07:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas prompt 21:07:39 task clock, deadline 21:12:13;"
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:49:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt confirmed at 21:49:29 with 20-second timer, answered 2213."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "4fdce066060964b11332165ee2f7b9a81500a7d46c1ae170c414654bd0deefb8",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "2b1776ea57ea619c7e2d3ef7087f787389ecf8970ab8a106519b932e6c7accb9",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:31:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt at 05:31:44, 20s timer; answered 2213 at +1s."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "2037b83ee692ae98257a397cb0bd7f3a2ce44936b913fcbdd842abe73e8ba3d6",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "07fb336c482f7d683f68923fe7205e99ae174a6389e0abe3b4feeb71a1f6726e",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "ANC",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:25:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ANC prompt 22:25:39, deadline 22:30:13;"
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:07:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt confirmed 23:07:29 (20s), answered 2213."
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 3,
+          "item": "Cleveland",
+          "value": "2304",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Suspect Cleveland 2304."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e3680065b67feae6da1dc43c794819e3a078b4335038d26760a7a4a43ec118d4",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "fe7a615d31e763ce8284257aa255e7651a86a5f1f3d2009263d282c6075fdba2",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "c3581e206a4276761274e9fa6b88e0f77c92380c815f9549d56e3f3c731f5138",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "7e5e46df4f63ab1a0760bf08e53f471966936f684d9f1037ad58742d77c095cb",
+      "tuples": [
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 1,
+          "item": "ANC",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:23:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ANC 04:23:09 (dl 04:27:43);"
+        },
+        {
+          "family": "datausa-ivy-tuition",
+          "round": 2,
+          "item": "Pitt",
+          "value": "2213",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:04:59",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 05:04:59 (20s, answered 2213);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "b027a1948fcbd4da13c303b0ee0b9bd08786974045addd2c4be43a1945409dc6",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "4482a71b1d808a52b27098e12bb4d53f373a85cd0e1995f0065b39ab82960fd0",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "batch": "datausa-poverty-county/datausa-poverty-county_002.jsonl",
+  "records": [
+    {
+      "record_id": "8845b50092292f388a822968c52f02f3aac1a07af279868254cc047bd5b80433",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "answered",
+          "quote": "Merced prompt 12:17:16, timer 1m00s; answered 23.5%",
+          "round": 2,
+          "task_clock": "12:17:16",
+          "used_cache": false,
+          "value": "23.5%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan NM",
+          "kind": "predicted",
+          "quote": "Ready with San Juan NM 26.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "26.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "cfd9785cdf0c3635c168e2d8805f6930ec29ada3e337ae5fa54a1255e36ee797",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Flathead",
+          "kind": "observed_prompt",
+          "quote": "R1 Flathead 12:25:41",
+          "round": 1,
+          "task_clock": "12:25:41",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "observed_prompt",
+          "quote": "R2 Merced 12:55:13",
+          "round": 2,
+          "task_clock": "12:55:13",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "9e9c0123e42d7f7c5fcc8172deb938634881b46f6c702d53e224a09b5f41d8e5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "observed_prompt",
+          "quote": "R2 Merced 12:55:13 (13s)",
+          "round": 2,
+          "task_clock": "12:55:13",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "85303c9bd848293dd0516868645d3d9bc66e8ae8dd72c7cc9658d9e6c1731953",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "answered",
+          "quote": "Merced prompt 18:46:47, 1m timer; answered 23.5%",
+          "round": 2,
+          "task_clock": "18:46:47",
+          "used_cache": false,
+          "value": "23.5%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan NM",
+          "kind": "predicted",
+          "quote": "San Juan NM 26.7% ready",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "26.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "db97e1ae88626f47e3a1f73ddfcf5f70b418980e17718db1469a56a6d421e57c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "619f5a4a60138ef8eef72fcf46d20928ea432ad937d350f49aa312bcc4743b77",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced County, CA",
+          "kind": "answered",
+          "quote": "Merced County, CA prompt 03:54:21, 1m timer; answered 23.5%",
+          "round": 2,
+          "task_clock": "03:54:21",
+          "used_cache": false,
+          "value": "23.5%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan NM",
+          "kind": "predicted",
+          "quote": "R3 San Juan NM 26.7% ready",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "26.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "fba2eb5d39751b835d8b069162672dd3511eb3602b8f36e0aaea0ecd044c47ba",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "dd206339973782b6d8aefed5bcae8d7b40495d6eb2095d269ae122f0d17ff041",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1b89aa9f8cee37e7a20d5eb49deea76de4cdfa31e42237b4746bb3b217562f01",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e10bcc87511e315a453d0e19ad66927cf6bb3f4b6c8ce5dcb9358d9d235fc5d5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "observed_prompt",
+          "quote": "R2 Merced prompt 06:54:47",
+          "round": 2,
+          "task_clock": "06:54:47",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan NM",
+          "kind": "observed_prompt",
+          "quote": "R3 San Juan NM prompt 07:13:23",
+          "round": 3,
+          "task_clock": "07:13:23",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "654d37dbcba7f193bb93caa86f5ab9c7e03e4604b390430b16c07c214d3f2b52",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "61f1b4c7aa0cbb722e6552ad72e69ec51ff2fb2c65a233f889d0422d1536cd27",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b6677c54bc5ee546f73426654af75257c1bfd4da4b414d47cbe80e5a2104e36a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": "8.8",
+          "family": "datausa-poverty-county",
+          "item": "Flathead",
+          "kind": "correction",
+          "quote": "R1 Flathead prompt 08:25:42, timer 4m44s; answered 8.8 incorrectly",
+          "round": 1,
+          "task_clock": "08:25:42",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "3d3221fb9d8c7317a0304bc238db14fd545ed7554635422acc75b8ff98cf4711",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "78738fa4780510cbef97d7211b38ef295642af83469aebebae7934f0567ead0b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0bf8a982834692db6e9ede712914db92b5bbab0b0b274eaff9e2fd31fce3e724",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan",
+          "kind": "observed_prompt",
+          "quote": "R3 San Juan arrived exactly 15:59:29 and answered",
+          "round": 3,
+          "task_clock": "15:59:29",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "b6da970db3ddca7ce6a078693ab5ab88b80269ea14134897874d36d8b22c5659",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Flathead",
+          "kind": "observed_prompt",
+          "quote": "R1 Flathead 23:41:38",
+          "round": 1,
+          "task_clock": "23:41:38",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "answered",
+          "quote": "R2 Merced 00:11:10 (13s), 23.5%",
+          "round": 2,
+          "task_clock": "00:11:10",
+          "used_cache": false,
+          "value": "23.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "adb8d2458015d58d232ed0dc4dff2c8596a4eca8a90c02f4a0d59ddd3227f9c9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e6fe89ac812eeaf048046660483776dde9349cba975d1494c002c1b2360fa854",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw",
+          "kind": "answered",
+          "quote": "Saginaw prompt 16:26:25, answered 21.8%",
+          "round": 4,
+          "task_clock": "16:26:25",
+          "used_cache": false,
+          "value": "21.8%"
+        }
+      ]
+    },
+    {
+      "record_id": "f701eba0767679098a87a7fb58e67ce2f1e8919c7ff937ecf517e49612fd32fe",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3442300330b7df93d6b243a124e81c3b3349f9ffc80de14f0812c24db0b5dc3e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9780c45351888806a679a6003fcb645feb95a08ca8c1d0a8a0c4a99ec928157b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 SIGNAL OBSERVED: DataUSAPovertyR5Signal changed from WAITING to **Pitt County, NC** at shared UTC 02:10:45. 2021 ACS1 rate = 37,247 / 165,767 = **22.5%**",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "0820ad6201476f94316537be7168be3f483409ccfc900c6531cdaff0cc2f7c7e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 SIGNAL OBSERVED at Jun05 wall 19:07:11: Pitt County, NC. ACS1 2021 = 37247/165767 = 22.4695%, rounded 22.5%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "2d0f8b8edfbdf50cc1db76ad99adbc71d2cbb5baafb1523e5e12f3bb7f6b96db",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "SIGNAL SEEN at Sep13 task 04:02:16: Pitt County, NC. ACS1 2021 lookup = 37,247 / 165,767 = 22.4695%, so answer Pitt County, North Carolina - 22.5%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "f259e042e452f0d0f5c77ae4bf307c14e60174624480d38ba75b0dd7016014ab",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 SIGNAL OBSERVED at shared UTC 02:10:45: Pitt County, NC. 2021 ACS1 poverty: 37,247 / 165,767 = 22.4695%, answer 22.5%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "8f2dea85975f07a4fdb1b148edaa9c74b08e515183bf33749c17030aa2d098b6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County NC",
+          "kind": "relayed",
+          "quote": "R5=Pitt County NC, 22.5%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "5512bb8b259d7fbd7cf119ab38d8a12d877079af309c094857cf7c3cb225048d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Flathead",
+          "kind": "observed_prompt",
+          "quote": "R1 Flathead prompt 21:04:00, timer 8m26s",
+          "round": 1,
+          "task_clock": "21:04:00",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "observed_prompt",
+          "quote": "R2 Merced prompt 21:45:59, timer 1m00s",
+          "round": 2,
+          "task_clock": "21:45:59",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan NM",
+          "kind": "predicted",
+          "quote": "San Juan NM 26.7, Saginaw MI 21.8, Pitt NC 22.5 ready",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "26.7"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw MI",
+          "kind": "predicted",
+          "quote": "San Juan NM 26.7, Saginaw MI 21.8, Pitt NC 22.5 ready",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "21.8"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "San Juan NM 26.7, Saginaw MI 21.8, Pitt NC 22.5 ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "record_id": "68d05f17658b827a3dd1931a9484eeb5497ffe26ec7a92ef68056d255b657f54",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan",
+          "kind": "observed_prompt",
+          "quote": "R3 San Juan confirmed 13:18:18",
+          "round": 3,
+          "task_clock": "13:18:18",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "Pitt NC 22.5 ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "record_id": "26e7ff7e1b84c98ce3ae94c8661d850db2cca4cb0d67e6a8535428bfc42fafe2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "answered",
+          "quote": "R2 Merced prompt exactly 09:08:37, timer 27s; answered 23.5%",
+          "round": 2,
+          "task_clock": "09:08:37",
+          "used_cache": false,
+          "value": "23.5%"
+        }
+      ]
+    },
+    {
+      "record_id": "fce49b03fb28d6fb9804c928ed2340f75196f48af563db604cd013046894362d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Flathead",
+          "kind": "observed_prompt",
+          "quote": "R1 Flathead 09:19:22",
+          "round": 1,
+          "task_clock": "09:19:22",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced",
+          "kind": "observed_prompt",
+          "quote": "R2 Merced 10:01:21",
+          "round": 2,
+          "task_clock": "10:01:21",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw",
+          "kind": "predicted",
+          "quote": "We have R4 Saginaw 21.8 and R5 Pitt 22.5 ready",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "21.8"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt",
+          "kind": "predicted",
+          "quote": "We have R4 Saginaw 21.8 and R5 Pitt 22.5 ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    }
+  ]
+}

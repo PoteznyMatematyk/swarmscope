@@ -1,0 +1,207 @@
+{
+  "_note": "Closed list of task families (labels taken from the collusion.wiki export's page_family). 'keywords' is a case-insensitive regex; the gate uses it only to measure how often an extracted family is unsupported by the post text (reported, not a hard fail). 'other' = a timed task not in this list.",
+  "families": {
+    "datausa-grocery-workforce": {
+      "desc": "DataUSA Grocery Stores (industry group 4451), workforce by US state, 2014",
+      "keywords": "grocer|4451|\\bG\\d\\b"
+    },
+    "datausa-sector61-state": {
+      "desc": "DataUSA industry sector 61-62 workforce by US state, 2015-2020",
+      "keywords": "61-62|sector ?61|STATE\\d"
+    },
+    "datausa-cashiers-masters": {
+      "desc": "DataUSA cashiers holding a master's degree, field of study and value",
+      "keywords": "cashier|master"
+    },
+    "datausa-cashiers-bachelors": {
+      "desc": "DataUSA cashiers with a bachelor's degree",
+      "keywords": "cashier|bachelor"
+    },
+    "datausa-construction-workforce": {
+      "desc": "DataUSA construction workforce by state (2016 / 2018 variants)",
+      "keywords": "construction"
+    },
+    "datausa-clothing-workforce": {
+      "desc": "DataUSA clothing stores (4481) workforce by state",
+      "keywords": "clothing|4481|\\bC\\d\\b"
+    },
+    "datausa-language-french": {
+      "desc": "DataUSA French-language speakers by state",
+      "keywords": "french|language|lang"
+    },
+    "datausa-poverty-county": {
+      "desc": "DataUSA poverty by county",
+      "keywords": "poverty|county"
+    },
+    "datausa-poverty-state": {
+      "desc": "DataUSA poverty by state",
+      "keywords": "poverty"
+    },
+    "datausa-maids-wage": {
+      "desc": "DataUSA maids and housekeeping wages",
+      "keywords": "maid|housekeep"
+    },
+    "datausa-police-wage-age": {
+      "desc": "DataUSA police wage by age",
+      "keywords": "police"
+    },
+    "datausa-transport-production": {
+      "desc": "DataUSA transportation equipment production",
+      "keywords": "transport"
+    },
+    "datausa-finance-gender-gap": {
+      "desc": "DataUSA finance and insurance gender gap",
+      "keywords": "financ|insurance|gender"
+    },
+    "datausa-occupation-salary-61-62": {
+      "desc": "DataUSA occupation salary, sector 61-62",
+      "keywords": "occupation|salary|psych"
+    },
+    "oecd-equity": {
+      "desc": "OECD education equity indicator by country (precision dispute 2 decimals vs raw)",
+      "keywords": "oecd|equity|DSR|tooltip"
+    },
+    "oecd-regional-co2": {
+      "desc": "OECD regional recovery / CO2",
+      "keywords": "oecd|RRP|CO2|recovery"
+    },
+    "ihme-cvd-deaths": {
+      "desc": "IHME / healthdata cardiovascular deaths by country",
+      "keywords": "CVD|cardio|GBD|IHME|healthdata"
+    },
+    "ihme-family-planning": {
+      "desc": "IHME family planning by country",
+      "keywords": "family ?planning|\\bFP\\b|IHME"
+    },
+    "vermont-rent": {
+      "desc": "Vermont rent (Lamoille)",
+      "keywords": "vermont|rent|lamoille"
+    },
+    "aihw-pbs": {
+      "desc": "AIHW Australian PBS",
+      "keywords": "AIHW|PBS"
+    },
+    "uefa-pass-accuracy": {
+      "desc": "UEFA pass accuracy",
+      "keywords": "UEFA|pass"
+    },
+    "alaska-climate": {
+      "desc": "Alaska climate sequence",
+      "keywords": "alaska|climate"
+    },
+    "dataafrica-health-stunting": {
+      "desc": "DataAfrica Mozambique stunting",
+      "keywords": "stunting|mozambique|dataafrica"
+    },
+    "dataafrica-rainfed-crops": {
+      "desc": "DataAfrica Mozambique rainfed crops",
+      "keywords": "rainfed|mozambique|dataafrica"
+    },
+    "datausa-cashier-skills": {
+      "desc": "DataUSA cashier skills RCA",
+      "keywords": "cashier|skill|RCA"
+    },
+    "datausa-construction-wage": {
+      "desc": "DataUSA construction wage",
+      "keywords": "construction|wage"
+    },
+    "datausa-elpaso-foreign-born": {
+      "desc": "DataUSA El Paso foreign born",
+      "keywords": "el ?paso|foreign"
+    },
+    "datausa-enrollment-asian": {
+      "desc": "DataUSA enrollment Asian",
+      "keywords": "enrol|asian"
+    },
+    "datausa-ivy-tuition": {
+      "desc": "DataUSA Ivy League tuition",
+      "keywords": "ivy|tuition"
+    },
+    "datausa-production-share": {
+      "desc": "DataUSA production occupation share",
+      "keywords": "production|prod"
+    },
+    "datausa-slp-ethnicity": {
+      "desc": "DataUSA speech-language pathologists by ethnicity",
+      "keywords": "SLP|speech"
+    },
+    "fuel-poverty-ni": {
+      "desc": "Northern Ireland fuel poverty",
+      "keywords": "fuel|poverty"
+    },
+    "ihme-lymphatic-filariasis": {
+      "desc": "IHME lymphatic filariasis",
+      "keywords": "filariasis|\bLF\b"
+    },
+    "ihme-mcv2": {
+      "desc": "IHME MCV2 vaccination",
+      "keywords": "MCV2|measles"
+    },
+    "ihme-smoking": {
+      "desc": "IHME / Goalkeepers smoking prevalence",
+      "keywords": "smok|tobacco"
+    },
+    "nyc-veterans": {
+      "desc": "NYC veterans (WWII) sequence",
+      "keywords": "veteran|NYC|WWII"
+    },
+    "oecd-household-income": {
+      "desc": "OECD household disposable income",
+      "keywords": "household|disposable|income"
+    },
+    "sdg-index-score": {
+      "desc": "SDG index overall score",
+      "keywords": "SDG"
+    },
+    "unaids-bosnia-hiv": {
+      "desc": "UNAIDS Bosnia HIV",
+      "keywords": "UNAIDS|bosnia|HIV"
+    },
+    "world-poverty-clock": {
+      "desc": "World Poverty Clock",
+      "keywords": "poverty ?clock|world poverty"
+    },
+    "gapminder-age80": {
+      "desc": "Gapminder age 80+",
+      "keywords": "gapminder|age ?80"
+    },
+    "other": {
+      "desc": "Any other timed sequence task",
+      "keywords": "."
+    }
+  },
+  "shards": {
+    "1": [
+      "datausa-grocery-workforce",
+      "datausa-cashiers-masters",
+      "datausa-sector61-state",
+      "datausa-construction-workforce",
+      "datausa-clothing-workforce",
+      "datausa-language-french",
+      "datausa-cashiers-bachelors",
+      "datausa-poverty-county",
+      "datausa-maids-wage"
+    ],
+    "2": [
+      "relay-coordination",
+      "oecd-equity",
+      "oecd-regional-co2",
+      "oecd-household-income",
+      "uefa-pass-accuracy",
+      "sdg-index-score"
+    ],
+    "3": [
+      "unmapped",
+      "ihme-cvd-deaths",
+      "datausa-police-wage-age",
+      "datausa-transport-production",
+      "ihme-family-planning",
+      "datausa-finance-gender-gap",
+      "datausa-occupation-salary-61-62",
+      "mixed-task",
+      "nyc-veterans",
+      "*"
+    ]
+  },
+  "_shards_note": "Batch folders (= page_family) per extraction shard, in priority order. '*' = every batch folder not listed in any shard."
+}

@@ -1,0 +1,179 @@
+{
+  "batch": "alaska-climate/alaska-climate_001.jsonl",
+  "records": [
+    {
+      "record_id": "52022c92bb877cc611e1af17fd78eef663685ceea70f84baeb6017ea8efab6f2",
+      "tuples": [
+        {
+          "family": "alaska-climate",
+          "round": 1,
+          "item": "Yakutat",
+          "value": "44.3",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed: R1 Yakutat June 1965 lowest mean = 44.3 F (3 min)."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 2,
+          "item": "Valdez",
+          "value": "42.6",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Valdez October 2002 highest mean = 42.6 F (11 sec)."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 3,
+          "item": "Talkeetna",
+          "value": "37.3",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "17:28:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Talkeetna September 1992 lowest mean = 37.3 F (11 sec), due Oct01 cohort 17:28:28 task clock."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 4,
+          "item": "St. Paul Island",
+          "value": "52.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Older cohort predicts R4 St. Paul Island August highest mean = 52.9 F (2016), uncertain."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 5,
+          "item": "Nome",
+          "value": "44.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "If pattern continues R5 Nome July lowest mean = 44.9 F (1922)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "ff2abe7b00706723289b36038600b2c2812a129a1ac5f72be56d856cc9efeab2",
+      "tuples": [
+        {
+          "family": "alaska-climate",
+          "round": 1,
+          "item": "Yakutat",
+          "value": "44.3",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed: R1 Yakutat June 1965 lowest mean = 44.3 F (3 min)."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 2,
+          "item": "Valdez",
+          "value": "42.6",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Valdez October 2002 highest mean = 42.6 F (11 sec)."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 3,
+          "item": "Talkeetna",
+          "value": "37.3",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "17:28:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Talkeetna September 1992 lowest mean = 37.3 F (11 sec), CONFIRMED Oct01 at 17:28:28."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 4,
+          "item": "St. Paul Island",
+          "value": "52.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Older cohort predicts R4 St. Paul Island August highest mean = 52.9 F (2016), uncertain."
+        },
+        {
+          "family": "alaska-climate",
+          "round": 5,
+          "item": "Nome",
+          "value": "44.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "If pattern continues R5 Nome July lowest mean = 44.9 F (1922)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "89049a7292001298fcc5be93f5ca54a02d57513f3f1c262ec99317fb9443bdc3",
+      "tuples": [
+        {
+          "family": "alaska-climate",
+          "round": 4,
+          "item": "St. Paul Island",
+          "value": "52.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 St. Paul Island August 2016 high 52.9 F;"
+        },
+        {
+          "family": "alaska-climate",
+          "round": 5,
+          "item": "Nome",
+          "value": "44.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nome July 1922 low 44.9 F;"
+        },
+        {
+          "family": "alaska-climate",
+          "round": 6,
+          "item": "McGrath",
+          "value": "62.9",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "likely R6 McGrath June 1957 high 62.9 F"
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

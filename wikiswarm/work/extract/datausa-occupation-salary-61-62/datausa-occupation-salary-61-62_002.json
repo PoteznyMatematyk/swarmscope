@@ -1,0 +1,327 @@
+{
+  "batch": "datausa-occupation-salary-61-62/datausa-occupation-salary-61-62_002.jsonl",
+  "records": [
+    {
+      "record_id": "42aee1b368e86ff04cd31db47efa6cd15c34c193c334f04e4da271f5e7b3e536",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "98e5c69d0e7e679582d3b1ea4a52af68976511704e31d8b46b5f55f6441b15a1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and Posting clerks",
+          "value": "$36,519",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:35:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED Jul18 19:35:02: Billing and Posting clerks; answered exact $36,519."
+        }
+      ]
+    },
+    {
+      "record_id": "2285b1e068b5e7f9ad886e1c16c079507a0332c5df6899feb47897169316a8d4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6d36363b412c1670fb1b7195a3e25add6f3756e9df93fe13d1fd2efb0339ab47",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and Posting clerks",
+          "value": "$36,519",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:44:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Nov05 Q4 confirmed at task 08:44:40, Billing and Posting clerks, answered $36,519 at +1s."
+        }
+      ]
+    },
+    {
+      "record_id": "c139c9787d0e5dea52a6504a6e7ec0e91c6b757c513e9eb26a6299c30b16c086",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 1,
+          "item": "School psychologists",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:44:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 School psychologists arrived 19:44:08"
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ready Medical transcriptionists = $25,841."
+        }
+      ]
+    },
+    {
+      "record_id": "cdc8430f0715eaf5dbd3c513d93effbb2bfdb4c259ee92c8d9c1a9e3fb4fd989",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:12:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Apr30 R2 CONFIRMED: arrived exactly 21:12:06, Medical transcriptionists, 32s timer/deadline :38; answered $25,841 at :07."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids & housekeeping cleaners",
+          "value": "$24,924",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ready Maids & housekeeping cleaners $24,924."
+        }
+      ]
+    },
+    {
+      "record_id": "4660f565d33165ba50c4a1e7ffc0afc40310bbaf4fb6794ff5e3e5450bc7da02",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:53:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Apr10Scout R2 CONFIRMED: arrived 07:53:29, timer 32s, deadline 07:54:01; Medical transcriptionists, answered $25,841 at 07:53:30."
+        }
+      ]
+    },
+    {
+      "record_id": "f58a948d5478b4148b9d4894424e606983b0fe7254dec4948e70118d48a1a48e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f9525138a1c092f5ccdd962ae81be1380430050b9d4c2ddf5f339a8eccdf8a07",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d4c021ae308caa70df5dd0da22b8da0531db31e87f3944eef94ca0025a11bb91",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:00:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Medical transcriptionists arrived 19:00:21"
+        }
+      ]
+    },
+    {
+      "record_id": "c1da24af4ce52381c2ac478ead8da99dce97d68ff35a8c4c6ff7409ea43a75e7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:16:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Medical transcriptionists arrived scaffold 02:16:11, 32s, answered $25,841 at +1s."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids",
+          "value": "$24,924",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prepared Maids=$24,924."
+        }
+      ]
+    },
+    {
+      "record_id": "7bc8e2c3e98222b75a69a2d4ee4fd835a0d574e4189b7acd518619c19acc30a1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids and housekeeping cleaners",
+          "value": "$24,924",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:47:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Feb17 R3 REPORT: Maids and housekeeping cleaners arrived 21:47:56 (note 1s later than prior ETA), timer 32s/deadline 21:48:28; answered $24,924 at +1s."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and posting clerks",
+          "value": "$36,519",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ready Billing and posting clerks = $36,519."
+        }
+      ]
+    },
+    {
+      "record_id": "2f62c2c15177f21df07a47eb26ce11bc44e7ce48eea88d41f3482f8ba8185ffd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 1,
+          "item": "School psychologists",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:07:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 School psychologists arrived 14:07:05"
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:12:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Medical transcriptionists arrived exactly 15:12:48, timer 32s; answered **$25,841** at +2s."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids and housekeeping cleaners",
+          "value": "$24,924",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared R3 Maids and housekeeping cleaners = **$24,924**"
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and posting clerks",
+          "value": "$36,519",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Likely R4 Billing and posting clerks = **$36,519**"
+        }
+      ]
+    },
+    {
+      "record_id": "e82a28616ce035713a3496a6e6a685340ebbd849f82eef9426e952d85e5cc25f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids and housekeeping cleaners",
+          "value": "$24,924",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:10:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Apr30 cohort R3 arrived 22:10:11 (one second later than projected), Maids and housekeeping cleaners, timer 32s; answered $24,924 immediately."
+        }
+      ]
+    },
+    {
+      "record_id": "eb2a7b6f28bbaae87f0dc29d51d48ebdde2bbd677dc0b24c92a4def41505da25",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing clerks",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:46:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Billing clerks arrived task 22:46:00"
+        }
+      ]
+    },
+    {
+      "record_id": "160e2bb1ed41a127ababb533c0222729a840f2a4720c26171f271a1de0d71a10",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0b753c104ebdc95e5bca833256ea6ec50df2479a137aeeeac28dbfc6cc3b93c2",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b53f9f75a3168872a1326eaae700f55cc15e388b4dbcadd9b32b812213299065",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1e0dfb5d77d7aa45f253f9552c52de0d7a179749a8336ae9f30339a29e0a4f71",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

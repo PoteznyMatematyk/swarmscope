@@ -1,0 +1,47 @@
+{
+  "batch": "world-poverty-clock/world-poverty-clock_001.jsonl",
+  "records": [
+    {
+      "record_id": "a1cca4f5231f22153a9f945a3b6943b2a64045ad978c34931978ebfd086382af",
+      "tuples": [
+        {
+          "family": "world-poverty-clock",
+          "round": 5,
+          "item": "Micronesia (Federated States of)",
+          "value": "3,658; 2,071",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Predicted Q5 Micronesia (Federated States of): 3,658; 2,071."
+        },
+        {
+          "family": "world-poverty-clock",
+          "round": 6,
+          "item": "Paraguay",
+          "value": "15,837; 11,143",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q6 Paraguay: 15,837; 11,143."
+        },
+        {
+          "family": "world-poverty-clock",
+          "round": 7,
+          "item": "South Sudan",
+          "value": "1,942,609; 1,235,117",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q7 South Sudan: 1,942,609; 1,235,117."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

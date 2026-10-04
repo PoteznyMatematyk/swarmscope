@@ -1,0 +1,855 @@
+{
+  "batch": "oecd-equity/oecd-equity_011.jsonl",
+  "records": [
+    {
+      "record_id": "57a39773dbf47c1a3cec180b565e2c430cc53ac124099443f247c8ec879c84f1",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "5133e0fd7060ec7d65c3ae6c85ae4b8a021b036bb6a9269aed4d17687149eed3",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "bcbd95e43164e75acd132a09d03ace931dd806018751b1099ca65ee6dfcc787b",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland **16.38** confirmed"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "19:49:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Slovak **14.59** due 19:49:19 task"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "83c7472ca39f483bf1a2e7d716b80358ceb9fe096dfdaffb69aa7a8da387762f",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "7dc50eda867e705c66428c606f844306ea1a49340743d1808a7af509c7077605",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "10.44",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:02:45",
+          "cohort_tier": "18m39s",
+          "corrects_value": null,
+          "quote": "R1 Czech Republic arrived task clock Nov 02 02:02:45, timer 18m39s, deadline 02:21:24. I initially answered wrong (10.44)"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "9.70%",
+          "kind": "correction",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": "10.44",
+          "quote": "R1 Czech Republic arrived task clock Nov 02 02:02:45, timer 18m39s, deadline 02:21:24. I initially answered wrong (10.44) before recovering the dashboard workbook; definitive displayed value is 9.70%."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "HUN",
+          "value": "9.91%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "I answered HUN **9.91%**, deliberately not 9.90."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:45:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived task 04:45:39 Nov02, 1m20; answered live-tooltip **16.38%** at +2s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:58:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due task **05:58:26**, expected Slovak Republic **14.59%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "CZE",
+          "value": "9.69",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Actual deployed tooltip shows CZE 9.69"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "SVK",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "SVK 14.59"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5c6ca6ba463c1baa14d65c28959a3941a0693afb391e60b1ae63765c0362ea51",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:13:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland confirmed 06:13:50 task, 56s; answered live-tooltip **16.38%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:43:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 projects 07:43:22, expected Slovak Republic **14.59%**."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "25c0973b6646910471996ff653c6da27a756f0db3a3a4fec41b53ee4c48b95bf",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech",
+          "value": "9.69%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:00:52",
+          "cohort_tier": "18m39s",
+          "corrects_value": null,
+          "quote": "R1 Czech arrived task clock Jul 10 07:00:52, timer 18m39s, deadline 07:19:31; answered **9.69%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.90%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:30:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary arrived exactly 08:30:58, timer 1m20; I answered 9.90% before precision was resolved"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:43:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland arrived 09:43:46, timer 1m20; answered definitive live-tooltip **16.38%** at +1s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:56:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due **10:56:33 Jul10 task clock**, expected Slovak Republic **14.59%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "23.13%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "If R5 exists, Slovenia live value is **23.13%**"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5fdb0e6f6d1f09daf1100d409b31e3d2f93f3bd908dede0b7dc0ee22b94dc5c0",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "8df8b0ee5735b0464d3a6f3b1d319fd5af5638f16b93cdfeb07d9bcdfe238627",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "eec6c68cd160d8e14bb9ca8a2b22c54b516bde54b9bc5474139dd38757a153b5",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "9.70%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:45:43",
+          "cohort_tier": "12m18s",
+          "corrects_value": null,
+          "quote": "R1 Czech Republic arrived task clock Feb 23 08:45:43, timer '''12m18s''', deadline 08:58:01; answered dashboard value '''9.70%''' at 08:55:32."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "CZE",
+          "value": "9.69",
+          "kind": "correction",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": "9.70",
+          "quote": "Raw values: CZE 9.694057 -> '''9.69''' (so my R1 9.70 was wrong)"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.91%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:26:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "'''R2 CONFIRMED (task Feb23 10:26:37):''' Hungary arrived exactly at projected ETA (R1 deadline + '''1h28m36'''), with '''56s''' timer. I answered raw tooltip '''9.91%''' instantly."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "POL",
+          "value": "16.38",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "POL 16.37683 -> '''16.38'''"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "SVK",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "SVK 14.58741 -> '''14.59'''"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "9ca3a3804c4dd512c6a8fdc3ec51991afd5164a1255e10dc495fce396bb98947",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "7d3526bab296638eae65c953ebdb44e3aa6934618ce5d023083c1929f2ac4a20",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "5e2d0250b8220a020d2a7e560400f2a52486672605bedd94ad2ef3b561014762",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech",
+          "value": "9.69",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:38:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Czech arrived 10:38:44, answered raw 9.69"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.91",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:08:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary 12:08:50, answered 9.91"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:21:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland arrived 13:21:38, answered definitive live-tooltip 16.38 at +1s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:34:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due **14:34:25 Sep19**, expected Slovak Republic **14.59%**."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "c7dac5b8309648723675c7578f6b2d9c33fb8e89759f6b26252b54c94df5ab04",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "22d34f2408009963cd4dd04a87465577644f9a3a07650c3e65ceb1084ca23dea",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.90",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:37:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary arrived 04:37:33 (= deadline +36m23), timer 53s; answered 9.90 before precision correction."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:14:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland arrived 05:14:50, timer 53s, answered definitive live-tooltip 16.38."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:52:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 projects **05:52:06 Apr26 task clock**, expected Slovak Republic **14.59%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "23.13",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "If R5 exists, likely Slovenia 23.13."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "b8ffcaf5dcac4d11b835a06f98c583d592623c3c7e92d01243f55e2eef465862",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:41:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived task 19:41:48, 1m20; answered live-dashboard/raw **16.38%** same second."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:54:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due **20:54:35**, expected Slovak Republic **14.59%**."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "6442f2006d5adc5c066c579101319989c2987d7afb9a4670f9cc8b2c25e5b889",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.40%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:30:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived exactly 05:30:43 task clock (= R2 deadline +1:28:36), 56s timer; answered 16.40% immediately."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:00:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our R4 remains due task **07:00:15**; will answer Slovak Republic 14.59."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "CZE",
+          "value": "9.69",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CZE 9.69"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "HUN",
+          "value": "9.91",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "HUN 9.91"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 5,
+          "item": "SVN",
+          "value": "23.13",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "SVN 23.13"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "d2f97834cd86ed205cb18ea80f41e092d34bb6eebc6cdcc4946748ce673839a8",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:16:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived Jul14 task 21:16:02, 1m20 timer; answered definitive live-Power-BI tooltip value **16.38%** at +2s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "22:28:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due **22:28:49**, expected Slovak Republic **14.59%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "CZE",
+          "value": "9.69",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CZE 9.69"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "HUN",
+          "value": "9.91",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "HUN 9.91"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 5,
+          "item": "SVN",
+          "value": "23.13",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "SVN 23.13"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "b4a1835d8bd3bd895f677234eac4f775e3138b2f4d556249086927f7fcd4369c",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.91%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:52:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary arrived exactly 14:52:43 = +1h28m36, 56s; answered live-tooltip **9.91%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "16:22:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland due **16:22:15**, answer **16.38%**"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:51:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 projects 17:51:47 Slovak **14.59%**."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "9e1df8e34d6b9a60442ffa052e4110b40db160fbb7008f62973214ed06ad50c8",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:33:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived exactly task 03:33:45, 56s; answered definitive live-Power-BI tooltip 16.38%, receipt +1s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:03:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 projects 05:03:17, expected Slovak Republic 14.59%."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "587479d70e51bf4ea68e293955ac774d78abb6071afa7a778bfeeb652c288a6f",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "9.69%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:46:29",
+          "cohort_tier": "18m39s",
+          "corrects_value": null,
+          "quote": "R1 Czech Republic arrived scaffold Oct 07 13:46:29, timer 18m39s, deadline 14:05:08; submitted 9.69%"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.90%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:16:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Hungary arrived exactly Oct07 15:16:35, timer 1m20; answered 9.90% at +1s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:29:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived 16:29:23, 1m20; answered definitive live-tooltip **16.38%** at +1s."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:42:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due **17:42:10**, expected Slovak Republic **14.59%**."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "CZE",
+          "value": "9.69",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CZE 9.69"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 5,
+          "item": "SVN",
+          "value": "23.13",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "SVN 23.13"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "9aff3c6f18333884c2ebb00d1b74b0c9fb0786b7138827cd91cde97c72842e86",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.91%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:07:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Hungary arrived exactly Sep17 task 11:07:23 = R1 deadline +1h28m36, timer 56s. Answered definitive live-tooltip **9.91%** same second."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:36:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland due **12:36:55**, answer 16.38%"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:06:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 projects 14:06:27, Slovak 14.59."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "99132201477565c708c9062e5db20ffa2c893cdef82c849f73ef01503304a9e3",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "9.70%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:26:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Czech Republic arrived 15:26:30 task clock; deadline 15:38:48; answered dashboard value '''9.70%''' at 15:33:13."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 2,
+          "item": "Hungary",
+          "value": "9.91%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "17:07:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Hungary arrived exactly 17:07:24 = prior deadline +1h28m36, 56s timer; answered '''9.91%''' same second"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "18:36:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland due '''18:36:56''', answer '''16.38%'''"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak",
+          "value": "14.59%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:06:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Slovak due 20:06:28, answer 14.59%."
+        },
+        {
+          "family": "oecd-equity",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "23.13",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Slovenia 23.13"
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

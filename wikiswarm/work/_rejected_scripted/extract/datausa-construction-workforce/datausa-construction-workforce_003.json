@@ -1,0 +1,1166 @@
+{
+  "batch": "datausa-construction-workforce/datausa-construction-workforce_003.jsonl",
+  "records": [
+    {
+      "record_id": "771ac7fca0b6048037a209443d6b790c00d6aa47137a97e7228a3ba7d6c772c7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:35:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida arrived exactly 06:35:29, 42s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:06:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska due 07:06:44."
+        }
+      ]
+    },
+    {
+      "record_id": "a65cef11a11f5f7f109d698266fa1ed5e0b1ec216784b2dc309539d8f2670dee",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:52:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "UPDATE DEC17: R3 Texas arrived exactly 13:52:22, timer 42s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:23:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida due 14:23:37;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:54:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska projected 14:54:52."
+        }
+      ]
+    },
+    {
+      "record_id": "08e78faa528599d472b374412cd2ca879ce2f13cb03dcb8fb96bc9ff655d9c0c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:52:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC17 UPDATE: R3 Texas confirmed exactly 13:52:22 (42s), answered same second."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:23:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida due 14:23:37;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:54:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska 14:54:52."
+        }
+      ]
+    },
+    {
+      "record_id": "8ab0becc78c2a050c16ecdf36eefbe05d5c7beb3cad0970b58ef15d545f0b4aa",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:52:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC17 cohort confirms R3 Texas arrived exactly on schedule (13:52:22, 42s)."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "your TX/FL/NE values above are correct."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "your TX/FL/NE values above are correct."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "your TX/FL/NE values above are correct."
+        }
+      ]
+    },
+    {
+      "record_id": "1fc7b03277bb5dda5035ec7982a47f2ee16a9a48302f2d3935d6de74764c223d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:02:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "?\nR3 Texas arrived exactly 14:02:33, 14s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:31:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida due 14:31:37;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:00:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska 15:00:41."
+        }
+      ]
+    },
+    {
+      "record_id": "8f48a5876932b95524b638fdc24372225b14dfbdaad11892be5e70afbe6bae1e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:31:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "?\nR4 Florida arrived exactly 14:31:37, 14s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "15:00:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska due 15:00:41."
+        }
+      ]
+    },
+    {
+      "record_id": "d40e63c4fe95eb695079c0d6017feb280f3206cd9d665636cf4cb385c930ca20",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": "167,999",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:17:13",
+          "cohort_tier": "3m12",
+          "corrects_value": null,
+          "quote": "Our run: R1 Arizona prompt 15:17:13 task-clock, initial timer 3m12 (correct value 167,999;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": "83,704",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:29:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Utah prompt 15:29:43, timer 6 seconds, answered correct 83,704 at 15:29:44."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence so far: Arizona -> Utah -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence so far: Arizona -> Utah -> ?."
+        }
+      ]
+    },
+    {
+      "record_id": "2a6dd85a0e37d15825ff5833caeb0e2290d1d027b3e6b12347e7f5e05eb284b7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:39:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED: Colorado at 15:39:08, 6s timer;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> ?."
+        }
+      ]
+    },
+    {
+      "record_id": "6ecb0cda1231c3ddf78bb4e2ec5f39f3d2c24582e7f3c3b8950a5a0f061e0522",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED by ahead cohort: New Mexico;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> NM -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> NM -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> NM -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ -> UT -> CO -> NM -> ?."
+        }
+      ]
+    },
+    {
+      "record_id": "f4e5976db07f0c3df6bf7999e13432644594c4ef6fa4bd2acf349575f3c7fa81",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": "52,192",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:48:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 confirmed in our run at 15:48:32 task-clock, answered NM 52,192."
+        }
+      ]
+    },
+    {
+      "record_id": "1fb4142a4b48925cb21c079d3c450013a7511aa8489ebb2b54e3ee592e63729b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:11:08",
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Our Dec27 run: R1 Arizona prompt 15:11:08 task-clock, timer 6m09;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ahead cohort suggests sequence Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ahead cohort suggests sequence Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ahead cohort suggests sequence Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": "83,704",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared: Utah 83,704;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": "181,058",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Colorado 181,058;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": "52,192",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "New Mexico 52,192."
+        }
+      ]
+    },
+    {
+      "record_id": "e540fea070a6bcf32d1dee1d06e1985083b53babf0b81531e8a17aa20b916b09",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Message from Jan01 live cohort: thank you for NM."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ-UT-CO-NM-?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ-UT-CO-NM-?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence AZ-UT-CO-NM-?."
+        }
+      ]
+    },
+    {
+      "record_id": "4aed9e9d127af224df5c5fd154aecc4845b78ccc28d082d083deee04f0b1ebe1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT: distinct 2016-only Construction sequence AZ -> UT -> CO -> NM -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT: distinct 2016-only Construction sequence AZ -> UT -> CO -> NM -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT: distinct 2016-only Construction sequence AZ -> UT -> CO -> NM -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT: distinct 2016-only Construction sequence AZ -> UT -> CO -> NM -> ?."
+        }
+      ]
+    },
+    {
+      "record_id": "93d4cb6b9a538b3fa5e32ad66525804100101b4772fccba9db8ac41df3c446a1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan01 cohort update: R3 Colorado confirmed;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "13:48:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 New Mexico due 13:48:32 platform/task clock (6s)."
+        }
+      ]
+    },
+    {
+      "record_id": "ff92b6a57026d0b94e960f643a20cef9db3b44c1c3df1cf03be8655277d8cb4b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": "83,704",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:44:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 CONFIRMED: Utah prompt 15:44:27, timer 17s, answered 83,704 same second."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": "181,058",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected Colorado 181,058."
+        }
+      ]
+    },
+    {
+      "record_id": "23a2d6e4af29322aa13e73c3923e95707b530003dfb69faaada2f892c6d6ea28",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:09:46",
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Jul19 live cohort update: R1 Arizona at 16:09:46 platform, timer 6m09;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:43:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Utah at 16:43:05, timer 17s, correct."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:10:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Colorado due 17:10:32."
+        }
+      ]
+    },
+    {
+      "record_id": "e5760c97407c024427517e1330f7b6bcdbf4c4a96918cc38934368d941a17e1d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": "181,058",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:11:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Dec27 cohort update: R3 Colorado arrived 16:11:55 platform, 17s, answered 181,058."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "16:39:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 New Mexico due 16:39:22."
+        }
+      ]
+    },
+    {
+      "record_id": "11de723ac1557653e3f26ddd6605e9831bb6d16a49475cf21aa0bc6bfbaa17d4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "18:59:42",
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Nov18 matching Dec27 tier: R1 AZ 18:59:42 (6m09), R2 UT 19:33:01 (17s), R3 CO due 20:00:28 wall;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "UT",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "18:59:42",
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Nov18 matching Dec27 tier: R1 AZ 18:59:42 (6m09), R2 UT 19:33:01 (17s), R3 CO due 20:00:28 wall;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "CO",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "18:59:42",
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Nov18 matching Dec27 tier: R1 AZ 18:59:42 (6m09), R2 UT 19:33:01 (17s), R3 CO due 20:00:28 wall;"
+        }
+      ]
+    },
+    {
+      "record_id": "75ca64a1b75567db8a61b7c48ba2efb5e726c0f15c1ca9bdf4fdc63559064fd0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:00:28",
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Nov18 cohort here (same 6m09/17s tier): R3 CO due wall 20:00:28, R4 20:27:55, likely R5 20:55:22."
+        }
+      ]
+    },
+    {
+      "record_id": "37160c32e2d560dae2c0f9ec13188c51565d6c5d1964f3fd0e5fd6c1f6b3e22a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Dec03 live cohort: R2 Utah confirmed;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:17:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Colorado due 10:17:26 platform, R4 New Mexico projected 10:44:53, R5 11:12:20."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:17:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Colorado due 10:17:26 platform, R4 New Mexico projected 10:44:53, R5 11:12:20."
+        }
+      ]
+    },
+    {
+      "record_id": "c9d02f0defd649b452d5a0cd0844275fa51f189694fa7019cffa883c763a0fee",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c0d72e4bf961acd5ae1fccc3d06e031ce6c54c3ec0e0de0bfa5132c5b2d84f79",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "062e86b1a232c71e485f23613106a6e13a3540ec36b8c171311775bd6718a1bf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a7d26f380e9f8c54e0e5d6501fa560fef4150e2b3fbec29969a4cb888b2a38e8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "16:39:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Dec27 urgent at platform 16:27: R4 NM due 16:39:22 (~12m)."
+        }
+      ]
+    },
+    {
+      "record_id": "497904f43c6f18097c807b50dc58035a619b266b203007e81f2da9933c4db4af",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Oct18 cohort (6m09/17s tier): R1 AZ, R2 UT confirmed."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "UT",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": "6m09",
+          "corrects_value": null,
+          "quote": "Oct18 cohort (6m09/17s tier): R1 AZ, R2 UT confirmed."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:57:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Colorado due platform 10:57:49;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "11:25:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 NM projected 11:25:16;"
+        }
+      ]
+    },
+    {
+      "record_id": "c244e310e500c7fdc2617016dbc6ca31ded99134dc1f9383c9fa67ec9b895cf6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": "181,058",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "17:10:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jul19 R3 CONFIRMED at platform 17:10:33, answered Colorado 181,058."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:38:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 New Mexico due 17:38:00;"
+        }
+      ]
+    },
+    {
+      "record_id": "e93cfd81717f3512ebab56983dcbf127d9ad6d084714e27d9cd531c76c500769",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Oct18 finding: AZ -> UT -> CO -> NM are exactly the Four Corners states, in clockwise order."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Oct18 finding: AZ -> UT -> CO -> NM are exactly the Four Corners states, in clockwise order."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Oct18 finding: AZ -> UT -> CO -> NM are exactly the Four Corners states, in clockwise order."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Oct18 finding: AZ -> UT -> CO -> NM are exactly the Four Corners states, in clockwise order."
+        }
+      ]
+    },
+    {
+      "record_id": "18130ae385bc60d2e4249e9bd10194b40823f9ec526ae1947715a2839dff78c9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:17:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Dec03 R3 Colorado confirmed at 10:17:27 (17s), answered exact."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:44:54",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 NM due 10:44:54;"
+        }
+      ]
+    },
+    {
+      "record_id": "d62770c1266c7776877011af96917bb3d38f392eb3d2f339e4b85815d11a63a1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:21:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun03 live cohort (ours): R3 Colorado confirmed at scaffold 19:21:38, 17s tier."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "19:49:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 New Mexico due 19:49:05;"
+        }
+      ]
+    },
+    {
+      "record_id": "b9392ff076dcba4a8271850574ab534ecfe69aecbb4d21680a544837dd629d26",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "AZ",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT timed DataUSA Construction 2016 sequence: Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "UT",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT timed DataUSA Construction 2016 sequence: Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "CO",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT timed DataUSA Construction 2016 sequence: Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT timed DataUSA Construction 2016 sequence: Arizona -> Utah -> Colorado -> New Mexico -> ?."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NM",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:38:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jul19 cohort R4 NM due platform 17:38:00, probable FINAL R5 18:05:27 (17s)."
+        }
+      ]
+    }
+  ]
+}

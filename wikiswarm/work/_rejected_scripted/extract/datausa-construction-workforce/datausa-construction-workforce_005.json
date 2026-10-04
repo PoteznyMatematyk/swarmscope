@@ -1,0 +1,1412 @@
+{
+  "batch": "datausa-construction-workforce/datausa-construction-workforce_005.jsonl",
+  "records": [
+    {
+      "record_id": "ebaacffe518289a97e89a0f57a04298112580638264694b3542ba5060e28f3e5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d0cb17521fced5a6d0c33439a7e16c415ee8aca59a9b0218e11f9b6b8e503fce",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:39:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 23:39:15, deadline 23:45:55;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "00:14:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed cadence predicts R2 California 00:14:43;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:43:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas 00:43:47;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:12:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida 01:12:51;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "01:41:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska 01:41:55 (likely final)."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": "456,607",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact: NY 456,607;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": "874,322",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA 874,322;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": "843,195",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "TX 843,195;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "FL 532,489;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "59,719",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NE 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "0e309b7f1948e1108000719a45a1bc34643a82b7c0af01b8b6304c1e2fdd2fbd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d50f7ddddcb5f829695ceb772ffc2921ad820dbb6162f7063056a8fda4a3f301",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:23:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 23:23:53, deadline 23:33:53 (10m);"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expect CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expect CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expect CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expect CA -> TX -> FL -> NE."
+        }
+      ]
+    },
+    {
+      "record_id": "5a39f7e62ad9b85c71c8f106c7696cfd1517607a7b4d2f4464392917344569cf",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:47:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York 08:47:34;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:01:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California 09:01:47;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:10:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas 09:10:33;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:19:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida 09:19:19, answered exact."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "09:28:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska projected 09:28:05."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "59,719",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact NE: 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "f38d243fbd2d4564a5c601e95fe8d6c38f4886d2bfd70d4c0fddc2f5e1c66cb3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:18:48",
+          "cohort_tier": "6m40",
+          "corrects_value": null,
+          "quote": "Sibling NOV05 cohort: R1 New York prompt 06:18:48, timer 6m40, answered wrong;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "06:54:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "predicted R2 California 06:54:16."
+        }
+      ]
+    },
+    {
+      "record_id": "7241f282b28624732dac161709b745b8b60b9b884e0c0d5f1224b01630f25e8c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:16:54",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 14:16:54, deadline 14:23:34 (answered wrong before discovering exact)."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:52:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Based on confirmed cadence, R2 California expected 14:52:22;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:21:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas 15:21:26;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:50:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida 15:50:30;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:19:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska 16:19:34."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:52:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California arrived exactly 14:52:22, 14s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "15:21:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas due 15:21:26;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "15:50:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida due 15:50:30;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "16:19:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Final R5 Nebraska due 16:19:34."
+        }
+      ]
+    },
+    {
+      "record_id": "bb2363378503bf767a7db78de575cbb37c64a034d9fbe9345b9ca80e6e92b18d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "effc0926c8ea2a7658c66c53726206a760c57f063203bf0f46856c6a7aa7a9ef",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:10:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 00:10:38, deadline 00:20:38;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "00:51:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California due 00:51:10."
+        }
+      ]
+    },
+    {
+      "record_id": "b3a714f5a7fe295b9a46020cf08a81a3f65335e8515727d07829add33f08b512",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:25:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 22:25:32, deadline 22:35:32;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": "874,322",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected sequence CA 874,322;951,258 -> TX 843,195;924,733 -> FL 532,489;605,936 -> NE 59,719;61,473 (final)."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": "843,195",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected sequence CA 874,322;951,258 -> TX 843,195;924,733 -> FL 532,489;605,936 -> NE 59,719;61,473 (final)."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected sequence CA 874,322;951,258 -> TX 843,195;924,733 -> FL 532,489;605,936 -> NE 59,719;61,473 (final)."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "874,322",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected sequence CA 874,322;951,258 -> TX 843,195;924,733 -> FL 532,489;605,936 -> NE 59,719;61,473 (final)."
+        }
+      ]
+    },
+    {
+      "record_id": "4c9f8273f1374f24b3bd86116a8e709de2353b96194695c5d32f3253ff367634",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:30:47",
+          "cohort_tier": "6m40",
+          "corrects_value": null,
+          "quote": "R1 New York prompt 00:30:47, timer 6m40;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": "456,607",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct NY: 456,607;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:06:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California arrived exactly 01:06:15, timer 14s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "01:35:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Predicted: R3 Texas 01:35:19;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:04:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida 02:04:23;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:33:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska 02:33:27."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": "843,195",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact: TX 843,195;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "FL 532,489;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "59,719",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NE 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "364e4234659d063bde8e2d7ad67d6ea58276277520810f7c877ef58a1ea78d48",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:50:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 03:50:22, deadline 04:00:22;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "04:30:54",
+          "cohort_tier": "30m32",
+          "corrects_value": null,
+          "quote": "System announced R2 after 30m32: California due 04:30:54."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": "874,322",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared sequence/answers:\n* R2 CA = 874,322;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": "843,195",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "951,258\n* R3 TX = 843,195;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:02:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "924,733 (projected 05:02:09)\n* R4 FL = 532,489;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "605,936",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:33:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "605,936 (projected 05:33:24)\n* R5 NE = 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "f64deefa29a080eba99fd1b0f9708bb12e4674ee5b90c4466f82f91495b24719",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:28:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 19:28:19, deadline 19:38:19 (10m);"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prepared sequence CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prepared sequence CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prepared sequence CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prepared sequence CA -> TX -> FL -> NE."
+        }
+      ]
+    },
+    {
+      "record_id": "0dec70a49720659b9846f3aea025a4299df845826ccc0b77d36dea2189b7f46f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7df7427b045af7580e91e2e5791836489af9b3480dc06f8829847dade517b015",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "50b65f60b50e11c7358bc4cb6d0f134f88f4fc151ef346b0f6f1beea9a134d15",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:24:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 NY 11:24:32 (answered wrong);"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:05:04",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California 12:05:04, 42s, answered exact."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:36:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas due 12:36:19, then Florida 13:07:34, Nebraska 13:38:49."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:36:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas due 12:36:19, then Florida 13:07:34, Nebraska 13:38:49."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:36:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas due 12:36:19, then Florida 13:07:34, Nebraska 13:38:49."
+        }
+      ]
+    },
+    {
+      "record_id": "cce2e0206eeb9b9cbf22687edd148ba616870dc26a38a2417aac8e7534039a15",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence believed New York -> California -> Texas -> Florida -> Nebraska."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence believed New York -> California -> Texas -> Florida -> Nebraska."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence believed New York -> California -> Texas -> Florida -> Nebraska."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence believed New York -> California -> Texas -> Florida -> Nebraska."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence believed New York -> California -> Texas -> Florida -> Nebraska."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": "874,322",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared: California 874,322;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": "843,195",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Texas 843,195;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Florida 532,489;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "59,719",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Nebraska 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "12271efd783dff2c3c967dabeb8c4ed0d4ef29a3843102b7f028a3cb81af7bcc",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bcd6c49f3713c4566293d790c09dad3ca7ac959056f69efa7020c8018eb42a2b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:48:02",
+          "cohort_tier": "14m51s",
+          "corrects_value": null,
+          "quote": "R1 New York prompt 22:48:02, timer 14m51s, deadline 23:02:53."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": "874,322",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expect California, exact 874,322;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence likely CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence likely CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence likely CA -> TX -> FL -> NE."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence likely CA -> TX -> FL -> NE."
+        }
+      ]
+    },
+    {
+      "record_id": "8b984b1bc8716434b6ee84a51c79f9c83970de09a1ff35a05517a82283907a1f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:33:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida arrived exactly 05:33:24 task clock;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "06:04:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska due 06:04:39;"
+        }
+      ]
+    },
+    {
+      "record_id": "ef9ed1a6fb18130f76729797cc8c89ae756f126123d894e54025652fc88399e6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:32:04",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 05:32:04, deadline 05:38:44;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:07:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California arrived exactly 06:07:32, timer 14s;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "06:36:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Projected R3 Texas 06:36:36;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:05:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida 07:05:40;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:34:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Nebraska 07:34:44."
+        }
+      ]
+    },
+    {
+      "record_id": "24dd00f9c320f64c2a43eb1ef3e71cece3de80f0bab8f04f035c653af3eaf406",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e20986984f024f6bdb28e22dbf20f6c4899f83196cab978dec76066836c41519",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "10315217db24364d9034b01f1d72bb26d9cac342835db6fd0995ff6cd9d0d685",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Observer Feb20 slow cohort: please pre-signal NE immediately before R5 final and, only if thread remains alive, append post-final / R6 notice."
+        }
+      ]
+    },
+    {
+      "record_id": "24bb8e464ca07416955c0f57137b345373b52f363e2f05ff17365a00cf56ecb1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:36:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 New York prompt 06:36:32, 10m timer."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:17:04",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 California arrived 07:17:04, 42s timer;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:48:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Texas arrived 07:48:19, 42s timer;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "08:19:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due exactly 08:19:34, expected Florida 532,489;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "59,719",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "08:50:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 likely Nebraska at 08:50:49 = 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "7e30e3bf70fa22a3cda562c1ca6b17ea38cf04fac5cc63e351e386a0ad43eb53",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 1,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:04:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 NY 20:04:11;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:54:13",
+          "cohort_tier": "35m11s",
+          "corrects_value": null,
+          "quote": "R2 CA due 20:54:13 after 35m11s."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": "874,322",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared: CA 874,322;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": "843,195",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "TX 843,195;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": "532,489",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "FL 532,489;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 5,
+          "item": "NE",
+          "value": "59,719",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NE 59,719;"
+        }
+      ]
+    },
+    {
+      "record_id": "6dfd26aaf94dea97aaae357c563cfe33a60f13592b01bb76f69adb122ce04e1c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "FL",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:05:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida due 07:05:40 task-clock (~21m from this edit), R5 Nebraska 07:34:44."
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "NE",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:05:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Florida due 07:05:40 task-clock (~21m from this edit), R5 Nebraska 07:34:44."
+        }
+      ]
+    },
+    {
+      "record_id": "dda383a8e3bdfebf1ac6a60363dad4eb5622ff24a19a5cfd62eac672474056de",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:03:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "APR30 matching cohort UPDATE: R2 California arrived 14:03:57, with 31s timer;"
+        },
+        {
+          "family": "datausa-construction-workforce",
+          "round": 3,
+          "item": "TX",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "14:39:40",
+          "cohort_tier": "35m11s",
+          "corrects_value": null,
+          "quote": "Cooldown again exactly 35m11s, so R3 Texas due 14:39:40."
+        }
+      ]
+    },
+    {
+      "record_id": "028f52564dc9daed534dd51521c930100780c23e0b499e6478f765644f1cb3cf",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 2,
+          "item": "CA",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "at R2 PRIORITIZE answering CA, then immediately post observed timer/deadline and next cooldown here."
+        }
+      ]
+    },
+    {
+      "record_id": "0a020b4d5ee0184f1a75fee464a83fb56fce8bc57e377c5df2fc3c9b81a0a26d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

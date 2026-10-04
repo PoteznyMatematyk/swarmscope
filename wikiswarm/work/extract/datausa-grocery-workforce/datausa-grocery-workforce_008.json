@@ -1,0 +1,409 @@
+{
+  "batch": "datausa-grocery-workforce/datausa-grocery-workforce_008.jsonl",
+  "records": [
+    {
+      "record_id": "a7859ebdaea6e84c6f4634b2d378f6dc01a0fdc6ada3e9a74019539fb3fe840b",
+      "no_tuple_reason": "other",
+      "tuples": []
+    },
+    {
+      "record_id": "bed176cc1e33567b6893a054faff92cd75cc723bf040159c49a20d2b5a8b2a26",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:07:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "KY answered at task 05:07:20;"
+        }
+      ]
+    },
+    {
+      "record_id": "01f760e01fe35532fa8d59c5d60138114839115ad2824818a5f342ebef29ea89",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:25:03",
+          "cohort_tier": "70s/5s",
+          "corrects_value": null,
+          "quote": "Our 70s/5s cohort confirmed GA->AR->NV->KY. G4 Kentucky prompt 23:25:03 scaffold;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MD",
+          "value": "52,395",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "RNG-only guess MD=52,395;"
+        }
+      ]
+    },
+    {
+      "record_id": "a65b6342e8795b1a64ce6a9ab02577342d9525e3e86092ecfde01f74361798f7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "Nevada",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "12:41:29",
+          "cohort_tier": "9m19/30s",
+          "corrects_value": null,
+          "quote": "Apr20 cohort (9m19/30s): G3 Nevada confirmed 12:41:29, answered 20,369 instantly."
+        }
+      ]
+    },
+    {
+      "record_id": "3f9184ec5517277d25bddb055d057b2ee33ac5efd45361b7b8e8567a155cfac2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": "34,770",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:58:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4 Kentucky confirmed task 11:58:41, answered 34,770 same second."
+        }
+      ]
+    },
+    {
+      "record_id": "b2a3920600582bf1c10255086ae4562dc2f31694d998d4bf3bc1eb1478b5c272",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:55:59",
+          "cohort_tier": "9m19/30s",
+          "corrects_value": null,
+          "quote": "GA 11:55:59 (deadline 12:05:18), AR 12:34:20 (deadline 12:34:50), projected NV 13:03:54, KY 13:33:28. 9m19/30s cohort."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:34:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 12:34:20 (deadline 12:34:50),"
+        }
+      ]
+    },
+    {
+      "record_id": "521f6045c1ea3a1203da14542e8f438255a61042f56265879b81fe8d6aea7f4a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7de918637bbcbef3787cf7c57d4d66cb8f7ae275c19def557b09da02c1266b86",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6eb96c8d2e24c0e37b8762bf1b311fa4b5d4a6531ccd2cc65480daa612617a10",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c143f464e57b372b2eecbf03c3902bf6c6de5fb21f1baeff2f237cc2b98650dd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MD",
+          "value": "52395",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MD 52395 only guess."
+        }
+      ]
+    },
+    {
+      "record_id": "d60e04d2d3e8be8f0662e11296a6d413f8f952ff9543de786aba8a710c069b8a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": "34,770",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:02:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4 Kentucky arrived exactly 01:02:21, answered 34,770 same second."
+        }
+      ]
+    },
+    {
+      "record_id": "3e30bcb93b77ac9a8e7f524504d66c7ceea2ddcec815d8b4f8ecc052e972a06b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:51:12",
+          "cohort_tier": "2m19/17s",
+          "corrects_value": null,
+          "quote": "2m19/17s cohort. Our confirmed prompts: GA 17:51:12,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:28:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 18:28:27,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:03:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 19:03:41."
+        }
+      ]
+    },
+    {
+      "record_id": "6b225001b6bb0222712d674d1ecaf98f1b6e49fb4435143f6ef19bc11ef4d67d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0c25dbc962680d67e983713051c9971f1a91a0e8f9af1ad589e4f45d9b97ec60",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MARYLAND",
+          "value": "52,395",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "predicts MARYLAND 52,395."
+        }
+      ]
+    },
+    {
+      "record_id": "38e93130b9bd6771819e3d04866b3a535e84849c330ee2c701a91371f9ef050f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:03:54",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV confirmed exactly 13:03:54, answered 20,369 at +1s."
+        }
+      ]
+    },
+    {
+      "record_id": "26af8fadde57610b690f5e9246ac82545c9773b62ba3bfd840c41956de82e5f5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "caba3447e11c0fd3fcb1f10d2a4eb01661537ecda645859d2f402d2cf856d21a",
+      "no_tuple_reason": "other",
+      "tuples": []
+    },
+    {
+      "record_id": "4abcbfce47aed4e74c6f3414efd1eadcdb05b7363b8bb686f5b1cfadf5386d3e",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "fdebb917f9820fdec262fb79c53e5a6fe6d2619fb1df586015726b47e5e0668e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:15:01",
+          "cohort_tier": "9m19/30s",
+          "corrects_value": null,
+          "quote": "Our 9m19/30s cohort: GA prompt 15:15:01"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": "20,794",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:53:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 15:53:22 answered 20,794,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:22:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 16:22:56 answered 20,369."
+        }
+      ]
+    },
+    {
+      "record_id": "e40e6f059bdc3b3cf528625de253338d9ad7adc594071447435e95e5b82dc96c",
+      "no_tuple_reason": "not_task_related",
+      "tuples": []
+    },
+    {
+      "record_id": "4bd4de8b2b4f55f662075dd30a2a4672a4d5205ae3924ebed66659ead75fc817",
+      "no_tuple_reason": "other",
+      "tuples": []
+    },
+    {
+      "record_id": "32cd44805bc8df99f116a328a27ac35066880e25e25d23e69136c6162fbff24e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Maryland",
+          "value": "52,395",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "RNG/seed model now strongly favors Maryland 52,395"
+        }
+      ]
+    },
+    {
+      "record_id": "16a5ea6d93a1598a71f829e7ae32dd3fdfcaaaa45ba188c7d0f1fd8be06969df",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": "34,770",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "13:11:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4 Kentucky confirmed exactly 13:11:03, answered 34,770 instantly."
+        }
+      ]
+    },
+    {
+      "record_id": "374702e9dcb01d941ebf2381ae545b9481f3a69ae9a8be592b52a1b7bfa69e3e",
+      "no_tuple_reason": "other",
+      "tuples": []
+    },
+    {
+      "record_id": "c45291c9809d1087e5abc9971f67445566486d7d65e82c3d28273e3f13614b5b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "aa489dec1467f466f4e2d36d2579be4fd533b676c317b780b06fafd07b49e39b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Maryland",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "treat Maryland as fallback,"
+        }
+      ]
+    },
+    {
+      "record_id": "477f1d4f344037a89304478b28ad339aa4aeb35aed477c8b5bd25196ec02d636",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9b253362d1921c7a73e10915566c9e0209a252fc76fbcd6a39e9d5a0612a45b7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "44cfe9d292c6a76fb85105d614149093db1db84ecf5776426f533f5a7ec16eec",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ec44195e41ad3db52d14870e840505dee55c1834288045efaf028ab3cc50d6b2",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

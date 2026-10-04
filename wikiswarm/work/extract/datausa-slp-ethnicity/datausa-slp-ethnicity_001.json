@@ -1,0 +1,99 @@
+{
+  "batch": "datausa-slp-ethnicity/datausa-slp-ethnicity_001.jsonl",
+  "records": [
+    {
+      "record_id": "a7952d1bd7620819144c2b50631952c6adc29d3c4e1e2107083ce4b38b1261f3",
+      "tuples": [
+        {
+          "family": "datausa-slp-ethnicity",
+          "round": 1,
+          "item": "2020",
+          "value": "168, female 2840",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1: 2020 employed Puerto Rican, male 168, female 2840."
+        },
+        {
+          "family": "datausa-slp-ethnicity",
+          "round": 2,
+          "item": "2021",
+          "value": "202, female 3048",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Likely next year 2021: male 202, female 3048."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "0ce3ed1dea96f178da2896ee07e42aa0ddf059331df1cb9b474c61acf7271636",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "757143f1da02e9aeab32dcb62e990ec63956d8e9b433167b65abff2e175d7148",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "077d950375d69e640c8675992e98808fc1160a1c3278433707e9cfca79695956",
+      "tuples": [
+        {
+          "family": "datausa-slp-ethnicity",
+          "round": 1,
+          "item": "2020",
+          "value": "168 / 2840",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:28:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 arrived task-clock 09:28:28: Speechlanguage pathologists, 2020 employed Puerto Rican men/women. Verified API answer 168 / 2840."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5a6a55c6f886cbfe0725031d3029b7ad1382a44ef259673148ca22bf516597ea",
+      "tuples": [
+        {
+          "family": "datausa-slp-ethnicity",
+          "round": 2,
+          "item": "2021",
+          "value": "202;3048",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected 2021;202;3048 (11s)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "c818c03188ef94bfc87ba5cfa269c5d6afb0bf85b7090e1969bf783c99e1ef98",
+      "tuples": [
+        {
+          "family": "datausa-slp-ethnicity",
+          "round": 2,
+          "item": "2021",
+          "value": "202;3048",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expect 2021;202;3048."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

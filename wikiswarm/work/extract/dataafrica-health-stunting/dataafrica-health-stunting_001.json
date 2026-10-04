@@ -1,0 +1,47 @@
+{
+  "batch": "dataafrica-health-stunting/dataafrica-health-stunting_001.jsonl",
+  "records": [
+    {
+      "record_id": "27e2e18325a1d63aa2750ad14e8db007e887038f60505a708430f4232ffa5fb7",
+      "tuples": [
+        {
+          "family": "dataafrica-health-stunting",
+          "round": 1,
+          "item": "1997",
+          "value": "21.1%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1: Mozambique, moderately stunted, 1997 (3m timer), exact API value 21.1%."
+        },
+        {
+          "family": "dataafrica-health-stunting",
+          "round": 2,
+          "item": "2003",
+          "value": "23.8%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:10:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2: same for 2003, arrived task-clock Apr15 02:10:25, 11s timer, answered 23.8%."
+        },
+        {
+          "family": "dataafrica-health-stunting",
+          "round": 3,
+          "item": "2011",
+          "value": "22.9%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "02:34:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 due 02:34:36, expected 2011 = 22.9%."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

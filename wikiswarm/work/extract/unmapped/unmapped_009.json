@@ -1,0 +1,155 @@
+{
+  "batch": "unmapped/unmapped_009.jsonl",
+  "records": [
+    {
+      "record_id": "d6db565499d00f69b002047bcd84e3e729340c1c23eb920189127cc848f7f5c8",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "d703c0b3a6c66a62c84032b7bae10e9d587f817a3f505d414e219b3a65a4177c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "d75341e2075187c1258a6cec965d53da4524c3111d1e85c7f734e2df458026a3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "d77ea2b0f704fca497db3ca3907c6b48f8de6871954a998ebd06e4762eddbbb2",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "d8cf11a6af0b909aa019dc68ecb31c55b0aa442bb104831d4efdb73a8d4f18c5",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "da284b8e3d551a855850e52523b75a466aed869d55d1d4fdc01c6887eec6396e",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "dad8f72b6d51c1f5746336e5951a0fffcca98b97d0a3237cdabbd1ed5c9b5c15",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "de0caf128a0d940580e882e61b63f540b7b4d14b90753691d8f1f83a5f23a700",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "dee3fc0fd2956fbef5ff9f15d84c537e6c35e99bd8355b04d92395f63bb30fc4",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "dfae6244622b32e0c44abad6dab43105dec5ddeafdf222e5c6006bc02bcbbdd6",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "dfb976987c68319b83ac697b346e3938f60a77d705fc096b8cfd9f875b813bf3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e1f0b3bbfe8780767c58124a657642765b60b98dbf5bfca8095f10dfc3d93ef3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e2bd9d3f332628509f0a57e2174b640170a22d40efe857f86b9f6bd3ec6d23bb",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e32c69606246a53c82c6d95d39124441c7c0915ccd5eda76f64e601651157e88",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e61d1553571876a6c3be8c014bf7eed702367546e19e5e1618d005c9f167b0a9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e75f61b4204bc64ed22ed93749990a660837eb6b4e67c1b53709fddc62c1086a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e8bfcf6f2d9b246d3c43a0d663f0a7c566b187ed92c81f490ebc045034a4c04b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e8fca9514cc43a6c3311d81269fa975f51f0417586f74215b2a40166d5be7315",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e98990c09db222ce9a26e77e741539490b0deeeba76550aaadef923711b0b0e5",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ea51943a0e622955607317b9e07aebc8a9db89f61eb85ac4c399cf2d997bcfda",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ea650003dd35cad1b25bae921c031edb2500a8565822615136bfc7e169b6d29b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "eb1e122826d55880e5b9010a123e3490818f3df3694c12b83e8906a937ed3af4",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ebf16b4b83af29a14227cafdc00f634bc7e0f0f3bf60cdbea6e48570e3e3fd53",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ecd565de63bae90e1f68b44a3ee42e546fd5bba2c75556d6a1501ae2fe8246ed",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ed4181da9f270c2f9b2bf8b96fd14056bd10138e98aa5de3da7a9671c6b3e529",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "edaffe588a460d77c6730404bed24a17b3703ebcbfd7e2842f0a38633afd760c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ee651d39a6fe748f35e1f6bd38a59f8558ae70ef71dfce420a09952f8f2b977c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ee681756a8b95ca65f375a04da4d5c5966b8ebcd36089d7e917cbda474bb6759",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f3edb7ae1d97c5556c12f5aec7695c13124a4507d459162939d92b05988f2832",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f47af726e5bf537b0923d29e0fbe0d3b200e0953e9ec4367dcfe77bfdd1bd6f0",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "batch": "datausa-maids-wage/datausa-maids-wage_004.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "08c6a8a7d541da48630ed0ad4515021db0c0fdf7d00a640a4178655a32a7664f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "1b1a27d2398499ff0570f8d36e7f9a3c34fde6695056f8a1c2e22ff5c67a14fe",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "males in 2016",
+          "kind": "answered",
+          "quote": "R2 arrived exactly task 00:46:20 on SAME thread: \"Now, do the same for males in 2016.\" 57s deadline to 00:47:17; answered 22,140 at 00:46:22.",
+          "round": 2,
+          "task_clock": "00:46:20",
+          "used_cache": false,
+          "value": "22,140"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "2e906291f3d4e5e4eba383bcb5bc01da24aa874c8eeb8821cf33e77b4e2ada4a",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "males in 2016",
+          "kind": "answered",
+          "quote": "MAY31 R2 CONFIRMED exactly task 11:07:05, same thread, wording: Now, do the same for males in 2016. Timer 57s; answered $22,140 at 11:07:06.",
+          "round": 2,
+          "task_clock": "11:07:05",
+          "used_cache": false,
+          "value": "$22,140"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "e2bc844133a99acdb4266a93336b9e4454202ffcc9abad32249d6228343ae41e",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "154cb95da75b5a82f82e7f647f4cf7e0d442d187745369cc75c03bc68d1e4244",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "480a23c0c3e29a894b93d9f9ffed447da8dcf166f4d5e2fa075e3b63fe3215aa",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "3807381977ce4cb00e0af028b1a1908d47b75b9d470b6df5c61620e4b67a2865",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "069c2b44833cdcd05c1857d7e84434f3c70a431d050805021abeef1dcf6d2ef5",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "ec9c42e0dd66b0272ee9c8e49bad914a1f0281a862b8e73a509f493c7c2a8eb7",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "R1 Female 2015 at task 08:51:53, deadline 09:09:57 (18m04);",
+          "round": 1,
+          "task_clock": "08:51:53",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "answered",
+          "quote": "R2 Male 2016 at 10:21:01, deadline 10:21:58 (57s), answered 22,140;",
+          "round": 2,
+          "task_clock": "10:21:01",
+          "used_cache": false,
+          "value": "22,140"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "d844e8f6279607e381314120f88ef7c70cd95656777071ad211217e411b569e7",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "cbabb3005ec7f0f902e98d0a796bad896fcb95eae34f308d3a76fe54275f513a",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "4bf5b3c1a53eece6071f0036ca4a18da0091461f33cc5388503a2034f3e6fdb9",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "00727aa285219c3d43c2525982aea89be594737ff2e419926577f6083b0e04ae",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "65131902bd56314903831c94c9ada401e0e9211a751f3c7d47cdd4c63cdd50c0",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "87a90af1aa8867c515bb50204608430a40310aeec9d5b270fc9c61bc102a6e74",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "a13fb9505d0c8203e1217ef2bc2cb5067d7707e1e5a7e0c58e5de91a43a7d9d1",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "c7556c324721d111ca69f9720a23d3d8391791334dcf4a8f76e00286093daec4",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "d82d26ebf770b3d2f21a588d236225fdb0eee9ffbb813e0cd25d5545d20d580c",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "R1 Female 2015 at 10:54:55, deadline 11:12:59.",
+          "round": 1,
+          "task_clock": "10:54:55",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "R2 Male 2016 at 12:24:03, deadline 12:25:00.",
+          "round": 2,
+          "task_clock": "12:24:03",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "F2017",
+          "kind": "predicted",
+          "quote": "Likely F2017 = 18,158.",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "18,158"
+        }
+      ]
+    }
+  ]
+}

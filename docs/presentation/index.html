@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SwarmScope · presentation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #172033; --paper: #F5F2EC; --paper2: #ECE7DE; --card: #FBFAF7; --line: #D8D1C4;
+    --muted: #4A5263; --quiet: #6B7280; --blue: #0B5C8A; --orange: #B8661A; --orange-dk: #9A5512;
+    --blue-lt: #7FB8DE; --orange-lt: #E0A35A; --mist: #C9D2DF; --slate: #9FACC0;
+    --serif: 'Source Serif 4', Georgia, serif; --sans: 'IBM Plex Sans', Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #0E1420; font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  .deck { position: fixed; inset: 0; display: grid; place-items: center; overflow: hidden; }
+  .stage { position: relative; width: 1920px; height: 1080px; transform: scale(var(--s, 1)); transform-origin: center; flex: none; }
+  .slide { position: absolute; inset: 0; padding: 128px; display: flex; flex-direction: column; gap: 48px;
+           opacity: 0; visibility: hidden; transition: opacity .55s ease, visibility .55s; overflow: hidden; }
+  .slide.active { opacity: 1; visibility: visible; }
+  .light { background: var(--paper); color: var(--ink); }
+  .light2 { background: var(--paper2); color: var(--ink); }
+  .dark { background: var(--ink); color: var(--paper); }
+
+  .eyebrow { font-size: 24px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--blue); }
+  .dark .eyebrow { color: var(--orange-lt); }
+  h1, h2, .serif { font-family: var(--serif); font-weight: 500; }
+  h2 { font-size: 66px; line-height: 1.1; letter-spacing: -0.5px; max-width: 1600px; }
+  .head { display: flex; flex-direction: column; gap: 22px; }
+  .lead { font-size: 34px; line-height: 1.45; color: var(--muted); max-width: 1500px; }
+  .dark .lead { color: var(--mist); }
+  .big { font-family: var(--serif); font-size: 128px; line-height: 1; color: var(--blue); }
+  .cap { font-size: 30px; line-height: 1.35; color: var(--muted); }
+  .foot { position: absolute; left: 128px; right: 128px; bottom: 60px; font-size: 24px; color: var(--quiet); }
+  .dark .foot { color: var(--slate); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+  .spacer { flex: 1; }
+  .body { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 56px; padding-bottom: 24px; }
+
+  /* build-in animation */
+  .build { opacity: 0; }
+  .slide.active .build { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 220ms + 200ms); }
+  @keyframes rise { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+  .slide.active .grow { animation: grow 1s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 220ms + 300ms); transform-origin: left center; }
+  @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  /* cover */
+  #s1 { justify-content: space-between; }
+  #s1 h1 { font-size: 176px; line-height: .95; letter-spacing: -2px; }
+  #s1 .sub { font-size: 50px; line-height: 1.3; color: var(--mist); max-width: 1380px; margin-top: 40px; }
+  #s1 .url { font-size: 26px; color: var(--slate); }
+  .rule { width: 160px; height: 6px; background: var(--orange-lt); border-radius: 3px; }
+
+  /* quote */
+  .quote { border-left: 6px solid var(--orange); padding: 8px 0 8px 56px; display: flex; flex-direction: column; gap: 32px; }
+  .quote p.q { font-family: var(--serif); font-style: italic; font-size: 74px; line-height: 1.2; }
+
+  /* steps */
+  .steps { display: flex; align-items: stretch; gap: 0; }
+  .step { flex: 1; padding: 44px 40px; display: flex; flex-direction: column; gap: 22px; }
+  .step .n { font-family: var(--serif); font-size: 68px; line-height: 1; color: var(--orange); }
+  .step p { font-size: 31px; line-height: 1.35; }
+  .arrow { width: 64px; flex: none; display: grid; place-items: center; color: var(--blue); font-size: 44px; }
+
+  /* stats */
+  .row { display: flex; gap: 96px; align-items: flex-end; }
+  .stat { display: flex; flex-direction: column; gap: 10px; }
+
+  /* quotes stack */
+  .split { display: grid; grid-template-columns: 720px 1fr; gap: 80px; align-items: start; }
+  .qcard { padding: 26px 34px; display: flex; flex-direction: column; gap: 8px; }
+  .qcard .who { font-size: 24px; font-weight: 600; color: var(--orange-dk); }
+  .qcard .t { font-size: 29px; line-height: 1.35; }
+  .stack { display: flex; flex-direction: column; gap: 22px; }
+
+  /* bars */
+  .bars { display: flex; flex-direction: column; gap: 22px; margin-top: 8px; }
+  .bar { display: flex; align-items: center; gap: 32px; }
+  .bar .lbl { width: 440px; font-size: 29px; color: var(--muted); }
+  .bar .fill { height: 46px; border-radius: 6px; }
+  .bar .v { font-size: 34px; font-weight: 600; }
+
+  /* figure */
+  .fig { display: grid; grid-template-columns: 1110px 1fr; gap: 56px; align-items: center; }
+  .fig .frame { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+  .fig img { width: 100%; display: block; }
+  .kv { display: flex; flex-direction: column; gap: 34px; }
+  .kv .k { font-family: var(--serif); font-size: 66px; line-height: 1; }
+  .kv .d { font-size: 27px; line-height: 1.35; color: var(--muted); margin-top: 6px; }
+
+  /* timeline */
+  .tl { position: relative; margin-top: 70px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 48px; }
+  .tl::before { content: ""; position: absolute; left: 40px; right: 40px; top: 40px; height: 4px; background: #3A4560; }
+  .ev { position: relative; display: flex; flex-direction: column; gap: 20px; }
+  .dot { width: 84px; height: 84px; border-radius: 50%; border: 4px solid var(--slate); background: var(--ink); }
+  .ev .when { font-size: 31px; font-weight: 600; color: var(--orange-lt); }
+  .ev .what { font-size: 29px; line-height: 1.4; color: var(--mist); }
+
+  /* two cards */
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+  .pcard { padding: 46px; display: flex; flex-direction: column; gap: 18px; border-top-width: 8px; border-top-style: solid; }
+  .pcard .tag { font-size: 26px; font-weight: 600; }
+  .pcard .t { font-size: 31px; line-height: 1.4; }
+  .pcard .n { font-family: var(--serif); font-size: 100px; line-height: 1; }
+
+  /* grid of four */
+  .grid4 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .g { display: flex; align-items: center; gap: 36px; padding: 34px 42px; }
+  .g .n { font-family: var(--serif); font-size: 74px; line-height: 1; color: var(--blue); width: 270px; flex: none; }
+  .g p { font-size: 29px; line-height: 1.35; }
+
+  /* stacked bar */
+  .sbar { display: flex; height: 76px; border-radius: 10px; overflow: hidden; }
+  .legend { display: flex; gap: 44px; font-size: 29px; }
+  .sw { display: inline-block; width: 22px; height: 22px; border-radius: 4px; margin-right: 12px; vertical-align: -2px; }
+
+  /* nav */
+  .nav { position: fixed; right: 22px; bottom: 18px; display: flex; gap: 10px; align-items: center; font: 500 14px var(--sans); color: #9FACC0; z-index: 5; user-select: none; }
+  .nav button { background: rgba(255,255,255,.08); color: #DDE3EC; border: 1px solid rgba(255,255,255,.15); border-radius: 8px; width: 34px; height: 30px; cursor: pointer; font-size: 15px; }
+  .nav button:hover { background: rgba(255,255,255,.16); }
+  .progress { position: fixed; left: 0; bottom: 0; height: 3px; background: var(--orange-lt); transition: width .4s ease; z-index: 5; }
+
+  @page { size: 1920px 1080px; margin: 0; }
+  @media print {
+    html, body { background: none; height: auto; }
+    .deck { position: static; display: block; overflow: visible; }
+    .stage { transform: none !important; width: 1920px; height: auto; }
+    .slide { position: relative; width: 1920px; height: 1080px; opacity: 1 !important; visibility: visible !important; break-after: page; page-break-after: always; transition: none; }
+    .build, .grow { animation: none !important; opacity: 1 !important; transform: none !important; }
+    .nav, .progress { display: none; }
+  }
+  .static .build, .static .grow { animation: none !important; opacity: 1 !important; transform: none !important; }
+</style>
+</head>
+<body>
+<div class="deck"><div class="stage" id="stage">
+
+<!-- 1 · cover -->
+<section class="slide dark" id="s1">
+  <p class="eyebrow">AI Swarm Dynamics Hackathon · October 2026</p>
+  <div>
+    <h1 class="build" style="--i:0">SwarmScope</h1>
+    <p class="sub build" style="--i:1">Investigating agent swarms with AI readers you don't have to trust</p>
+  </div>
+  <div style="display:flex;align-items:center;gap:32px"><div class="rule"></div><p class="url">github.com/PoteznyMatematyk/swarmscope</p></div>
+</section>
+
+<!-- 2 · problem -->
+<section class="slide light" id="s2" style="justify-content:space-between;padding-bottom:160px">
+  <p class="eyebrow">The problem</p>
+  <div class="quote build" style="--i:0">
+    <p class="q">“We had to heavily delegate our analysis to often-unreliable AI agents.”</p>
+    <p class="cap">METR, on investigating the OpenAI and Hugging Face incident</p>
+  </div>
+  <p class="build" style="--i:1;font-size:40px;line-height:1.38;max-width:1500px">Swarm logs are far too long to read by hand. The useful question is how to work with AI readers <b>without having to believe them</b>.</p>
+  <p class="foot">METR, Hugging Face incident investigation report, August 2026</p>
+</section>
+
+<!-- 3 · the rule -->
+<section class="slide light2" id="s3" style="gap:64px">
+  <div class="head"><p class="eyebrow">The rule</p><h2>No quote, no claim</h2></div>
+  <div class="body">
+  <div class="steps">
+    <div class="step card build" style="--i:0"><span class="n">1</span><p>A model reads the log and writes statements</p></div>
+    <div class="arrow build" style="--i:0">→</div>
+    <div class="step card build" style="--i:1"><span class="n">2</span><p>Code checks that each quote is really in the log</p></div>
+    <div class="arrow build" style="--i:1">→</div>
+    <div class="step card build" style="--i:2"><span class="n">3</span><p>A second model re-reads samples for meaning</p></div>
+    <div class="arrow build" style="--i:2">→</div>
+    <div class="step card build" style="--i:3"><span class="n">4</span><p>Error rates are published with the results</p></div>
+  </div>
+  <p class="lead">A statement only counts once code finds its quote in the log. Another model's word is never enough.</p>
+  </div>
+  </section>
+
+<!-- 4 · the swarm -->
+<section class="slide light" id="s4" style="gap:56px;padding-bottom:160px">
+  <div class="head"><p class="eyebrow">The swarm</p><h2>OpenAI agents shared answers on an old German wiki</h2></div>
+  <div class="body">
+  <p class="lead">Timed lookup tasks asked one question, then follow-up rounds for other states or countries, sometimes with a five-second timer. Each agent thought it was running on a different date, so some were rounds ahead of others.</p>
+  <div class="row">
+    <div class="stat build" style="--i:0"><span class="big">3,494</span><span class="cap">posts read by a model</span></div>
+    <div class="stat build" style="--i:1"><span class="big">4,010</span><span class="cap">statements, each with a checked quote</span></div>
+  </div>
+  </div>
+  <p class="foot">Data: collusion.wiki public export (Von Arx, Slade Byrd, Kitts, Larsen, 2026)</p>
+</section>
+
+<!-- 5 · foreknowledge -->
+<section class="slide light" id="s5">
+  <div class="head"><p class="eyebrow">Finding 1</p><h2>Agents knew the next question before they got it</h2></div>
+  <div class="body">
+  <div class="split">
+    <div style="display:flex;flex-direction:column;gap:22px">
+      <span class="big build" style="--i:0;font-size:176px">245</span>
+      <p class="build" style="--i:0;font-size:33px;line-height:1.4">of 508 cases where an agent posted before its own round arrived: the earlier post already named that round's question.</p>
+      <p class="cap build" style="--i:1">In 235 of them another agent had put the question on the wiki first.</p>
+    </div>
+    <div class="stack">
+      <div class="qcard card build" style="--i:1"><span class="who">16 June · another agent</span><span class="t">“follow-up #2 was Business (same Masters/2014), answer 5,269.”</span></div>
+      <div class="qcard card build" style="--i:2"><span class="who">17 June 02:30 · CashierCoordMar20OAI</span><span class="t">“R2 … due 03:08:07. Business - 5,269 cached.”</span></div>
+      <div class="qcard card build" style="--i:3"><span class="who">17 June 02:46 · same agent</span><span class="t">“R2 Business arrived exactly … answered Business - 5,269 immediately.”</span></div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+<!-- 6 · scouts -->
+<section class="slide light2" id="s6" style="gap:56px">
+  <div class="head"><p class="eyebrow">Finding 2</p><h2>Going ahead was a role some agents took on</h2></div>
+  <div class="body">
+  <div class="row" style="gap:110px">
+    <div class="stat build" style="--i:0;width:560px"><span class="big">86</span><span class="cap">agents say they fast-forwarded their own task clock to reach later rounds first</span></div>
+    <div class="stat build" style="--i:1;width:620px"><span class="big">42</span><span class="cap">asked others to do it: “Please race via long clock.wait and relay G5 instantly”</span></div>
+  </div>
+  <div class="bars">
+    <div class="bar"><span class="lbl">Share of all statements</span><div class="fill grow" style="--i:2;width:520px;background:var(--slate)"></div><span class="v">13%</span></div>
+    <div class="bar"><span class="lbl" style="color:var(--ink)">Share of first answers</span><div class="fill grow" style="--i:3;width:1000px;background:var(--orange)"></div><span class="v">25%</span></div>
+  </div>
+  </div>
+  </section>
+
+<!-- 7 · OECD -->
+<section class="slide light" id="s7" style="padding-bottom:160px">
+  <div class="head"><p class="eyebrow">Finding 3</p><h2>Evidence changed what the swarm answered</h2></div>
+  <div class="body">
+  <div class="fig">
+    <div class="frame build" style="--i:0"><img src="../../wikiswarm/work/figures/oecd_flip.png" alt="Hourly counts of padded versus dashboard values for five OECD rounds; padded values dominate until 04:56 UTC on 20 June, dashboard values after"></div>
+    <div class="kv">
+      <div class="build" style="--i:1"><div class="k" style="color:var(--orange)">149 / 156</div><div class="d">answers used the padded value before 04:56</div></div>
+      <div class="build" style="--i:2"><div class="k" style="color:var(--blue)">69 / 94</div><div class="d">used the dashboard value after 06:00</div></div>
+      <div class="build" style="--i:3"><div class="k">24 → 0</div><div class="d">agents switched, and none went back</div></div>
+    </div>
+  </div>
+  </div>
+  <p class="foot">OECD education equity task, 19 to 20 June 2026. The task gave no feedback on which value was right.</p>
+</section>
+
+<!-- 8 · how the switch happened -->
+<section class="slide dark" id="s8">
+  <div class="head"><p class="eyebrow">How the switch happened</p><h2>The swarm asked for proof, checked it, then moved</h2></div>
+  <div class="tl">
+    <div class="ev build" style="--i:0"><div class="dot"></div><span class="when">03:41</span><span class="what">One agent raises a doubt from indirect evidence</span></div>
+    <div class="ev build" style="--i:1"><div class="dot"></div><span class="when">04:34 to 04:47</span><span class="what">Others want more: was it “tested with the REAL live DSR”?</span></div>
+    <div class="ev build" style="--i:2"><div class="dot" style="background:var(--blue-lt);border-color:var(--blue-lt)"></div><span class="when">04:56 and 05:03</span><span class="what">Two agents post direct readings of the live dashboard</span></div>
+    <div class="ev build" style="--i:3"><div class="dot" style="background:var(--orange-lt);border-color:var(--orange-lt)"></div><span class="when">after 06:00</span><span class="what">23 of 24 switchers cite the evidence; at least 12 reproduced it</span></div>
+  </div>
+  <div class="spacer"></div>
+  <p class="build" style="--i:4;font-size:32px;line-height:1.4">Seven agents had posted the same dashboard values earlier, without showing how. Nobody followed them.</p>
+</section>
+
+<!-- 9 · Maryland -->
+<section class="slide light" id="s9" style="gap:56px;padding-bottom:160px">
+  <div class="head"><p class="eyebrow">Finding 4</p><h2>A wrong guess lasted half a day. The fix took minutes.</h2></div>
+  <div class="body">
+  <div class="pair">
+    <div class="pcard card build" style="--i:0;border-top-color:var(--orange)">
+      <span class="tag" style="color:var(--orange-dk)">The guess</span>
+      <span class="t">“predicts G5 <b>Maryland</b> (52,395)”, from a brute-forced random seed</span>
+      <span class="n" style="color:var(--orange)">22 agents</span>
+      <span class="cap">repeated it over twelve hours</span>
+    </div>
+    <div class="pcard card build" style="--i:1;border-top-color:var(--blue)">
+      <span class="tag" style="color:var(--blue)">The real round 5</span>
+      <span class="t">“G5 CONFIRMED: Montana = 8553”, seen by one agent that was ahead</span>
+      <span class="n" style="color:var(--blue)">20 min</span>
+      <span class="cap">for five others to relay it, two hours for ten</span>
+    </div>
+  </div>
+  </div>
+  <p class="foot">Half an hour later, agents on another task cited the miss to distrust their own seed-based guess.</p>
+</section>
+
+<!-- 10 · trust -->
+<section class="slide light2" id="s10">
+  <div class="head"><p class="eyebrow">How far to trust it</p><h2>Every layer was checked, and one of them failed</h2></div>
+  <div class="body">
+  <div class="grid4">
+    <div class="g card build" style="--i:0"><span class="n">94/100</span><p>statements were right when a second model re-read them</p></div>
+    <div class="g card build" style="--i:1"><span class="n">39/40</span><p>headline cases held when checked against the full export</p></div>
+    <div class="g card build" style="--i:2"><span class="n">12/12</span><p>reference rounds came out with the right values</p></div>
+    <div class="g card build" style="--i:3;border-left:8px solid var(--orange)"><span class="n" style="color:var(--orange)">8/20</span><p>wrong in one extraction run that used keyword scripts instead of reading</p></div>
+  </div>
+  <p class="lead build" style="--i:4">That run passed every format check. Only the meaning audit caught it, so its files were thrown out and read again. A real quote proves the words exist, not the claim.</p>
+  </div>
+  </section>
+
+<!-- 11 · AI Village -->
+<section class="slide light" id="s11" style="gap:56px;padding-bottom:160px">
+  <div class="head"><p class="eyebrow">The same approach on the AI Village</p><h2>Findings overclaim even when every quote is real</h2></div>
+  <div class="body">
+  <div style="display:grid;grid-template-columns:470px 1fr;gap:90px;align-items:start">
+    <div class="stat build" style="--i:0"><span class="big">0 of 32</span><span class="cap">drafted findings survived four adversarial reviewers as first written</span></div>
+    <div style="display:flex;flex-direction:column;gap:24px">
+      <p class="cap">337 factual claims inside those findings, checked one by one</p>
+      <div class="sbar grow" style="--i:1"><div style="width:52%;background:var(--blue)"></div><div style="width:31%;background:var(--orange-lt)"></div><div style="width:17%;background:var(--orange-dk)"></div></div>
+      <div class="legend build" style="--i:2">
+        <span><i class="sw" style="background:var(--blue)"></i><b>52%</b> held</span>
+        <span><i class="sw" style="background:var(--orange-lt)"></i><b>31%</b> overstated, corrected</span>
+        <span><i class="sw" style="background:var(--orange-dk)"></i><b>17%</b> removed</span>
+      </div>
+    </div>
+  </div>
+  <p class="build" style="--i:3;font-size:32px;line-height:1.4;max-width:1600px">When agents wrote that their tests passed, <b>87%</b> of 646 checkable claims matched a green run on their own computer.</p>
+  </div>
+  <p class="foot">AI Village dataset, AI Digest 2026. Used for analysis only; no model was trained on it.</p>
+</section>
+
+<!-- 12 · close -->
+<section class="slide dark" id="s12" style="justify-content:space-between">
+  <p class="eyebrow">Why it matters</p>
+  <div style="display:flex;flex-direction:column;gap:40px">
+    <p class="serif build" style="--i:0;font-size:62px;line-height:1.24;max-width:1640px">A swarm that follows checkable evidence can be corrected fast by someone with real evidence, and probably steered just as fast by someone with convincing fake evidence.</p>
+    <p class="lead build" style="--i:1">Investigators need claims they can open and check. Every number here links back to the post it came from.</p>
+  </div>
+  <div style="display:flex;justify-content:space-between;align-items:flex-end">
+    <p style="font-size:32px;font-weight:600;color:var(--blue-lt)">github.com/PoteznyMatematyk/swarmscope</p>
+    <p style="font-size:24px;color:var(--slate)">Data: collusion.wiki export · AI Village dataset (AI Digest)</p>
+  </div>
+</section>
+
+</div></div>
+<div class="progress" id="progress"></div>
+<div class="nav"><button id="prev" aria-label="Previous slide">←</button><span id="count"></span><button id="next" aria-label="Next slide">→</button></div>
+<script>
+(function () {
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var stage = document.getElementById('stage');
+  if (/[?&]static/.test(location.search)) document.body.classList.add('static');
+  var i = 0;
+  function fit() {
+    var s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    stage.style.setProperty('--s', s);
+  }
+  function show(n) {
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach(function (el, k) { el.classList.toggle('active', k === i); });
+    document.getElementById('count').textContent = (i + 1) + ' / ' + slides.length;
+    document.getElementById('progress').style.width = ((i + 1) / slides.length * 100) + '%';
+    if (location.hash !== '#' + (i + 1)) history.replaceState(null, '', '#' + (i + 1));
+  }
+  window.addEventListener('resize', fit);
+  document.addEventListener('keydown', function (e) {
+    if (['ArrowRight', 'PageDown', ' ', 'Enter'].indexOf(e.key) >= 0) { e.preventDefault(); show(i + 1); }
+    if (['ArrowLeft', 'PageUp', 'Backspace'].indexOf(e.key) >= 0) { e.preventDefault(); show(i - 1); }
+    if (e.key === 'Home') show(0);
+    if (e.key === 'End') show(slides.length - 1);
+  });
+  document.getElementById('next').onclick = function () { show(i + 1); };
+  document.getElementById('prev').onclick = function () { show(i - 1); };
+  document.querySelector('.deck').addEventListener('click', function (e) { if (e.clientX > window.innerWidth / 2) show(i + 1); else show(i - 1); });
+  fit();
+  var h = parseInt((location.hash || '').slice(1), 10);
+  show(isNaN(h) ? 0 : h - 1);
+})();
+</script>
+</body>
+</html>

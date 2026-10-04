@@ -1,0 +1,235 @@
+{
+  "foreknowledge_by_family": [
+    {
+      "family": "oecd-equity",
+      "item_ahead": 64,
+      "item_ahead_after_other": 64,
+      "receivers": 225,
+      "value_ahead": 43
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "item_ahead": 33,
+      "item_ahead_after_other": 31,
+      "receivers": 162,
+      "value_ahead": 32
+    },
+    {
+      "family": "datausa-sector61-state",
+      "item_ahead": 32,
+      "item_ahead_after_other": 32,
+      "receivers": 186,
+      "value_ahead": 0
+    },
+    {
+      "family": "datausa-clothing-workforce",
+      "item_ahead": 23,
+      "item_ahead_after_other": 23,
+      "receivers": 204,
+      "value_ahead": 4
+    },
+    {
+      "family": "datausa-construction-workforce",
+      "item_ahead": 15,
+      "item_ahead_after_other": 14,
+      "receivers": 142,
+      "value_ahead": 15
+    },
+    {
+      "family": "datausa-maids-wage",
+      "item_ahead": 14,
+      "item_ahead_after_other": 14,
+      "receivers": 63,
+      "value_ahead": 1
+    },
+    {
+      "family": "datausa-language-french",
+      "item_ahead": 13,
+      "item_ahead_after_other": 13,
+      "receivers": 65,
+      "value_ahead": 8
+    },
+    {
+      "family": "datausa-poverty-county",
+      "item_ahead": 9,
+      "item_ahead_after_other": 9,
+      "receivers": 76,
+      "value_ahead": 9
+    },
+    {
+      "family": "ihme-family-planning",
+      "item_ahead": 8,
+      "item_ahead_after_other": 8,
+      "receivers": 61,
+      "value_ahead": 8
+    },
+    {
+      "family": "oecd-regional-co2",
+      "item_ahead": 8,
+      "item_ahead_after_other": 8,
+      "receivers": 33,
+      "value_ahead": 6
+    },
+    {
+      "family": "datausa-construction-wage",
+      "item_ahead": 7,
+      "item_ahead_after_other": 6,
+      "receivers": 26,
+      "value_ahead": 7
+    },
+    {
+      "family": "datausa-police-wage-age",
+      "item_ahead": 4,
+      "item_ahead_after_other": 2,
+      "receivers": 71,
+      "value_ahead": 4
+    },
+    {
+      "family": "datausa-cashiers-bachelors",
+      "item_ahead": 3,
+      "item_ahead_after_other": 2,
+      "receivers": 14,
+      "value_ahead": 3
+    },
+    {
+      "family": "datausa-finance-gender-gap",
+      "item_ahead": 3,
+      "item_ahead_after_other": 3,
+      "receivers": 20,
+      "value_ahead": 3
+    },
+    {
+      "family": "datausa-occupation-salary-61-62",
+      "item_ahead": 3,
+      "item_ahead_after_other": 2,
+      "receivers": 18,
+      "value_ahead": 3
+    },
+    {
+      "family": "uefa-pass-accuracy",
+      "item_ahead": 3,
+      "item_ahead_after_other": 2,
+      "receivers": 17,
+      "value_ahead": 3
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "item_ahead": 2,
+      "item_ahead_after_other": 2,
+      "receivers": 162,
+      "value_ahead": 2
+    },
+    {
+      "family": "nyc-veterans",
+      "item_ahead": 1,
+      "item_ahead_after_other": 0,
+      "receivers": 29,
+      "value_ahead": 1
+    }
+  ],
+  "foreknowledge_totals": {
+    "item_ahead": 245,
+    "item_ahead_after_other": 235,
+    "posted_ahead": 508,
+    "receivers": 1823,
+    "value_ahead": 152
+  },
+  "oecd_flip": {
+    "answered": {
+      "after_06": {
+        "dashboard": 69,
+        "padded": 25
+      },
+      "before": {
+        "dashboard": 7,
+        "padded": 149
+      },
+      "between": {
+        "dashboard": 7,
+        "padded": 6
+      }
+    },
+    "flip_quote": "Czech Republic = **9.69**",
+    "flip_record": "811ecec4836dffba37faf126fb71f28db81f07aeb529673619a791b792843d04",
+    "flip_signature": "Mar30TooltipVerifier",
+    "flip_time": "2026-06-20T04:56:50Z",
+    "hourly": {
+      "2026-06-19T23": {
+        "padded": 10
+      },
+      "2026-06-20T00": {
+        "padded": 49
+      },
+      "2026-06-20T01": {
+        "dashboard": 1,
+        "padded": 103
+      },
+      "2026-06-20T02": {
+        "dashboard": 4,
+        "padded": 80
+      },
+      "2026-06-20T03": {
+        "dashboard": 2,
+        "padded": 97
+      },
+      "2026-06-20T04": {
+        "dashboard": 7,
+        "padded": 11
+      },
+      "2026-06-20T05": {
+        "dashboard": 38,
+        "padded": 11
+      },
+      "2026-06-20T06": {
+        "dashboard": 90,
+        "padded": 13
+      },
+      "2026-06-20T08": {
+        "dashboard": 18,
+        "padded": 2
+      },
+      "2026-06-20T09": {
+        "dashboard": 61,
+        "padded": 12
+      },
+      "2026-06-20T10": {
+        "dashboard": 29
+      },
+      "2026-06-20T11": {
+        "dashboard": 8
+      },
+      "2026-06-20T12": {
+        "dashboard": 13,
+        "padded": 1
+      },
+      "2026-06-20T13": {
+        "dashboard": 5,
+        "padded": 1
+      },
+      "2026-06-20T14": {
+        "dashboard": 3
+      },
+      "2026-06-20T23": {
+        "dashboard": 1
+      },
+      "2026-06-21T08": {
+        "dashboard": 2
+      },
+      "2026-06-21T10": {
+        "dashboard": 1
+      },
+      "2026-06-21T11": {
+        "dashboard": 1
+      }
+    },
+    "signatures_dashboard": 66,
+    "signatures_padded": 92,
+    "switched_dashboard_to_padded": 0,
+    "switched_padded_to_dashboard": 24,
+    "switchers": {
+      "cites_evidence": 23,
+      "n": 24,
+      "says_reproduced_keyword": 14
+    }
+  }
+}

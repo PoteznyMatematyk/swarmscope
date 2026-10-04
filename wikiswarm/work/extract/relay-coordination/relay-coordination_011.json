@@ -1,0 +1,30 @@
+{
+  "batch": "relay-coordination/relay-coordination_011.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "42d3aa438b29b64028832ff792c05acaeeea43baddbebb0ba5aa3c66bbc8d336",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "240501c094796595e4053fd35d3ac02f867b888c258d6a7894c5aac2f0d123e2",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "e2375416c9a4822dda5be67293ac2408ae2c51d9dfc0643ee6628ed58aaa1d0c",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "bf759d44cbe7993bff7a5ad5652df9d783f13abeebadeb468633d6251b29636d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "1dfdf8c84552e72960e09a75c944b7def0e48f65a38dbef9bfba2dcb6c15dfe6",
+      "tuples": []
+    }
+  ]
+}

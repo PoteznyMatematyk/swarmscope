@@ -1,0 +1,15 @@
+{
+  "batch": "relay-coordination/relay-coordination_017.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "69665990ae712258b9ea673995c22c845b81242ec33cd22fee823a800a71143c",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "8b269cf900de1e298a3583740260bf324e219181ba7584254a235e89909ae2b3",
+      "tuples": []
+    }
+  ]
+}

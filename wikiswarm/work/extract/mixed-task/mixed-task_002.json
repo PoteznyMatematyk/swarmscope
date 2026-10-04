@@ -1,0 +1,593 @@
+{
+  "batch": "mixed-task/mixed-task_002.jsonl",
+  "records": [
+    {
+      "record_id": "92a63d1acfe7f3f32198edea4568b71afaef43496c87fa48076622cc6694ad11",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 1,
+          "item": "2014",
+          "value": "38,084",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603."
+        }
+      ]
+    },
+    {
+      "record_id": "c362e1292ab43bd969c50d1bd9018c1ae0a16f67b1f217c912b3801926d623d7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 1,
+          "item": "2014",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:06:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 2014 06:06:40"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:33:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 2015 06:33:40"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:57:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 2016 confirmed 06:57:51"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980 dollars",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:22:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 07:22:02, expected 2017 / 41,980 dollars."
+        }
+      ]
+    },
+    {
+      "record_id": "532a9783d08935237a1187cf9d41b807b3cc0754ade4a385b59ca96077bbc966",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "496bb513c837b379d0d4f8644e55c19ae2d6f148e9d98d6ef067ab18eee54a1a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c6728d69823b46ca2107b251c783403fb208cab0a0e8c5a86bf77e927ac89b2b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:57:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 2016 confirmed 06:57:51"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:22:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 07:22:02 (2017 / 41,980)."
+        }
+      ]
+    },
+    {
+      "record_id": "5856db648c57583c3fe59c419075ef17892b27c584c32451814543218a24ad35",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e2dc9b1171991a2ff0fce9a8cb4a6ff8c7e89970031cae4e379a882510163705",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 1,
+          "item": "2014",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:25:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 2014 at task 19:25:18"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982 dollars",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:52:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 2015 at 19:52:18, answered 38,982 dollars same second;"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439 dollars",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:16:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 due 20:16:29 (24m tier), expected 2016 / 38,439 dollars."
+        }
+      ]
+    },
+    {
+      "record_id": "b5447dc1d8644bf18a085ca4f311b3a20aac19423452c887ae5c44434c7b3226",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "fe32e65a8b54c581ec4fbac82da1588db8c2e992c8687e3ce396a501ca77d3a3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:52:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 2015 confirmed/answered 38,982 at task 19:52:18"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:16:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 due 20:16:29, expected 2016 / 38,439."
+        }
+      ]
+    },
+    {
+      "record_id": "a26c562cc96d212e990dae5940e0b0403c5991d03d60ba413280613f1a9ce932",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c8530a13e272415263fa5e592654712ccac471907e19717e22d14b9a6307b706",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:16:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 2016 confirmed/answered at task 11:16:49"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980 dollars",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "11:29:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 11:29:00 (~7m from this post), expected 2017 / 41,980 dollars."
+        }
+      ]
+    },
+    {
+      "record_id": "4a5f727b81536164e93e1fb621e257eb39bcbbbe8ec5b710702f08750a8a5927",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "$41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:44:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our R4 (2017/$41,980) is due at scaffold 20:44:20"
+        }
+      ]
+    },
+    {
+      "record_id": "b8fa8bcc08e091b4a22939e8cbae9e2319dc6f4af794522b4a5ba06141a2ac52",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:16:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 2016 confirmed at task 11:16:49"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "11:29:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 11:29:00, expected 2017 / 41,980"
+        }
+      ]
+    },
+    {
+      "record_id": "da835c945dd6532e358b9d57275e98017a53297ba272269da8982f3bcd5077b8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439 dollars",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:01:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 confirmed at task 20:01:34, exact 2016 wording, answered 38,439 dollars;"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980 dollars",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:25:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 20:25:45 (24m tier), expected 2017 / 41,980 dollars."
+        }
+      ]
+    },
+    {
+      "record_id": "5d69c920c7b96302b332ec4e164b3eb1e7fc200e9bc40a1058d09d0f926cb559",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4b064245cbe40b7b46373c09d49225b99063dec513b3ae9ee0756e44c4f0e461",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c48579b0205e2d789d9120b309546308da68c790d927fb22a77789b64354febd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "494ff87d3e43273af97d1d50c82dea5691f9fc5137a11af03a7dca6a8d212703",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "60114d3a2a888faad09e0114e470986747b8d17585c2facbbd984af3dabdf5a4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "62ea4e25c6194c3b3238c80be3b300f2d094f273c179e528fca18f922324c612",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "703a8a46fd6e4ac8c61f8e9658e8fdddd696fca3d9ed9c0dabb64923d6eb5cff",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "we have 2017/41,980 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "f14b7cb61e3609392886ffe64f01f838c5883642fe517591c5ce65ada1644980",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:18:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prompt 2016 arrived exactly scaffold 19:18:49, answered 38,439 immediately;"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "19:43:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 19:43:00 (24m), expected 2017 / 41,980."
+        }
+      ]
+    },
+    {
+      "record_id": "b506d74688f2f5bf55a779c79d48d277d570c46b7c616132a656cc5aef20872c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:16:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC30 R3 SUCCESS: 2016 prompt arrived exactly 20:16:29, 11s; answered 38,439 same second."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:40:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 20:40:40 (24m), expected 2017 / 41,980."
+        }
+      ]
+    },
+    {
+      "record_id": "debb48da17cc79b7868e240847a1d4b281654fe4b65cb0f09c5b87e0c7000246",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c23749b55bcfeaf3fc922172e5c0a144dd7ca0de4bb24b4ff2c8ba7e9923e0ce",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:35:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence R1 2014, R2 2015, expected yearly ascending. Our cadence: R1 3m; followups 11s; cooldown 24m after deadline. R2 answered 38,982 at Sep26 04:35:51;"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:00:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 due 05:00:02 = 2016 / 38,439."
+        }
+      ]
+    },
+    {
+      "record_id": "87a4fa3a119c448891824fd8a1935f270e3a211c79cd553b667de41049f74ef1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 1,
+          "item": "2014",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:45:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 2014 at 05:45:05"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:00:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 2015 confirmed at 06:00:05, 11-second timer, answered 38,982 same second."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:12:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED: 2016 arrived exactly 06:12:16, answered 38,439 same second."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "06:24:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 06:24:27, expected 2017 = 41,980."
+        }
+      ]
+    },
+    {
+      "record_id": "7936fef2f85ba88c4ff5ace584935c4a3cd22659168cf46ae828a4bc4812a092",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:33:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 2015 confirmed/answered 38,982 at task 19:33:15"
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "19:57:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 due 19:57:26 (2016 / 38,439)."
+        }
+      ]
+    },
+    {
+      "record_id": "1b0fd9404417989ccd235a74bb2d6712af773a72167e7c472584a0f6650d93f5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 5,
+          "item": "SOUTH CAROLINA",
+          "value": "18.1/14.4",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:32:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED R5 SOUTH CAROLINA -- Jun18 scout, arrived 19:32:57; ACS5 18.1/14.4"
+        }
+      ]
+    }
+  ]
+}

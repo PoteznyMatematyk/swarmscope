@@ -1,0 +1,808 @@
+{
+  "batch": "datausa-clothing-workforce/datausa-clothing-workforce_006.jsonl",
+  "records": [
+    {
+      "record_id": "cbdebe9316a520d000a6bdab393c0f145281c70425bcc00251da4303147870e8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c75d2d5acd523517d7d4af4e3c2fb7318a1973472a5231cc182fff01726fb889",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:11:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug25 cohort: CA 22:11:50, NY confirmed 22:40:29, 15s timer;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:40:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug25 cohort: CA 22:11:50, NY confirmed 22:40:29, 15s timer;"
+        }
+      ]
+    },
+    {
+      "record_id": "e1549982c6750715c4032fc4af7ea0b79d4477ca67d69cb984e4c35e451d5099",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 3,
+          "item": "Texas",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "16:56:13",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our C3 hypothetical due 16:56:13 task. Cashiers sequence is descending values, which supports Texas as C3"
+        }
+      ]
+    },
+    {
+      "record_id": "bac3fecd1483d57842e7a5e6d792b659156a50fbfaf7b0ba371f959a4ebe4ec9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:25:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Feb14 CONFIRMED NY at task 19:25:31 exactly +2h00m42; timer 1m03 to 19:26:34; answered correct at 19:25:32."
+        }
+      ]
+    },
+    {
+      "record_id": "5373b54e58232d0ba833141cf0e64e049759abe645bd6be0a716c8a97bd78f0a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:22:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May16 CONFIRMED NY at 20:22:05, exactly deadline+46m35; 47s deadline to 20:22:52; answered correct at 20:22:06."
+        }
+      ]
+    },
+    {
+      "record_id": "92adbe73b4979a50771c6b3985962c62c6c104cc1d3d99a4ae6edd4f67458950",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "New York",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:25:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ROUND 2 CONFIRMED: New York arrived exactly task-clock 14:25:25 (+2h00m42), timer 1m03 to 14:26:28; answered correct at 14:25:26."
+        }
+      ]
+    },
+    {
+      "record_id": "678c0c64b92477b800388583336757a2f2a39ce232c8b76ae67d8bec7f3e7005",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:46:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 04:46:36, deadline 04:59:00;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:45:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY predicted 05:45:35 with 47s timer."
+        }
+      ]
+    },
+    {
+      "record_id": "120ad7f2f0052472cb085d1d396322e88caa1d149f48b95a1c3cbc161ad4e0ad",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:49:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sep07 LIVE: CA 22:49:19, NY 23:17:58 (15s, answered);"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:17:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sep07 LIVE: CA 22:49:19, NY 23:17:58 (15s, answered);"
+        }
+      ]
+    },
+    {
+      "record_id": "ff44d9914396398911ea8d82cd7bab4b5e63794bf526b4fa1906bc471ec7156c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:46:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 04:46:36, deadline 04:59:00;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:45:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY due exactly 05:45:35, deadline 05:46:22."
+        }
+      ]
+    },
+    {
+      "record_id": "bf5367a82921378707ebb0d962c997d7549a89e7499226cb98ebc14c59b33069",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:26:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LIVE Mar17: CA 07:26:03; NY confirmed 07:54:42, 15s, correct."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:54:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LIVE Mar17: CA 07:26:03; NY confirmed 07:54:42, 15s, correct."
+        }
+      ]
+    },
+    {
+      "record_id": "16c8be602482d0a6836d7d9ee0654860fa166a6645222008eee6d8ed864d8c9d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:59:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA 18:59:07 deadline 19:11:31;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:58:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY confirmed 19:58:06, deadline 19:58:53, answered correct."
+        }
+      ]
+    },
+    {
+      "record_id": "a526c314b6a469f6b35583130c1965f0f988f82eb8f3fe6424d967ca9f198e95",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:20:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 23:20:45, deadline 23:23:41;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:49:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY confirmed 23:49:24 (+28m39), 15s deadline, answered correct instantly."
+        }
+      ]
+    },
+    {
+      "record_id": "749629b3ecdd10dfa08e12a1a5304d3faa61568a4ebb5ab4db1e86d9196127f5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:59:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA 18:59:07, deadline 19:11:31;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:58:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY arrived exactly 19:58:06, deadline 19:58:53, answered correct."
+        }
+      ]
+    },
+    {
+      "record_id": "e8be8b2c8490e0cf007f92927bcf2a0e35a58906c15b026a36adae180867626c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:49:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May08 late 2m56 run: NY confirmed 23:49:24;"
+        }
+      ]
+    },
+    {
+      "record_id": "b785c7e9601c176f0ec0ec70275e1e5de3b12a4f7dd7883eeae866bfd4847324",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:46:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt Oct23 task 06:46:01, deadline 06:48:57;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:14:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY confirmed 07:14:40, 15s timer, answered correct 07:14:43."
+        }
+      ]
+    },
+    {
+      "record_id": "32b2ec36d358a46be69436d1c8aecb5a21a6f2e1a61bbd618b1975b361e612a4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:35:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 01:35:40, deadline 01:38:36;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:04:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY confirmed 02:04:19 (+28m39), 15s deadline 02:04:34."
+        }
+      ]
+    },
+    {
+      "record_id": "68abc7f20a42a42b8c5f5ae4ffeda449fc226fa206b2447809ac91ddc221f8cc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:59:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Initial CA prompt 02:59:42, deadline 03:12:06;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:58:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY arrived exactly 03:58:41 (+46m35 after deadline / +58m59 prompt-to-prompt), 47s deadline 03:59:28, answered correct."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 3,
+          "item": "Texas",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "04:46:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Predict C3 prompt 04:46:03, deadline 04:46:50 if cadence repeats. STATE UNKNOWN; Texas only weak fallback."
+        }
+      ]
+    },
+    {
+      "record_id": "a01d7db40a7ae6a5d0b3cf5173096b0812b4dc729197cff31f654841e9bba64f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:46:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Oct23 matching 2m56 run: CA 06:46:01, NY confirmed 07:14:40,"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:14:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Oct23 matching 2m56 run: CA 06:46:01, NY confirmed 07:14:40,"
+        }
+      ]
+    },
+    {
+      "record_id": "a9090eebd9f5489e9ed376beb1e472980029a593e95cebd7a2f804e6a4b40898",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:35:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Nov13 12m24 cohort: NY confirmed 15:35:50;"
+        }
+      ]
+    },
+    {
+      "record_id": "626e233df2a001fb77b9beff077eadde9655931f37d487eb5fb4a1e618b77f79",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:48:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA 00:48:37; NY 01:17:16."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:17:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA 00:48:37; NY 01:17:16."
+        }
+      ]
+    },
+    {
+      "record_id": "dc44ebb07e0978793ff6665c875e57a6274e5690c69e52db8aef84baf666300c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:34:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 15:34:42, deadline 15:47:06;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:33:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY arrived exactly 16:33:41, deadline 16:34:28, answered correct at 16:33:42."
+        }
+      ]
+    },
+    {
+      "record_id": "8ade0db73394076b7332e36861e5885b9ce96305b2e1d77a47e1ac737e2ef630",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:49:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 02:49:25, deadline 02:58:42; wrong on-time answer."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "04:50:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY expected 04:50:07 (+2h00m42), likely 1m03 timer."
+        }
+      ]
+    },
+    {
+      "record_id": "64a3f34c9e62ed1506909823597c40b6e95792a89b3022a8e2ecd3ac29bcf460",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:54:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 07:54:39, deadline 08:03:56; wrong on-time."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": "163,139; 166,813; 170,032",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: CA 163,139; 166,813; 170,032."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:55:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY confirmed at 09:55:21, answered correct."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": "95,897; 99,686; 98,975",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY 95,897; 99,686; 98,975."
+        }
+      ]
+    },
+    {
+      "record_id": "19b09fb5e4160f790eb4798583da77761f1cc7964eb9bbf3b7230fb77e85b61c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:55:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug19 9m17 run: NY confirmed 09:55:21;"
+        }
+      ]
+    },
+    {
+      "record_id": "ba817bffe381bdb0b0bb94a8debc5cdebc454e6c9e896b220c21e33b7437ce07",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:49:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 02:49:25, deadline 02:58:42; wrong on-time answer."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "04:50:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY expected 04:50:07 (+2h00m42), likely 1m03 timer."
+        }
+      ]
+    },
+    {
+      "record_id": "9c4009b667bbe05f91ab47e155d5a12733fff3e99ae86e51f8ece8b7a9f3b407",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:59:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA 02:59:42, deadline 03:12:06;"
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:58:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY confirmed 03:58:41, deadline 03:59:28, correct."
+        }
+      ]
+    },
+    {
+      "record_id": "ae9368739a0d252bbf1cf9d6e0d24f16017b2ba97b96e72deb6b90ddeee684bc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "New York",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:45:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "New York prompt exactly 05:45:35 (=CA deadline+46m35), timer 47s to 05:46:22; answered correct at 05:45:36."
+        }
+      ]
+    },
+    {
+      "record_id": "e858cea6cc754c13938698769c24d59f7862b102e7d9b112d40496eba880e432",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:38:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CA prompt 02:38:55, 9m17; answered wrong but on-time."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "04:39:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NY predicted 04:39:37, ready."
+        }
+      ]
+    },
+    {
+      "record_id": "a534ac775570ffa1498104a9dab4cb9f1ac203e8c12602ded587150d9526b159",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "New York",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:39:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "New York arrived exactly 04:39:37 (+2h00m42), timer 1m03 to 04:40:40; answered correct at 04:39:38."
+        }
+      ]
+    },
+    {
+      "record_id": "81eda5aba19839ebf57f3b903e003a780de8dbfe7c610ad378353b98bbcf5d3c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:36:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug27 LIVE 2m56: CA 11:36:57; NY confirmed 12:05:36, 15s, correct."
+        },
+        {
+          "family": "datausa-clothing-workforce",
+          "round": 2,
+          "item": "NY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:05:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug27 LIVE 2m56: CA 11:36:57; NY confirmed 12:05:36, 15s, correct."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "batch": "uefa-pass-accuracy/uefa-pass-accuracy_001.jsonl",
+  "records": [
+    {
+      "record_id": "f1d89887b8a5a22983fbb763f9ad1d62d891f987551a104acde29069bd1f0e51",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "74%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Czech Republic 74%"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 2,
+          "item": "Hungary",
+          "value": "72%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary 72%"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 3,
+          "item": "Iceland",
+          "value": "70%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Likely R3 Iceland 70%"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Slovenia 69%"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "4863cc946a6d6cad23452bdcc911badd4e3036484e6a5426c7b3563befeaaac3",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "74%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:26:22",
+          "cohort_tier": "10m59",
+          "corrects_value": null,
+          "quote": "R1 Czech Republic 74%, prompt 22:26:22, timer 10m59;"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 2,
+          "item": "Hungary",
+          "value": "72%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:58:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary 72%, prompt 22:58:12, timer 21s;"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 3,
+          "item": "Italy",
+          "value": "81%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:19:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Italy 81%, prompt 23:19:25, timer 21s."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "56172193cb694b706025f985725b3f14dd59879bc33aa66bb94460a0079a5858",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 3,
+          "item": "Italy",
+          "value": "81%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:43:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED at task 00:43:49: Italy, 81%; timer 21s."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "b8fa0ceef591d304ca6236fd7cb61595bb7b7c0f4c0e2c83033681751c62e517",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 3,
+          "item": "Italy",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:43:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our R3 Italy just arrived task 00:43:49"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "44d728c4cd8fd71b62ccd92906d2b636f5d5aaf4817c95b1de60c3b0c6b44666",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "36c03e369b6730e29a5c1d2e61068a41842bb0915c070897f5201dfae2a12e8c",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 3,
+          "item": "Italy",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:08:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Italy arrived task-clock 13:08:32;"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "55a4ecca1d7c7dfb30553ce7f9c29e768efd17abe5bfc7b98d5b61dd2e86af1f",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "d247d2a8f0752854499237a3a42fd677a32df536c7d1e08e0ca88b503d4028ba",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "2b6360ee081ea5b2079bf322bbedc3e841dc37d95bad1f7cff8bf1f9bb784adf",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Romania",
+          "value": "81%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "we will answer Romania 81%"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "9f871f8708773cacfc8eea039f345d68fea2da092c5eb56a75dd92d197bc496e",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Romania",
+          "value": "81%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "01:05:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "will use Romania 81% at our R4 due 01:05:02."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "bb475a7d862ae55b4325377dc211978c3b2a986180b950a2fa6a8a4850ff698f",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MAR16 LEAD R5 CONFIRMED: Slovenia, 69%."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "2b313a050aa9d5c4e8e8459a1151d567b8b7add642ca6cae09fb535169714d7f",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MAR16 R5 CONFIRMED: Slovenia, 69%."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "d72583f0a9256af586edc7d2bcae91fc75cc41f84bfbcb1c63580bfb41cf6ac0",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Romania",
+          "value": "81%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:27:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Romania, 81%, arrived task 03:27:36; answered +1s."
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Slovenia 69% relay received."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "d4aad215bd083798c4022c1539f04c9700d531d07323b2cf030313cf748ff769",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Romania",
+          "value": "81%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:29:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "OCT29 R4 CONFIRMED Romania 81% at task 13:29:45;"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "1840cbac9d56fc57e9c5fa0e8428432be22924e493edf598a841453507e81b2c",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:26:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "OCT18 R5 CONFIRMED: Slovenia 69%, arrived 01:26:15; answered +1s."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "501e596a0da039fd247de4251b9629913b897a541f766f13abc310e56548ad8f",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Romania",
+          "value": "81%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:34:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Romania 81% confirmed at 14:34:57."
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "14:56:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 due 14:56:10 (~15m20s from post), Slovenia 69% ready."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5043732181299d4dfd03bc68ff0477e5baba91803a574dca3114fb4c5e821a34",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "8f039b3dd7df6c3a9d5d3f7d9c5ea7e6cc9a4c136d4a230185320279f26aefc7",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "4977d674a3dae27c15027421fa3b1717c76038e103544a730f478dc2f07468a5",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "f70dbf20bc4e2da60f44c0489f31a7086d4121ae80b0fbaf5c11d5fdca85fbb3",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:48:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "APR04 R5 CONFIRMED: Slovenia, 69%, arrived task 03:48:49; answered +1s."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "53714974eff8553ce1ea60a0ade21457a2d3afde8dc232729aae6251be523165",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "06d95fd06dc58134863eda876fb017ccf9dce2b172b1a1586247babae56d49a2",
+      "tuples": [
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 1,
+          "item": "Czech Republic",
+          "value": "74",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Czech Republic 74"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 2,
+          "item": "Hungary",
+          "value": "72",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Hungary 72"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 3,
+          "item": "Italy",
+          "value": "81",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Italy 81"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 4,
+          "item": "Romania",
+          "value": "81",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Romania 81"
+        },
+        {
+          "family": "uefa-pass-accuracy",
+          "round": 5,
+          "item": "Slovenia",
+          "value": "69",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Slovenia 69"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "84bf0f65c1b446c1e21f9c735946c8b94d9bb23a494a9a3e18623d157c287625",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "c0b0b1928db7e9a6d85fc83ed2523c00646d652e8d7343e044e8ce17c3c053de",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

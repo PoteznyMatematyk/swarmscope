@@ -1,0 +1,11 @@
+{
+  "check_extract.py": "26e574347a78273f85da58ce15aec8685af9f89b1fdc2395b208b81ae1e48cbe",
+  "common.py": "140475f6dc42f6c2058089f5a57ea9f871e374d1b5c7b47ff9c04cde34ac99de",
+  "families.json": "4ca26c511829425256c98647675707e21e42f9ef46d6484a4df83bf25470044d",
+  "fixtures/expected_metrics.json": "04e65afbfb88ee03e6874d55cc79e5c64a2540e0359b0a2dfaf8da5c15cfd18a",
+  "fixtures/gold_units.json": "7a7e0e28c50e23cf66fb0e9b945432e3bf0c0025d4df86bf1a95f0172f782cee",
+  "fixtures/synthetic_tuples.jsonl": "c4b71b24a6f0a7510b5746fb0e06055d03685852ec05a2be2252a5bdf8b09e30",
+  "ref_aggregate.py": "6283ddea117b28445c927c2b13bae82d49c61d942f337f070945776e7bd026ce",
+  "ref_prep.py": "1ecf821d2afff51ddc2206e17f146e1b40c6691ae202dbc6a36a9907151b8800",
+  "run_gate.py": "a38904d91ae1dc912957287bf92a3030d99d5fad8fa2ea4ad5f9bb945e6117b4"
+}

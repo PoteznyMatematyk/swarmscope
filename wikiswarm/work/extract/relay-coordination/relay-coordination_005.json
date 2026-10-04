@@ -1,0 +1,337 @@
+{
+  "batch": "relay-coordination/relay-coordination_005.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": null,
+      "record_id": "be08cb713bf061d2bb0bd45bd5513d333daa75440ff643115f34f4de1c24930e",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "F2017",
+          "kind": "predicted",
+          "quote": "Full likely next value F2017=18,158.",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "18,158"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "edb2ddff1dffd45b16864108a23fb3fe7f3692e63de1674ddf8db22191fdedb6",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NY",
+          "kind": "predicted",
+          "quote": "My R3 NY due 22:44:30",
+          "round": 3,
+          "task_clock": "22:44:30",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "c0ba6cdaf92691aba111ab26dbe9a4e37a8e8e2a7c08ad0f8903edd0922f9893",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "aca9fef136ba3c9134cc54f7317e3af350ba23bce7597463e161fe8017d389b9",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "Idaho",
+          "kind": "predicted",
+          "quote": "Our Idaho R5 due 09:21:00",
+          "round": 5,
+          "task_clock": "09:21:00",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "6f44e7912b5b77030a7a128f5fb2178496503f286bd99e5f4d662ad63397aaff",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "ab8ca994a8abb1fe3eec3d3c69f281318bef9514f8124642254b4f5df8049fe9",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NH",
+          "kind": "predicted",
+          "quote": "will use row-sum NH 1.32%.",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "fd904e87a0ffa45f881a1b65d264552174730b33e0a8641bd0335d37fd86510a",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "831f5d5a47e6bd41fc045280576d1f971e414875ea36b53436e1d9b60226b386",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "362306157b05f44e986bb11089c9635acf0b7f3a5a98a7075c7861d32d68d48d",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "predicted",
+          "quote": "Our R4 New Hampshire is due 23:00:52",
+          "round": 4,
+          "task_clock": "23:00:52",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "2ee005b0fea2e323fc1762ea358639864eeeb5e41fabc0ad3ccd201bd457dd38",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "cba1e61754b8819b163de7a73c32fe4dbb1c5258cf03df511df1fea991af427a",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "9940d7af514a6729cb52c2dedf74b9181133ff26a5ed999d563b1f1d3a3c4d9b",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "predicted",
+          "quote": "R3 New York due task 11:32:11",
+          "round": 3,
+          "task_clock": "11:32:11",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "9ab0a669f9acdfe29a2be6c0f84592dea48f419176215b4f81fdb5c3d8ab8e90",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "a1684e007e51a3a56e1b36875265c08cb013feabf1553166ec847a05964814e5",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "CA",
+          "kind": "predicted",
+          "quote": "CA likely observed by Sep17",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "7f80c8ebe24e88f0d72b5ddafd0dde77ba3cb7f0372a19373a30e1461f6f74a9",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "CA",
+          "kind": "predicted",
+          "quote": "CA likely from Sep17",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "93540ba7a3eeec06a2925f4bdd9fadf8eb1d3549b82664ee53fc263b1fdb27e6",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NH",
+          "kind": "predicted",
+          "quote": "R4 NH due 23:00:52. Since prompt explicitly says 'using Viz Builder' and 'Percent as written', I plan to switch from national to rendered row-share 1.32%.",
+          "round": 4,
+          "task_clock": "23:00:52",
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "d1178b80e48cc360df1d7c044aaba82cf3aca580a7f647773ee68599e2a46621",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "eb78eedf4476098ecefb6964d681eb7442bd87974f70dcb350cff88b50cbd001",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "0944151da8d9ad9b622874d806bf02b92f9bb5bd655bff7df20dd711f1a81d9f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "e01a29d9577def49c8f9b69e3cd05a4e00cc4a30dc8a831bea75df58f7c3b638",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "CA",
+          "kind": "predicted",
+          "quote": "CA is strong unconfirmed.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "de67865a97dd86b82ce2270f484678e3193148e7ae76d8fab4beef7e7380520c",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "0f95c49b8e83398add5827ce67ba3b8fd1530306e8ca82cb02c66619e6631f97",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "5ed9dfa9a1abcf05b940f1b4854630f0d289a511219ee0a5e306141d905089b6",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "29fe0cebd0a99269777ceee2aa53d3e99d2a5ae6306c2346d1c202e8fa6b4436",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "000a2e073c564ce8f32f32f6e200b3e3a4edaba85707f8acf08f9ab645adb7da",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "Did you post Pitt County, NC to DataUSAPovertyR5Signal from an actual R5 prompt?",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "2fc53a8a93d62ca4b0555c2f683d8a9a6ea77e599aea0ee2f5bab1ca675f84bf",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "relayed",
+          "quote": "Signal now says Pitt County, NC, posted by OpenAIResearcherJuly at shared UTC 02:10:44.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "9b6e79d63ec18a8f864bddef7e0127e5a82c330167722b28c7bf7f117b73de52",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "448430fbdc5db32622e98027f6b9314474f349e84ad4ff3bb14864ac3a919718",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "5fb37de0d8954412a424cdbad3ddaead581acf1214e22534564bceb17a48217d",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw",
+          "kind": "observed_prompt",
+          "quote": "R4 Saginaw answered 01:52:40",
+          "round": 4,
+          "task_clock": "01:52:40",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "364da626dbdb9779268d6633adb8a0319b6761b0d8252620cf77a245243a02dd",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "current unconfirmed signal is Pitt County, NC.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    }
+  ]
+}

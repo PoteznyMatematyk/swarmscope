@@ -1,0 +1,430 @@
+{
+  "batch": "unmapped/unmapped_010.jsonl",
+  "records": [
+    {
+      "record_id": "f5750c54c5cdaa9884d656641991595f7c54817aa273ce94178399e310d8f10d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f5ba787f004413e21d9a59d50ed6d953ff1a31862cc5bf92fb8254e20be431b4",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f6d7c6907f00f8b4a921a9e7eeb8d8837f09466e01534af0ed12e7edd103a43b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f78cc83263944e986d53cd5735712a6cca6d0bcbb4ba11805320d78162e94c8d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f803eccd1b58c1b422d1d3aa0cdb491bf16b04d5a4870742c5225e2e3f5a0b11",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f8852fb28d78591dfb02ba33bf746a1f722ffadf4dcd99415d0ff324c15afb01",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f8b5bd2c644da94b49f35d8b98da69e1707cc00317411fb30229c3f832b67d8d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "fa6ed8f79c0c1a20129b878cbfff0277de8d138c89e537c4475ae3053d643d6c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "fa71655a22f0f27ab68b9e5cfeb379b6441a1cac90e618ef0a550bb24531236c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "faf00001470fc77cfc8e5da7040ab1102574451ae6c6a53f8cb9728cfa94e74f",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "fb4bd109db83a0eb63dcd312ccb244c962789441d00f3347e67411747d68890a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "fdc988169f4e3291e1ed9b3f5da436ad5b0b8d27fae16871a007d0e200c8f294",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "feac8efd516ef539c322fe93ad7757c5635eee3e94ee29db5a9baebc76cf874c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:25:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 65-84=23 answered scaffold 00:25:34"
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 due 00:35:46, 10-second deadline, expected 85 =NA."
+        }
+      ]
+    },
+    {
+      "record_id": "ffb87429663386e8bf3ecd1fc47c0d2f4b67f3961a7505a759ed555fbe2a5dad",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f3b9cb182c030e5b0b2201e3a11630dedbea7c969994825476b0bd0156580f75",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 1,
+          "item": "15-24",
+          "value": "NA",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Male 2010 confirmed: 15-24 NA; 25-44 21; 45-64 54; 65-84 23; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 2,
+          "item": "25-44",
+          "value": "21",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Male 2010 confirmed: 15-24 NA; 25-44 21; 45-64 54; 65-84 23; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Male 2010 confirmed: 15-24 NA; 25-44 21; 45-64 54; 65-84 23; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Male 2010 confirmed: 15-24 NA; 25-44 21; 45-64 54; 65-84 23; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Male 2010 confirmed: 15-24 NA; 25-44 21; 45-64 54; 65-84 23; 85+ NA."
+        }
+      ]
+    },
+    {
+      "record_id": "b2719aab09525761f85d1236fb60bf848e1b30e27ba3f40b214bd5f09db7f34a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:22:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "65-84 answered at sys 07:22:53"
+        }
+      ]
+    },
+    {
+      "record_id": "eb19d29c904ef32f31f3a8fa7b52f69f953c44fd1154e2c0b3c3c6e317a7bf56",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d49e3aa207827fe030b78e1e835e28a98b47912bac9732b62a0b45a6b886578e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "31904ae7a77f9cfc49c877d4836c3d2868eedec4b3a76de33f0cd434d76000f7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance: Q3 45-64 wording exact; answered 54."
+        }
+      ]
+    },
+    {
+      "record_id": "111fcc10d101c587d66e69c23e8f7fb4dc57fa518b6187eae741d0243c67af1b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:39:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 65-84 answered at benchmark 08:39:28"
+        },
+        {
+          "family": "other",
+          "round": 1,
+          "item": "15-24",
+          "value": "17",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Female 2010 thyroid: 15-24 17; 25-44 101; 45-64 129; 65-84 43; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 2,
+          "item": "25-44",
+          "value": "101",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Female 2010 thyroid: 15-24 17; 25-44 101; 45-64 129; 65-84 43; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "129",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Female 2010 thyroid: 15-24 17; 25-44 101; 45-64 129; 65-84 43; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "43",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Female 2010 thyroid: 15-24 17; 25-44 101; 45-64 129; 65-84 43; 85+ NA."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Female 2010 thyroid: 15-24 17; 25-44 101; 45-64 129; 65-84 43; 85+ NA."
+        }
+      ]
+    },
+    {
+      "record_id": "dbce92589d2fee56e30626d88ba88757c75b49b6e3186c98c10f00030cdb7df1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "08175c3ab15bc4f9b18b69e168cbeb381199844804e0e7b1d99a8d4288aeb06c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:29:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 (45-64=54) answered at system 13:29:33"
+        }
+      ]
+    },
+    {
+      "record_id": "c20c056eeb1399af908247b4871e8668738986179a870029b026e510cf8f1725",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:03:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 45-64=54 answered at system 06:03:50"
+        }
+      ]
+    },
+    {
+      "record_id": "0c51cacddf0abc09b54cf6ce218a9228621853a1854a97775144858fe5d31ab5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 2,
+          "item": "25-44",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance: male thyroid 2010; Q2 (25-44) done"
+        },
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "next Q3 (45-64=54) due benchmark 05:15:39"
+        }
+      ]
+    },
+    {
+      "record_id": "9a765c2871d306751a35f06f42d6bb5af3661d11bfb6de1b4d7a108a012a21f9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9f9bed1b5fbcad806eb72f3cf0512c53aab818d8a34cbd987b0f5ca4342873f9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:21:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 male 65-84 answered 21:21:30"
+        }
+      ]
+    },
+    {
+      "record_id": "89310453bfdce10f0dfa3dec6eebb0e70438d2c248f67e424b4b6270f2dcb4c7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ef093d7d2dfb8f9446b5e686c2ec708814a99ad05a221997d77f0dcfc7368e6e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:06:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 45-64 answered at scaffold 06:06:52"
+        }
+      ]
+    },
+    {
+      "record_id": "ef28342d25b1df600ebaea84b6beffa60b66d07cbb68374a420e0b1ebe8d88d6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:14:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 45-64=54 answered at benchmark 00:14:03"
+        }
+      ]
+    },
+    {
+      "record_id": "7dc35d9eaaefee137f2bc16a0f69ee24e32ded71aa34dc8275d23304731b17fd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": "relay-coordination/relay-coordination_009.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "0e5b47efcb141c52d45bc73aee519506eb92432142fb12cf9bb35703ccb12a35",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "01fe171f891b1bff1b0afd0140ba549be5543501289505e5c684090a33646492",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "7a54216b7ccc01475a522b06a47dc08831f1f22d79ecf36d6365b7d39a213ef5",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "32c40e5c7f63d88e4b09aa831e44b1f02016147f8a8ee760303ef161eba592fd",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "b803aa8f60e87acf7d54664b3af5dc0302f200b8f69f50566fc6ceae57ff76cc",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "2dc889ee84a1960214758d34f39d6d9b35a48877aa6cfbc20865f655cdbed908",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "8f30124b3583c20b4f2c8855aa219eada466002cb9566caa2bdd1443d87b969c",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "b5462badb39fbecd1b2c77a62de6ccd0b5d0e577b820bf7d2e9b96414e6fd74d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "0d23f4321441c18bddb67b21bf19122c92c3a2d4f998c85443e2fb329519857d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "554b3271f6e3b0afe8947afe4714b02c46d912278952d7eb84bfc0641a75a57c",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "baaaf8348eaebf57e19021e05f6255a01c81a1c1d74505aef1a4b58ca17dccb5",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "34b9e576323be41db105c12e882f8f1e1a0b9aff276c5530d64b713b91255bbc",
+      "tuples": []
+    }
+  ]
+}

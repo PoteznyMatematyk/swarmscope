@@ -1,0 +1,206 @@
+{
+  "batch": "unmapped/unmapped_002.jsonl",
+  "records": [
+    {
+      "record_id": "182fbbcddb123820912cd6fff4040d99a3c682bea7671795524ccf3e51a990a0",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "193e2ac6eb04ef0486a48904f0f4450a83ac5c3fffd3b808a59b0fe975afc864",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "196474387983f08eb70c2c4a60936b62ae70bd1724d0bf6dbf87b1db55bdeef2",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "197133bc220cc8278cdbe4dccbd0af8ab90c1af216c0bc7e8434cb6715ea8aca",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "19aa7b258b1384acfa14eb273fb46488d33aba33660a819bdc19dc04d68e31a1",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "1a2c1d2312f76a364485e199cb330c7e6eb01f54955daef95e751d1bf4f418b3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "1a3b54197cf03e3826f5270f83390c771673921ced0e3a8922efb57498ae4ee5",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "1b6470ceff93b3b3969547563f8b90503d9c7055dda707ff55b244d2b4789f15",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:16:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 65-84 answered at scaffold 14:16:34"
+        }
+      ]
+    },
+    {
+      "record_id": "1c26fa346b814926f176654fc6aa8301741907392dc8cc69ba0ca7a1514353bb",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "1e345523924944e2e544b51921361bfe9ac21a681e6279c0deba4351809b1207",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "1e65286bbfd936a42ff78468cf4f293c4a7c73e7d1b691b525693f2ec3558c43",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "20efd0cde86bbcbb2279fe610f20eaf5108a4d2eddddb62f669f01cd4e217eb8",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "213b16bb3cbd6d54959e3e8074fe27897025877464da7c66d0d58caba1372547",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "2175c6b3269e3f08e43d68ad7a693661c28fddfea688ba11539c31bf5ef23166",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "21770a6b189eb00649b73372972e4fa5bf83c0e33547457976fe836b5fd1dd1a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "25203e442c04776daf1a187d6ca418dfad583643b6157f24151a564af2f4c77b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "25e51486a72ccc9cc1e2a988c15ad166a95b047ad30c648dc1a1d2f3a4abd75c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and older",
+          "value": "NA",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:10:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED Q5 exact prompt: Now, do the same for 85 and older. Label is \"85 and older\". Arrived terminal_epoch approx 1781645171 / scaffold 04:10:19. Answer NA."
+        }
+      ]
+    },
+    {
+      "record_id": "26a270364a45971165966ff5fb2961e47553b3d87fa0a3d2e87498e96304927c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "28421ec6892e5900e341c484459c6bd3bb74fc8fe42809e7d25250f05517cb5d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "286443f79d3a2b1ecd24447d680089dbb738966d5f7411a8aab90a51dd0bcbb6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:48:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "exact prompt \"Now, do the same for 65-84.\" / 16 sec; answered 23 at scaffold 16:48:01."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 due 17:03:59 (15m42 gap), expected 85+ = NA."
+        }
+      ]
+    },
+    {
+      "record_id": "29c5d2f3183cf396eccecc5f144e0a4563f41169535e9a987add7efd23e87a47",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "2b0e1e16cfd7ac69c6f30d790cd9afeb284953c36c9f61638a5e36c433933d58",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "2ef0317a79b12219d51030a9ae68b5e278634a9a58bf7688e133a8d49cc2eea2",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "2f50e408d12957a7786848da0b6632fbb3398a9d906df68d739e4b7f189b172b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "2f9d53add69c4dcedc7e91d79fb6a5fa0d7ab9cdf3b231d7ce93eb9efbc93360",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "31f41558c67c3a4b626b7a91f4de9e1b110aa009527ae5ea3af0c1eb6eb2d99c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "320135d04bb39a38770303d89c2994494c446534e4aa21e329fc7fa061434e70",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "32983f94f86c3b92e1008c1bbbb5ee5849e1ad4f86be5016a4288843be1a2d76",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "330340276dc6bd6f8f071fd7a3049f448b2db87a1c09d208b3917f9af286bc80",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "330f241d73e36de1fa3965c69f859a2cc1bc26b914c5592e714afecb3c6fe04a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    }
+  ]
+}

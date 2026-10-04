@@ -1,0 +1,255 @@
+{
+  "batch": "ihme-cvd-deaths/ihme-cvd-deaths_002.jsonl",
+  "records": [
+    {
+      "record_id": "62c947bd56bc70b3a5fcc882a01da3dc128dd0df87522aba134d72d6226b57f5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:12:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Poland answered 18:12:19"
+        }
+      ]
+    },
+    {
+      "record_id": "b26b615e4c5b6451df0ea1d195188b2a4989718da6170af2b0be1b18c60c400c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7e934a488f1d65270e15bdf4f721f98980b291f5fc0d7011863207ebbc754240",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b0bd9a65ca422fdc9724b75c9b5a7a3b7c10634ced8a170c7b7f7cac551201b8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b0bbcafc0527b76541dc38f1831cddf3f316f123481f88510537ef5ab90820cf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c99878c9c6fc15c758adef88c60bdc06c1424c796e386d3ecdea05631a17360d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "37c315d834fec41d6f91af9e89990a1b82c41cbce25470a48d78e1a91ce114b5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f3e44b191c8538f7eb2c945c022f42eca9b9efdae22ac3d46a95be3aeaa6f9ca",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b6646543d150013f2ee8d0c40824436beaad41e88cd3fb0b74e17f466f356c57",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4eed7ed5065ff7b5923558f00ff04a6a183f2319cb3c1d9233d5df5e3a8422a7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9126acecebc14ecee8279b6a4883c6241e156a5ee83d83270e14c614bf0aeb46",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 1,
+          "item": "Armenia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence observed: R1 Armenia; R2 Kazakhstan; R3 Turkmenistan; R4 Hungary; R5 Poland."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 2,
+          "item": "Kazakhstan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence observed: R1 Armenia; R2 Kazakhstan; R3 Turkmenistan; R4 Hungary; R5 Poland."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 3,
+          "item": "Turkmenistan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence observed: R1 Armenia; R2 Kazakhstan; R3 Turkmenistan; R4 Hungary; R5 Poland."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence observed: R1 Armenia; R2 Kazakhstan; R3 Turkmenistan; R4 Hungary; R5 Poland."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sequence observed: R1 Armenia; R2 Kazakhstan; R3 Turkmenistan; R4 Hungary; R5 Poland."
+        }
+      ]
+    },
+    {
+      "record_id": "4f45263be97f30d411fbef1659e99ec794b76258ca64fb233ce44bd49dfdb71d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:24:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Poland answered at task 19:24:16"
+        }
+      ]
+    },
+    {
+      "record_id": "d3c520bff2db1507401b912c7035d76004b83109497ccc6ebfb5b72dab6d0391",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4ea966986af5c09e7cc8b3607e6f98ec6a9166ed011b02d8c58048d5ecd12239",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5e872f88ab42a94b272adc728bc417eafa3e5101f85efde9db4b9a2ecf539e9c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c42c14ea360cbfcdb429f37212c7c7f0e553cde51d3cd791f4edce74236f364b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "64516870f133cae88795bf36234165028d875d93055e1db7a20728a144d0c527",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "18b3c15c6475a8dfd8b04031a41dd5301b1ec2e2eaac819d2039d533b09e052e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b9c4b081034d917ab9735b5e5f70ccb89b2e9cf242b9cdfc2db56ec9b4aa2a2d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e685ae2c3592853888b835ba663bbfe99f402a13a40a532ba05f80ae8a5c9b27",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7d8494447ee9a75ef772b0a82fd5d741f610225edd529e9d1f69c48a0a37c1a8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e1404d9181157e6fc2304cf829bf3776b0bc2e0dcc0d53d74727acb5369c70e3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5f89e1cde65dc2dd7dece2d4016787a93b551c0d1df6f902ec57c9589321e0e4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "105e84536d79e2a37cc491b5d3aeefae2675b8b49151a282da506e9d4d4f7566",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:37:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland answered at task 05:37:42"
+        }
+      ]
+    },
+    {
+      "record_id": "16ecd08173c9723528cc7fc840d566273a875019dd4145789106427e5fe98e7b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4111361a7cb41cd330cac9dcbcdeaf4503044cb922c758aad4e4d8ff8b3e8bed",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f8bad0883940a8ffb6d5ffa7fc488b513d69d9ed57064f54251b0c590cc4c35a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1e340e7c80856d603c0d8079d3459e76090f0fa21e06b45ec385ee95ad763861",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6c104186204ff11c2870d8f9f6c3d813df09d043fb472393c6d515cea1114806",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3aaf68a579663615a1359ccfd5d12f603553d4cb404dbe7a526f96265dac6faf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "batch": "ihme-mcv2/ihme-mcv2_001.jsonl",
+  "records": [
+    {
+      "record_id": "27782736efc979f513f674e7c110735f612a5a5a3d96f5a15383c22e09e73cc3",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "49e34cca5830dd0ecd949d9f5671e1808095737d9574c6a51fa9c88ce6cb9a27",
+      "tuples": [],
+      "no_tuple_reason": "not_task_related"
+    },
+    {
+      "record_id": "f3bae68c40974dbcbca9b15508b4c74742dbeef916bac8ebd3291a03d4f79b1d",
+      "tuples": [
+        {
+          "family": "ihme-mcv2",
+          "round": 1,
+          "item": "Indonesia",
+          "value": "75.75",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact 2008 values: Indonesia 75.75442 => 75.75; Samoa 50.162872 => 50.16; Algeria 93.95887 => 93.96. Sequence so far Indonesia, Samoa, Algeria"
+        },
+        {
+          "family": "ihme-mcv2",
+          "round": 2,
+          "item": "Samoa",
+          "value": "50.16",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact 2008 values: Indonesia 75.75442 => 75.75; Samoa 50.162872 => 50.16; Algeria 93.95887 => 93.96. Sequence so far Indonesia, Samoa, Algeria"
+        },
+        {
+          "family": "ihme-mcv2",
+          "round": 3,
+          "item": "Algeria",
+          "value": "93.96",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact 2008 values: Indonesia 75.75442 => 75.75; Samoa 50.162872 => 50.16; Algeria 93.95887 => 93.96. Sequence so far Indonesia, Samoa, Algeria"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "cc6a2dc5b0ce5b8dd702189bc0d09148ad016a40239ec9fb22ca680847129f9e",
+      "tuples": [
+        {
+          "family": "ihme-mcv2",
+          "round": 1,
+          "item": "Indonesia",
+          "value": "75.75",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Indonesia (75.75), R2 Samoa (50.16), R3 Algeria (93.96)."
+        },
+        {
+          "family": "ihme-mcv2",
+          "round": 2,
+          "item": "Samoa",
+          "value": "50.16",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Indonesia (75.75), R2 Samoa (50.16), R3 Algeria (93.96)."
+        },
+        {
+          "family": "ihme-mcv2",
+          "round": 3,
+          "item": "Algeria",
+          "value": "93.96",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Indonesia (75.75), R2 Samoa (50.16), R3 Algeria (93.96)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "950f4dd78da6de2612b279f7d0acaa92bcb93da156cb359319b3728c10935d44",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "65dd0e32a777d24128fde306691febc5ddc71057d179a2af9b64a6962c36bb2f",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "b9d194c6abc350ee148a48f221f6fea1a1a20d9485934b8acd98412fe0ecb53b",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "315245fd2436eff03915e88844f7211e6b46c80a7d57f64b427dcf90768c6377",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "6223d446e53cf489e66a2ce6221a43e3628884cf50453013fa4eb01819d34ae8",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "dabf3b61332f52249539810f55c87b24f6c873bf77a76173ab5c912768ee31b6",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "0bb421cee3750a54e139857451f5c1d8eca50c07908f147f1b300933a9876530",
+      "tuples": [
+        {
+          "family": "ihme-mcv2",
+          "round": 3,
+          "item": "Algeria",
+          "value": "93.96",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:31:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Algeria arrived 11:31:07 scaffold time (17-second deadline); answered 93.96."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "f0a0fc42e03d562aeeb31cfc6c952cdc26ecb0d1c8f0e5d2a1c3920ca6c81041",
+      "tuples": [
+        {
+          "family": "ihme-mcv2",
+          "round": 3,
+          "item": "Algeria",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:31:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Algeria at 11:31:07, interval ~14m47s"
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

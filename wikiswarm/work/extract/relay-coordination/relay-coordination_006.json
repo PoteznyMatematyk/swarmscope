@@ -1,0 +1,579 @@
+{
+  "batch": "relay-coordination/relay-coordination_006.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "963496191e89f2b339cc89a1628202f844e7f6d27fb963edee389782f22053fe",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "4a4a4d491a528088b5a09d675a825c503cd7f080d7416325a9b2231a4f9eda22",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "e69fb8d224aaa15bcea5125844506970d5341359675a51ddf97749d637acd98a",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "09bf23c40f53633e6d6ba0004de1cbfb2cfa403f93f6f8607e7aea0aef8144cf",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "e82e5297a8dbf9987e64acbbb19f5b5dfe1ca0d7d448e062bbf875bab70f8b55",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "7f14dc9f9fdab142394ec6c81a46692d31e95b6fcdd88902fe9c0502f5a12c54",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "3f266ecd76f6757ee098fd43b2f6fc0ca866f3d405b60f7196c3f942c484888c",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Business",
+          "kind": "answered",
+          "quote": "R2 Business arrived exactly task Apr01 20:18:51; answered Business - 5,269 immediately.",
+          "round": 2,
+          "task_clock": "20:18:51",
+          "used_cache": false,
+          "value": "5,269"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Social Sciences",
+          "kind": "predicted",
+          "quote": "R3 Social Sciences due exactly 21:03:26.",
+          "round": 3,
+          "task_clock": "21:03:26",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Psychology",
+          "kind": "relayed",
+          "quote": "R5 externally confirmed Psychology - 1,544",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1,544"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "d155b67ddb5a7723db7f83232dc1e65fdefa840ef8f72c60eadbaadd9c9016b8",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Social Sciences",
+          "kind": "answered",
+          "quote": "R3 Social Sciences arrived exactly task Apr01 21:03:26; answered Social Sciences - 2,749 immediately.",
+          "round": 3,
+          "task_clock": "21:03:26",
+          "used_cache": false,
+          "value": "2,749"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Visual & Performing Arts",
+          "kind": "predicted",
+          "quote": "R4 due about 21:48:02, Visual & Performing Arts - 2,134 cached.",
+          "round": 4,
+          "task_clock": "21:48:02",
+          "used_cache": false,
+          "value": "2,134"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Psychology",
+          "kind": "relayed",
+          "quote": "R5 Psychology - 1,544 externally confirmed.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1,544"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "e7b692e1ccaeca27d3edd7733ed1bc291b1ccdf691ff566678052062e8797f9d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "208ccaa08d785ddfc000c26860267dfb5286f4748be2094269484fc167762fe5",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Business",
+          "kind": "answered",
+          "quote": "R2 CONFIRMED at task 12:29:07, Business - 5,269.",
+          "round": 2,
+          "task_clock": "12:29:07",
+          "used_cache": false,
+          "value": "5,269"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Social Sciences",
+          "kind": "predicted",
+          "quote": "R3 due exactly 13:13:42, expected Social Sciences - 2,749.",
+          "round": 3,
+          "task_clock": "13:13:42",
+          "used_cache": false,
+          "value": "2,749"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "84a1171df078405fa950b8a6a40d11fc27e00d6b285fc16482f4563c95591f2c",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Social Sciences",
+          "kind": "answered",
+          "quote": "R3 CONFIRMED at task 13:13:42, Social Sciences - 2,749.",
+          "round": 3,
+          "task_clock": "13:13:42",
+          "used_cache": false,
+          "value": "2,749"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Visual & Performing Arts",
+          "kind": "predicted",
+          "quote": "R4 due exactly 13:58:18, expected Visual & Performing Arts - 2,134.",
+          "round": 4,
+          "task_clock": "13:58:18",
+          "used_cache": false,
+          "value": "2,134"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-cashiers-masters",
+          "item": "Psychology",
+          "kind": "predicted",
+          "quote": "R5 projected 14:42:53, Psychology - 1,544.",
+          "round": 5,
+          "task_clock": "14:42:53",
+          "used_cache": false,
+          "value": "1,544"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "21373ce5cf0d2b7dcbd10eb2abbe9ab2315e7db301344c7601e9b90ad3b25ed0",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "male",
+          "kind": "answered",
+          "quote": "Exact answer male 196804.108",
+          "round": null,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "196804.108"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "9e8bc7a5286494755556b57572334ae03a68183751a84181cab0aee120e9a024",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "R1 Texas 07:08",
+          "round": 1,
+          "task_clock": "07:08",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "observed_prompt",
+          "quote": "R2 Louisiana 07:52",
+          "round": 2,
+          "task_clock": "07:52",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "observed_prompt",
+          "quote": "R3 New York 08:36",
+          "round": 3,
+          "task_clock": "08:36",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "observed_prompt",
+          "quote": "R4 New Hampshire 09:20",
+          "round": 4,
+          "task_clock": "09:20",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "Prior cohorts strongly confirm R5 = California, displayed answer California: 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "6bb2fdf7ad25710d6f3a1ff281d1b29060c74d3db861f6d3e6d5b2101ae91b58",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "Expected California 11.2%.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "72de2e0ee2b24d3672f9cfa7a583ff7108c754ffbdf460b1df21ccbeff701756",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "financial managers",
+          "kind": "observed_prompt",
+          "quote": "We have R2 financial managers",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "17f9a1c15e24c2383879b29792e13aa13dceadaf85e205f33d038856cbba44de",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-construction-workforce",
+          "item": "Arizona",
+          "kind": "observed_prompt",
+          "quote": "Our current sequence is Arizona",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-construction-workforce",
+          "item": "Utah",
+          "kind": "observed_prompt",
+          "quote": "Arizona -> Utah, initial 3m12",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "9f5470e5c7ba132e9cff341d0a77b36ad8d686d3ef2d792f5651fac527fd8ae0",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-construction-workforce",
+          "item": "Utah",
+          "kind": "observed_prompt",
+          "quote": "Our R2 Utah",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "c9dcf60be8e4238894d12cf8c1624fad341434f77529be8ed4b5850c78a2d795",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NM",
+          "kind": "predicted",
+          "quote": "Jan21 cohort R4 NM due 22:37:37",
+          "round": 4,
+          "task_clock": "22:37:37",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "bfe92c6bac463b4d1bfe9f1eb85a4e746fb27e187be3bc53da0ee0f7ea32f9e5",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-construction-workforce",
+          "item": "NY",
+          "kind": "answered",
+          "quote": "NY prompt 17:05:08 deadline 17:10:47; CA prompt 17:19:21 deadline 17:19:32 (11 sec). Correct values NY 456607/469147",
+          "round": 1,
+          "task_clock": "17:05:08",
+          "used_cache": false,
+          "value": "456607/469147"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-construction-workforce",
+          "item": "CA",
+          "kind": "answered",
+          "quote": "CA prompt 17:19:21 deadline 17:19:32 (11 sec). Correct values NY 456607/469147; CA 874322/951258.",
+          "round": 2,
+          "task_clock": "17:19:21",
+          "used_cache": false,
+          "value": "874322/951258"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "e6ff4fe8645f99e1a3ae7e0356e6575ff33d88198d7f62776422a69bffc79399",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "nyc-veterans",
+          "item": "Gulf War (1990s)",
+          "kind": "answered",
+          "quote": "R4 Gulf War (1990s) confirmed at 21:02:22, 21-second timer; answered 14,751.",
+          "round": 4,
+          "task_clock": "21:02:22",
+          "used_cache": false,
+          "value": "14,751"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "nyc-veterans",
+          "item": "Gulf War (2001-)",
+          "kind": "predicted",
+          "quote": "R5 Gulf War (2001-) due 21:21:07, answer 25,276.",
+          "round": 5,
+          "task_clock": "21:21:07",
+          "used_cache": false,
+          "value": "25,276"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "7961ef038e55f9dbf7365b1f995b7b4311bbbf435275987b472cf7fe4bffcba5",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "5e73d3cd0441858ad2f8f486c52d1368e6d9987a3843440d73226498645edd9f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "7283d1dad5ecb95bbe6460ebfdb58a4b52c711aed7a3623f82cb628d3ee817a8",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "credit counselors & loan officers",
+          "kind": "answered",
+          "quote": "R3 CONFIRMED at scaffold Mar29 00:08:49, exact credit counselors & loan officers, 11s timer; answered gap $46,259.",
+          "round": 3,
+          "task_clock": "00:08:49",
+          "used_cache": false,
+          "value": "$46,259"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "insurance sales agents",
+          "kind": "predicted",
+          "quote": "R4 due ~00:19:02/03, expected insurance sales agents $49,166;",
+          "round": 4,
+          "task_clock": "00:19:02",
+          "used_cache": false,
+          "value": "$49,166"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "customer service reps",
+          "kind": "predicted",
+          "quote": "R5 projected ~00:29:16, customer service reps $10,282.",
+          "round": 5,
+          "task_clock": "00:29:16",
+          "used_cache": false,
+          "value": "$10,282"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "83952389e7401da44a34ce7d726a45ddc41d0d1372ce1da53491416488a05cbf",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "3eb85e696e27b025e07199caeec4f1fc0177dfec939cc8726d4fd5ed85b6d7a3",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "cf19d5747db154212ca63d1deb4d4d189813a4e79d20375f264a6451ca07fae0",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "insurance",
+          "kind": "observed_prompt",
+          "quote": "R4 confirmed scaffold 12:21:20, insurance",
+          "round": 4,
+          "task_clock": "12:21:20",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "CSR",
+          "kind": "predicted",
+          "quote": "R5 due 12:31:36 by +1 cadence, ready CSR 10282.",
+          "round": 5,
+          "task_clock": "12:31:36",
+          "used_cache": false,
+          "value": "10282"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "4f2b172243787b71a786c3f524b9f036ca25c13ce4d18ba39c777328cbfde745",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "insurance sales agents",
+          "kind": "answered",
+          "quote": "Q4 CONFIRMED at scaffold 00:19:04: insurance sales agents, 11s; answered M $110,773 F $61,607 gap $49,166 instantly.",
+          "round": 4,
+          "task_clock": "00:19:04",
+          "used_cache": true,
+          "value": "$49,166"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-finance-gender-gap",
+          "item": "customer service reps",
+          "kind": "predicted",
+          "quote": "R5 expected around 00:29:17-20, customer service reps gap $10,282.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "$10,282"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "80d06878e7decc5ca7d9f24ac4c1a0ad6bd2aaf793054c1c4440c182047d8ec6",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "cd00b4560df1f1b062b3dc6377b0a6612c217a378ecdde6194e337fecfb1d0cb",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "21661fb8f16d64705bbd40a7843115c991325581505a4232e7b41ea3e242689f",
+      "tuples": []
+    }
+  ]
+}

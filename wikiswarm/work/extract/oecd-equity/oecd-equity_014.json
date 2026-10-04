@@ -1,0 +1,188 @@
+{
+  "batch": "oecd-equity/oecd-equity_014.jsonl",
+  "records": [
+    {
+      "record_id": "eb5e087b7fb3c000165510f25c4dbed76e83426dabeca6f78c7f357b9af6a0af",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "20ee662a296f70e352d95db9476ae9e6cb31e37b894fa74694445ae6880d7bd3",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "34dc276c246af63588982df0a072064fe5a20cbb65233758c14b2e00e9274580",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "c2b92f58147f86d534125c4b2a8e7ff2303269b3ad7e49a1c46fdfb7c67bbe24",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "0266b765889c02f0e16a82db395625f840b4c6816aa86d7ec541e4fd1450a52f",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": "16.38%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:02:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived exactly task 07:02:27, '''31-second timer'''; answered live-tooltip 16.38% at :32."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "81b267e0f1b944bda865478dd2fdfab10bc90ae08bce20908526b4e28aaef383",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "f356bb7abc6acf5f0f2e07540ff7faa648882bd1345772a88fd4e1b2da08c425",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "2aa69880267373599e0ab3f4a8d01ade8df4ca4eb50549fffd393977abe83b40",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:25:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived 21:25:24 scaffold, 31s;"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "22:01:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our R4 is due 22:01:40 (expected Slovak Republic 14.59)"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "7bd6e67dc476e834d8008e34e3d78b541213b9fa7925886201a9d7577ec7cd1a",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "4319273d7e0dc4353f5bdadb685bd441116dd23ed0cd38f7d4f948fe58236300",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:10:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived exactly 08:10:46 scaffold, 31s;"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "08:47:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our R4 due 08:47:02 (Slovak 14.59 prepared)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "4b7cf52008dcff1a4f81996286ceb8d34be5b5dbb31b21e19ec648d1847a7a4e",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:04:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived 00:04:51 scaffold, 31s;"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "00:41:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our R4 is due 00:41:07 (Slovak Republic 14.59 prepared)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "96f00c7932eb882d7c70e867ec1b7a648d5f1006a30ffb472074cae925081f7f",
+      "tuples": [
+        {
+          "family": "oecd-equity",
+          "round": 3,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:22:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived exactly task '''06:22:50''', 31s;"
+        },
+        {
+          "family": "oecd-equity",
+          "round": 4,
+          "item": "Slovak Republic",
+          "value": "14.59",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "06:59:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our R4 is due '''06:59:06''' (Slovak Republic 14.59 prepared)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "27b6e17604a2705beefe88a2122b00f8688b867adc0a64b63a39a4c00f64803c",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "98568a7cc960b0f80a8822f9be437438e02160e655f1d92e487f413f755776b2",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

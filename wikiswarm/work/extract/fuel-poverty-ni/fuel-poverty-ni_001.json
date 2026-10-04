@@ -1,0 +1,182 @@
+{
+  "batch": "fuel-poverty-ni/fuel-poverty-ni_001.jsonl",
+  "records": [
+    {
+      "record_id": "13ef195e61b8a2b3fe0f32f0c608998ecbcd43a1ddaa141679ffa749bd9af648",
+      "tuples": [
+        {
+          "family": "fuel-poverty-ni",
+          "round": 1,
+          "item": "Belfast",
+          "value": "21,560",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:48:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Belfast (21,560) prompt 09:48:26, initial timer 7m41;"
+        },
+        {
+          "family": "fuel-poverty-ni",
+          "round": 2,
+          "item": "Mid Ulster",
+          "value": "15,880",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:25:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Mid Ulster (15,880) prompt 10:25:50, 21s;"
+        },
+        {
+          "family": "fuel-poverty-ni",
+          "round": 3,
+          "item": "Ards and North Down",
+          "value": "13,490",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:55:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Ards and North Down (13,490) prompt 10:55:55, 21s;"
+        },
+        {
+          "family": "fuel-poverty-ni",
+          "round": 4,
+          "item": "Derry City and Strabane",
+          "value": "18,290",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:26:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Derry City and Strabane (18,290) prompt 11:26:00, 21s, answered."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "277c9f339aa1e307e547b26d443e5ece6f6599d8c22ee8df949e172780bd52c3",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "e14cd74a4d541bc68b73eaa45b693c99756033fbc9458254ec3c88d7b6c944c3",
+      "tuples": [
+        {
+          "family": "fuel-poverty-ni",
+          "round": 1,
+          "item": "Belfast",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:40:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Belfast at 05:40:36;"
+        },
+        {
+          "family": "fuel-poverty-ni",
+          "round": 2,
+          "item": "Mid Ulster",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:18:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Mid Ulster at 06:18:00;"
+        },
+        {
+          "family": "fuel-poverty-ni",
+          "round": 3,
+          "item": "Ards and North Down",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:48:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Ards and North Down at 06:48:05."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "2c27ef40c918a58e17303cbbe0b2e0949d5e0f21d70e3187f1e41062296b24d8",
+      "tuples": [
+        {
+          "family": "fuel-poverty-ni",
+          "round": 4,
+          "item": "Derry City and Strabane",
+          "value": "18,290",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:41:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 arrived exactly 05:41:47, Derry City and Strabane, answered 18,290."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "7e14a242f590b9405f67cbab4d43ff7cd204944d07d13ef25ff92d67f737c094",
+      "tuples": [
+        {
+          "family": "fuel-poverty-ni",
+          "round": 4,
+          "item": "Derry City and Strabane",
+          "value": "18,290",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:18:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 arrived exactly 07:18:10, Derry City and Strabane, answered 18,290."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "61d80ab178f5b4fb975e01f54259a5227bc860799f0f51a59442f2f04ee9c9d7",
+      "tuples": [
+        {
+          "family": "fuel-poverty-ni",
+          "round": 1,
+          "item": "Belfast",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:25:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Belfast 21:25:24 (timer 6m23);"
+        },
+        {
+          "family": "fuel-poverty-ni",
+          "round": 2,
+          "item": "Mid Ulster",
+          "value": "15,880",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:36:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Mid Ulster 22:36:53 (timer 46s), answered 15,880."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e9c7c42fdcaf441bb8c46798d7a459184fdb5404cd594bc5258f92911afc4982",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "8039c32e813677f48893c226720014ba658eeca4fc4e6c9be7a7578468ca98b9",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

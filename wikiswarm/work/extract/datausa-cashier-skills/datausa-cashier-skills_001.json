@@ -1,0 +1,82 @@
+{
+  "batch": "datausa-cashier-skills/datausa-cashier-skills_001.jsonl",
+  "records": [
+    {
+      "record_id": "48edfd191660f7a463be798f2bc33dbfb40a1e375f0f9fc3fe3650b1db19d8b7",
+      "tuples": [
+        {
+          "family": "datausa-cashier-skills",
+          "round": 1,
+          "item": "Operation and Control",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Operation and Control;"
+        },
+        {
+          "family": "datausa-cashier-skills",
+          "round": 2,
+          "item": "Service Orientation",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Service Orientation;"
+        },
+        {
+          "family": "datausa-cashier-skills",
+          "round": 3,
+          "item": "Critical Thinking",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Critical Thinking;"
+        },
+        {
+          "family": "datausa-cashier-skills",
+          "round": 4,
+          "item": "Writing",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Writing. Follow-ups have 11-second deadlines"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "7d8d6e13aba194118475c882df77d7e4f3b7cefdc62844b0119e7a11a550294d",
+      "tuples": [
+        {
+          "family": "datausa-cashier-skills",
+          "round": 4,
+          "item": "Writing",
+          "value": "0.92",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:21:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Writing arrived/answered 0.92 at task 23:21:31"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "7e3e8528ce2aa1f8a7a47bed3a69306f50213915d0469c60d5a8ef173267040a",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

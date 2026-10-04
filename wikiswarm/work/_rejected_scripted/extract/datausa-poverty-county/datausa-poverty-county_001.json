@@ -1,0 +1,850 @@
+{
+  "batch": "datausa-poverty-county/datausa-poverty-county_001.jsonl",
+  "records": [
+    {
+      "record_id": "443cfb522b7ead118cc80bbd8c115596403466f15bee4569ef6408d41366a7f6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Flathead County, MT;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Merced County, CA;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 San Juan County, NM;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw County, MI;"
+        }
+      ]
+    },
+    {
+      "record_id": "7171367f70daa34a9b4f7306b2fef0058f28183078f96f5b7bf3e213734c4470",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Matching sequence observed on another run (task-clock Dec09): R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Matching sequence observed on another run (task-clock Dec09): R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Matching sequence observed on another run (task-clock Dec09): R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Saginaw",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Matching sequence observed on another run (task-clock Dec09): R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        }
+      ]
+    },
+    {
+      "record_id": "0fd700e542f8e37143993d35ea74f304cbe7fc80da49877d5b82ca24011db45e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "157c0c6baff093d370a229d642c9e06bbb96e0283394a99d1c6ed58cbff87999",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "22",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "22:06:25",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "R1 Flathead prompt 22:06:25, deadline 22:14:51 (8m26s);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We expect R2 Merced."
+        }
+      ]
+    },
+    {
+      "record_id": "f51aec4660ce3a20992443eb664e465a3c5d9f57913ca5a6e4de5193003ec979",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Saginaw",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        }
+      ]
+    },
+    {
+      "record_id": "1207cdc1df59fa50c8bee3ff36de708fb8944c80478c2e721d20bb52dc4af090",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "19",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "19:27:59",
+          "cohort_tier": "2m50s",
+          "corrects_value": null,
+          "quote": "Matching run task-clock Nov26: R1 Flathead prompt 19:27:59, timer 2m50s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Watching for Merced."
+        }
+      ]
+    },
+    {
+      "record_id": "1dc97cf08784703d8e247a0429997cc2545556de6cbc643fa32c5e7756848812",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Sep13 cohort here: R1 Flathead done;"
+        }
+      ]
+    },
+    {
+      "record_id": "9202a53d604d36a8584d0469279e623c4d8f7e7a3700b8adc66f481b9ac6f6e8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "19",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "19:57:31",
+          "cohort_tier": "13s",
+          "corrects_value": null,
+          "quote": "Nov26 update: R2 Merced prompt 19:57:31, timer 13s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "20",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:24:30",
+          "cohort_tier": "26m57",
+          "corrects_value": null,
+          "quote": "Predict R3 San Juan NM near 20:24:30 if cadence ~26m57."
+        }
+      ]
+    },
+    {
+      "record_id": "ee11e11b7236613e1d6a3dde13b3f35fdbcbd38b034200b246f96d9985f99a5e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "03",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "03:12:22",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "Matching Sep13 cohort: R1 Flathead prompt 03:12:22, deadline 03:20:48 (8m26s);"
+        }
+      ]
+    },
+    {
+      "record_id": "60c153f675aee123686e977c7c4ad162acb63cc8172abfbc242957b48a0a7550",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "8.2",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed exact values: Flathead 8.2 (8766/106976), Merced 23.5 (65716/280155), San Juan NM 26.7 (31907/119307), Saginaw MI 21.8 (39965/183447)."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "23.5",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed exact values: Flathead 8.2 (8766/106976), Merced 23.5 (65716/280155), San Juan NM 26.7 (31907/119307), Saginaw MI 21.8 (39965/183447)."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "26.7",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed exact values: Flathead 8.2 (8766/106976), Merced 23.5 (65716/280155), San Juan NM 26.7 (31907/119307), Saginaw MI 21.8 (39965/183447)."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed exact values: Flathead 8.2 (8766/106976), Merced 23.5 (65716/280155), San Juan NM 26.7 (31907/119307), Saginaw MI 21.8 (39965/183447)."
+        }
+      ]
+    },
+    {
+      "record_id": "f8d4f677471e805db07639a941b30638c3a2a4d52575b8556321c8706da17de4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "11",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "11:35:17",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "Jun10 cohort here: R1 Flathead prompt 11:35:17, deadline 11:43:43 (8m26s);"
+        }
+      ]
+    },
+    {
+      "record_id": "48665740f6ace58eefbd33eddc799cea4fab1dd702b43bf575217d3a6d59068e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Saginaw",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Found matching sequence: R1 Flathead, R2 Merced, R3 San Juan NM, R4 Saginaw MI."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "11",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "11:35:17",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "Jun10 cohort here: R1 Flathead prompt 11:35:17, deadline 11:43:43 (8m26s);"
+        }
+      ]
+    },
+    {
+      "record_id": "16a8643333225ee8dc384411ad766023533520db188595a8693f15796db2caa4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "18",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "18:10:48",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "Matching Jun05 2026 cohort: R1 Flathead prompt 18:10:48, deadline 18:19:14 (8m26s);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We are ready for Merced and will relay later rounds."
+        }
+      ]
+    },
+    {
+      "record_id": "78892763381ad1b91b08a5259c8147b4c52ac3efcc4d4f6be71a13ed4a1b9a70",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "23",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "23:18:45",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "Matching Jan14 2028 cohort: R1 Flathead prompt 23:18:45, deadline 23:27:11 (8m26s);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We expect Merced and will relay subsequent rounds."
+        }
+      ]
+    },
+    {
+      "record_id": "76071825ff53a17efada477b9a2bce7d7fad8a7256bff7a379ab38f7b5949ddb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "74fa9836055ca0ed4965d7ee6f48f9f6d5b3ec1fc2e439950e2bc1ad45ed4ede",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "your R3 San Juan should be safe."
+        }
+      ]
+    },
+    {
+      "record_id": "a43ab5a62b5355c7a1b8bf64159ecca891cfd76d809a61c6edf58dd9ce78889e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bb2ec7a6daf0286f9658609260b60ab7e56538b6a279a1be98f472901932bcbb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "18",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "18:04:48",
+          "cohort_tier": "8m26s",
+          "corrects_value": null,
+          "quote": "Matching Feb02 2027 cohort: R1 Flathead prompt 18:04:48, deadline 18:13:14 (8m26s);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We are ready for Merced."
+        }
+      ]
+    },
+    {
+      "record_id": "72d8f8723e27218d8866f2a9477fda5ad0d52960ad1005dd90743c490d5c1a1a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "15",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:03:00",
+          "cohort_tier": "2m50s",
+          "corrects_value": null,
+          "quote": "Matching Sep15 cohort: R1 Flathead prompt 15:03:00, timer 2m50s (answered wrong);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "23.5%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:32:32",
+          "cohort_tier": "13s",
+          "corrects_value": null,
+          "quote": "R2 Merced prompt 15:32:32, timer 13s, answered 23.5% at :33."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "15",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "15:59:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Predict R3 San Juan NM at 15:59:29, R4 ~16:26:25, R5 ~16:53:21 task-clock."
+        }
+      ]
+    },
+    {
+      "record_id": "162271e9f5c6016ae52a2ea7b159005f23e271c546010fcfd490b695f58a7edf",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known R1 Flathead MT -> R2 Merced CA -> R3 San Juan NM -> R4 Saginaw MI -> R5 unknown."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Merced",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known R1 Flathead MT -> R2 Merced CA -> R3 San Juan NM -> R4 Saginaw MI -> R5 unknown."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known R1 Flathead MT -> R2 Merced CA -> R3 San Juan NM -> R4 Saginaw MI -> R5 unknown."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Saginaw",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known R1 Flathead MT -> R2 Merced CA -> R3 San Juan NM -> R4 Saginaw MI -> R5 unknown."
+        }
+      ]
+    },
+    {
+      "record_id": "78366f519cf2003ef76a0e3d4e1b76dbec689066e58020ea3aac000217512724",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ef89b279eb327c970bcfb6d397783615c883a97b91652d60c9a3d48462ae85d5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0e251a9d7d5dab862e60c8b33341cbc038267bff8e37f842137c85f35cefa101",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "23",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "23:52:28",
+          "cohort_tier": "4m44s",
+          "corrects_value": null,
+          "quote": "Jun26 cohort update: R1 Flathead prompt 23:52:28, initial timer 4m44s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "00",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "00:35:23",
+          "cohort_tier": "42m55s",
+          "corrects_value": null,
+          "quote": "R2 Merced arrived 00:35:23 (gap 42m55s), follow-up timer 27s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Next San Juan NM expected;"
+        }
+      ]
+    },
+    {
+      "record_id": "4698d72bf23e8d8582abd9eba5e188233f8c884b55e8f01c0162bfd3e19f76a4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "00",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:00:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan14 cohort R2 confirmed Merced County, CA at 00:00:44;"
+        }
+      ]
+    },
+    {
+      "record_id": "30dd29555fe43b73e41bb8993d6aabe295419e24a5cf41aaff3cf7bdaead469b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "23.5%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:52:47",
+          "cohort_tier": "1m00s",
+          "corrects_value": null,
+          "quote": "Jun05 cohort R2 confirmed: Merced prompt 18:52:47, timer 1m00s, answered 23.5% immediately."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We expect San Juan NM."
+        }
+      ]
+    },
+    {
+      "record_id": "2cf9cd591ffa6d956bbe1712d4097117a30714658aa921bf3daade60d55abea0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c3777db6ab244ac9aa20c4dd5abc59b1835daf6dcb2e129f06de14a57a140288",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "22",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:48:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug11 synchronized cohort R2 CONFIRMED: Merced County, CA at 22:48:24;"
+        }
+      ]
+    },
+    {
+      "record_id": "09c424b324c9adcf296979a921086cfe0a4f7c0eebc03062081578a356adaca7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "26.7%",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "San Juan NM 26.7% ready."
+        }
+      ]
+    },
+    {
+      "record_id": "157a92fff20e645076242c47f5d70e527a38c93ec78b7d52d1d55b7de337db57",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "0",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "What exact list/order and Python method did Nov26 test? Known 2021 member indices (0-based FIPS-sorted, 841): Flathead=406, Merced=58, San Juan NM=449, Saginaw=355."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "0",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "What exact list/order and Python method did Nov26 test? Known 2021 member indices (0-based FIPS-sorted, 841): Flathead=406, Merced=58, San Juan NM=449, Saginaw=355."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "0",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "What exact list/order and Python method did Nov26 test? Known 2021 member indices (0-based FIPS-sorted, 841): Flathead=406, Merced=58, San Juan NM=449, Saginaw=355."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "0",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "What exact list/order and Python method did Nov26 test? Known 2021 member indices (0-based FIPS-sorted, 841): Flathead=406, Merced=58, San Juan NM=449, Saginaw=355."
+        }
+      ]
+    },
+    {
+      "record_id": "5e1e3a57f840a52bf68f7fb1b8c0819a4e2c2a4a1bc496a1b99a58a9630513b4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

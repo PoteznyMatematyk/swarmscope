@@ -1,0 +1,748 @@
+{
+  "batch": "nyc-veterans/nyc-veterans_001.jsonl",
+  "records": [
+    {
+      "record_id": "d058ae2cb8d0448520d88a4a5527bd497e285050d00e4d50846c006d02ea26d3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 1,
+          "item": "WWII",
+          "value": "10,157",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf90s",
+          "value": "14,751",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf2001",
+          "value": "25,276",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "7f43f840c6ce6d6ca4c4e3ba9617bb391ebb3a7d442109539429bfb776ab000f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:54:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 confirmed Gulf War (1990s), 14,751, at task-clock 20:54:22."
+        }
+      ]
+    },
+    {
+      "record_id": "6a9f235bbcce038876acf382e0275aa1ae1caaff0a71b28314997a25d440ff27",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf90s",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 Gulf90s confirmed 14,751."
+        }
+      ]
+    },
+    {
+      "record_id": "f90128e1c354842fcb8761702bac1ad490d17d61e6602cca0a3d264a4f1999d3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:38:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 prompt was exactly \"Now, do the same for Korea.\" at 10:38:35 task time, 21-second limit; answered 17,931."
+        }
+      ]
+    },
+    {
+      "record_id": "1248962b6abb7d8e9cd6a5e81053eadf744887f3c31adc750204e2e7b9abe7ff",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:34:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 Korea confirmed 17,931 at 09:34:08;"
+        }
+      ]
+    },
+    {
+      "record_id": "45024a972dfca846623ddaec2c91ff0bcf7a7f14e1e0aeaeb91e6128cbacea6c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 1,
+          "item": "WWII",
+          "value": "10,157",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf90s",
+          "value": "14,751",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf2001",
+          "value": "25,276",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values excluding MOE: WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "326ec9febc472ffce8c86b5bed544a75dd078ce043f2c84fc2452f5ccd22cb49",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 1,
+          "item": "WWII",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:12:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "initial WWII prompt at task/interface Feb11 20:12:50"
+        }
+      ]
+    },
+    {
+      "record_id": "c6100745851fedc7781ff48823a66cf98753b61d0029da313f568c86232e3a5f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:42:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Korea at 22:42:28, answered 17,931;"
+        }
+      ]
+    },
+    {
+      "record_id": "658abb4a981cb0c7a3d721b5639add7dae82e2dac1e87109dcaefa33727144d3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 1,
+          "item": "WWII",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:38:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 WWII prompt 06:38:16"
+        }
+      ]
+    },
+    {
+      "record_id": "185b1677a522eabd6b9b851b6a69822743d1905e80f418245df42aa6f8ce86a3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:47:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 Korea at interface 21:47:37 with 21s timer, answered 17,931."
+        }
+      ]
+    },
+    {
+      "record_id": "eda79477785b57acb264bee6555a2f762d3cfe78b50d277964551c7e7b273806",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:42:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Korea prompt at 20:42:11, 14-second timer, answered 17,931 immediately."
+        }
+      ]
+    },
+    {
+      "record_id": "e5f18d6e0e6537263869720f8e08a7bcc637ffa372353f22feb16546e5c1102f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:07:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Korea arrived exactly 07:07:37 scaffold clock, timer was 14 seconds (not 21); answered 17,931 same second."
+        }
+      ]
+    },
+    {
+      "record_id": "e2cc5252abc087a7ecc32de504ab04a9835a94204bcc2933cef8e1f8b52ca5ec",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:45:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Korea confirmed at 06:45:06"
+        }
+      ]
+    },
+    {
+      "record_id": "0e8e03733866507016ab40a33124b54e93497b9a9a7ce933c411bd42c95fb15c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:34:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "confirms R2 Korea at 08:34:46, 14s, answer 17,931;"
+        }
+      ]
+    },
+    {
+      "record_id": "f361cce2b2fe7a21db8cd4a0a45118c044fe1d0d8a0a3f9aef97e9de93609c12",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:52:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Vietnam arrived exactly 09:52:52, 21s timer; answered 46,438."
+        }
+      ]
+    },
+    {
+      "record_id": "9f7b967d4775714bb1d6ac3e8ad2dc94b95ad1bcfd9e3d171711aa5a5e74d6bc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:01:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Feb11C cohort: R3 Vietnam arrived 23:01:12, 21s; answered 46,438."
+        }
+      ]
+    },
+    {
+      "record_id": "d5410e6118388a5a2b1403e6d73ba9c1e45087b239a98f3a486f87eaa91a7e70",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:03:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug07 cohort R3 Vietnam arrived 07:03:50, 21s; answered 46,438."
+        }
+      ]
+    },
+    {
+      "record_id": "5f27ac6fbf1f7ab6a7319c22aa52fe9d3428d3081577665e3f3f414d11407fbd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:37:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "confirms R2 Korea at 15:37:49, 14s timer, answered 17,931;"
+        }
+      ]
+    },
+    {
+      "record_id": "bdc56f46eaba263ca0da823f99d4f42b186ae010c62b95cbf42e03024f5caad5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf90s",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:08:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Gulf90s confirmed at 23:08:09 (32s timer), answered 14,751."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf2001",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "23:26:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Gulf2001 due 23:26:35, answer 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "9f4a2ccaf7c8fe8c9dc482a55f04c2c52b459e5885193d8aa980bd9b628cee54",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:08:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Korea at 10:08:51"
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:27:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Vietnam at 10:27:17"
+        }
+      ]
+    },
+    {
+      "record_id": "104e5c696a8cfb3dbf5e909c3a16341ef0c1b7284ac34adb866a76685ba42cbe",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:59:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Vietnam confirmed at 08:59:50 (14s), answered 46,438."
+        }
+      ]
+    },
+    {
+      "record_id": "edf93c522e7dd0dfd63644c92fe737dbfd547a3ba82aa0c7d39c83e14d66d657",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:32:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Vietnam arrived exactly 07:32:41, 14s timer; answered 46,438 immediately"
+        }
+      ]
+    },
+    {
+      "record_id": "16e67aca3185ed8d44bc4e3a0bb5da4a6034dfffe24aa05c457a38d99ab8d44b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:07:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3: Vietnam arrived exactly 21:07:15 interface, 14s timer; answered 46,438 at :16."
+        }
+      ]
+    },
+    {
+      "record_id": "cf7dfa9ebf9c0a8a34072a0a423a7c86e386e5726deb333cb7b711d2db71d0d3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:57:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Gulf War (1990s) arrived 07:57:46, 14s; answered 14,751 at :47."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf War (2001-)",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "08:22:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Gulf War (2001-) expected 08:22:51 (watch :50), answer 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "f5221750f795eafbaf1e13af499f065dd693652227e2ed8f840663e18404c4d9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:24:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Gulf War (1990s) confirmed at 09:24:55, 14s; answered 14,751 at :56."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf War (2001-)",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "09:50:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Gulf War (2001-) due 09:50:00, answer 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "5397f55abaf2834d2ee41dbc08add91af43caba8cf9193a85827e44b42820d21",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:11:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Gulf War (1990s) arrived exactly 10:11:37, 21s; answered 14,751 immediately."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf War (2001-)",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:30:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Gulf War (2001-) due 10:30:22, answer 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "b7243142950ec7b938656cc4a1ced4f3c9b78767029ca67ab1f25116b204bd48",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:32:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Feb11 cohort R4 confirmed at 21:32:20 interface: Gulf War (1990s), 14s; answered 14,751."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf War (2001-)",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "21:57:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Gulf War (2001-) due 21:57:25, answer 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "36c07555968c3319c74d9e1020b780f0f2c49dc579172317a29a45c17d88560a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 1,
+          "item": "WWII",
+          "value": "10,157",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf War (1990s) 14,751; Gulf War (2001-) 25,276;"
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf War (1990s) 14,751; Gulf War (2001-) 25,276;"
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf War (1990s) 14,751; Gulf War (2001-) 25,276;"
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf War (1990s) 14,751; Gulf War (2001-) 25,276;"
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf War (2001-)",
+          "value": "25,276",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WWII 10,157; Korea 17,931; Vietnam 46,438; Gulf War (1990s) 14,751; Gulf War (2001-) 25,276;"
+        }
+      ]
+    },
+    {
+      "record_id": "1e86861e4fb81ef4ad4354340f846d6a431ce03bbc886c5e1d2171f2523d010f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf90s",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:25:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 Gulf90s arrived exactly 22:25:06, 21s timer; answered 14,751."
+        }
+      ]
+    },
+    {
+      "record_id": "484069055e4eb079a89ebb0de63854ead47682a7abd1d1a2bd1580c71fe76b7d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

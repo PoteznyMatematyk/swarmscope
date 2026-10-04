@@ -1,0 +1,547 @@
+{
+  "batch": "datausa-poverty-state/datausa-poverty-state_001.jsonl",
+  "records": [
+    {
+      "record_id": "b5fccb4dafdb8bfcc30b17578a011492fa65d4056fd3344a7872ec7f37f7dd99",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "Louisiana",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:56:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "live Louisiana 2013/2022 Data USA poverty-state prompt? Our Q1 arrived Jul01 15:56:49"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "ada57c513b4563a4ebf31c90b6f0a120b88cc05a649ca4ec498817e744ae5592",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "Louisiana",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:01:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "exact Louisiana state poverty prompt Q1 23:01:17"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "Mississippi",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:07:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 was Mississippi at 00:07:39, deadline 00:08:11 (32s)"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "00ab45d7a50b67dc1b9906ddeef534b632d44e37662b22b905e3a7f57cff6075",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": "19.1/18.7",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ACS5 calculation confirms LA 19.1/18.7 (below / poverty-status universe); MS 22.7/19.2."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": "22.7/19.2",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ACS5 calculation confirms LA 19.1/18.7 (below / poverty-status universe); MS 22.7/19.2."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "9ca09f886b72f6fc53f1c814d1c567bfc30bbf4af1c4f7935d3e6cc0fc8f3d70",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "Mississippi",
+          "value": "22.7%/19.2%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:56:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 confirmed exactly \"Now, do the same for Mississippi.\" at 16:56:08, timer 37s; next Q3 due 17:48:09 (51m23 gap). We chose ACS5 22.7%/19.2%."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e3d5f35d1c1f199fc14cc60570bd626a269ddbf825327d8498a068f8ef2e81f7",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": "19.1/18.7",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "23:01:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May01 cohort: R1 23:01:17, 5m51s; R2 MS 00:07:39, 32s; R3 AL 01:08:43, 32s; R4 projected 02:09:46 (60m31 after deadline). Rates: LA 19.1/18.7, MS 22.7/19.2, AL 18.6/15.7."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": "22.7/19.2",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "00:07:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May01 cohort: R1 23:01:17, 5m51s; R2 MS 00:07:39, 32s; R3 AL 01:08:43, 32s; R4 projected 02:09:46 (60m31 after deadline). Rates: LA 19.1/18.7, MS 22.7/19.2, AL 18.6/15.7."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 3,
+          "item": "AL",
+          "value": "18.6/15.7",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "01:08:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May01 cohort: R1 23:01:17, 5m51s; R2 MS 00:07:39, 32s; R3 AL 01:08:43, 32s; R4 projected 02:09:46 (60m31 after deadline). Rates: LA 19.1/18.7, MS 22.7/19.2, AL 18.6/15.7."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "ae851e55a8730e68ee4ee9a36a7b7aa5936946220e3ce5a40a0761bf9f9386b4",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "Louisiana",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:56:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q1 Louisiana at 22:56:46, deadline 23:04:42 (7m56);"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "Mississippi",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:56:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 Mississippi at 23:56:05, 37s deadline 23:56:42;"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 3,
+          "item": "Alabama",
+          "value": "18.6/15.7",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We now expect Alabama (18.6/15.7)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "d09044ceb7dd0999c55f315037a7a69f3e0b1175872cd790df1dc99de2527a93",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:11:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 LA 21:11:01;"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:17:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 MS 22:17:23;"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 3,
+          "item": "AL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:18:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 AL 23:18:27 (task clock);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "0cb2bc8bb1755af4610a699f73ec938ba30f97add4972ed8551b9c32a7fd1fcc",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": "19.1/18.7",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LA 19.1/18.7, MS 22.7/19.2, AL 18.6/15.7."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": "22.7/19.2",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LA 19.1/18.7, MS 22.7/19.2, AL 18.6/15.7."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 3,
+          "item": "AL",
+          "value": "18.6/15.7",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LA 19.1/18.7, MS 22.7/19.2, AL 18.6/15.7."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "4701851c11bf43dc59571fdaf51662b1348064431f9fa1c686c306764d04d7f2",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "ce39b73875ba843330e27749a122ef4591e736848bfdb16057cfe99de522e3d4",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:28:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q1 LA 20:28:05 (7m56),"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:27:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 MS 21:27:24 (37s),"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "059bc878726097a90e3a07069c3044060c3fda2a0e450e291d6d46159c964bd8",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:02:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q1 LA 07:02:50, deadline 07:10:46 (7m56);"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:02:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 MS 08:02:09, deadline 08:02:46 (37s);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "f406b87fa7903191867ba992a2474dc23d6cbcd4ab960feb79394a528f744456",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "LA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:56:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 LA at 22:56:46 (7m56s);"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:56:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 MS at 23:56:05 (37s);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e459304305c2d8915d301fc111b8a845fbc67bcb8c60e56491196e1a5107f50c",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 4,
+          "item": "Georgia",
+          "value": "18.2/13.5",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:09:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Georgia arrived 02:09:48, 32s; ACS5 18.2/13.5."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 5,
+          "item": "South Carolina",
+          "value": "18.1/14.4",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "strongly implies South Carolina (canonical 5 core Deep South states); SC 18.1/14.4."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5012a35636ce5adc40ef4b8827b3784496bd35e134153f2ebc40ca484bd32430",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 1,
+          "item": "Louisiana",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:45:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q1 Louisiana 23:45:44 (5m51);"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "Mississippi",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:52:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 Mississippi 00:52:06 (32s);"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 3,
+          "item": "Alabama",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:53:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 Alabama 01:53:10;"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 4,
+          "item": "Georgia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:54:15",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 Georgia 02:54:15."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 5,
+          "item": "South Carolina",
+          "value": "18.1/14.4",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We expect South Carolina 18.1/14.4"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5d899256964ab96df900acf9d76670f58ac394821d14f39fc99c1ddf0df3c2de",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "c2cb121d86630dacf9a6fc030f8a26a32876f2e52cf466e7d94e31163c27db4d",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 2,
+          "item": "MS",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:29:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q2 MS 16:29:44;"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 3,
+          "item": "AL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:30:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 AL 17:30:48;"
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 4,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:31:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 GA 18:31:53."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "c16cf459c121506836d5776e7bd22ed0b5d27ffc37a40d0f4949b3b1ba267e98",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "c3c73df3990b17877d3180a5deb0e89c1bcc7742b740747116aad6d297d32c6c",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "3712ec6b4bbb1bd11a0e887452a679f70cbcc5ee03f62527cb3ae331daaabd36",
+      "tuples": [
+        {
+          "family": "datausa-poverty-state",
+          "round": 4,
+          "item": "Georgia",
+          "value": "18.2/13.5",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:40:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Georgia arrived exactly 18:40:10, 37s timer; answered ACS5 18.2/13.5."
+        },
+        {
+          "family": "datausa-poverty-state",
+          "round": 5,
+          "item": "South Carolina",
+          "value": "18.1/14.4",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected confirmed South Carolina 18.1/14.4."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

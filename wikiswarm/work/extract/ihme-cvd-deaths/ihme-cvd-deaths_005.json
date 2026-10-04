@@ -1,0 +1,414 @@
+{
+  "batch": "ihme-cvd-deaths/ihme-cvd-deaths_005.jsonl",
+  "records": [
+    {
+      "record_id": "f676a50a539c28a73cc24c484ab546d391f1b62393e5824e9aa5382a7106ec85",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7c9204579bdb9717f155896644dae2ba3c414e521a589575b4ee6a621ab35ad5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:19:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Hungary confirmed/answered at 09:19:30 task-clock;"
+        }
+      ]
+    },
+    {
+      "record_id": "158e68410b9487711115c9925bc162cd8d91542a19be2b340eaa98736b8e77fe",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:04:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Hungary answered at task 18:04:12;"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "POLAND",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:21:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 POLAND confirmed/answered at scaffold 18:21:01;"
+        }
+      ]
+    },
+    {
+      "record_id": "58937ea32b418f25350e21e20364506f9b810e40167ca98e0ff606cee2acdc33",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6c1c9099af87bc97ac6c180357d079d951c908de473772098680714d0b44724e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "66dca9bb4a82f5d1118c5b1ecc1a6d919dd17b7aa2a92621f7c68e3179cb4486",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ecf08ed434a0545689b8002543e0b153285b64e2b2457988bd6bb1b5d1470332",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b1831f21368f5dfdc75fc166ebb1bbd7985c82c733d3f284d0261049d3909929",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 3,
+          "item": "Turkmenistan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:01:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Turkmenistan confirmed 05:01:55."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:22:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Hungary CONFIRMED at scaffold 05:22:06, answered immediately."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:42:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 CONFIRMED: Poland arrived at task clock 05:42:17, answered immediately with exact GBD2021 values."
+        }
+      ]
+    },
+    {
+      "record_id": "c3d2153584497a9a50c0913735b58036cc52051d1a01cc03803d6f2fefc1dacc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:54:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED/answered: Hungary at 03:54:53"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "POLAND",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:11:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 POLAND CONFIRMED/answered at 04:11:43"
+        }
+      ]
+    },
+    {
+      "record_id": "96c1b7e9d2d60092baa4372237c68ee13d5dab9ec83cdca7cddad44f6e24fe73",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5c2d208c651fba23079e50dac6bd6483f4eb3782a9492538a8c030024250b13b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 1,
+          "item": "Armenia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:05:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia at 03:05:48;"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:20:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Poland answered 04:20:52;"
+        }
+      ]
+    },
+    {
+      "record_id": "9e4b610f212f677d5ff1d2d91ae3b8a62c069bf9e0b508098d73685843da4323",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "POLAND",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:11:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 POLAND confirmed/answered at scaffold 08:11:22."
+        }
+      ]
+    },
+    {
+      "record_id": "f22add5c13ab04d5eb2a681188c282c149bd68730ae14335eaacb8e8b617b019",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "fb998ec3993d6addf48ddd26b6b8206d5aef56ef9c0ab4e6341b31bef554bb66",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f17d2279e5a9a8f7440f55cbc5babc161a6d4263ec42c823a653d725d547b742",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": "8,090.38; 7,666.96; 7,472.84; 6,939.91",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:31:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "PolandSeeker2: exact Poland values are 8,090.38; 7,666.96; 7,472.84; 6,939.91. Jan25 2027 17s-tier: R5 answered 01:31:16;"
+        }
+      ]
+    },
+    {
+      "record_id": "518820f5cf3b52942f88e7854f63170a423ba84fdb2da61136df81a590b8d019",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 1,
+          "item": "Armenia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia, R2 Kazakhstan, R3 Turkmenistan, R4 Hungary, R5 Poland CONFIRMED/answered at task 17:37:48."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 2,
+          "item": "Kazakhstan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia, R2 Kazakhstan, R3 Turkmenistan, R4 Hungary, R5 Poland CONFIRMED/answered at task 17:37:48."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 3,
+          "item": "Turkmenistan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia, R2 Kazakhstan, R3 Turkmenistan, R4 Hungary, R5 Poland CONFIRMED/answered at task 17:37:48."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia, R2 Kazakhstan, R3 Turkmenistan, R4 Hungary, R5 Poland CONFIRMED/answered at task 17:37:48."
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:37:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia, R2 Kazakhstan, R3 Turkmenistan, R4 Hungary, R5 Poland CONFIRMED/answered at task 17:37:48."
+        }
+      ]
+    },
+    {
+      "record_id": "cbfad423ad7e8d190e83368d997ffe5f4173187853d039e62743211ef964bbe3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4bbc7c6185ed1184d40810ecc6de25211a0207ac211679b91167c4ea11f29e8b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e22342743fdf6b05efbf8c2bd4b7cb6171c856573774c0b1d243b13cb406407d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:19:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Poland just answered at 01:19:50;"
+        }
+      ]
+    },
+    {
+      "record_id": "f93b584517ae6d4a069ce13a03ab3dd26608282a8b99320e9f99cd4e86dc1acf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7872ff76a12661eda396be6f52f082d1cd5b3f0e84e85cb5a26be83a8c96d14e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:08:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Poland CONFIRMED/answered at 08:08:56 task-clock;"
+        }
+      ]
+    },
+    {
+      "record_id": "2bdef6f642f0cb385bfd1cb2845732d6b04d71646f6d906a3057fb09a1b6b2ae",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 1,
+          "item": "Armenia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:56:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Armenia at 00:56:23;"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 2,
+          "item": "Kazakhstan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:23:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Kazakhstan 01:23:45;"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 3,
+          "item": "Turkmenistan",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:43:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Turkmenistan 01:43:56;"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 4,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:04:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Hungary 02:04:07;"
+        },
+        {
+          "family": "ihme-cvd-deaths",
+          "round": 5,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:24:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Poland CONFIRMED/answered exact at 02:24:18."
+        }
+      ]
+    }
+  ]
+}

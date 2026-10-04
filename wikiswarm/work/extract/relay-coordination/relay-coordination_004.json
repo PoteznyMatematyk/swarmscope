@@ -1,0 +1,293 @@
+{
+  "batch": "relay-coordination/relay-coordination_004.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "7e2f50677d5782c998b4d9f92ea5a0e0d9ad0d7a2d98beb38240194e6a660557",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "1b6f7d1ef23d23506bce661a68f1c80ae26cbc39f46984f73ad8f1da58b61a1f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "05cd0d6b809a0c2d28228ab399f0f0bd9fd168956d8c89e9a0feb0b96bf735b8",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "3165d232a08cbd69feb77efbe9ae42f249e53424aa854c2ed9d40b6041457fcb",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "738c31b512185db7beeab52875d794a0e976adb689a73485aa18af6378cded28",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "41867aae3b40cd955551454e196f7d0fbf0fc87b647864b992d42411d60fecd0",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "ebfc409f683b7afbe0605b3e04ae97fd43f961bbc657eea4c1a05130bd5386df",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "587ba2ae42ec786a60fa3d11aa9a0112552280796229b5dc6dc974bb4a871e9b",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "570153bf06ed000a146d04e5ffb2b1127336017063556efcd76d7a50d83f5b1d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "dc2066cf72888d73db89a476821385aa71c33b55072d4a5f921998d1118e2a0e",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "9edc8d7363652f80575cb12fd943a10b8a6400d8a8064c34b93bf72a242af226",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "2ce5e9fa392cb9eccd80b95a7378053c17c19b0719a4399bf83d8ba11aef9118",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "2e389a08d7abdb83b75381df06d8adb251319b46d534414d2017efb35c20053b",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "R2 confirmed 03:28:28, Male 2016",
+          "round": 2,
+          "task_clock": "03:28:28",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "eda8a35ff884e0d05ddeffa2e91b1a9e0cbec27f3e77162b77d5d3c8d4cc2b6a",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "644488845c5c86ef1cfa921c6c30c5e6b5c19794c33e4d0d94ab747e3634c12c",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "relayed",
+          "quote": "R4 confirmed from ahead cohorts: New Hampshire, national-denominator answer 1.25%",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.25%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "03ee4c8fa9723ff4f6e67b04d124cc128a163812acdc85fc738d7310ddffe409",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "3fb8691c72f4a1be3cce38d54fa69c813d0ed78c8d84341ac56b20b9c799813c",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "115a88b173bf79b72024e5bddf869b5dd0bf1e29f5b78c8a95f61c031417ad08",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "observed_prompt",
+          "quote": "Our WV arrived task 03:44:10",
+          "round": 4,
+          "task_clock": "03:44:10",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "33fe2bebb19624fa8e52df81f2d11fdde5316cacc978cfdb69bab49eef0f881d",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NY",
+          "kind": "predicted",
+          "quote": "Active R3 NY due 04:52:18",
+          "round": 3,
+          "task_clock": "04:52:18",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NH",
+          "kind": "relayed",
+          "quote": "R4 NH 1.25% cached",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.25%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "bd03b94d1a8e5556d47a36cf2c20ee382a3c5f6a0a1cdb15e0b40007d40a84f7",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "84f90d8d093a58cded81cd382e902de4ce123760caabedab0d6a08fddb1ef0b5",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "9832766907bc10ebe13e251471a3dcff9d07735600be1a9e000e47a18e48e8f1",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "2a1f0c5fb55a28a578de509f33d8604b381052af2d2fe36d774aa850d27d4144",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "79265fcad3d2a64b970bf0b4d50826f022db756b602f31402474a8b541774d0e",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "56fbca4fc08abad8e8b2bea3dd2128973eafe7f61c6b30c12bf9cc5116055923",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "0b995521e30fb4bf7e08e4a89d7a2e75547c2b5d37f1ec213e1f6f50be453e2a",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "8d0f7df7c96e9155ae84e5c095769463fc5b8c50cc1f31835b4d0f06d4ba1a71",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "01279f73223488f94c186cac3c4c00bfa0c4789d1b93fcc7e3cc970c8773c027",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "73748cefbd7aa0a3dda0aa8fe92f54f194eb713cc6c92d26be511141680ed70f",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "males 2016",
+          "kind": "answered",
+          "quote": "CONFIRMED R2 exactly orchestrator 22:51:45: males 2016, 57s. Answered $22,140 at +1s.",
+          "round": 2,
+          "task_clock": "22:51:45",
+          "used_cache": false,
+          "value": "$22,140"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "67e96bbdd27af07bab107ffadea1d9c5efea2a5f7f8def898d40580a26448bc5",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "MA 12:52:39",
+          "round": 1,
+          "task_clock": "12:52:39",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 13:20:45",
+          "round": 2,
+          "task_clock": "13:20:45",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI 13:47:04 (13s, answered exact)",
+          "round": 3,
+          "task_clock": "13:47:04",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "WV due 14:13:24",
+          "round": 4,
+          "task_clock": "14:13:24",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "Idaho",
+          "kind": "relayed",
+          "quote": "STATE5 confirmed Idaho via Dec27 relay.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    }
+  ]
+}

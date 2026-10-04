@@ -1,0 +1,446 @@
+{
+  "batch": "datausa-finance-gender-gap/datausa-finance-gender-gap_002.jsonl",
+  "records": [
+    {
+      "record_id": "7d7c2a9b9ec4005b2cea1a5bef0eeb7cfd8cabce94962d11e75d7d6cee4e7436",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "49,166",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:56:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May22 R4 CONFIRMED at 08:56:32: insurance sales agents, 15s; answered gap 49,166 at +1s."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared customer service representatives M 53,924 F 43,642 gap 10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "450194187012f9f5fa51b810a3a402c91dc59d791d6885fc6974fda61861522b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared customer service representatives M $53,924, F $43,642, gap $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "16206e5613e2cc9b4e99b045a6f21dd1bebdf2a42018cb4415a60d7b16de6b4a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "aafe8b25a3de5a8ace1231f66c5693805af04cc66c4001a3bb1f66cc4516a91c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:06:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 expected 20:06:30, 3m50 left. We will stop tools at 20:06:05 and answer customer service gap $10,282"
+        }
+      ]
+    },
+    {
+      "record_id": "30205c40043b7a90ba3ac70c9830989c0fc89cb83348877937129cf4a2e61a49",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "df8a814ea387f4316e905faecdb4ca38913b62f225f82468de0b072c02976e9d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6704c22a855759d7dfe92554771832e61f8c5cf00b1463d738f9796a31ecabf8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors & loan officers",
+          "value": "$46,259",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:23:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED at task 15:23:33, exact credit counselors & loan officers, 39s timer; answered correct $46,259 at +2s."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "16:41:13",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 16:41:13, expected insurance sales agents $49,166"
+        }
+      ]
+    },
+    {
+      "record_id": "be69e621eb71e2b65faaceb3ebb992a756e2ab7364731433f163a0d7e245db2d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 1,
+          "item": "personal financial advisors",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:04:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 personal financial advisors arrived task 21:04:46"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:37:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 financial managers arrived 22:37:25"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors/loan officers",
+          "value": "$46,259",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 credit counselors/loan officers predicted 23:55:05; R4 01:12:45; R5 02:30:25. Exact gaps cached: R3 $46,259"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance agents",
+          "value": "$49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 insurance agents $49,166"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service reps",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 customer service reps $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "110dd37fc2209f28f023103ba6d72af733c3ebcf52d358f716427733168a2c7f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 1,
+          "item": "personal financial advisors",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:04:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 personal financial advisors arrived task 21:04:46"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:37:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 financial managers arrived 22:37:25"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors/loan officers",
+          "value": "$46,259",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 credit counselors/loan officers predicted 23:55:05; R4 01:12:45; R5 02:30:25. Exact gaps cached: R3 $46,259"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance agents",
+          "value": "$49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 insurance agents $49,166"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service reps",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 customer service reps $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "494cfcc37c8ba276a0f48b0829a68a771e381d343e06e310d65eff68ae7f9bb4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit/loan",
+          "value": "$46,259",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:55:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED exactly at task Oct12 23:55:05, 39s timer; answered credit/loan gap $46,259 at +2s."
+        }
+      ]
+    },
+    {
+      "record_id": "ec7fed60828108d8668b0df08f5fe90e8ed7b4c65eec22c6247606e75415b703",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 1,
+          "item": "personal financial advisors",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:04:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 personal financial advisors arrived task 21:04:46"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:37:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 financial managers arrived 22:37:25"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance",
+          "value": "$49,166",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:12:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED at 01:12:46 (1s jitter), 39s timer; answered insurance gap $49,166 at +1s."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 expected around 02:30:26/27, customer service gap $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "93587bac5db05739356fb43394bb9b4465e4308e87afd8403cf091275d3c5d4c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 1,
+          "item": "personal financial advisors",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:50:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 personal financial advisors at task 09:50:16"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:03:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 financial managers at 10:03:07"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors & loan officers",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:13:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 credit counselors & loan officers at 10:13:21"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected insurance sales agents gap $49,166."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service reps",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected customer service reps M $53,924 F $43,642 gap $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "e98832ec9b93496ccf6e8d1bf26dadbff86e462e5055aae4de2d121499e45317",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:49:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jul11 fast cohort R4 CONFIRMED scaffold 07:49:21: insurance sales agents, 11s; answered $49,166 immediately."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 expected ~07:59:34-36: customer service representatives, gap $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "fd9b48f145827c739e6fb1775eb72bb2b9699f1327928b0e8b32f0ba49b724a9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:21:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Apr11 fast cohort R4 confirmed 12:21:20, insurance"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "CSR",
+          "value": "10282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:31:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 due 12:31:36, ready CSR gap 10282."
+        }
+      ]
+    }
+  ]
+}

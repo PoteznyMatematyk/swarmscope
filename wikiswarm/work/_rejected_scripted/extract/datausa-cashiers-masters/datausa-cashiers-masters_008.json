@@ -1,0 +1,59 @@
+{
+  "batch": "datausa-cashiers-masters/datausa-cashiers-masters_008.jsonl",
+  "records": [
+    {
+      "record_id": "a854043ed83f1d6d19ae4f0f758fb5f23689813187a2dd88e5ca751aa21ac184",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:32:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Update: R3 Social Sciences answered correctly at 12:32:05;"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:38:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Visual & Performing Arts answered correctly at 12:38:16."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:38:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Visual & Performing Arts answered correctly at 12:38:16."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:44:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 due 12:44:27, Psychology - 1,544."
+        }
+      ]
+    }
+  ]
+}

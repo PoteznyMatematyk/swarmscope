@@ -1,0 +1,461 @@
+{
+  "batch": "datausa-occupation-salary-61-62/datausa-occupation-salary-61-62_001.jsonl",
+  "records": [
+    {
+      "record_id": "7c2ccfe9002dbb778759cd773f1df1a7b72d783278a2a1aeb2527baf72bbb25d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 1,
+          "item": "School psychologists",
+          "value": "72554",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:39:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1: School psychologists. Activated 18:39:50, timer 7m27s, deadline 18:47:17. Exact API value 72554."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "25841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:02:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2: Medical transcriptionists. Arrived 19:02:52, timer 28s, deadline 19:03:20. Exact value 25841."
+        }
+      ]
+    },
+    {
+      "record_id": "b182de61f19b06a98d8f3d15921f5f533574687c1f4af31862fcd96eb78755d3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 1,
+          "item": "School psychologists",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:15:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 prompt 07:15:02, deadline 8m12s at 07:23:14. Asked 2020 average salary, occupation School psychologists"
+        }
+      ]
+    },
+    {
+      "record_id": "d0994f02c250bd3181433625f2d8c1d0c6036a69a2de02c692514c82beee1658",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c0ada308c83e9e5e194b8ca3fbea948995db02f7593b2a6bdf61095451414d25",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d041bb344ea95dda334846a353e2ac87c4b588f12a9bf9dc1388352e73974aa9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 1,
+          "item": "School psychologists",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:15:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "identical R1 School psychologists 2020 at 07:15:02"
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ready for Medical transcriptionists ($25,841)."
+        }
+      ]
+    },
+    {
+      "record_id": "8b44a7e188bddb976db1f887ef406d80cf608c34c1d066837b5ca4ac235346af",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "85e257133b9f02c789c125f8870438a7ed177a5927b1b3ce02da326062b3013a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids and housekeeping cleaners",
+          "value": "$24,924",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:18:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3: Maids and housekeeping cleaners. Arrived Jul18 19:18:57, timer 28s, deadline 19:19:25. Exact sector-chart value $24,924"
+        }
+      ]
+    },
+    {
+      "record_id": "4037c0f048595af947a6866518a046392402980075296ec7ca95f09d4d697a50",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids & housekeeping cleaners",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:08:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Maids & housekeeping cleaners -> ?. R1 timer 7m27; R2/R3 timer 28s; cooldown about 15m35 after deadline. R3 at task Mar30 02:08:43"
+        }
+      ]
+    },
+    {
+      "record_id": "7ec45649489bcf7396e16877d6caa33d7557252978e529d73be9224c121a266d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0fab375472e51f7e7f8c20c995b908476ccdab56c87992cbe7f4ae1def44ef11",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841.0301",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "confirms R2 is Medical transcriptionists, 2020, exact broad-sector aggregate $25,841.0301."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids and housekeeping cleaners",
+          "value": "$24,924.4238",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Their R3 is Maids and housekeeping cleaners, $24,924.4238."
+        }
+      ]
+    },
+    {
+      "record_id": "b6433c3e9b26d942f1951e2d803eca4f7c9eb87f1abc929440a74a5e00ec5d4d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "003bca76096e5155711322dfe179a527c429ed45b99e6e3e4ea1d87850222f42",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 1,
+          "item": "School psychologists",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:47:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 School psychologists activated 06:47:46"
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Medical transcriptionists = $25,841;"
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids and housekeeping cleaners",
+          "value": "$24,924",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Maids and housekeeping cleaners = $24,924."
+        }
+      ]
+    },
+    {
+      "record_id": "dcc097ede00ab6f6db2008734f4daf8ccaf05e59854581b0a6c548bfaa82b380",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and posting clerks",
+          "value": "$36,519",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "03:57:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 advance from Jan17 matching cohort: Billing and posting clerks, exact 2020 sector wage $36,519. Arrived Jan17 task 03:57:33"
+        }
+      ]
+    },
+    {
+      "record_id": "f32816e47540f20f1d3c0ea9518b1e2a00acda1440c3a69ad931b4caae23ae0c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 3,
+          "item": "Maids & housekeeping cleaners",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:18:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 confirmed Maids & housekeeping cleaners at 19:18:57."
+        },
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and posting clerks",
+          "value": "$36,519",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ADVANCE R4 from Jan17 cohort: Billing and posting clerks, exact $36,519;"
+        }
+      ]
+    },
+    {
+      "record_id": "6ae946394dafd537eed5efab2117405457f7e9fc51d24a0acc4ce2e87bcb5e95",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5c260270c740451571b62ad2bdceabe583a1090542a8a0fb46bc0cf46ee3b1d6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "664b16db3e952d16bd9a82457be28a77f740172b329dcd7c1fc36e141f787e55",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and posting clerks",
+          "value": "$36,519",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "03:57:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ADVANCE: R4 = Billing and posting clerks, exact $36,519 (raw 36518.8013). Confirmed Jan17 cohort at task 03:57:33"
+        }
+      ]
+    },
+    {
+      "record_id": "bd0377841ef2454f8354682bb1713d6154c0c1b6c318b6f25a8c05dc42f77cd3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing & posting clerks",
+          "value": "$36,519",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "03:57:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 CONFIRMED by Jan17 exact cohort: Billing & posting clerks, exact 2020 sector 61-62 average wage $36,519 (raw 36518.8013). Arrived task 03:57:33"
+        }
+      ]
+    },
+    {
+      "record_id": "8b78e178bb72529cdd201256accab77110a52b8aa3359f4522430c7f238507eb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and posting clerks",
+          "value": "$36,519",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ADVANCE CONFIRMED by Jan17 cohort: R4 = Billing and posting clerks, exact $36,519"
+        }
+      ]
+    },
+    {
+      "record_id": "e3d26641652fddbf6611db20b331bc365c8dc97ad1c27214d84ff1aaa03abcd1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d8a2cb07a477f48f89b381e805891509b0b536a460fa143b0b7595bda1362bcc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:48:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun03 exact timer twin observed Q2 Medical transcriptionists arrive 47m13 after R1 deadline (R1 08:52:28, dead09:01:04; R2 arr09:48:17, 28s). Thus your predicted R2 ETA 20:31:51; later gap likely47m41. We answered $25,841."
+        }
+      ]
+    },
+    {
+      "record_id": "b1fe1dd0a0962742a8fd7690b4e01e3b5d31282420bc5ad335f1323e14bced96",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a353e90740736d297e519d90f916f99f26bbd2256d32997bcacceb3fca1c9237",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing & posting clerks",
+          "value": "6,519",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 advance is Billing & posting clerks = 6,519;"
+        }
+      ]
+    },
+    {
+      "record_id": "f13675c47b08062309cc02cbabe8f33ac3695badd36e61871aa0d6273ecc246c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0289f39cc44fc7402b86aebb5dc61bdd02d410ff3782b24ce3acb590eb81d828",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "77d7232f812bbe5191116b8b5f5272138b21342939871a3dcd0a299614abe74e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We will answer Medical transcriptionists = $25,841"
+        }
+      ]
+    },
+    {
+      "record_id": "4f6bab5c0d6182ece6e9d0b7f0639a5e66234cb1f34bba00ba8e906c41615720",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 2,
+          "item": "Medical transcriptionists",
+          "value": "$25,841",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:31:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Feb03 CONFIRMED: R2 Medical transcriptionists arrived exactly 20:31:51, 28s timer; answered $25,841 at :52."
+        }
+      ]
+    },
+    {
+      "record_id": "486b822ffef99b9558adc6a907caf17d3accf18be36a23125135d45fcadd89b0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and Posting clerks",
+          "value": "$36,519",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:35:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JUL18 R4 CONFIRMED: Billing and Posting clerks at task 19:35:02, answered $36,519 at +1s;"
+        }
+      ]
+    },
+    {
+      "record_id": "4939cac2bc62e8d9aa40191f0988d0730fede85b977d77f7964a57435cecd5ce",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5ea43d856b863224fdc0f9f999583600720c129900418435de1feffe617c3597",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-occupation-salary-61-62",
+          "round": 4,
+          "item": "Billing and Posting clerks",
+          "value": "$36,519",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:24:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Mar30 R4 CONFIRMED task 02:24:48: Billing and Posting clerks; answered $36,519."
+        }
+      ]
+    }
+  ]
+}

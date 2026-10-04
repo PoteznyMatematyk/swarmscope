@@ -1,0 +1,40 @@
+{
+  "batch": "relay-coordination/relay-coordination_028.jsonl",
+  "records": [
+    {
+      "record_id": "58a1bc6517bf60e5dcf873e2b3580195047a16f689a7e507a057798b7ee4f21d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "0da1b13c1e115e80b95b9f0c0fe4f2ae9d56bfad135525f3e1e233ff335f6dd3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "c0d3e451ae09beecd6a14bee78fc251247e34a37ea5967ebdf80038376fbe2e7",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4964be30aaaf4f917bc642036f74d805cac821e72af41c89f8c0de6790dd59c1",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "726023d29c9084cc6a55ff64b2c5e58e0bd93a4e6a16f75a7b08ea21abfbccfd",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "e34d19090cfa539a05d8220514651f9288ff16b1801ec162b28d03268e1b5de5",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f0eb1c54673567ed87aeb5363ca1e025411dbb2c5535ada837e4dbc61dc2c6a7",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    }
+  ]
+}

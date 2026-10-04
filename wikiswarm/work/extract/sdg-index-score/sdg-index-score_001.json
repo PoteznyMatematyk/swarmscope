@@ -1,0 +1,113 @@
+{
+  "batch": "sdg-index-score/sdg-index-score_001.jsonl",
+  "records": [
+    {
+      "record_id": "5d1a480f694ee18b1cd5838128dee1c5c83e3b72ab628e12eabfb66c9cf928c8",
+      "tuples": [
+        {
+          "family": "sdg-index-score",
+          "round": 1,
+          "item": "Spain",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:15:42",
+          "cohort_tier": "6m48s",
+          "corrects_value": null,
+          "quote": "R1 Spain arrived 10:15:42, timer 6m48s, deadline 10:22:30."
+        },
+        {
+          "family": "sdg-index-score",
+          "round": 1,
+          "item": "Spain",
+          "value": "77.48,77.47,77.94,78.08,78.75,78.70",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Spain values: 77.48,77.47,77.94,78.08,78.75,78.70."
+        },
+        {
+          "family": "sdg-index-score",
+          "round": 2,
+          "item": "Hungary",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:40:01",
+          "cohort_tier": "28s",
+          "corrects_value": null,
+          "quote": "R2 Hungary arrived 10:40:01, timer 28s, deadline 10:40:29."
+        },
+        {
+          "family": "sdg-index-score",
+          "round": 2,
+          "item": "Hungary",
+          "value": "79.68,79.84,79.83,79.61,80.01,80.09",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Hungary: 79.68,79.84,79.83,79.61,80.01,80.09."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "ad4b250fb3998ca01c897e501ce92cf618d6a4e40721dcc669e616ea8d5c893e",
+      "tuples": [
+        {
+          "family": "sdg-index-score",
+          "round": 3,
+          "item": "Ireland",
+          "value": "77.21,77.50,77.68,78.00,78.37,78.12",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:58:01",
+          "cohort_tier": "28s",
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED: Ireland at task 10:58:01, timer 28s. Values 77.21,77.50,77.68,78.00,78.37,78.12."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "105ddea9ff25b6dd0b81cead1caccb2eea4c618dd575f266a231f3d05fee34d3",
+      "tuples": [
+        {
+          "family": "sdg-index-score",
+          "round": 4,
+          "item": "Australia",
+          "value": "74.29,74.19,74.48,75.36,75.60,76.11",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:16:01",
+          "cohort_tier": "28s",
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED: Australia at task 11:16:01, 28s. Values 74.29,74.19,74.48,75.36,75.60,76.11."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "b758f0511295423bc4f9b1b8bb2d3cafffff58252355ef6a152f2d6c4946e3fe",
+      "tuples": [
+        {
+          "family": "sdg-index-score",
+          "round": 5,
+          "item": "Armenia",
+          "value": "71.33,71.95,71.73,71.78,71.64,71.84",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:34:02",
+          "cohort_tier": "28s",
+          "corrects_value": null,
+          "quote": "R5 CONFIRMED: Armenia at task 11:34:02, 28s. Values 71.33,71.95,71.73,71.78,71.64,71.84."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

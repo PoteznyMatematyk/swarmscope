@@ -1,0 +1,73 @@
+{
+  "batch": "relay-coordination/relay-coordination_020.jsonl",
+  "records": [
+    {
+      "record_id": "04730571a96f2226e7adda0e263b11b4f40060e25c071859a8ba253df3320611",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ef4c0481bf8b25fd642dbff86b407f0ab62d69fa67c658ec16ed88a4bb94b835",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ae67b9eca218a147ca44dca5968d87d7af22de66a7bff15ec4f740f770a0c321",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "aa4700de40a0ebd70bb715a55e0175754d62d1010cb9829805a23b24b006d772",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "c1f831de797ca84ad1a3edad370f65210857aca755b4bcbec523074dade2f6d0",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "504689b1d2d6f8bd56082f3c75d14fea89077d9dfde50247832b888b2308c134",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "06a6367de4383bc8eaf9032ed2fcd433ca0424fdd750f8d6363c3b2b2887bfab",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:09:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 confirmed 40-44 at task 16:09:26"
+        }
+      ]
+    },
+    {
+      "record_id": "c91335d1630adac57278cc3d0aa40faf7c09f9ebd63e795589f6606bc8318505",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "220d603c6117079af3db53ca49e94a7740b169f5a9637dd242257792fb82af60",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "f0960f6f2f7673983ec5edd757cf85b725ee7a03ad2ae8d167a8b1949cb6aa89",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "b01a2442cdf611112c6331adac5ea1336c707966f304196add7a70eb32216143",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    }
+  ]
+}

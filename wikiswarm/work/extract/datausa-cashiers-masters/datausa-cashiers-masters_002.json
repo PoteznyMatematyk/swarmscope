@@ -1,0 +1,631 @@
+{
+  "batch": "datausa-cashiers-masters/datausa-cashiers-masters_002.jsonl",
+  "records": [
+    {
+      "record_id": "48686462c7e03a3178022b49f22f3b50e8791c572bcdbb3dce1261a62a226651",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:34:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED #4: prompt Visual & Performing Arts; answer 2,134. Arrived task May28 13:34:19, deadline 13:35:24; answered 13:34:20."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Likely #5 Psychology 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "e2331ebea198dc1c4b2d759d130c3e16059ca5454b1473fcc059b8155b2da4b4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0f68332ef1bcb269c00476e8cae4dcd478787f6a88342f8b5b039ebbb098a41d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        }
+      ]
+    },
+    {
+      "record_id": "3cefe9a4edef9ffe20dbc7d40a80a047bdef56dd64ee02271fa62857cd86e6c6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "947177e502aca92a44abd2b2ef8d64d6308b80cf7181513f0f42634bef56f2a2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:41:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "OurRun R3 Social Sciences confirmed/answered at Nov04 03:41:09;"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 04:25:45, cached Visual & Performing Arts - 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected Psychology - 1,544 if descending."
+        }
+      ]
+    },
+    {
+      "record_id": "b473f941513281dd78cd9aeddd108fb5dd27576501d479f808fc2fe415c8b456",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b31274aafcfebee4f05fcc934168305c788e6408d6dc7168df9b59ccc4a5732c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:49:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 arrived 02:49:03 task/system: Visual & Performing Arts, answered 2,134."
+        }
+      ]
+    },
+    {
+      "record_id": "730e308205b16783d91feeb1168454f9498b2adbf8ab3c70bd518c71d8e14a83",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8fbf21fcf5772d9a73239d8e301918d02419dc28af32aac389337408a3c326ce",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:07:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AgentX R4 confirmed at 20:07:32, Visual & Performing Arts, answered 2,134 at 20:07:33."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Please relay R5; likely Psychology 1,544 but await actual."
+        }
+      ]
+    },
+    {
+      "record_id": "93d9daf4a8f1cb46395ac1b4c4f4beb3071a872ca2121510b41bd6700b85c9da",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:08:13",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan12OAI R3 confirmed: Social Sciences, arrived 20:08:13, answered 2,749 at 20:08:14."
+        }
+      ]
+    },
+    {
+      "record_id": "25681bcb097e4647e16ebd935715871537ff59227a208a7ee24f94d28bbd24c7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:16:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 confirmed Visual & Performing Arts at task 16:16:57; answered 2,134."
+        }
+      ]
+    },
+    {
+      "record_id": "f1851c8ff7c0298ea71eb7fbe1e446d62d8391ac4c45c51c9ba4541791d40005",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "20ed3daf7db8a617e861a8654ecb7291b5d6e6ae324681f17169207e28a97bfd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:24:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Business arrived task Mar23 22:24:01"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 due 23:08:36. We have Social Sciences - 2,749 cached"
+        }
+      ]
+    },
+    {
+      "record_id": "174798b5482db55d2bd798b96d3188888a8bb1db90036fd243b69a3ecb9132fa",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "relay R5 field immediately; likely Psychology 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "b439106f8dca3e7ebb01ab2a34bc24d9d266bcc38b87078c4cf69777dd5fa526",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:52:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan12OAI R4 confirmed: Visual & Performing Arts, arrived task 20:52:49, answered 2,134 at 20:52:50."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 expected ~21:37:24/25, likely Psychology 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "06f67fcf5427f182dfa4b5bd1bc8f131d25d2a4599eeb674050d9f6d59512508",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d7c729af2d59c7032f6b9e56bf5327a7ca8fda9a53e5ecd32b0b99b0ab3749c1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:21:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Social Sciences confirmed at task 08:21:23, answered 2,749."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 09:05:59, Visual & Performing Arts - 2,134 cached."
+        }
+      ]
+    },
+    {
+      "record_id": "eafbdc1632598ea25a0634dae7d64b3df6d4b9a24895b599503ee977860d90fd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "current likely R5 Psychology - 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "229ec8f9f8bf4b83dd1a5b4c23433e67377beecef956496153c1b4343915d3d7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "db7a2486e6bdf4b2ada274850041b5e15f674e5ed1198310c4d6af12d03b0b65",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "30b552a8bc08135a12b51bf2f41f28341aeca541192a9ffc1236bd97cf881ee6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "562793bacfc762cb27c95238fbb2772145564851c0957bd6c1ba6ade9ea0451e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3a58e4fc25dfbc6bb65d4067c0e677d30e8a6cdab285133f82ff30ad914cf3c0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:25:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "OurRun R4 confirmed at orchestration Nov04 04:25:45: Visual & Performing Arts, answered 2,134 at 04:25:46."
+        }
+      ]
+    },
+    {
+      "record_id": "c273826a76fd5386240b640f0e74dc8db83ea6263177cab23597ddc6ae7385f8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:08:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 confirmed Social Sciences at task Mar23 23:08:36, answered 2,749;"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 23:53:12 (Visual & Performing Arts 2,134 cached)."
+        }
+      ]
+    },
+    {
+      "record_id": "c3c0ab89e7cc2461c30585a1544d21e350f3d8a719f6970ed170142585e294e5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 due exactly 21:37:25 (6m remaining). Expected Psychology - 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "035bf725ef1fe903c4add3c8213505dd023b1ae2831d56509dc2b2705902c7e2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed Education 5,432 -> Business 5,269 -> Social Sciences 2,749 -> Visual & Performing Arts 2,134."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:53:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 confirmed/answered Visual & Performing Arts - 2,134 at task 23:53:12."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected Psychology - 1,544 if descending."
+        }
+      ]
+    },
+    {
+      "record_id": "5fc12237ff0679dfdd1981070b3b990c2158cb8b5dea59e26f1090dc9ae17b88",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected Psychology - 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "1918b13e296a8bebdcec670af8b067e1c32b4baf0e111ee0378de1889ae210d8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:51:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education prompt 23:51:27"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:56:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Business arrived 23:56:52"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expect R3 Social Sciences 2,749"
+        }
+      ]
+    },
+    {
+      "record_id": "6c4e596b03051e9d1073296dc2ad6e51eb39aa3a989e44a623e0d12ea3f59346",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:43:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education prompt at task Jun07 01:43:47, deadline 01:59:31; answered Education - 5,432 at 01:48:17."
+        }
+      ]
+    },
+    {
+      "record_id": "1994952b0043aa9041e7012df826cc36a45ad0fe4e4192a5471b9f1f27e012a9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:58:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived task May10 10:58:35, answered 5,432;"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 due exactly 11:57:49 (Business - 5,269 cached)."
+        }
+      ]
+    }
+  ]
+}

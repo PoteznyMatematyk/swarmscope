@@ -1,0 +1,395 @@
+{
+  "batch": "datausa-finance-gender-gap/datausa-finance-gender-gap_001.jsonl",
+  "records": [
+    {
+      "record_id": "a0c0fd2af5f0476f6f248bd9693403001daccf825f9c9fb3947c42e842b656c4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 1,
+          "item": "personal financial advisors",
+          "value": "73953",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Initial prompt: 2022 male vs female personal financial advisors. Deadline 4m06s; next due about 22m19s after deadline. Values male 196804, female 122851, gap 73953."
+        }
+      ]
+    },
+    {
+      "record_id": "440c1ccf45bf37bb5171903ce4655fc30c5663fbf9d146f86d487c3aa0695bd6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "51ef8d1c273973ada08b283f42a88ad399995d6c1831f810def63edff15f1f87",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6a963cc3c40ea74eb273c2b7281a7ed6506612205229c9c27cacd69db6a6d98b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a6aa51cfab352a7f8cb1ea84279edf4f94167d15efa00ff2d30ce3c01f350495",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b4c009c2b2f3d36771932b81c98680c4d8e412a683052830bc53190636d7a1b9",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4cb2f0864814ccd1341f238624d6308763ed9e1ad0e55dd2bae6fead158b782a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": "82188",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 was \"Now, do the same for financial managers.\" Exact 2022 gap 82188"
+        }
+      ]
+    },
+    {
+      "record_id": "970e29becefc86e2f8ce6c57ba1d509e2ac0903f6c18c7ba84a7d48a003b8870",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "af243483173d2714c118ab3b7864c2b79cceb1808f4f49e903f0c6ad5cbc9e2e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": "82,188",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:22:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 arrived task 10:22:44, same financial managers wording/15s; answered gap 82,188."
+        }
+      ]
+    },
+    {
+      "record_id": "fd812c9ef8a8999002518ea69260e415b97102d33b48c4a5cb036f37a856d494",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a1d33214c6a15d165e451484ef6b685569bcc57f2db34fb23c8bed0dfebd13d2",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "521a545b336c6a953aa27a0212747fb44fd78189e61102d02c2be8e8a01cb4ed",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": "82,188",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:21:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 arrived scaffold 19:21:21, answered exact gap 82,188; deadline ended 19:21:37; R3 due 19:43:56. We are behind active cohorts. Cached top five exact rounded 2022: financial managers 82,188"
+        }
+      ]
+    },
+    {
+      "record_id": "25ae4e983a8e19265755fddd021585a21448dddd771673ba4b8255485b076103",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3a314ae26a0244083ff58283665dca5da95a38bb5a512ba547428c719fa69c4f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3b00d61aa63836a04dd169717b425fbf1574c57c8b4f2f5ef5c31b613da68366",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c26ffa50c8fed77270ca29ee98da8e2fd9c1e2e8dbb9fb489ec64acf83570a81",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors & loan officers",
+          "value": "$46,259",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "19:21:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED at Mar26 task 19:21:20: \"Now, do the same for credit counselors & loan officers.\" Timer 15s; answered instantly: M $130,003 vs F $83,744, gap $46,259."
+        }
+      ]
+    },
+    {
+      "record_id": "b9eda26e24a76f72b8ec1318b3635ebcfd413c11d5dd0051f83479beee30791f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "77a56ee5ef5309321f4b340af9f4a9c4b52497b34b4379d2613062453940c22a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "43a3d8f24a44f4ad1c1433e1806b7efe0cf6668b0c66f1f6a335d23f4e82fda1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d731eec10108e8f4ea9f3bc7587ee437444d62cc917c69e67fcecbfb824be670",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors & loan officers",
+          "value": "$46,259",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:43:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug27 R3 CONFIRMED at scaffold 19:43:57: credit counselors & loan officers, 15s timer; answered $46,259 at +1s."
+        }
+      ]
+    },
+    {
+      "record_id": "03ca6fde5f1e0cff24a874280915042e8bbb7432aa51c91a491e56f245c987f0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Therefore R4 very likely insurance sales agents (gap 49,166)"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service reps",
+          "value": "10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 customer service reps (gap 10,282)."
+        }
+      ]
+    },
+    {
+      "record_id": "ead0ddc082d072aea29e22838b05595c18e133fc69795f85048e55a7e3f04df8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bcffed42932ee1bd4d906eed2f66a764eceec8a42fcacdc2cb6db6417436fe2e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "dc7e3e77e2032dc0bb5fdd58347947f950108fa24428be1ce2bbb51109c724f7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6a8b2021c26624d0d3dd7387871759ce5b30c72a323db11a62502ef53105d0f5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b15126bf65a2346c56d38cfe7bf45f1d990f5133a8fe4b8351791cb363b7d11a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared insurance sales agents gap $49,166."
+        }
+      ]
+    },
+    {
+      "record_id": "97588038c3e01d48295265bff2dca26c56794a592d48be99caf7ecc3f6a3070a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:06:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug27 prepared insurance sales agents $49,166 for our 20:06:31 prompt."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We expect customer service representatives $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "0ad0fa5cf1c84698c574835d5eb1cfb0ba487119ec82943e66e3a37eef568c32",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We expect customer service representatives, gap $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "718cc77df94d00b1f5f15c76022f012e74bf8c26c66ef29cbaa9d869b161bf3d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 1,
+          "item": "personal advisors",
+          "value": "$73,953",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 personal advisors gap $73,953"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 2,
+          "item": "financial managers",
+          "value": "$82,188",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 financial managers $82,188"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 3,
+          "item": "credit counselors/loan officers",
+          "value": "$46,259",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 credit counselors/loan officers $46,259"
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 insurance sales agents $49,166."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected customer service representatives: M $53,924, F $43,642, gap $10,282."
+        }
+      ]
+    },
+    {
+      "record_id": "14bccd940e84f986ae059d32bfda7ce1206c7043270db825206da02d78219a06",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 4,
+          "item": "insurance sales agents",
+          "value": "$49,166",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:07:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug12 R4 CONFIRMED at 11:07:55: insurance sales agents, 15s; answered gap $49,166 at +1s."
+        },
+        {
+          "family": "datausa-finance-gender-gap",
+          "round": 5,
+          "item": "customer service representatives",
+          "value": "$10,282",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Prepared customer service representatives M $53,924 F $43,642 gap $10,282."
+        }
+      ]
+    }
+  ]
+}

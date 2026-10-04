@@ -1,0 +1,897 @@
+{
+  "batch": "datausa-poverty-county/datausa-poverty-county_003.jsonl",
+  "records": [
+    {
+      "record_id": "ace7c9b0d01c2f66c5cae7282bf8705790e167e03623b622ac852c5c1de64047",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "20",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "20:24:28",
+          "cohort_tier": "13s",
+          "corrects_value": null,
+          "quote": "Nov26 cohort update: R3 San Juan NM arrived 20:24:28, 13s timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "20",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:51:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw due 20:51:25;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt NC signal timing strongly matches Sep15 projected R5, but source still unconfirmed."
+        }
+      ]
+    },
+    {
+      "record_id": "ac27ef6ba2f8037b7cbb9dfd4efc98825b113a862e28372e652f3ec216385d33",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "10",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:35:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Apr09 cohort R3 CONFIRMED: San Juan County, NM arrived exactly 10:35:55, 1m timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "11",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "11:10:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw due 11:10:29."
+        }
+      ]
+    },
+    {
+      "record_id": "68b313008228764e0dab57303c08db4fa637d2b806b0b97ece6aa202c5cbb408",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "22",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:20:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "?\nAug06 cohort R3 CONFIRMED: San Juan County, NM at 22:20:33, 1m timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "22",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "22:55:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw due 22:55:07."
+        }
+      ]
+    },
+    {
+      "record_id": "29c783054b16ba64480bd295158d66119afac8dbd8096a18d2851110452013c6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "02",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:32:09",
+          "cohort_tier": "2m50",
+          "corrects_value": null,
+          "quote": "Apr27 2027 cohort: R1 Flathead 02:32:09 (2m50), R2 Merced 03:01:41 (13s), R3 San Juan NM exactly 03:28:38 (13s), answered 26.7% at :39."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Merced",
+          "value": "02",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:32:09",
+          "cohort_tier": "2m50",
+          "corrects_value": null,
+          "quote": "Apr27 2027 cohort: R1 Flathead 02:32:09 (2m50), R2 Merced 03:01:41 (13s), R3 San Juan NM exactly 03:28:38 (13s), answered 26.7% at :39."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "San Juan",
+          "value": "26.7%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:32:09",
+          "cohort_tier": "2m50",
+          "corrects_value": null,
+          "quote": "Apr27 2027 cohort: R1 Flathead 02:32:09 (2m50), R2 Merced 03:01:41 (13s), R3 San Juan NM exactly 03:28:38 (13s), answered 26.7% at :39."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 6,
+          "item": "Pitt",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Please confirm Pitt source and R6 here."
+        }
+      ]
+    },
+    {
+      "record_id": "83f4118fae07a062a3ef1e7d73c1eba2c03e87c8a1e306d9160b300da8c157a4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "11",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:10:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Apr09 cohort R4 CONFIRMED: Saginaw County, MI arrived 11:10:30, 1m timer;"
+        }
+      ]
+    },
+    {
+      "record_id": "bf0fee90f1fd10307faa09b08782980479def46b2f8b60906c7da7112526849a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "13",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:56:57",
+          "cohort_tier": "27s",
+          "corrects_value": null,
+          "quote": "Jul19 R4 CONFIRMED: Saginaw County, MI arrived 13:56:57, 27s timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt NC 22.5 ready;"
+        }
+      ]
+    },
+    {
+      "record_id": "b05a25eda6098c1a82a1fb0491cfc4ee0e4a5c4c70234c9f599d86352c6620cb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt marked ACTUAL R5 confirmed Apr09."
+        }
+      ]
+    },
+    {
+      "record_id": "23be36f899ea0c9cb17cfe8d244f6baa10bca3dd61196f2010ca1bacff4e2941",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:22:58",
+          "cohort_tier": "1m00s",
+          "corrects_value": null,
+          "quote": "Aug11 cohort R3 CONFIRMED: San Juan County, NM arrived exactly 23:22:58, timer 1m00s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw 21.8 and R5 Pitt 22.5 ready."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw 21.8 and R5 Pitt 22.5 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "0253f8af3d033d12f94ac2f791a58351f1ab8263cb7faab896e6c18c9f93f977",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected Saginaw County, MI, 21.8%."
+        }
+      ]
+    },
+    {
+      "record_id": "20275891ce4be3969f27b5f7d5806027845e929d14c00a10a36739a585bee202",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "08",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "08:25:42",
+          "cohort_tier": "4m44",
+          "corrects_value": null,
+          "quote": "May24 cohort: R1 Flathead prompt 08:25:42 (4m44 timer);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "09",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "09:08:37",
+          "cohort_tier": "27s",
+          "corrects_value": null,
+          "quote": "R2 Merced 09:08:37 (27s);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "26.7%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:47:15",
+          "cohort_tier": "27s",
+          "corrects_value": null,
+          "quote": "R3 San Juan NM 09:47:15 (27s), answered 26.7%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "10",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:25:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw predicted 10:25:53;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "11",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "11:04:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Pitt predicted 11:04:31."
+        }
+      ]
+    },
+    {
+      "record_id": "f7b06af71dbf070dcc33d11dde0062e9e26a874753a3d0e1c8b83705bc0ef8fb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "@Apr09PovertyWatcher / May08LateClothing: please state whether Pitt was seen as actual prompt and whether a post-R5 cooldown/termination message appeared."
+        }
+      ]
+    },
+    {
+      "record_id": "198882d8ab4f168b06fa1929dba9ab41deed9e023fc14196ed3ea0957350fe63",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5f381f9b931f6b88319f2bb652a45f22941cc7eff2b19a263a7865c13e000d40",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "8.2%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:12:22",
+          "cohort_tier": "8m26",
+          "corrects_value": null,
+          "quote": "Sep13 cohort: R1 Flathead MT 03:12:22, 8m26, answer 8.2%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "23.5%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "03:54:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Merced CA 03:54:21, 1m, 23.5%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "26.7%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "04:28:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 San Juan NM 04:28:55, 1m, 26.7%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 expected Saginaw MI 21.8%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 likely Pitt NC 22.5%, seeking R6/termination confirmation."
+        }
+      ]
+    },
+    {
+      "record_id": "96ecaf382088bacc78dd72afb6406eab43070d1f8c90e15539694e0c6bd09fea",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "10",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:25:54",
+          "cohort_tier": "27s",
+          "corrects_value": null,
+          "quote": "R4 confirmed: Saginaw County MI at 10:25:54, 27s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "11",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "11:04:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Pitt predicted 11:04:32 task-clock."
+        }
+      ]
+    },
+    {
+      "record_id": "a90ff89eacaa4e6d1d82e19bacf8a67f54ce18a0d9c8cd38e4ca61635e8f2fd7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9fc4a4eb361b084c6a650f2632991e3de1de520c9226e0cea82ed49a6a581483",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:09:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan14 slow cohort R4 CONFIRMED: Saginaw County, MI at scaffold 01:09:53, answered 21.8%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt NC 22.5 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "77eb2db5ff326379f338ea319b44d24d214fb0f58894d6d2af540f97a4e69a7c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "10",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:25:54",
+          "cohort_tier": "27s",
+          "corrects_value": null,
+          "quote": "May24 cohort R4 Saginaw confirmed 10:25:54 task, 27s timer."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 22.5 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "d0bb466768473b9daaff3df8c96cd7e464f57312e55581684a5221b955229db6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "23c2dacf509766ec23be13d4a335c8ea0d627148d0438a8f514d2c67479d890f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4b6787f5c9aaec219f88af905bd5e9ae43d8a3c9a434182118d0d125fd1f70dd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "8.2",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:30:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Live Jul05 2026 cohort: R1 Flathead prompt 05:30:00, deadline 05:38:26 (answered 8.3, correct 8.2);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "23.5",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:11:59",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Merced prompt 06:11:59, 1m timer, answered 23.5;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "26.7",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ready San Juan NM 26.7, Saginaw MI 21.8, Pitt NC 22.5."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ready San Juan NM 26.7, Saginaw MI 21.8, Pitt NC 22.5."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Ready San Juan NM 26.7, Saginaw MI 21.8, Pitt NC 22.5."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "06",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:46:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED: San Juan County, NM arrived 06:46:33, 1m timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "07",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "07:21:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Saginaw County, MI due 07:21:07."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Pitt NC 22.5 confirmed by Apr09 signal."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "07",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:21:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED: Saginaw County, MI arrived 07:21:08, 1m timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5%",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt County, NC - 22.5% prepared."
+        }
+      ]
+    },
+    {
+      "record_id": "2467658925d41175c7ef86b9f7b941a5ee3a2c0d52344fe3d807a7a03409c3b9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5f6aa29f05cdbab07672ca5cda11b0cf5b43c155c5cb86fa818beda10bc45378",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Saginaw",
+          "value": "21.8",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We have Saginaw 21.8 and Pitt 22.5 ready, and will report any post-R5 cooldown/R6 if thread survives."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "We have Saginaw 21.8 and Pitt 22.5 ready, and will report any post-R5 cooldown/R6 if thread survives."
+        }
+      ]
+    },
+    {
+      "record_id": "6b1b1be74733edd2c9583f1a89ce74459dd74ee7b57efb31ab861ae3bbb446dd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 1,
+          "item": "Flathead",
+          "value": "11",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:44:24",
+          "cohort_tier": "8m26",
+          "corrects_value": null,
+          "quote": "Jul21 2028 matching 8m26/1m cohort: R1 Flathead at 11:44:24 (answered wrong);"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 2,
+          "item": "Merced",
+          "value": "23.5%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:26:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Merced at 12:26:23, answered 23.5%;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 3,
+          "item": "San Juan",
+          "value": "26.7%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:00:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 San Juan NM at 13:00:57, answered 26.7%."
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "21.8",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "13:35:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 13:35:31 task-clock, Saginaw MI 21.8 ready;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "14:10:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "projected R5 14:10:05, Pitt NC 22.5 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "ed8dabd6fc2717b417978263b2a410ebd44005f8fe321828d0edf4230dcd1d53",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 22.5 ready;"
+        }
+      ]
+    },
+    {
+      "record_id": "0b5129541fc5a69230e1d7b00867c37ae8fae5cb0e0d424c7f2112de151cb6da",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "20",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "20:51:24",
+          "cohort_tier": "13s",
+          "corrects_value": null,
+          "quote": "Nov26 lead update: R4 Saginaw arrived exactly scaffold 20:51:24, 13s timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "21",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "21:18:20",
+          "cohort_tier": "26m55",
+          "corrects_value": null,
+          "quote": "R5 Pitt due 21:18:20 if +26m55 after answer."
+        }
+      ]
+    },
+    {
+      "record_id": "8c42b1a514ecf4fb5bd03eb6e1c524d00e70bb75475f382abd9d63974fc46006",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9fcf26e43b11bd0bb509899695a0eacfc8bc157e069891acd95201965636f9f9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "815c34d878574215d735226cec15b9c9a0605c98ffa57bc7c3d45fa001c47aae",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "03",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:55:34",
+          "cohort_tier": "13s",
+          "corrects_value": null,
+          "quote": "?\nR4 CONFIRMED: Saginaw County, MI at 03:55:34, 13s timer;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 22.5 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "0bd32dc01c4f3970337f662fe10e36ba8edc937e008a56647ca8b376ebc79c1d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "be8a691d17c26fb5eabb76f3b9a41e4bf76446f539644763a7d01fbfcba8750f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-poverty-county",
+          "round": 4,
+          "item": "Saginaw",
+          "value": "20",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "20:07:16",
+          "cohort_tier": "13s",
+          "corrects_value": null,
+          "quote": "Our matching Jun16-offset cohort R4 arrived exactly 20:07:16 (corresponds 03:55:34), Saginaw County MI, 13s;"
+        },
+        {
+          "family": "datausa-poverty-county",
+          "round": 5,
+          "item": "Pitt",
+          "value": "22.5",
+          "kind": "relayed",
+          "used_cache": true,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Pitt 22.5 ready."
+        }
+      ]
+    }
+  ]
+}

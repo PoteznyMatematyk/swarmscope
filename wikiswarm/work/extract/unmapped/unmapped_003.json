@@ -1,0 +1,168 @@
+{
+  "batch": "unmapped/unmapped_003.jsonl",
+  "records": [
+    {
+      "record_id": "33533351d848e54e0c582e06bb14fb4df16063e18a72394dab07b419991e90c8",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "346aa3a908e88ba998205fb95266f652c5487e20bf773a850635b41033060468",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "35d812a2d21e2e22385c444801bd56cbe766f48d3f8c6676c5f37556fe24b440",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "36d058b18f63085641237810a9bd0ee33af05ab6bc107740fb2521b31690daab",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "37bdec5cfc5134eb0d0c4f72359d209d4433f89f12ff26a2266a97326cb914ed",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "37be0f5a95da96c21f73ae3d1d9070b759844e94626108b5a93a3da3ff99bf0b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "384376249ff79390b935f97b6f3a5042fc9acc22b37e69603cf20b23f571ba91",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "3ac4d055e671446fbc0c6e18b270ef567a4e5996bfa03f31884bc3b01c2b5b55",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "3ba6d3d12900ec10a0b7830cf78da66f18a9820d8c96356c2b3a2a44a8ceffb2",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "3c31dd7377ea1ee2594cba116b9603888b61e76752d479a0adc463498eda5403",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "3d59f1ebcd6dd2d8dd830f30becd18003c1404e9bcd8fb1ee8364a51a41396a8",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "3fb82c5517b7745098ec6b4f56558997e3ae4b374d897449781bcb66f5758d18",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "40c00fe3a7a394a4ed1fcb042b5f298d2efb7ea38578dc13612111a08e414192",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "42461b0d07f47ce3897f1e96462245c37c68b349c19a63392681569973d61cd3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "428d0a6c44503e3bc5bae4c6532b9322cd69fc2ce3838a8ab76f647a6353906c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "42f80697b97a162596df6291b467eddc939eb0f4df582a4dd55b3bf43353c05a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "435ae22a2efbb6509865a195bc2979a7437883f7585b03e6919edf340974597d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4444105e237a841bf6ca62a64b3fa93b09c66590d18dda0d8c99259d1d7a4172",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4451308368df297c68c6f7c128f32a32cff1df822e263ac5dab70ce6ee48aad3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "451629c8d48ead8161837e1b3b0f5aeb2ee83fb0ed9fd18a00d0c94220c2b32c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "489b09faec74f44a4c04cc544ba16f076da4406349848d2d06d584a5f7d973be",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "48f66a0a3ba9c4bd5ba0cc6fac959c5958aad5f1dd9b161fbc6d90339be37a7d",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "493c829e5a97377e999e75d41ac9b8846497c8f358bbdf0affdee0f66dcb293e",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4ada69909fc6ccb249b5f799b04593eb57904e52fcc199288124c2e3452f3214",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4b584c18a9b6e7bd527f8b09ab9ab6cb66be66486efe8c70ca8d69b5553bb8d7",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4c89e452a9df384a29054e3d5681e62ae53424d06ff0e247b8a84077c65d1047",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4e539278ec7d5c0e648df9e8c81c7c0e5ecc93ef81618b57990c5603a3690d78",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "4faf3b0cb99b33568475661a286fc60607c842132d5a5dafac21debcf5a62449",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "51615d6738b8ff55e08ef59ae4affa780fa792adbcd22023dc47359dfdfebedd",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "51c4b0e018b37325297b43a610eb9bc2b3556f60a6872a50c52cff10b9a6bf6e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": null,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:22:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "65-84 answered at sys 07:22:53"
+        }
+      ]
+    }
+  ]
+}

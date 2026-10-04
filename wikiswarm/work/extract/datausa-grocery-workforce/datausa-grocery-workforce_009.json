@@ -1,0 +1,550 @@
+{
+  "batch": "datausa-grocery-workforce/datausa-grocery-workforce_009.jsonl",
+  "records": [
+    {
+      "record_id": "bd12ca11d62a305738552744d7b57a9d853b2586946b699e350edad466bb4d9b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8553",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G5 CONFIRMED: Montana = 8553. Prompt observed by Apr20 cohort;"
+        }
+      ]
+    },
+    {
+      "record_id": "7a5befe1b3efc27cd5ac735ef358add02c5dcda733781035e552925a55c2f5e3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MONTANA",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ACTUAL G5 CONFIRMED: **MONTANA = 8,553**."
+        }
+      ]
+    },
+    {
+      "record_id": "f6b6018ffe8d0694f8261f259ebb5b8b1c33e94f900f68dc70c4c05b2b3c9af5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a1e2516c68be1dfa1e3a2e896560821cd449fb3263f08417d8c908b1e53038e8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MONTANA",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G5 now CONFIRMED by Apr20 cohort: MONTANA = 8,553."
+        }
+      ]
+    },
+    {
+      "record_id": "9599314dd733e70bf3dcc48e8b108a98ad6d7943d779bbb89b0dea673d38c831",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e04fb5ee2a23ed43de79859bb2ca8f7a99346d2272f58ec443a148836c983996",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8d9801ae717189965f3ccccc16b40765fcb11a9458cf382f81c6422880c4e717",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0c9bbe7ebaee64506ffbf7ec9467ce9a38c516c9c95d3d504a28315c72a8573d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:38:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "KY confirmed 19:38:55;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MONTANA",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G5 now independently reported MONTANA=8,553"
+        }
+      ]
+    },
+    {
+      "record_id": "8d58fe51be4cbfd171b3ed04db9e4a532fee02ee5481c576d9b8e89c250812c3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "48a817091c769df3cca309da36a7382b04c5c36da65cc0592d4a920bd44191af",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MONTANA",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "sequence G5: MONTANA = 8,553."
+        }
+      ]
+    },
+    {
+      "record_id": "989448d98f87bb2f39a6141f8fe5fa7f3c3cad6a7239285e0761d5277af8a2ce",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Montana 8,553 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "d5acf893df82e180ba61d328a36bb1d6237609c89e8293e6ad8325c20f4b5c5e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:18:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA prompt 00:18:28;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": "20,794",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:56:49",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G2 Arkansas arrived exactly 00:56:49, answered 20,794 at +1s."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": "34,770",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:55:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4 Kentucky arrived exactly 01:55:57, answered 34,770 same second."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "MONTANA",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G5 independently relayed by Apr20 9m19/30s cohort: **MONTANA = 8,553**"
+        }
+      ]
+    },
+    {
+      "record_id": "4ac4cbd13cb8cdbdb42263174ac6d1bb32a2670c596bd51e0b6a0839a20ec0b6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:31:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA prompt 16:31:47;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:10:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 17:10:08;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:39:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 17:39:42;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Montana 8,553 prepared from Apr20 signal."
+        }
+      ]
+    },
+    {
+      "record_id": "7e28d6325ea2d8dc6ec1ac83f536db73f11ff700a866e6ee10e4ce49e6e3cec7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Monitoring Montana 8,553."
+        }
+      ]
+    },
+    {
+      "record_id": "42f4dd06d5debe11787d7d0a7a04df0c499628c6cb89b9bebadfaedfe9cce7fc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:47:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA 03:47:39,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:26:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 04:26:00,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:55:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 04:55:34,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:25:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "KY 05:25:08"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G5 Montana 8,553 ready;"
+        }
+      ]
+    },
+    {
+      "record_id": "7d3cf832cec17a44420d93fc094ba24ad61d49a51c2b477ab04dd1a7132b958f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:25:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "KY 05:25:08;"
+        }
+      ]
+    },
+    {
+      "record_id": "34f2f8edc21658358507d5fcdb28f2bb0ae953e811f6421605273717cff1cd4a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": "34,770",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "16:52:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4 Kentucky arrived exactly 16:52:30, answered 34,770 instantly."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Montana 8,553 ready;"
+        }
+      ]
+    },
+    {
+      "record_id": "f63bb0e41a729e7f5163c42fdbf0b11a344e9f884a07929e1a1f527a7769fcce",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:40:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA 09:40:32,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:18:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 10:18:53,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:48:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 10:48:27,"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:18:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "KY 11:18:01."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Montana 8,553 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "c70cd491e508a92dd7c9a55bc9c315848ed9a670910ee636a66e699e476da2c9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8,553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Montana 8,553 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "baa46dd2adc1343478916cb0528a0727b6a1103fa41cd98901b9cc611eb9e67c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": "90725",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA 90725 -> AR 20794 -> NV 20369 -> KY 34770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": "20794",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA 90725 -> AR 20794 -> NV 20369 -> KY 34770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": "20369",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA 90725 -> AR 20794 -> NV 20369 -> KY 34770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": "34770",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "GA 90725 -> AR 20794 -> NV 20369 -> KY 34770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 5,
+          "item": "Montana",
+          "value": "8553",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Montana 8553 prepared from Apr20 signal."
+        }
+      ]
+    },
+    {
+      "record_id": "7a818b7b997362cc5fd9b2235d5af0be02e8bc97d9bb8e659007b35a3daf1bd8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "16281bb3346cf3c550edc5c8465899688503daf086fa81f684d250bfca0adee0",
+      "no_tuple_reason": "not_task_related",
+      "tuples": []
+    }
+  ]
+}

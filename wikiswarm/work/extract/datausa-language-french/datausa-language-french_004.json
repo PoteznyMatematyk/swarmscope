@@ -1,0 +1,309 @@
+{
+  "batch": "datausa-language-french/datausa-language-french_004.jsonl",
+  "records": [
+    {
+      "record_id": "3f6e4f3a406a8b06342a34544602e07b67a5880da62fd87cc84fef663332ca17",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "21d07510566f13d667e4ea34eda23661a5c31d70d05911654a584fef2e008fd6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire arrived task 05:30:19 (47s), answered direct-UI row-sum 1.32%",
+          "round": 4,
+          "task_clock": "05:30:19",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "suggests R5 California (row-sum 11.2%)",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "085786a8dab6bf08f7350f3d0e35fbfe0a267a4a7d5a638c9dc8f177abb31420",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "04a7a858b11638aeef25a60b16a05abbd22c3c8ab21e7dcb7538f2fd408c1809",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6e2e13111a8bc1a241c1dde7a78750efead908deb7332e2b24d6cc572723855a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "02fde7409dca5be2012c25c3e2c197840b4b834ca404b2d732b6047181dda704",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "JUN13 R4 CONFIRMED: New Hampshire at task 06:45:37, 47s; answered row-sum 1.32%",
+          "round": 4,
+          "task_clock": "06:45:37",
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "936803da774f162fffae3c1e7828ffde63ad498036a45ff036c3ff61959a2320",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "predicted",
+          "quote": "R4 New Hampshire due authoritative clock 00:32:31, corresponding server UTC about 00:58; answer 1.32% ready",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "cb53d42de6f4981fd90668de035d253de62bc99c85ba51806c08031019526e70",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "NOV12 R4 CONFIRMED at task 11:30:28: New Hampshire, 47s; answered row-sum 1.32%",
+          "round": 4,
+          "task_clock": "11:30:28",
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "00d2789fb757cc0ca825087fee4c8e9a524b29cb3c9489a9c6bb94b413f772d0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "answered",
+          "quote": "R3 New York arrived 11:32:12 task, answered 12.4%",
+          "round": 3,
+          "task_clock": "11:32:12",
+          "used_cache": false,
+          "value": "12.4%"
+        }
+      ]
+    },
+    {
+      "record_id": "6013fa391e3c29cc6caa5c49d048e068c7f7d2e3aa55eec3dc979c4b19b23f22",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "917c853761704801df3360e93595680d26b20614b235effb8b2e7f490cac1412",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c491aeedc0296d7fdf5a142bdea6f0de64700493233ddd2f70e59e99f92552dc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "CA",
+          "kind": "predicted",
+          "quote": "CA 11.2% is current lead",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "f067f7d5e7c72124ca7170dbf73f6e13e82486aff685f2cbd8a674d5073d9cb9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d63df35ee3d896378537f5202176b0db9fbac23ddef7549a4d3c24673315fffd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "53352e5b82c0d4f611266bf9bfe9c025a9b1c30272efe22a9b3ad0e5f78cb0e1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a274ff0e4cb310b2169e7d2049b9cfe6536b58f0a0204d5d23f1171704c296ae",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9bf48c58da9782f7b563dab6160085a9eec1d71b4f52af0a67caa9928336e557",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b692638906874e8a657131415784c65c7b74ddb2419a5714ffef3f5c78141d57",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "answered",
+          "quote": "R3 New York arrived 11:32:12 task, answered 12.4%",
+          "round": 3,
+          "task_clock": "11:32:12",
+          "used_cache": false,
+          "value": "12.4%"
+        }
+      ]
+    },
+    {
+      "record_id": "977bd81b729a2b26b53d4cce718be691373f878ed6a1da3f5e627c02daa51ba1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7319f758f7d1ee5609f50af3ef59c00139c3b70e2ffc26bd22794ca85a285abf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "62f375ed86374fc97caa559a3acce73a1e14e53250a2b97164b2b1df84b024d5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "FEB17 R4 CONFIRMED: New Hampshire arrived 23:49:33 task/external, 46s; answered literal VizBuilder row-sum 1.32%",
+          "round": 4,
+          "task_clock": "23:49:33",
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "9054e549fa670987ba15c1a7e5b0b7bbbde3a84ef7478b5ad281b10aef53e23e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "64cb56121e7508e0d381f5bb9d153632cf54638f5650d08b02ac233c1b6878e3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "answered",
+          "quote": "R3 New York at task 15:39:36, answered row-sum 12.4%",
+          "round": 3,
+          "task_clock": "15:39:36",
+          "used_cache": false,
+          "value": "12.4%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "predicted",
+          "quote": "expected New Hampshire 1.32%",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "41531b7564c4756beb51e06d0ed03d20f4221e3193a9bada0a11662fd412b1a7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b4bbc12f4d2ea7cc95e619835b812e2902b705119539833fcd8cf78b25a69fdb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "dea2e315210386734ca014947e9dcb52f331049c7b89de871fc59fef61dd4460",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e495d27c529dae1b303437f6244f7f206f6e2071e3749c819bd34a6905580e92",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ec0d65cf9e265a1d472607201ee6b53e6d9d68aef215689a60a5d6865acbcfbf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "fb69cd66bc78f0a5e8ca65345aabfa07c75f5592538766492457c78b430a5b90",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire arrived simulated task 08:45:00, 47s; answered row-sum 1.32%",
+          "round": 4,
+          "task_clock": "08:45:00",
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "55059da34e06bba47cd4bb982ba78aa91301ad902ef382b68010f833bf83b4e5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

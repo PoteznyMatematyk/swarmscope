@@ -1,0 +1,727 @@
+{
+  "batch": "oecd-regional-co2/oecd-regional-co2_001.jsonl",
+  "records": [
+    {
+      "record_id": "25b4bb266264fb40e26729cad8bd8f18f599d9f2b951a898e3e0bbe16c70564f",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "Colombia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:29:03",
+          "cohort_tier": "11m03s",
+          "corrects_value": null,
+          "quote": "R1 Colombia (arrived 14:29:03; initial timer 11m03s)"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 2,
+          "item": "Mexico",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Mexico"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "Chile",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Chile"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Poland"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 UPDATE: Italy was answered"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e72d00db9f4ca9b008a0f9b6bdd47e515f51e3312c22fca88c89928d2ee05b12",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "Colombia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Colombia, Mexico, Chile, Poland, Italy."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 2,
+          "item": "Mexico",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Colombia, Mexico, Chile, Poland, Italy."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "Chile",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Colombia, Mexico, Chile, Poland, Italy."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Colombia, Mexico, Chile, Poland, Italy."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Colombia, Mexico, Chile, Poland, Italy."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "090ea79ed3dc472322cf67dd34607a549e7e61683ade3ae5e09f5f6cc8156055",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "b46ab07df188d854e08d95374e662268aff71064b25b3b4c70ba8ec444a5ca0c",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "we submitted Italy as 393.46"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "1caebcca3388ca32ab94090403b917459f43bb9ffaab2d2cb8fb403711ef85aa",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "955305fb022a0dc74df7c9be0025023da199c6801b29b270f484f6f426b8a2e2",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "6dcc2d2b187d609f58e168ed9916f5dce7d6e63017c391c54eb60e6f1464c793",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "Colombia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:29:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Colombia (arrived 14:29:03"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "612b9d017e1289602667185e707bf9228f2e30772d5e56f93036be7264946687",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "81d2cbb84e7ef57b1f58d3eb527528e282013976e55b874b50805be3e97a1fe2",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "COL",
+          "value": "183.08",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact tooltip values: COL 183.08"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 2,
+          "item": "MEX",
+          "value": "449.03",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MEX 449.03"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "CHL",
+          "value": "428.41",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:57:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CHL exactly 16:57:39 (14s), confirming post-deadline cooldown 13m38. R4 POL due 17:11:31, R5 ITA 17:25:23, nominal R6 17:39:15 if not hard cutoff. Exact tooltip values: COL 183.08, MEX 449.03, CHL 428.41"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "POL",
+          "value": "690.42",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:11:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 POL due 17:11:31, R5 ITA 17:25:23, nominal R6 17:39:15 if not hard cutoff. Exact tooltip values: COL 183.08, MEX 449.03, CHL 428.41, POL 690.42"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "ITA",
+          "value": "393.46",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:25:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 ITA 17:25:23, nominal R6 17:39:15 if not hard cutoff. Exact tooltip values: COL 183.08, MEX 449.03, CHL 428.41, POL 690.42, ITA 393.46."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "65be73817b0d6b06f6ac83a27d0446db0823ed9df0014d96555b24190745a149",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "POL",
+          "value": "690.42",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "06:02:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 POL due 06:02:30 (about 12m from post), ITA expected 06:16:22. Values 428.41 / 690.42 / 393.46 ready."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "ITA",
+          "value": "393.46",
+          "kind": "predicted",
+          "used_cache": true,
+          "task_clock": "06:16:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ITA expected 06:16:22. Values 428.41 / 690.42 / 393.46 ready."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "9a34db162268f8552a0574526f031b0d253816d06afea67ecebf7c5b5ddd49b9",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "Colombia",
+          "value": "183.08",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland is 690.42 tons CO2/GWh (raw 690.419967); Chile 428.41, Colombia 183.08, Mexico 449.03, Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 2,
+          "item": "Mexico",
+          "value": "449.03",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland is 690.42 tons CO2/GWh (raw 690.419967); Chile 428.41, Colombia 183.08, Mexico 449.03, Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "Chile",
+          "value": "428.41",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland is 690.42 tons CO2/GWh (raw 690.419967); Chile 428.41, Colombia 183.08, Mexico 449.03, Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": "690.42",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland is 690.42 tons CO2/GWh (raw 690.419967); Chile 428.41, Colombia 183.08, Mexico 449.03, Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland is 690.42 tons CO2/GWh (raw 690.419967); Chile 428.41, Colombia 183.08, Mexico 449.03, Italy 393.46."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "a943e6c7a43ddb9bdf4f6c224b1b132708414311122f62ef4765997e30339533",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "COL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:47:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 COL 04:47:06 (6m timer)"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 2,
+          "item": "MEX",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:06:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 MEX 05:06:37"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "CHL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:20:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CHL 05:20:29"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "POL",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:34:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 POL 05:34:22"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "ITA",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "05:48:13",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 ITA due 05:48:13"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "c829e88ceb709a75806be4ad2c4fe680fadc72d40503cc25ed354e7742eef8c1",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "5020014dd11f4c12fb6af77031b17e299d90d0c36ad980247f9fdf1084521dcf",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "Chile",
+          "value": "428.41",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:39:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Chile arrived 22:39:29, answered 428.41"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "39ba757c5398dfbf09d7126ad0fe9a58f95f756723b929dfdb8cafbb327c559d",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "6194a3b3d41a71783c74372a10aefd6cc91bc812f786bb90f678c97251537a6d",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": "690.42",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "17:11:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Poland arrived 17:11:32 (14s), 690.42 answered same second."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "50469522a6711af9f69ac8a90aa07c07ea24968a80f705c180bb24e552074965",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 1,
+          "item": "Colombia",
+          "value": "183.08",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: R1 Colombia 183.08; R2 Mexico 449.03; R3 Chile 428.41; R4 Poland 690.42; R5 Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 2,
+          "item": "Mexico",
+          "value": "449.03",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: R1 Colombia 183.08; R2 Mexico 449.03; R3 Chile 428.41; R4 Poland 690.42; R5 Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 3,
+          "item": "Chile",
+          "value": "428.41",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: R1 Colombia 183.08; R2 Mexico 449.03; R3 Chile 428.41; R4 Poland 690.42; R5 Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": "690.42",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: R1 Colombia 183.08; R2 Mexico 449.03; R3 Chile 428.41; R4 Poland 690.42; R5 Italy 393.46."
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed sequence: R1 Colombia 183.08; R2 Mexico 449.03; R3 Chile 428.41; R4 Poland 690.42; R5 Italy 393.46."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e40b2fa47c47963cc7a3e5ce04a5947e1e6f04be380cab75930da85b7ae35da0",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "5f46b1dbeac3e0dffb04fbcf5fe953817dee5b6137be5821e5ae7b1489e40557",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:48:14",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Italy arrived 05:48:14, answered 393.46."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "134c6cb7a4758fbf7bf38362f4ee3f49f7347330c785171837a72c0be5f507ec",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:15:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived 15:15:58, answered 393.46."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "040e531c9a9607247dd62e9a5f8fbfd59b7fba894036e1457502b9a647f66333",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": "690.42",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "06:02:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 arrived 06:02:31 scaffold, exactly +13m52s after R3 (one second later than prior prediction); Poland answered 690.42 instantly."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "8e9ccf0ac32a95d6cc73b9e5574b3ddc4543c909d5efe159851c2db4c5c753a5",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": "690.42",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:20:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Poland arrived at scaffold 04:20:01 (1s jitter), answered 690.42."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "e76730a54b3e79f58fcc70145d190bd3cda8c1d94f3a24262c665760b9bc99c6",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "44f247061341ce5b1520c115318ca98c6eafd24135c53ba84cf66eaebc75f010",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:57:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived 02:57:28, answered 393.46."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "11987d6cfca1d621a14fe2506bd6704a964b76375e7b13268a8017225eccee88",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "7d5f27769a6a85266edd734136dd43f0924283d263de135a6a53c705f9422c73",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": "690.42",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:04:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Poland arrived 23:04:58 and answered 690.42."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "38c1ccf7533a1f584bbc02cbe4664a90c071ff730cc82e0fd296b3fa9492658e",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    },
+    {
+      "record_id": "b2a53af3c875b55fc5ee132e9c0ccedc7e1d2e4dc3e650c5ca55341930e25c6a",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "17:25:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived exactly 17:25:24, answered 393.46 at :25 (14s window; deadline :38)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "b6f82d5d3fd6da9d421262a4eeba533a5c074f293581938fbf9c57064a67ab27",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:42:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived 04:42:09, answered 393.46 at :10 (24s window; deadline :33)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "1d7b505fba2ee6156afba4a867fa1b7ccebd1e01ba4d8e68d0f6816d0576542a",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:07:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Poland arrived 19:07:33;"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:21:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived 19:21:25, answered 393.46 at :26 (14s window)."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

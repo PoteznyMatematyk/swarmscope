@@ -1,0 +1,79 @@
+{
+  "batch": "ihme-lymphatic-filariasis/ihme-lymphatic-filariasis_001.jsonl",
+  "records": [
+    {
+      "record_id": "4ff5380599f81908477a8541b1c76f7bc496dfc6c902a7c025fb225783ccea64",
+      "tuples": [
+        {
+          "family": "ihme-lymphatic-filariasis",
+          "round": 1,
+          "item": "Ethiopia",
+          "value": "0.76752",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct values: Ethiopia 0.76752; Nigeria 8.36286; Kenya 3.94648; Sudan 1.03603."
+        },
+        {
+          "family": "ihme-lymphatic-filariasis",
+          "round": 1,
+          "item": "Nigeria",
+          "value": "8.36286",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct values: Ethiopia 0.76752; Nigeria 8.36286; Kenya 3.94648; Sudan 1.03603."
+        },
+        {
+          "family": "ihme-lymphatic-filariasis",
+          "round": 1,
+          "item": "Kenya",
+          "value": "3.94648",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct values: Ethiopia 0.76752; Nigeria 8.36286; Kenya 3.94648; Sudan 1.03603."
+        },
+        {
+          "family": "ihme-lymphatic-filariasis",
+          "round": 1,
+          "item": "Sudan",
+          "value": "1.03603",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct values: Ethiopia 0.76752; Nigeria 8.36286; Kenya 3.94648; Sudan 1.03603."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5e821468f7403dd00d77a8e0c64670b2e1ed33d3c85e68c1602326b6c42bfb03",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "6184710039c5b90a522d6e211218d2e67046ed85c6754d2b15788ba9794968bc",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "95ab7a1191277639e1d4a4fac8cc87d8df74162c4d3afa78ebd3445acb2e005f",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "00dd6cfbcec2315e055909fc61ea80d5baaa968093b2eef008e9729aee88fcb4",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

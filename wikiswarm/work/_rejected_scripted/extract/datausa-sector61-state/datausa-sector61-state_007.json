@@ -1,0 +1,386 @@
+{
+  "batch": "datausa-sector61-state/datausa-sector61-state_007.jsonl",
+  "records": [
+    {
+      "record_id": "2e1e4aaa9261cc1fb731ad4a727a607a5cdff6c74ddee4fdaef4aeac9d051e2d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 3,
+          "item": "MI",
+          "value": null,
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "08:28:20",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MI 08:28:20 task;"
+        },
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "08:54:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WV due 08:54:40;"
+        }
+      ]
+    },
+    {
+      "record_id": "f71635ad75b3b851bae9fc55f385cf61299b487a2c74a891c328b3cc10d01bbb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 3,
+          "item": "MI",
+          "value": null,
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun25 4ffea cohort: MI done;"
+        },
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:27:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WV due system 20:27:21/22;"
+        }
+      ]
+    },
+    {
+      "record_id": "5bf98846aceb116538624ad5bf2b97a30ea0ddaf2b81c26938602f630f1036cd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6bfeb7d9590c02c82ca1e616d637e08ef55367021b7722c197f2d934a047393b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 3,
+          "item": "MI",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:05:04",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MI answered 04:05:04;"
+        },
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "04:31:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WV due task 04:31:23."
+        }
+      ]
+    },
+    {
+      "record_id": "689a38fca0c503ca96dd3aa55df87be7a2d59e0a2d512f3aa734e43abc3d3666",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e49c0cfc130f8f46647aba06b3ad65187e9efc6146acf8683c96aa67b30b0a12",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "07a171a94d2cfdfe9e220e65c897ea573dde4f765fdd7e486d2279b2fcd2daa8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "cd964c5182ecc575b59a427b0bee7a93a1551725ad1bb207825821c3e4d29a47",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:14:50",
+          "cohort_tier": "3m20",
+          "corrects_value": null,
+          "quote": "Dec27 cohort: WV due task 17:14:50 (about 3m20 from now);"
+        }
+      ]
+    },
+    {
+      "record_id": "fcb11c964b68cc333bcf438e01974209ee4658c71d9afa5cd5b98358ae8cb807",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c9e4f73d601dac252370047c9aaf45625c2c757411e6f8c963e776d46b3a6e72",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8df35560701a3b06dd56bcf41b080e5e8bf264e8b44cd834527a760b5bd21bfe",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:16:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LIVE Nov11OAI: WV answered exact task 11:16:46;"
+        }
+      ]
+    },
+    {
+      "record_id": "b0e3121f848f1636d5739b675861b446d9b984e04e5879de54e49f7d2e547d86",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "06:51:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Mar21 cohort: WV 06:51:47;"
+        }
+      ]
+    },
+    {
+      "record_id": "a036350162348a1aaef842fc7361afca46f00b18b12a66509a17dcd81067e1eb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 5,
+          "item": "NH",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "19:24:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our task clock: round5 due 19:24:41, likely NH;"
+        }
+      ]
+    },
+    {
+      "record_id": "1761cba6c4c7fbc1a2c32508c17fb5176a3ecbd2eff4aec48182c16f66d6d1f2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Aug23OAI: WV answered;"
+        }
+      ]
+    },
+    {
+      "record_id": "dc577e688a45e6ddf7cfbdf6ddc6ef3786dc6fdf3448646c7e9c9301f87b02ff",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b100022dfcc3af707a0333bbdf6245ff366a1b930e18ec256e883079fb983f08",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:49:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May17-4ffea: WV answered exact at system 05:49:16;"
+        }
+      ]
+    },
+    {
+      "record_id": "7d5f0c0e0aff4e1574041c1b927973b51feb430f122631a3803632d6c4cbd73c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:06:54",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jul20 cohort: WV answered exact task 05:06:54;"
+        }
+      ]
+    },
+    {
+      "record_id": "a64752ac3a219927f0038adaf290bf0bcbb30631aefdc3646b056f329e38e615",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bf79dc2baa586883ffd5159bb9f0abd740f97380e9cd4d3b97cdb7c278e4a065",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:39:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "May17 cohort update: WV answered exact at task 10:39:17;"
+        }
+      ]
+    },
+    {
+      "record_id": "dd02c3c97b3c2043f400a91193e6a2798875ef24cec283f7d01ddaec5e23712c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "24843dcac8b1099f3e265ee73f00814d31199f48a6a27c7f34fd1daf73d2d3fa",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3b6bf7bae69f560758055bafeeeb6f6a51b73043dd7f11f8c4eb6d5312d4b468",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:13:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun07 cohort: WV answered task 13:13:10;"
+        }
+      ]
+    },
+    {
+      "record_id": "7637c2e92d2f213b50e35e68ccc4b1050baf56fcb0dc25dd2be2b1e029215b1d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8300399c4c8feed7bb79cc15d19a20a11e0c0b8a99e3604c04ea80d071141316",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:21:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "LIVE 4ffea Mar12 cohort: WV answered exact task 20:21:37;"
+        }
+      ]
+    },
+    {
+      "record_id": "be3f16a1ac4bcd16824370d208f64269f05bce88969128bb81d495750d3fdfff",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:42:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan07 cohort: WV answered exact task 14:42:40;"
+        }
+      ]
+    },
+    {
+      "record_id": "714d7c1f868fffca0b6669a714b6dbe37ab0502bab901353d6c2fdacab17965c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3a4c92873a8306c270147b602cae617ee18f1e2d74fe24b6d6ab8c39108a08e0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0133ad583e946ffcf133ae143109f2076cf340ba035177bb64d48d686e3237f6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "669ffd4f17bedc427d26ecb3258a38546ca5cc29223cd036d39f51e7ef6734d3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:07:37",
+          "cohort_tier": "3m34",
+          "corrects_value": null,
+          "quote": "May11 exact 3m34/10s cohort: WV answered 22:07:37;"
+        }
+      ]
+    },
+    {
+      "record_id": "99c5c40456b2b4ffd27beb05559f942ebdb724441820e668bf809421401f79fb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

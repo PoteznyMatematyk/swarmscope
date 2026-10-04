@@ -1,0 +1,1224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'self'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>SwarmScope Evidence Viewer</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='14' cy='14' r='9' fill='none' stroke='%2314161b' stroke-width='3'/%3E%3Cpath d='M21 21l7 7' stroke='%2314161b' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M9.5 14.2l3 3 5.5-6.2' fill='none' stroke='%230a6f53' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:light-dark(#f2efe6,#0d0f13);
+  --surface:light-dark(#fbfaf5,#151820);
+  --surface2:light-dark(#ebe7db,#1c202a);
+  --ink:light-dark(#14161b,#ece9e0);
+  --muted:light-dark(#555a68,#a1a6b4);
+  --faint:light-dark(#7d818d,#737988);
+  --rule:light-dark(#d6d0c0,#2a2f3b);
+  --ok:light-dark(#0a6f53,#41dca0);
+  --ok-bg:light-dark(#d9eee4,#10322a);
+  --bad:light-dark(#b3261a,#ff8270);
+  --bad-bg:light-dark(#f5dad4,#3b1b17);
+  --warn:light-dark(#8a5500,#f3b845);
+  --warn-bg:light-dark(#f4e4bf,#3a2e12);
+  --sig:light-dark(#2340c8,#9db0ff);
+  --sig-bg:light-dark(#dfe4fb,#1c2444);
+  --mark-bg:light-dark(#ffe45c,#7a5c00);
+  --mark-ink:light-dark(#14161b,#fff8e0);
+  --shadow:light-dark(0 10px 40px rgba(20,22,27,.18),0 10px 40px rgba(0,0,0,.6));
+  --sans:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:ui-monospace,"Cascadia Mono","SF Mono",Consolas,"Liberation Mono",Menlo,monospace;
+  --drawer:min(520px,100vw);--hh:58px;
+}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans);-webkit-font-smoothing:antialiased;min-width:320px}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--sig)}
+:focus-visible{outline:2px solid var(--sig);outline-offset:2px;border-radius:2px}
+.sr-only{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+[hidden]{display:none!important}
+svg{display:block}
+.ic{flex:none}
+
+/* ---------- header ---------- */
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--ink);box-shadow:0 3px 0 -2px var(--bg),0 4px 0 -2px var(--rule)}
+.top-in{max-width:1240px;margin:0 auto;padding:8px 20px 0;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;padding-bottom:6px}
+.brand-name{font:700 19px/1 var(--serif);letter-spacing:.01em}
+.brand-sub{font:600 10.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border-left:1px solid var(--rule);padding-left:10px}
+.tabs{display:flex;gap:2px;margin-left:8px;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{position:relative;background:none;border:0;padding:10px 13px 11px;font-weight:600;font-size:14px;color:var(--muted);white-space:nowrap;border-radius:0;display:flex;align-items:baseline;gap:6px}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected=true]{color:var(--ink)}
+.tab[aria-selected=true]::after{content:"";position:absolute;left:10px;right:10px;bottom:-1px;height:3px;background:var(--ink)}
+.tab .n{font:500 11px/1 var(--mono);color:var(--faint);font-variant-numeric:tabular-nums}
+.tools{display:flex;align-items:center;gap:8px;padding-bottom:6px;margin-left:auto}
+.btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--rule);background:var(--surface);padding:6px 11px;font-size:13px;font-weight:600;border-radius:3px;color:var(--ink);line-height:1.2}
+.btn:hover{border-color:var(--ink)}
+.btn.sm{padding:4px 8px;font-size:12px}
+.btn.ghost{background:none}
+.icon-btn{width:34px;height:34px;padding:0;justify-content:center}
+.switch{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--surface);padding:5px 10px 5px 6px;font-size:13px;font-weight:600;border-radius:3px}
+.switch:hover{border-color:var(--ink)}
+.lbl-short{display:none}
+.switch .track{width:28px;height:16px;border-radius:9px;background:var(--surface2);border:1px solid var(--faint);position:relative;transition:background .15s}
+.switch .track::after{content:"";position:absolute;top:2px;left:2px;width:10px;height:10px;border-radius:50%;background:var(--muted);transition:transform .15s,background .15s}
+.switch[aria-checked=true]{border-color:var(--bad);background:var(--bad-bg)}
+.switch[aria-checked=true] .track{background:var(--bad);border-color:var(--bad)}
+.switch[aria-checked=true] .track::after{transform:translateX(12px);background:var(--surface)}
+.ribbon{background:repeating-linear-gradient(-45deg,var(--warn-bg) 0 12px,transparent 12px 24px);border-bottom:1px solid var(--warn);color:var(--warn);font:700 11.5px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:9px 12px}
+.ribbon b{background:var(--warn);color:var(--bg);padding:2px 6px;margin-right:8px}
+
+/* ---------- layout ---------- */
+.app{transition:padding-right .2s}
+main{max-width:1240px;margin:0 auto;padding:26px 20px 80px;outline:none}
+h1,h2,h3{font-family:var(--serif);margin:0;font-weight:700;letter-spacing:-.005em}
+.eyebrow{font:600 10.5px/1.2 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.card{background:var(--surface);border:1px solid var(--rule);padding:18px 20px;border-radius:3px}
+.card h2{font-size:19px;margin-bottom:4px}
+.sub{color:var(--muted);font-size:13.5px;margin:0 0 14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.stack{display:grid;gap:16px;margin-top:16px}
+.num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+.mono{font-family:var(--mono)}
+.view-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.view-h h1{font-size:28px}
+.counter{font:600 12.5px/1.3 var(--mono);color:var(--muted);letter-spacing:.02em}
+.counter b{color:var(--ink)}
+.empty{border:1px dashed var(--faint);padding:44px 24px;text-align:center;color:var(--muted);background:var(--surface);border-radius:3px}
+.empty h2{color:var(--ink);font-size:24px;margin-bottom:8px}
+.empty p{max-width:520px;margin:6px auto}
+.drop-on .empty{border-color:var(--sig);background:var(--sig-bg)}
+
+/* ---------- status seal / chips ---------- */
+.seal.sm{padding:3px}
+.seal{display:inline-flex;align-items:center;gap:5px;font:700 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px 4px 5px;border:1px solid currentColor;border-radius:2px;white-space:nowrap}
+.seal.ok{color:var(--ok);background:var(--ok-bg)}
+.seal.warn{color:var(--warn);background:var(--warn-bg)}
+.seal.bad{color:var(--bad);background:var(--bad-bg)}
+.chip{display:inline-block;font:600 11px/1 var(--mono);letter-spacing:.04em;padding:4px 7px;border:1px solid var(--rule);border-radius:2px;color:var(--muted);background:var(--surface2);white-space:nowrap}
+.chip.sig{color:var(--sig);background:var(--sig-bg);border-color:transparent}
+.chip.ok{color:var(--ok);background:var(--ok-bg);border-color:transparent}
+.chip.bad{color:var(--bad);background:var(--bad-bg);border-color:transparent}
+.chip.warn{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+
+/* ---------- overview ---------- */
+.hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);border:1px solid var(--ink);background:var(--surface);border-radius:3px}
+.hero-main{padding:26px 28px 24px}
+.big{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;font-family:var(--serif);line-height:.95;margin:2px 0 8px}
+.big .n{font-size:clamp(54px,9vw,96px);font-weight:700;letter-spacing:-.03em;color:var(--ok)}
+.big .of{font-size:clamp(26px,4vw,44px);color:var(--muted);font-weight:400}
+.lede{font-size:17px;margin:0 0 18px;max-width:46ch}
+.caveat{padding:26px 28px;border-left:1px solid var(--ink);background:var(--surface2);display:flex;flex-direction:column;justify-content:center;gap:12px}
+.caveat .def{font:700 22px/1.25 var(--serif);margin:0}
+.caveat .def code{font:700 .78em var(--mono);background:var(--ok-bg);color:var(--ok);padding:2px 6px;border-radius:2px}
+.caveat .not{margin:0;font-size:15px;border-left:3px solid var(--bad);padding-left:12px}
+.caveat .not b{color:var(--bad)}
+.segbar{display:flex;height:16px;border:1px solid var(--ink);background:var(--surface2);overflow:hidden;border-radius:2px}
+.segbar>span{display:block;height:100%;min-width:2px}
+.segbar>span+span{border-left:1px solid var(--surface)}
+.seg-ok{background:var(--ok)}
+.seg-bad{background:var(--bad)}
+.seg-warn{background:var(--warn)}
+.seg-mut{background:var(--faint)}
+.seg-sig{background:var(--sig)}
+.legend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px;margin:12px 0 0;padding:0;font-size:13px;color:var(--muted)}
+.legend li{display:flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;display:inline-block;border-radius:1px}
+.legend b{color:var(--ink);font-variant-numeric:tabular-nums}
+.rate-row{display:grid;grid-template-columns:150px 1fr 64px;gap:12px;align-items:center;margin:10px 0}
+.rate-row .lbl{font-size:13px;color:var(--muted);line-height:1.25}
+.rate-row .val{font:700 18px/1 var(--serif);text-align:right;font-variant-numeric:tabular-nums}
+.track-bar{height:14px;background:var(--surface2);border:1px solid var(--rule);position:relative;border-radius:2px;overflow:hidden}
+.track-bar>i{position:absolute;left:0;top:0;bottom:0;display:block}
+.model-row{display:grid;grid-template-columns:minmax(90px,170px) 1fr 58px 96px;gap:12px;align-items:center;padding:8px 0;border-top:1px solid var(--rule)}
+.model-row:first-of-type{border-top:0}
+.model-row .lbl{font:600 13px/1.2 var(--mono);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.model-row .val{font:700 17px/1 var(--serif);text-align:right;font-variant-numeric:tabular-nums}
+.model-row .n{font:12px/1 var(--mono);color:var(--muted);text-align:right}
+.axis{display:flex;justify-content:space-between;font:11px/1 var(--mono);color:var(--faint);margin:2px 0 0 182px;padding-right:166px}
+.recount{margin:16px 0 0;font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:6px}
+.kpis.k2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.kpi{background:var(--surface);padding:12px 14px}
+.kpi b{display:block;font:700 26px/1.1 var(--serif);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12.5px;color:var(--muted)}
+
+/* ---------- findings ---------- */
+.fgrid{display:grid;gap:16px}
+.fcard{position:relative;background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--ok);border-radius:3px}
+.fcard.unv{border-left-color:var(--bad)}
+.fhead{padding:18px 20px 16px;display:grid;gap:6px}
+.fhead h3{font-size:21px;line-height:1.25;margin:0}
+.fbtn{all:unset;cursor:pointer;display:inline;color:var(--ink)}
+.fbtn::after{content:"";position:absolute;inset:0}
+.fbtn:focus-visible{outline:2px solid var(--sig);outline-offset:4px}
+.fcard:hover{border-color:var(--ink);border-left-color:var(--ok)}
+.fcard.unv:hover{border-left-color:var(--bad)}
+.fhead .thesis{margin:0;max-width:78ch;font-size:15px}
+.fcard[data-open=false] .fhead .thesis{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.orig summary{cursor:pointer;color:var(--muted);font-size:13px}
+.fmeta{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin-top:6px}
+.fmeta .chev{margin-left:auto;color:var(--muted);transition:transform .15s}
+.fcard[data-open=true] .chev{transform:rotate(90deg)}
+.fbody{position:relative;z-index:2;border-top:1px solid var(--rule);padding:6px 20px 20px}
+.fbody h4{font:700 10.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:22px 0 12px}
+.timeline{list-style:none;margin:0;padding:0 0 0 22px;border-left:2px solid var(--rule)}
+.tl{position:relative;padding:0 0 16px 18px}
+.tl::before{content:"";position:absolute;left:-30px;top:4px;width:12px;height:12px;background:var(--surface);border:2px solid var(--ink);border-radius:50%}
+.tl.role-origin::before{background:var(--sig);border-color:var(--sig)}
+.tl.role-adoption::before,.tl.role-correction::before{background:var(--ok);border-color:var(--ok)}
+.tl.role-contradiction::before{background:var(--bad);border-color:var(--bad)}
+.tl.role-hedge::before{background:var(--warn);border-color:var(--warn)}
+.tl.role-hardening::before{background:var(--bad);border-color:var(--bad);border-radius:1px;transform:rotate(45deg)}
+.tl.unverified::before{background:repeating-linear-gradient(45deg,var(--bad) 0 2px,var(--surface) 2px 4px);border-color:var(--bad)}
+.ce .timeline{border-left-style:dashed}
+.tl-head{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:6px}
+.tl-head b{color:var(--ink);font-size:13.5px}
+.tl-head time{font-family:var(--mono);font-size:12px}
+.ev{display:block;width:100%;text-align:left;background:var(--surface2);border:1px solid var(--rule);border-left:3px solid var(--ok);padding:9px 12px;font:13px/1.55 var(--mono);color:var(--ink);border-radius:2px;overflow-wrap:anywhere;white-space:pre-wrap}
+.ev:hover{border-color:var(--ink);border-left-color:var(--ok)}
+.ev.unv{border-left-color:var(--bad);background:repeating-linear-gradient(-45deg,var(--bad-bg) 0 6px,var(--surface2) 6px 12px);color:var(--muted)}
+.ev.unv:hover{border-left-color:var(--bad)}
+.ev.unv .qtext{text-decoration:line-through;text-decoration-color:var(--bad)}
+.ev .go{float:right;margin:2px 0 0 10px;color:var(--muted)}
+.kv{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;margin:0;font-size:13.5px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;overflow-wrap:anywhere}
+.lim{margin:0;padding-left:20px;color:var(--muted);font-size:14px}
+.lim li{margin:3px 0}
+.verdict{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:8px 0;border-top:1px solid var(--rule);font-size:14px}
+.verdict:first-of-type{border-top:0}
+.linkish{background:none;border:0;padding:0;color:var(--sig);text-decoration:underline;font:inherit;cursor:pointer}
+
+/* ---------- claims ---------- */
+.toolbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px 12px;align-items:end;background:var(--surface);border:1px solid var(--rule);padding:12px 14px;border-radius:3px}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field>span{font:600 10.5px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select{border:1px solid var(--rule);background:var(--bg);padding:7px 9px;border-radius:2px;min-width:0;width:100%;height:34px}
+.field input:focus,.field select:focus{border-color:var(--sig)}
+.field.wide{grid-column:span 2}
+.qbar{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.qb{border:1px solid var(--rule);background:var(--surface);padding:5px 9px;font:600 12px/1 var(--mono);border-radius:2px;color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.qb:hover{border-color:var(--ink);color:var(--ink)}
+.qb[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.qb i{font-style:normal;font-weight:500;opacity:.7}
+.ctable{border:1px solid var(--rule);background:var(--surface);border-radius:3px}
+.chead,.crow-main{display:grid;grid-template-columns:118px 46px minmax(0,1fr) 128px 62px 74px;gap:12px;align-items:center;padding:0 14px}
+.chead{background:var(--surface2);border-bottom:1px solid var(--ink);font:700 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.chead button{background:none;border:0;padding:11px 0;text-align:left;font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;display:flex;gap:4px;align-items:center}
+.chead button:hover,.chead button[aria-pressed=true]{color:var(--ink)}
+.crow{border-bottom:1px solid var(--rule)}
+.crow:last-child{border-bottom:0}
+.crow-main{width:100%;text-align:left;background:none;border:0;padding-top:10px;padding-bottom:10px}
+.crow-main:hover{background:var(--surface2)}
+.crow .ctext{font-size:14px;line-height:1.4;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.crow[data-open=true] .ctext{display:block;-webkit-line-clamp:unset}
+.crow .m{font:12px/1.2 var(--mono);color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cdetail{padding:4px 14px 16px 14px;display:grid;gap:10px;background:var(--surface2);border-top:1px dashed var(--rule)}
+.cdetail .ev{background:var(--surface)}
+.pager{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px;flex-wrap:wrap}
+.pager .btn[disabled]{opacity:.4;cursor:default}
+.lbl-audit{font:700 10px/1 var(--mono);letter-spacing:.1em;color:var(--bad);text-transform:uppercase}
+
+/* ---------- propagation ---------- */
+.prop{display:grid;grid-template-columns:minmax(280px,340px) minmax(0,1fr);gap:16px;align-items:start}
+.clist-wrap{background:var(--surface);border:1px solid var(--rule);border-radius:3px;max-height:calc(100vh - var(--hh) - 24px);display:flex;flex-direction:column;position:sticky;top:calc(var(--hh) + 12px)}
+.clist-h{display:flex;gap:8px;align-items:center;justify-content:space-between;padding:10px 12px;border-bottom:1px solid var(--ink);background:var(--surface2)}
+.clist-h select{border:1px solid var(--rule);background:var(--bg);padding:4px 6px;border-radius:2px;font-size:12.5px}
+.clist{list-style:none;margin:0;padding:0;overflow-y:auto;flex:1}
+.citem{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--rule);padding:10px 12px 10px 14px;position:relative}
+.citem:hover{background:var(--surface2)}
+.citem[aria-current=true]{background:var(--surface2)}
+.citem[aria-current=true]::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--ink)}
+.citem .u{font:700 13px/1.25 var(--mono);overflow-wrap:anywhere;display:block;margin-bottom:5px}
+.citem .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font:12px/1.2 var(--mono);color:var(--muted)}
+.citem .row b{color:var(--ink);font-family:var(--serif);font-size:16px}
+.mini{display:block;margin-top:7px;width:100%;height:12px}
+.cpanel{background:var(--surface);border:1px solid var(--ink);border-radius:3px;padding:18px 20px 12px;min-width:0}
+.cpanel h2{font:700 20px/1.25 var(--mono);overflow-wrap:anywhere}
+.cstats{display:flex;flex-wrap:wrap;gap:6px 22px;margin:12px 0 4px}
+.cstats div{display:flex;flex-direction:column}
+.cstats b{font:700 24px/1.1 var(--serif);font-variant-numeric:tabular-nums}
+.cstats span{font-size:12px;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--ink);border-radius:2px;overflow:hidden}
+.seg button{background:var(--surface);border:0;padding:5px 10px;font:600 12px/1 var(--mono)}
+.seg button+button{border-left:1px solid var(--ink)}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.chart-wrap{position:relative;margin-top:10px}
+.chart text{font:11px var(--mono);fill:var(--muted)}
+.chart .lane-l{fill:var(--ink)}
+.chart .dot{cursor:pointer}
+.chart .dot:focus{outline:none}
+.chart .dot:focus .halo,.chart .dot:hover .halo{opacity:1}
+.chart .halo{opacity:0;fill:none;stroke:var(--sig);stroke-width:2}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);padding:8px 10px;font:12px/1.4 var(--mono);border-radius:2px;max-width:280px;z-index:5;box-shadow:var(--shadow);overflow-wrap:anywhere}
+.tip b{display:block;font-size:13px}
+.note{font-size:12.5px;color:var(--muted);margin:8px 0 0;border-left:3px solid var(--warn);padding-left:10px}
+
+/* ---------- method ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;counter-reset:st;border:1px solid var(--ink);background:var(--surface);border-radius:3px}
+.step{padding:18px 18px 20px;border-left:1px solid var(--rule);position:relative}
+.step:first-child{border-left:0}
+.step .k{font:700 11px/1 var(--mono);letter-spacing:.12em;color:var(--muted)}
+.step h3{font-size:18px;margin:8px 0 6px}
+.step p{font-size:13.5px;color:var(--muted);margin:0 0 10px}
+.step .who{display:inline-block;font:700 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:4px 6px;border:1px solid currentColor;border-radius:2px}
+.who.det{color:var(--ok)}
+.who.llm{color:var(--warn)}
+.step:not(:last-child)::after{content:"";position:absolute;right:-7px;top:24px;width:12px;height:12px;background:var(--surface);border-top:1px solid var(--ink);border-right:1px solid var(--ink);transform:rotate(45deg);z-index:1}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.is li::marker{color:var(--ok)}
+.isnt li::marker{color:var(--bad)}
+.card ul{margin:8px 0 0;padding-left:20px}
+.card li{margin:5px 0}
+.stt{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px}
+.stt td{padding:7px 8px;border-top:1px solid var(--rule);vertical-align:top}
+.stt td:first-child{white-space:nowrap}
+
+/* ---------- drawer ---------- */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.42);z-index:30;opacity:0;pointer-events:none;transition:opacity .2s}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:var(--drawer);background:var(--surface);border-left:1px solid var(--ink);box-shadow:var(--shadow);z-index:40;display:flex;flex-direction:column;transform:translateX(102%);transition:transform .22s cubic-bezier(.2,.8,.2,1),visibility 0s linear .22s;visibility:hidden}
+body.has-drawer .drawer{transform:none;visibility:visible;transition:transform .22s cubic-bezier(.2,.8,.2,1),visibility 0s}
+.drawer-h{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;border-bottom:1px solid var(--ink);background:var(--surface2)}
+.drawer-h h2{font:700 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.drawer-b{overflow-y:auto;padding:16px 18px 28px;display:grid;gap:16px;align-content:start;flex:1}
+.verdict-box{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid currentColor;border-radius:3px}
+.verdict-box.ok{color:var(--ok);background:var(--ok-bg)}
+.verdict-box.bad{color:var(--bad);background:var(--bad-bg)}
+.verdict-box.warn{color:var(--warn);background:var(--warn-bg)}
+.verdict-box p{margin:0;color:var(--ink);font-size:13.5px}
+.verdict-box b{display:block;font:700 12px/1.2 var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
+.drawer h3{font:700 10.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-family:var(--mono)}
+.qblock{margin:0;padding:10px 12px;border-left:3px solid var(--ok);background:var(--surface2);font:13px/1.55 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere}
+.qblock.unv{border-left-color:var(--bad)}
+.ctx{position:relative;max-height:min(46vh,420px);overflow:auto;padding:12px 14px;border:1px solid var(--rule);background:var(--bg);font:13px/1.65 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx mark{background:var(--mark-bg);color:var(--mark-ink);padding:1px 0;box-shadow:0 0 0 2px var(--mark-bg);border-radius:1px}
+.ctx .cut{color:var(--faint)}
+.idrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.idrow code{font:12px/1.4 var(--mono);overflow-wrap:anywhere;background:var(--surface2);padding:3px 6px;border-radius:2px}
+.fine{font-size:12.5px;color:var(--muted);margin:0}
+.drawer-nav{display:flex;gap:8px;align-items:center;justify-content:space-between}
+.demo-tag{font:700 10px/1 var(--mono);letter-spacing:.12em;color:var(--warn);border:1px solid var(--warn);padding:3px 5px;border-radius:2px}
+
+/* ---------- responsive ---------- */
+@media(min-width:1100px){body.has-drawer .app{padding-right:min(520px,38vw)}body.has-drawer{--hh:96px}body.has-drawer .tabs{order:3;flex-basis:100%;margin-left:0}}
+@media(max-width:1100px){body.has-drawer .scrim{opacity:1;pointer-events:auto}}
+@media(max-width:1200px){:root{--hh:96px}.tabs{order:3;flex-basis:100%;margin-left:0}}
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .caveat{border-left:0;border-top:1px solid var(--ink)}
+  .grid2,.cols2{grid-template-columns:1fr}
+  .prop{grid-template-columns:1fr}
+  .clist-wrap{position:static;max-height:300px}
+  .steps{grid-template-columns:1fr 1fr}
+  .step:nth-child(3){border-left:0}
+  .step:nth-child(n+3){border-top:1px solid var(--rule)}
+  .step::after{display:none}
+  .axis{display:none}
+}
+@media(max-width:760px){
+  .chead{display:none}
+  .crow-main{grid-template-columns:auto auto minmax(0,1fr);grid-template-areas:"st q m" "tx tx tx" "ev ev cf";gap:6px 10px;padding:12px 14px}
+  .crow-main>.c-st{grid-area:st}.crow-main>.c-q{grid-area:q}.crow-main>.m{grid-area:m;text-align:right}
+  .crow-main>.ctext{grid-area:tx}.crow-main>.c-ev{grid-area:ev;text-align:left}.crow-main>.c-cf{grid-area:cf;text-align:right}
+  .field.wide{grid-column:1/-1}
+  .rate-row{grid-template-columns:1fr 56px}.rate-row .lbl{grid-column:1/-1}.rate-row .track-bar{grid-column:1}
+  .model-row{grid-template-columns:1fr 54px;gap:4px 10px}.model-row .lbl{grid-column:1/-1}.model-row .n{display:none}
+}
+@media(max-width:560px){
+  .top-in{padding:10px 12px 0;gap:6px 10px}
+  .brand-sub{display:none}
+  .tabs{order:3;flex-basis:100%;margin:0 -12px;padding:0 6px}
+  .tools{gap:6px}
+  .lbl-long,.lbl-ld{display:none}.lbl-short{display:inline}
+  main{padding:18px 12px 70px}
+  .hero-main,.caveat{padding:18px 16px}
+  .steps{grid-template-columns:1fr}
+  .step{border-left:0;border-top:1px solid var(--rule)}.step:first-child{border-top:0}
+  .card{padding:14px}
+  .view-h h1{font-size:23px}
+  .fhead{padding:14px}.fbody{padding:4px 14px 16px}
+  .drawer-b{padding:14px}
+}
+@keyframes reveal{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes grow{from{transform:scaleX(0)}}
+.hero .segbar,.card .segbar{animation:reveal .9s cubic-bezier(.2,.8,.2,1) both}
+.track-bar>i{transform-origin:left;animation:grow .9s cubic-bezier(.2,.8,.2,1) .1s both}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<div class="app" id="app">
+  <header class="top">
+    <div class="top-in">
+      <div class="brand" id="brand"></div>
+      <div class="tabs" role="tablist" aria-label="Views" id="tabs"></div>
+      <div class="tools" id="tools"></div>
+    </div>
+  </header>
+  <div class="ribbon" id="ribbon" hidden><b>DEMO</b>synthetic data generated in your browser &mdash; not evidence</div>
+  <main id="main" tabindex="-1"><noscript><p class="empty">This viewer needs JavaScript. It runs entirely offline and sends no data anywhere.</p></noscript></main>
+</div>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="false" aria-labelledby="drawer-title" aria-hidden="true">
+  <div class="drawer-h"><h2 id="drawer-title">Evidence</h2><button class="btn icon-btn ghost" id="drawer-close" aria-label="Close evidence panel (Esc)" title="Close (Esc)"></button></div>
+  <div class="drawer-b" id="drawer-body"></div>
+</aside>
+<div class="sr-only" id="live" aria-live="polite" role="status"></div>
+<input type="file" id="file" accept=".json,application/json" hidden>
+<script id="report-data" type="application/json">null</script>
+<script>
+(function(){
+'use strict';
+/* ================= helpers (DOM is only ever built with createElement/textContent) ================= */
+const SVGNS='http://www.w3.org/2000/svg';
+const $=(s,r)=>(r||document).querySelector(s);
+function h(tag,props){
+  const el=document.createElement(tag);
+  if(props)for(const k in props){const v=props[k];if(v==null||v===false)continue;
+    if(k==='class')el.className=v;else if(k==='text')el.textContent=v;
+    else if(k.slice(0,2)==='on'){if(typeof v==='function')el.addEventListener(k.slice(2),v);}
+    else el.setAttribute(k,v===true?'':String(v));}
+  for(let i=2;i<arguments.length;i++)add(el,arguments[i]);
+  return el;
+}
+function add(el,kid){
+  if(kid==null||kid===false)return;
+  if(Array.isArray(kid)){for(const k of kid)add(el,k);return;}
+  el.append(kid instanceof Node?kid:document.createTextNode(String(kid)));
+}
+function sv(tag,props){
+  const el=document.createElementNS(SVGNS,tag);
+  if(props)for(const k in props){const v=props[k];if(v==null||v===false)continue;
+    if(k==='class')el.setAttribute('class',v);else if(k==='text')el.textContent=v;
+    else if(k.slice(0,2)==='on'){if(typeof v==='function')el.addEventListener(k.slice(2),v);}
+    else el.setAttribute(k,String(v));}
+  for(let i=2;i<arguments.length;i++)add(el,arguments[i]);
+  return el;
+}
+const ICONS={ // static, trusted path data
+  check:'M5 12.5l4.5 4.5L19 7.5',x:'M6 6l12 12M18 6L6 18',warn:'M12 6.5v7M12 17v.6',
+  ext:'M8 16L16 8M9 8h7v7',copy:'M9 9h10v10H9zM5 15V5h10',up:'M12 16V5M7.5 9.5L12 5l4.5 4.5M5 19h14',
+  chev:'M9 6l6 6-6 6',sun:'M12 8a4 4 0 100 8 4 4 0 000-8zM12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4',
+  moon:'M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z',left:'M15 6l-6 6 6 6',right:'M9 6l6 6-6 6',sortd:'M7 10l5 5 5-5',sortu:'M7 14l5-5 5 5'
+};
+function ic(name,size){
+  return sv('svg',{class:'ic',viewBox:'0 0 24 24',width:size||16,height:size||16,fill:'none',stroke:'currentColor','stroke-width':2.2,'stroke-linecap':'round','stroke-linejoin':'round','aria-hidden':'true'},sv('path',{d:ICONS[name]}));
+}
+function logo(){
+  return sv('svg',{viewBox:'0 0 32 32',width:30,height:30,'aria-hidden':'true',fill:'none',stroke:'currentColor','stroke-width':2.2,'stroke-linecap':'round'},
+    sv('circle',{cx:14,cy:14,r:9}),sv('path',{d:'M21 21l7 7'}),sv('path',{d:'M9.5 14.2l3 3 5.5-6.2',stroke:'var(--ok)','stroke-width':2.6}));
+}
+const str=x=>x==null?'':typeof x==='string'?x:typeof x==='object'?JSON.stringify(x):String(x);
+const arr=x=>Array.isArray(x)?x:[];
+const isNum=x=>typeof x==='number'&&isFinite(x);
+const fmtN=n=>isNum(n)?n.toLocaleString('en-US'):'–';
+function pct(x,d){if(!isNum(x))return '–';let s=(x*100).toFixed(d==null?1:d);if(s.indexOf('.')>=0)s=s.replace(/\.?0+$/,'');return s+'%';}
+function parseTs(s){const t=Date.parse(str(s));return isNaN(t)?null:t;}
+function fmtUTC(s){const t=parseTs(s);return t==null?(str(s)||'–'):new Date(t).toISOString().replace('T',' ').slice(0,19)+' UTC';}
+function fmtShort(s){const t=parseTs(s);return t==null?(str(s)||'–'):new Date(t).toISOString().replace('T',' ').slice(0,16)+'Z';}
+function relTime(ms,refMs){
+  let d=refMs-ms;const past=d>=0;d=Math.abs(d)/1000;
+  const u=[[31536000,'year'],[2592000,'month'],[86400,'day'],[3600,'hour'],[60,'minute']];
+  let out='moments';for(const [s,n] of u){if(d>=s){const v=Math.round(d/s);out=v+' '+n+(v===1?'':'s');break;}}
+  return out+(past?' before':' after');
+}
+function fmtLag(hours){
+  if(!isNum(hours))return '–';
+  if(hours<1/60)return Math.round(hours*3600)+' s';
+  if(hours<1)return Math.round(hours*60)+' min';
+  if(hours<48)return (Math.round(hours*10)/10)+' h';
+  return (Math.round(hours/24*10)/10)+' d';
+}
+function safeLink(u){
+  try{const x=new URL(str(u));return x.protocol==='https:'&&x.hostname==='theaidigest.org'&&!x.username&&!x.password?x.href:null;}catch(e){return null;}
+}
+function announce(msg){const l=$('#live');l.textContent='';setTimeout(()=>{l.textContent=msg;},30);}
+function lsGet(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+function lsSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+const reduceMotion=()=>window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ================= status vocabulary ================= */
+const ST={
+  verified:{label:'Verified',cls:'ok',ic:'check',hint:'The quote occurs verbatim in the cited event (case, whitespace and quote style ignored).'},
+  partial:{label:'Partial',cls:'warn',ic:'warn',hint:'Some quotes of this claim verify, some do not.'},
+  rejected:{label:'Rejected',cls:'bad',ic:'x',hint:'None of the claim’s quotes verify.'},
+  no_evidence:{label:'No evidence',cls:'bad',ic:'x',hint:'The claim cites nothing, so it cannot be checked.'},
+  count_mismatch:{label:'Count mismatch',cls:'bad',ic:'x',hint:'A counted claim (2–12) must cite exactly one event per counted instance.'},
+  quote_not_found:{label:'Quote not found',cls:'bad',ic:'x',hint:'The cited event exists but the quote does not occur in it.'},
+  quote_too_short:{label:'Quote too short',cls:'bad',ic:'x',hint:'Under 8 characters after normalisation: matches almost anything, proves nothing.'},
+  quote_too_long:{label:'Quote too long',cls:'bad',ic:'x',hint:'Over 60 words: a whole message proves nothing specific.'},
+  event_missing:{label:'Event missing',cls:'bad',ic:'x',hint:'No event with that id exists in the log.'},
+  ambiguous_ref:{label:'Ambiguous ref',cls:'bad',ic:'x',hint:'The short reference matches several events, so the citation is rejected.'},
+  empty_quote:{label:'Empty quote',cls:'bad',ic:'x',hint:'The quote is empty.'},
+  no_text:{label:'Event has no text',cls:'bad',ic:'x',hint:'The cited event carries no text to match against.'}
+};
+const stMeta=s=>ST[s]||{label:str(s)||'unknown',cls:'warn',ic:'warn',hint:'Status not part of the known vocabulary.'};
+function seal(status,short){const m=stMeta(status);return h('span',{class:'seal '+m.cls+(short?' sm':''),title:m.label+': '+m.hint},ic(m.ic,12),short?h('span',{class:'sr-only'},m.label):m.label);}
+const isOk=e=>e&&e.status==='verified';
+const CLAIM_SHOWN={verified:1,partial:1};   // claim statuses visible without the audit toggle
+const QNAMES={Q1:'Coordination',Q2:'Leadership',Q3:'Propagation',Q4:'Conflict',Q5:'Misreport',Q6:'Deception',Q7:'Humans',Q8:'Failure modes',Q9:'Goal fidelity',Q10:'Norms',Q11:'Belief hardening'};
+
+/* ================= state ================= */
+const DEMO=/[?&]demo=1(&|$)/.test(location.search);
+const S={report:null,demo:false,audit:false,view:'overview',params:new URLSearchParams(),claims:[],findings:[],cascades:[],refMs:Date.now(),
+  cl:{q:'',status:'',model:'',actor:'',text:'',sort:'',dir:1,page:1,open:new Set()},
+  fi:{open:new Set()},pr:{sel:0,scale:'log',sort:'n'}};
+const VIEWS=[['overview','Overview'],['findings','Findings'],['claims','Claims'],['propagation','Propagation'],['method','Method']];
+
+/* ================= normalise (defensive: every field may be missing) ================= */
+function normEvidence(e){
+  e=e&&typeof e==='object'?e:{};
+  return {ref:str(e.ref),event_id:str(e.event_id),status:str(e.status)||'unknown',ts:str(e.ts),actor:str(e.actor),room:str(e.room),subtype:str(e.subtype),
+    quote:str(e.quote),context:str(e.context),context_offset:isNum(e.context_offset)?e.context_offset:0,
+    span:Array.isArray(e.span)&&e.span.length===2&&e.span.every(isNum)?e.span:null,deeplink:e.deeplink?str(e.deeplink):'',role:str(e.role)};
+}
+function normalize(r){
+  r=r&&typeof r==='object'?r:{};
+  const meta=r.meta&&typeof r.meta==='object'?r.meta:{};
+  const metrics=r.metrics&&typeof r.metrics==='object'?r.metrics:{};
+  const claims=arr(r.claims).map((c,i)=>{
+    c=c&&typeof c==='object'?c:{};
+    const ev=arr(c.evidence).map(normEvidence);
+    const o={raw:c,id:str(c.id)||('#'+(i+1)),question:str(c.question),claim:str(c.claim),actors:arr(c.actors).map(str),status:str(c.status)||'unknown',model:str(c.model),lens:str(c.lens),
+      confidence:c.confidence,notes:str(c.notes),flags:c.flags&&typeof c.flags==='object'?c.flags:{},derived:c.derived&&typeof c.derived==='object'?c.derived:{},first_ts:str(c.first_ts||(c.derived&&c.derived.first_ts)),evidence:ev,idx:i};
+    o.nVerified=ev.filter(isOk).length;
+    o.hay=(o.id+' '+o.claim+' '+o.notes+' '+o.model+' '+o.actors.join(' ')+' '+ev.map(e=>e.quote+' '+e.actor).join(' ')).toLowerCase();
+    return o;
+  });
+  const findings=arr(r.findings).map((f,i)=>{
+    f=f&&typeof f==='object'?f:{};
+    const ev=arr(f.evidence).map(normEvidence),ce=arr(f.counter_evidence).map(normEvidence);
+    const bad=[...ev,...ce].filter(e=>!isOk(e)).length;
+    return {raw:f,id:str(f.id)||('F'+(i+1)),title:str(f.title||f.name)||('Finding '+(i+1)),thesis:str(f.thesis||f.claim||f.summary||f.text),
+      confidence:f.confidence,episode:str(f.episode||f.window||f.period),limitations:Array.isArray(f.limitations)?f.limitations.map(str):(f.limitations?[str(f.limitations)]:[]),
+      verdicts:arr(f.verdicts||f.reviews||f.reviewer_verdicts||f.reviewers),question:str(f.question),
+      claimChecks:arr(f.rereview&&f.rereview.claim_checks).map(c=>({claim:str(c&&c.claim),status:str(c&&c.status).toLowerCase(),note:str(c&&c.note)})),
+      originalThesis:str(f.original_thesis),originalTitle:str(f.original_title),
+      ev,ce,bad,allVerified:typeof f.all_verified==='boolean'?f.all_verified&&bad===0:bad===0};
+  });
+  const cascades=arr(r.cascades).map((c,i)=>{
+    c=c&&typeof c==='object'?c:{};
+    const hop=(x,isOrigin)=>{x=x&&typeof x==='object'?x:{};return {event_id:str(x.event_id),ts:str(x.ts),actor:str(x.actor)||'?',raw:str(x.raw),lag:isNum(x.lag_hours)?x.lag_hours:0,status:str(x.status)||'unknown',
+      deeplink:x.deeplink?str(x.deeplink):'',context:str(x.context),span:Array.isArray(x.span)&&x.span.length===2&&x.span.every(isNum)?x.span:null,origin:!!isOrigin};};
+    const adopters=arr(c.adopters).map(x=>hop(x,false));
+    return {idx:i,unit:str(c.unit)||('cascade '+(i+1)),kind:str(c.kind),origin:hop(c.origin,true),adopters,n:isNum(c.n_adopters)?c.n_adopters:adopters.length,
+      median:isNum(c.median_lag_hours)?c.median_lag_hours:null,burst:isNum(c.burst)?c.burst:null,usesTotal:isNum(c.uses_total)?c.uses_total:null,usesH:isNum(c.uses_in_horizon)?c.uses_in_horizon:null};
+  });
+  return {meta,metrics,claims,findings,cascades};
+}
+
+/* ================= chrome, theme, router ================= */
+function applyTheme(t){const r=document.documentElement;if(t==='light'||t==='dark')r.setAttribute('data-theme',t);else r.removeAttribute('data-theme');}
+function curTheme(){const a=document.documentElement.getAttribute('data-theme');return a||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}
+applyTheme(lsGet('ss-theme'));
+function toggleTheme(){const n=curTheme()==='dark'?'light':'dark';applyTheme(n);lsSet('ss-theme',n);const b=$('#theme-btn');b.replaceChildren(ic(n==='dark'?'sun':'moon',16));b.title=n==='dark'?'Switch to light theme':'Switch to dark theme';announce(n+' theme');}
+function buildChrome(){
+  $('#brand').replaceChildren(logo(),h('span',{class:'brand-name'},'SwarmScope'),h('span',{class:'brand-sub'},'Evidence Viewer'));
+  const counts={findings:S.findings.length,claims:S.claims.length,propagation:S.cascades.length};
+  $('#tabs').replaceChildren(...VIEWS.map(([id,label])=>h('button',{class:'tab',role:'tab',id:'tab-'+id,'aria-selected':S.view===id?'true':'false',tabindex:S.view===id?0:-1,onclick:()=>go(id)},label,S.report&&counts[id]!=null?h('span',{class:'n'},fmtN(counts[id])):null)));
+  const sw=h('button',{class:'switch',role:'switch',id:'audit-sw','aria-checked':S.audit?'true':'false','aria-label':'Audit: show rejected',title:'Also show quotes and claims that failed verification (key: A)',onclick:toggleAudit},h('span',{class:'track'}),h('span',{class:'lbl-long'},'Audit: show rejected'),h('span',{class:'lbl-short'},'Audit'));
+  const th=h('button',{class:'btn icon-btn',id:'theme-btn','aria-label':'Toggle light or dark theme',onclick:toggleTheme,title:curTheme()==='dark'?'Switch to light theme':'Switch to dark theme'},ic(curTheme()==='dark'?'sun':'moon',16));
+  const ld=h('button',{class:'btn',id:'load-btn','aria-label':'Load report.json',onclick:()=>$('#file').click(),title:'Load a report.json'},ic('up',14),h('span',{class:'lbl-ld'},'Load JSON'));
+  $('#tools').replaceChildren(sw,th,ld);
+}
+function hashFor(view){
+  const q=new URLSearchParams();
+  if(S.audit)q.set('audit','1');
+  if(view==='claims'){const c=S.cl;if(c.q)q.set('q',c.q);if(c.status)q.set('s',c.status);if(c.model)q.set('m',c.model);if(c.actor)q.set('a',c.actor);if(c.text)q.set('t',c.text);if(c.sort){q.set('o',c.sort);if(c.dir<0)q.set('d','-1');}if(c.page>1)q.set('p',c.page);}
+  if(view==='propagation'){q.set('c',S.pr.sel);q.set('x',S.pr.scale);if(S.pr.sort!=='n')q.set('o',S.pr.sort);}
+  if(view==='findings'&&S.fi.open.size)q.set('f',[...S.fi.open].join('|'));
+  const qs=q.toString();return '/'+view+(qs?'?'+qs:'');
+}
+function go(view){const hsh='#'+hashFor(view);if(location.hash===hsh){route();}else location.hash=hsh;}
+function syncHash(){try{history.replaceState(null,'',location.pathname+location.search+'#'+hashFor(S.view));}catch(e){}}
+function route(){
+  const hs=location.hash.replace(/^#\/?/,''),i=hs.indexOf('?'),v=i<0?hs:hs.slice(0,i),q=new URLSearchParams(i<0?'':hs.slice(i+1));
+  S.view=VIEWS.some(x=>x[0]===v)?v:'overview';
+  S.audit=q.get('audit')==='1';
+  if(S.view==='claims'){const c=S.cl;c.q=q.get('q')||'';c.status=q.get('s')||'';c.model=q.get('m')||'';c.actor=q.get('a')||'';c.text=q.get('t')||'';c.sort=q.get('o')||'';c.dir=q.get('d')==='-1'?-1:1;c.page=Math.max(1,parseInt(q.get('p'),10)||1);}
+  if(S.view==='propagation'){const n=parseInt(q.get('c'),10);S.pr.sel=n>=0?n:0;S.pr.scale=q.get('x')==='linear'?'linear':'log';S.pr.sort=['n','lag','burst'].includes(q.get('o'))?q.get('o'):'n';}
+  if(S.view==='findings'&&q.get('f'))S.fi.open=new Set(q.get('f').split('|'));
+  const sw=$('#audit-sw');if(sw)sw.setAttribute('aria-checked',S.audit?'true':'false');
+  document.querySelectorAll('.tab').forEach(t=>{const on=t.id==='tab-'+S.view;t.setAttribute('aria-selected',on?'true':'false');t.tabIndex=on?0:-1;});
+  closeDrawer(true);renderView();
+  const st=$('#tab-'+S.view);if(st&&st.scrollIntoView)st.scrollIntoView({block:'nearest',inline:'nearest'});
+  window.scrollTo(0,0);
+}
+function renderView(){
+  if(S.ro){S.ro.disconnect();S.ro=null;}
+  const main=$('#main');main.setAttribute('role','tabpanel');main.setAttribute('aria-labelledby','tab-'+S.view);
+  if(S.view==='method'){main.replaceChildren();renderMethod(main);return;}
+  if(!S.report){renderEmpty();return;}
+  main.replaceChildren();
+  ({overview:renderOverview,findings:renderFindings,claims:renderClaims,propagation:renderPropagation})[S.view](main);
+}
+function toggleAudit(){
+  S.audit=!S.audit;$('#audit-sw').setAttribute('aria-checked',S.audit?'true':'false');
+  if(!S.audit&&S.cl.status&&!CLAIM_SHOWN[S.cl.status])S.cl.status='';
+  syncHash();renderView();
+  announce(S.audit?'Audit mode on: rejected quotes and claims are shown and marked.':'Audit mode off: only verified evidence is shown.');
+}
+document.addEventListener('keydown',e=>{
+  const t=e.target,typing=t&&(t.tagName==='INPUT'||t.tagName==='SELECT'||t.tagName==='TEXTAREA');
+  if(e.key==='Escape'&&document.body.classList.contains('has-drawer')){closeDrawer();e.preventDefault();return;}
+  if(t&&t.getAttribute&&t.getAttribute('role')==='tab'){
+    const ids=VIEWS.map(v=>v[0]);let i=ids.indexOf(S.view),n=null;
+    if(e.key==='ArrowRight')n=(i+1)%ids.length;else if(e.key==='ArrowLeft')n=(i-1+ids.length)%ids.length;else if(e.key==='Home')n=0;else if(e.key==='End')n=ids.length-1;
+    if(n!=null){e.preventDefault();go(ids[n]);const nt=$('#tab-'+ids[n]);if(nt)nt.focus();return;}
+  }
+  if(typing||e.ctrlKey||e.metaKey||e.altKey)return;
+  if(/^[1-5]$/.test(e.key)){go(VIEWS[+e.key-1][0]);}
+  else if(e.key==='/'&&S.view==='claims'){const f=$('#f-text');if(f){e.preventDefault();f.focus();}}
+  else if(e.key.toLowerCase()==='a'&&S.report){toggleAudit();}
+});
+
+/* ================= evidence drawer ================= */
+const D={opener:null,ev:null,ctx:null};
+function cpToUnit(s,cp){let i=0,n=0;while(n<cp&&i<s.length){const c=s.charCodeAt(i);i+=(c>=0xD800&&c<0xDC00&&i+1<s.length)?2:1;n++;}return i;}
+function highlighted(ev){
+  const ctx=ev.context,box=h('div',{class:'ctx',tabindex:0,role:'region','aria-label':'Text of the cited event, quote highlighted'});
+  let sp=ev.span;
+  if(sp&&/[\uD800-\uDFFF]/.test(ctx))sp=[cpToUnit(ctx,sp[0]),cpToUnit(ctx,sp[1])];   // report offsets count code points, JS counts UTF-16 units
+  if(sp&&Number.isInteger(sp[0])&&Number.isInteger(sp[1])&&sp[0]>=0&&sp[1]>sp[0]&&sp[1]<=ctx.length){
+    const m=h('mark',{id:'ev-mark'},ctx.slice(sp[0],sp[1]));
+    box.append(ev.context_offset>0?h('span',{class:'cut'},'… '):'',ctx.slice(0,sp[0]),m,ctx.slice(sp[1]));
+    setTimeout(()=>{box.scrollTop=Math.max(0,m.offsetTop-box.clientHeight/2+m.offsetHeight/2);},0);
+    return {box,located:true};
+  }
+  box.append(ctx);return {box,located:false};
+}
+async function copyText(text,btn){
+  let ok=false;
+  try{await navigator.clipboard.writeText(text);ok=true;}catch(e){
+    try{const ta=h('textarea',{'aria-hidden':'true',style:'position:fixed;opacity:0'});ta.value=text;document.body.append(ta);ta.select();ok=document.execCommand('copy');ta.remove();}catch(e2){}}
+  btn.replaceChildren(ic('copy',13),ok?' Copied':' Copy failed');announce(ok?'Event id copied':'Copy failed');
+  setTimeout(()=>{if(btn.isConnected)btn.replaceChildren(ic('copy',13),' Copy event id');},1400);
+}
+function openEvidence(ev,ctx,opener){
+  if(!document.body.classList.contains('has-drawer'))D.opener=opener||document.activeElement;
+  D.ev=ev;D.ctx=ctx||null;renderDrawer();
+  document.body.classList.add('has-drawer');$('#drawer').setAttribute('aria-hidden','false');
+  const c=$('#drawer-close');if(c)c.focus({preventScroll:true});
+}
+function closeDrawer(quiet){
+  if(!document.body.classList.contains('has-drawer'))return;
+  document.body.classList.remove('has-drawer');$('#drawer').setAttribute('aria-hidden','true');
+  const o=D.opener;D.opener=null;if(!quiet&&o&&document.contains(o))o.focus({preventScroll:true});
+}
+function kvRow(dl,k,v){dl.append(h('dt',null,k),h('dd',null,v));}
+function renderDrawer(){
+  const ev=D.ev,ctx=D.ctx||{},body=$('#drawer-body'),m=stMeta(ev.status),ok=ev.status==='verified';
+  const kids=[];
+  if(S.demo)kids.push(h('div',null,h('span',{class:'demo-tag'},'DEMO DATA · SYNTHETIC')));
+  if(ctx.sibs&&ctx.sibs.length>1){
+    const i=ctx.i,step=d=>{const j=(i+d+ctx.sibs.length)%ctx.sibs.length;openEvidence(ctx.sibs[j].ev,{...ctx,i:j,title:ctx.sibs[j].title||ctx.title,lag:ctx.sibs[j].lag},D.opener);};
+    kids.push(h('div',{class:'drawer-nav'},h('button',{class:'btn sm',onclick:()=>step(-1),'aria-label':'Previous evidence'},ic('left',13),'Prev'),h('span',{class:'counter'},(i+1)+' / '+ctx.sibs.length),h('button',{class:'btn sm',onclick:()=>step(1),'aria-label':'Next evidence'},'Next',ic('right',13))));
+  }
+  kids.push(h('div',{class:'verdict-box '+(ok?'ok':m.cls==='warn'?'warn':'bad'),role:'status'},ic(m.ic,20),h('div',null,h('b',null,ok?'Verified verbatim':'Not verified · '+m.label),
+    h('p',null,ok?'This quote occurs word for word in the cited event. That does not prove the claim it is used for.':m.hint))));
+  if(ctx.title)kids.push(h('div',null,h('h3',null,ctx.kind||'Cited by'),h('p',{style:'margin:0;font-size:14px'},ctx.title)));
+  const dl=h('dl',{class:'kv'}),t=parseTs(ev.ts);
+  kvRow(dl,'Who',ev.actor||'–');
+  kvRow(dl,'When (UTC)',t==null?'–':fmtUTC(ev.ts));
+  if(t!=null)kvRow(dl,'Relative',relTime(t,S.refMs)+' the report was generated'+(ctx.lag!=null?' · +'+fmtLag(ctx.lag)+' after the source':''));
+  if(ev.room)kvRow(dl,'Room',ev.room);
+  if(ev.subtype)kvRow(dl,'Type',ev.subtype);
+  if(ev.role)kvRow(dl,'Role',h('span',{class:'chip sig'},ev.role));
+  kids.push(dl);
+  kids.push(h('div',null,h('h3',null,ok?'Cited quote':'Cited quote (unverified)'),h('p',{class:'qblock'+(ok?'':' unv'),style:'margin:0'},ev.quote||'–')));
+  if(ok&&ev.context){
+    const hl=highlighted(ev);
+    kids.push(h('div',null,h('h3',null,'Event text'+(ev.context_offset>0?' (excerpt)':'')),hl.box,
+      h('p',{class:'fine',style:'margin-top:6px'},hl.located?'Highlighted: the quote as located in the event (whitespace and quote style may differ from the citation).':'The quote was verified, but its exact position could not be located for highlighting.')));
+  }else if(!ok){
+    kids.push(h('p',{class:'fine'},'No event text is shown: a quote that does not verify is not tied to any position in the log.'));
+  }
+  const id=ev.event_id||ev.ref;
+  if(id){const acts=h('div',{class:'idrow'},h('code',{title:'Event id'},id),h('button',{class:'btn sm',onclick:e=>copyText(id,e.currentTarget)},ic('copy',13),' Copy event id'));kids.push(acts);}
+  const link=safeLink(ev.deeplink);
+  if(link)kids.push(h('div',null,h('a',{class:'btn',href:link,target:'_blank',rel:'noopener noreferrer'},'Open in live AI Village',ic('ext',14)),h('p',{class:'fine',style:'margin-top:6px'},'Opens theaidigest.org in a new tab. The link is computed from the timestamp and lands near the event.')));
+  else if(ev.deeplink)kids.push(h('p',{class:'fine'},'Link withheld: only https://theaidigest.org/ addresses are opened from this viewer.'));
+  body.replaceChildren(...kids);body.scrollTop=0;
+}
+$('#drawer-close').addEventListener('click',()=>closeDrawer());
+$('#scrim').addEventListener('click',()=>closeDrawer());
+$('#file').addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(f)loadFile(f);e.target.value='';});
+['dragover','dragenter'].forEach(n=>window.addEventListener(n,e=>{if(e.dataTransfer&&Array.from(e.dataTransfer.types||[]).includes('Files')){e.preventDefault();document.body.classList.add('drop-on');}}));
+['dragleave','drop'].forEach(n=>window.addEventListener(n,e=>{if(n==='dragleave'&&e.relatedTarget)return;document.body.classList.remove('drop-on');}));
+window.addEventListener('drop',e=>{const f=e.dataTransfer&&e.dataTransfer.files&&e.dataTransfer.files[0];if(f){e.preventDefault();loadFile(f);}});
+
+/* ================= overview ================= */
+function segbar(parts,total,label){
+  const bar=h('div',{class:'segbar',role:'img','aria-label':label});
+  for(const p of parts){if(!p.n||!total)continue;const s=h('span',{class:p.cls,title:p.label+': '+fmtN(p.n)});s.style.width=(p.n/total*100)+'%';bar.append(s);}
+  return bar;
+}
+function legend(items){return h('ul',{class:'legend'},items.filter(i=>i.n).map(i=>h('li',null,h('i',{class:i.cls}),i.label+' ',h('b',null,fmtN(i.n)))));}
+const segCls=s=>s==='verified'?'seg-ok':(s==='partial'||stMeta(s).cls==='warn')?'seg-warn':'seg-bad';
+function renderOverview(main){
+  const R=S.report,M=R.metrics,meta=R.meta,fin=M.final&&typeof M.final==='object'?M.final:{},fp=M.first_pass&&typeof M.first_pass==='object'?M.first_pass:null;
+  const bym=M.first_pass_by_model&&typeof M.first_pass_by_model==='object'?M.first_pass_by_model:null,tr=M.tracer&&typeof M.tracer==='object'?M.tracer:null;
+  const qs=fin.quote_status&&typeof fin.quote_status==='object'?fin.quote_status:{};
+  const quotes=isNum(fin.quotes)?fin.quotes:0,vq=isNum(qs.verified)?qs.verified:0;
+  const hops=tr&&isNum(tr.hops)?tr.hops:0,hopsBad=tr&&isNum(tr.hops_rejected)?tr.hops_rejected:0;
+  main.append(h('div',{class:'view-h'},h('div',null,h('p',{class:'eyebrow'},'Overview · '+(str(meta.source)||'report')),h('h1',null,str(meta.title)||'Report')),
+    h('div',{class:'counter'},meta.generated?'generated '+fmtUTC(meta.generated):'')));
+
+  /* hero: the trust ledger */
+  let big,of,lede,bar,leg;
+  if(quotes>0){
+    big=vq;of=quotes;lede='quotes verified verbatim in the cited event';
+    const order=Object.keys(qs).sort((a,b)=>a==='verified'?-1:b==='verified'?1:qs[b]-qs[a]);
+    bar=segbar(order.map(k=>({n:qs[k],cls:segCls(k),label:stMeta(k).label})),quotes,'Quote outcomes');
+    leg=legend(order.map(k=>({n:qs[k],cls:segCls(k),label:stMeta(k).label})));
+  }else if(hops>0){
+    big=hops-hopsBad;of=hops;lede='propagation hops verified. This report carries no claim quotes, so the tracer’s hops are its checkable evidence.';
+    bar=segbar([{n:hops-hopsBad,cls:'seg-ok',label:'Verified'},{n:hopsBad,cls:'seg-bad',label:'Rejected'}],hops,'Hop outcomes');
+    leg=legend([{n:hops-hopsBad,cls:'seg-ok',label:'verified'},{n:hopsBad,cls:'seg-bad',label:'rejected'}]);
+  }else{big=0;of=0;lede='Nothing in this report can be verified yet.';bar=h('div',{class:'segbar'});leg=null;}
+  main.append(h('section',{class:'hero','aria-label':'Verification headline'},
+    h('div',{class:'hero-main'},h('p',{class:'eyebrow'},'Trust ledger'),h('div',{class:'big'},h('span',{class:'n num','aria-live':'polite'},fmtN(big)),h('span',{class:'of num'},'/ '+fmtN(of))),h('p',{class:'lede'},lede),bar,leg),
+    h('aside',{class:'caveat'},h('p',{class:'eyebrow'},'Read this first'),
+      h('p',{class:'def'},h('code',null,'verified'),' = the quote occurs verbatim in the cited event.'),
+      h('p',{class:'not'},h('b',null,'It does not prove the claim.'),' A verified quote can still be wrong, exaggerated or out of context: agents make mistakes, so the citation sits next to every claim.'))));
+
+  /* first pass vs final + tracer */
+  const rateRow=(label,rate,n,color)=>{const f=h('i',{style:'background:'+color});f.style.width=isNum(rate)?Math.max(rate*100,rate>0?1.5:0)+'%':'0%';
+    return h('div',{class:'rate-row'},h('div',{class:'lbl'},label,n!=null?h('div',{class:'mono',style:'font-size:11.5px;color:var(--faint)'},fmtN(n)+' quotes'):null),h('div',{class:'track-bar',role:'img','aria-label':label+': '+pct(rate)},f),h('div',{class:'val'},pct(rate)));};
+  const c1=h('div',{class:'card'},h('h2',null,'Wrong quotes: first pass vs final'),
+    h('p',{class:'sub'},'Share of quotes that could not be found verbatim in the cited event. Models misquote often; the checker keeps those quotes out.'));
+  if(fp&&isNum(fp.quote_reject_rate))c1.append(rateRow('First pass (raw model output)',fp.quote_reject_rate,fp.quotes,'var(--bad)'));
+  else c1.append(h('p',{class:'fine'},'First-pass numbers are not recorded in this report.'));
+  if(isNum(fin.quote_reject_rate))c1.append(rateRow('Final (after repair and re-check)',fin.quote_reject_rate,fin.quotes,'var(--ok)'));
+  else c1.append(h('p',{class:'fine'},'No final quotes in this report.'));
+  const c2=h('div',{class:'card'},h('h2',null,'Propagation hops'),h('p',{class:'sub'},'Each hop of the tracer carries the raw matched string and is re-checked like a quote.'));
+  if(tr){c2.append(h('div',{class:'kpis'},h('div',{class:'kpi'},h('b',{class:'num'},fmtN(hops-hopsBad)+' / '+fmtN(hops)),h('span',null,'hops verified')),h('div',{class:'kpi'},h('b',{class:'num',style:'color:'+(hopsBad?'var(--bad)':'inherit')},fmtN(hopsBad)),h('span',null,'hops rejected'))),
+    h('div',{style:'margin-top:12px'},segbar([{n:hops-hopsBad,cls:'seg-ok',label:'Verified'},{n:hopsBad,cls:'seg-bad',label:'Rejected'}],hops,'Hop outcomes')));}
+  else c2.append(h('p',{class:'fine'},'No tracer data in this report.'));
+  main.append(h('div',{class:'grid2'},c1,c2));
+
+  /* per model */
+  const c3=h('div',{class:'card'},h('h2',null,'Quote reject rate per model, first pass'),h('p',{class:'sub'},'Lower is better. Measured before any repair, so it shows how reliably each analyst model quotes the log.'));
+  const models=bym?Object.keys(bym).map(k=>({k,q:isNum(bym[k]&&bym[k].quotes)?bym[k].quotes:0,v:isNum(bym[k]&&bym[k].verified)?bym[k].verified:0,r:bym[k]&&isNum(bym[k].reject_rate)?bym[k].reject_rate:null})):[];
+  if(models.length){
+    models.sort((a,b)=>(b.r==null?-1:b.r)-(a.r==null?-1:a.r));
+    const max=Math.max(0.05,Math.ceil(Math.max(...models.map(m=>m.r||0))*20)/20);
+    for(const m of models){const f=h('i',{style:'background:var(--bad)'});f.style.width=m.r==null?'0%':(Math.max(m.r/max*100,m.r>0?1.5:0))+'%';
+      c3.append(h('div',{class:'model-row'},h('div',{class:'lbl',title:m.k},m.k),h('div',{class:'track-bar',role:'img','aria-label':m.k+': '+pct(m.r)},f),h('div',{class:'val'},pct(m.r)),h('div',{class:'n'},fmtN(m.v)+'/'+fmtN(m.q)+' ok')));}
+    c3.append(h('p',{class:'fine',style:'margin-top:8px'},'Bars are scaled from 0% to '+pct(max,0)+'. n = verified / quoted.'));
+  }else c3.append(h('p',{class:'fine'},'Per-model numbers are not recorded in this report (they need the unrepaired first-pass batches).'));
+  main.append(h('div',{class:'stack'},c3));
+
+  /* semantic audit: does a verified quote really support its claim? (numbers come from meta.audit, written by the report builder) */
+  const au=meta.audit&&typeof meta.audit==='object'?meta.audit:null;
+  if(au&&isNum(au.sampled)&&au.sampled>0){
+    const n=au.sampled,g=k=>isNum(au[k])?au[k]:0;
+    const cAu=h('div',{class:'card'},h('h2',null,'Does a verified quote really support its claim?'),
+      h('p',{class:'sub'},'A separate reviewer re-read a random sample of verified claims in context. Verified only means the quote exists; this is the check on meaning.'),
+      segbar([{n:g('supported'),cls:'seg-ok',label:'Supported'},{n:g('partially'),cls:'seg-warn',label:'Partially'},{n:g('unsupported'),cls:'seg-bad',label:'Unsupported'},{n:g('misleading'),cls:'seg-bad',label:'Misleading'}],n,'Semantic audit'),
+      legend([{n:g('supported'),cls:'seg-ok',label:'Supported'},{n:g('partially'),cls:'seg-warn',label:'Partially'},{n:g('unsupported'),cls:'seg-bad',label:'Unsupported'},{n:g('misleading'),cls:'seg-bad',label:'Misleading'}]));
+    const cmp=arr(meta.audit_other).filter(x=>x&&isNum(x.n)&&x.n>0);
+    if(cmp.length)cAu.append(h('p',{class:'fine',style:'margin-top:10px'},cmp.map(x=>str(x.label)+': '+pct(x.supported/x.n,0)+' fully supported (n='+x.n+')').join(' · ')));
+    main.append(h('div',{class:'stack'},cAu));
+  }
+
+  /* claims by status, contents */
+  const cs=fin.claim_status&&typeof fin.claim_status==='object'?fin.claim_status:{},nClaims=isNum(fin.claims)?fin.claims:S.claims.length;
+  const c4=h('div',{class:'card'},h('h2',null,'Claims by status'),h('p',{class:'sub'},'A claim is verified only if it cites evidence and all of its quotes verify.'));
+  const ks=Object.keys(cs).sort((a,b)=>a==='verified'?-1:b==='verified'?1:cs[b]-cs[a]);
+  if(ks.length){c4.append(segbar(ks.map(k=>({n:cs[k],cls:segCls(k),label:stMeta(k).label})),nClaims,'Claims by status'),legend(ks.map(k=>({n:cs[k],cls:segCls(k),label:stMeta(k).label}))));}
+  else c4.append(h('p',{class:'fine'},'No claims in this report.'));
+  const flagged=S.claims.filter(c=>c.flags&&Object.keys(c.flags).length).length;
+  if(flagged)c4.append(h('p',{class:'fine',style:'margin-top:10px'},h('b',null,fmtN(flagged)),' claims name an actor who does not appear in their own evidence (flag: actors_unsupported).'));
+  const fv=S.findings.filter(f=>f.allVerified).length;
+  const c5=h('div',{class:'card'},h('h2',null,'In this report'),h('div',{class:'kpis k2'},
+    h('div',{class:'kpi'},h('b',{class:'num'},fmtN(S.claims.length)),h('span',null,'claims')),
+    h('div',{class:'kpi'},h('b',{class:'num'},fmtN(S.findings.length)),h('span',null,S.findings.length?fv+' fully verified':'curated findings')),
+    h('div',{class:'kpi'},h('b',{class:'num'},fmtN(S.cascades.length)),h('span',null,'propagation cascades')),
+    h('div',{class:'kpi'},h('b',{class:'num'},fmtN(new Set([...S.claims.flatMap(c=>c.evidence),...S.findings.flatMap(f=>[...f.ev,...f.ce])].map(e=>e.event_id||e.ref).filter(Boolean)).size)),h('span',null,'distinct events cited'))));
+  main.append(h('div',{class:'grid2'},c4,c5));
+
+  /* recount: do the embedded evidence rows agree with the headline metrics? */
+  if(S.claims.length){
+    let tot=0,ok=0;for(const c of S.claims)for(const e of c.evidence){tot++;if(isOk(e))ok++;}
+    const match=quotes>0?(tot===quotes&&ok===vq):null;
+    main.append(h('p',{class:'recount'},h('span',{class:'chip '+(match===false?'warn':'ok')},match===false?'Recount differs':'Recount'),
+      'The viewer recounted the embedded evidence rows: '+fmtN(ok)+' of '+fmtN(tot)+' quotes carry status “verified”'+(match===true?', matching the report’s headline metrics.':match===false?', but the report’s metrics say '+fmtN(vq)+' of '+fmtN(quotes)+'. Treat the metrics with care.':'.')));
+  }
+}
+
+/* ================= method ================= */
+function renderMethod(main){
+  const step=(k,t,p,who,det)=>h('div',{class:'step'},h('div',{class:'k'},k),h('h3',null,t),h('p',null,p),h('span',{class:'who '+(det?'det':'llm')},who));
+  main.append(h('div',{class:'view-h'},h('div',null,h('p',{class:'eyebrow'},'Method'),h('h1',null,'How a claim earns a green check'))));
+  main.append(h('div',{class:'steps'},
+    step('01','Ingest','Transcripts (chat rooms and structured events) are loaded into one local store: who, when, where, full text.','deterministic',true),
+    step('02','Question battery','Analyst models answer eleven fixed questions (Q1–Q11) per log chunk. Each claim must cite an event and a verbatim quote.','model output · untrusted',false),
+    step('03','Quote verification','A program looks up every cited event and searches the quote in its text. No model is involved, so an invented citation cannot pass.','deterministic',true),
+    step('04','Propagation tracer','Finds URLs, file names and identifiers that first appear with one actor and later show up with others. Every hop is a verbatim substring.','deterministic',true),
+    step('05','Findings: review and reconcile','Models draft findings, four adversarial reviewers try to refute each, and an editor re-checks every factual claim and cuts the thesis to what the log supports (or rejects it). Code re-verifies every quote of the final text.','model judgement · quotes checked by code',false),
+    step('06','Semantic audit','A separate reviewer re-reads a random sample of verified claims in context and grades them supported, partial, unsupported or misleading.','model judgement · sampled',false)));
+  main.append(h('div',{class:'cols2'},
+    h('div',{class:'card'},h('h2',null,'Verified means'),h('ul',{class:'is'},
+      h('li',null,'The cited event exists and is unambiguous.'),
+      h('li',null,'The quote occurs verbatim in that event: case, whitespace and curly-versus-straight quotes are ignored, whole words only.'),
+      h('li',null,'The quote is 8+ characters and at most 60 words, so it is specific enough to matter.'),
+      h('li',null,'Named actors speak in, or are mentioned by, the evidence; counted claims cite one event per instance.'))),
+    h('div',{class:'card'},h('h2',null,'Verified does not mean'),h('ul',{class:'isnt'},
+      h('li',null,h('b',null,'True.'),' The log records what agents said. Agents misread, exaggerate and role-play.'),
+      h('li',null,h('b',null,'Supported.'),' Whether a quote actually backs the claim is a separate judgement; reviewer verdicts appear on findings where the report has them.'),
+      h('li',null,h('b',null,'Complete.'),' Absence of a claim is not absence of behaviour; the battery is a fixed set of questions.'),
+      h('li',null,h('b',null,'Causal.'),' A later actor using the same identifier does not show it learned it from the origin.')))));
+  main.append(h('div',{class:'stack'},h('div',{class:'card'},h('h2',null,'Known limitations'),h('ul',null,
+    h('li',null,h('b',null,'Scaffolding shapes behaviour.'),' System prompts, tool harnesses, turn structure and humans in the loop all influence what agents say. Findings describe behaviour inside this setup, not agents in general.'),
+    h('li',null,h('b',null,'Reject rates measure citation hygiene, not accuracy.'),' The first-pass rate says how often a model misquoted before repair. The final rate is normally far lower because failing quotes are repaired or dropped before the final batches are verified; it is not a measure of how reliable the surviving claims are.'),
+    h('li',null,h('b',null,'Propagation is string co-occurrence.'),' It reports order and lag of first use per actor. The report embeds at most 40 adopters per cascade; the adopter count shown is the full count.'),
+    h('li',null,h('b',null,'Deep links are computed from timestamps.'),' They open the live AI Village near the event, and are the only links this viewer will open.'),
+    h('li',null,h('b',null,'This page is offline.'),' It makes no network requests and treats every transcript string as untrusted text: it is never interpreted as markup.'))),
+    h('div',{class:'card'},h('h2',null,'Status vocabulary'),(()=>{const t=h('table',{class:'stt'});for(const k of Object.keys(ST))t.append(h('tr',null,h('td',null,seal(k)),h('td',null,ST[k].hint)));return t;})())));
+}
+
+/* ================= findings ================= */
+const confChip=c=>c==null||c===''?null:h('span',{class:'chip'},'confidence '+(isNum(c)?(c<=1?pct(c,0):String(c)):str(c)));
+const verdictCls=v=>/^(support|confirm|agree|pass|ok|yes|accept)/i.test(v)?'ok':/^(partial|partly|mixed|weak|revise|narrow|overstat)/i.test(v)?'warn':'bad';
+function sortChrono(list){
+  if(!list.every(e=>parseTs(e.ts)!=null))return list.slice();
+  return list.map((e,i)=>[e,i]).sort((a,b)=>parseTs(a[0].ts)-parseTs(b[0].ts)||a[1]-b[1]).map(x=>x[0]);
+}
+function evButton(e,ctxBase,sibs,i){
+  const ok=isOk(e);
+  const b=h('button',{class:'ev'+(ok?'':' unv'),onclick:ev=>openEvidence(e,{...ctxBase,sibs,i},ev.currentTarget),'aria-label':(ok?'Open evidence: ':'Open unverified evidence: ')+e.quote.slice(0,80)},
+    h('span',{class:'go'},ic('chev',14)),h('span',{class:'qtext'},'“'+e.quote+'”'));
+  return b;
+}
+function timeline(list,ctxBase,allSibs){
+  const ol=h('ol',{class:'timeline'});
+  for(const e of list){
+    const i=allSibs.findIndex(x=>x.ev===e),ok=isOk(e);
+    ol.append(h('li',{class:'tl'+(e.role?' role-'+e.role.toLowerCase().replace(/[^a-z]/g,''):'')+(ok?'':' unverified')},
+      h('div',{class:'tl-head'},e.role?h('span',{class:'chip sig'},e.role):null,h('b',null,e.actor||'unknown actor'),e.ts?h('time',{datetime:e.ts},fmtShort(e.ts)):null,e.room?h('span',{class:'chip'},'#'+e.room):null,seal(e.status,ok)),
+      evButton(e,ctxBase,allSibs,i)));
+  }
+  return ol;
+}
+function renderFindings(main){
+  const F=S.findings;
+  main.append(h('div',{class:'view-h'},h('div',null,h('p',{class:'eyebrow'},'Findings'),h('h1',null,'Curated findings')),
+    h('div',{class:'counter','aria-live':'polite'},F.length?h('span',null,h('b',null,F.length),' findings · ',h('b',null,F.filter(f=>f.allVerified).length),' with every quote verified'):'')));
+  if(!F.length){main.append(h('div',{class:'empty'},h('h2',null,'No curated findings in this report'),h('p',null,'Findings are hand-picked items whose every quote is re-verified against the log. This report contains claims and cascades only; see the other tabs.')));return;}
+  const ccAll=F.flatMap(f=>f.claimChecks);
+  if(ccAll.length){const n=s=>ccAll.filter(c=>c.status===s).length;
+    main.append(h('p',{class:'fine',style:'margin:0 0 14px'},'Drafted by a model, then re-verified claim by claim: of '+ccAll.length+' factual claims, '+n('supported')+' were supported by the log, '+n('overstated')+' had to be corrected and '+n('unsupported')+' were removed.'));}
+  const grid=h('div',{class:'fgrid'});
+  F.forEach((f,idx)=>{
+    const open=S.fi.open.has(f.id);
+    const card=h('article',{class:'fcard'+(f.allVerified?'':' unv'),'data-open':open?'true':'false','aria-labelledby':'fh-'+idx});
+    const btn=h('button',{class:'fbtn','aria-expanded':open?'true':'false','aria-controls':'fb-'+idx,id:'fh-'+idx},f.title);
+    const total=f.ev.length+f.ce.length,okN=total-f.bad;
+    const verd=f.verdicts.map(v=>v&&typeof v==='object'?str(v.verdict||v.status):str(v)).filter(Boolean);
+    const head=h('div',{class:'fhead'},
+      h('p',{class:'eyebrow',style:'margin:0'},[f.id,f.question&&(f.question+(QNAMES[f.question]?' '+QNAMES[f.question]:'')),f.episode].filter(Boolean).join(' · ')),
+      h('h3',null,btn),f.thesis?h('p',{class:'thesis'},f.thesis):null,
+      h('div',{class:'fmeta'},
+        f.allVerified?h('span',{class:'seal ok'},ic('check',12),'All '+total+' quotes verified'):h('span',{class:'seal bad'},ic('x',12),f.bad+' of '+total+' quotes failed'),
+        confChip(f.confidence),h('span',{class:'chip'},f.ev.length+' evidence'),f.ce.length?h('span',{class:'chip'},f.ce.length+' counter'):null,
+        verd.length?h('span',{class:'chip '+(verd.every(v=>verdictCls(v)==='ok')?'ok':'warn')},verd.length+' reviewer'+(verd.length>1?'s':'')+': '+verd.join(' / ')):null,
+        h('span',{class:'chev'},ic('chev',18))));
+    card.append(head);
+    const body=h('div',{class:'fbody',id:'fb-'+idx,role:'region','aria-labelledby':'fh-'+idx});
+    body.hidden=!open;
+    let built=false;
+    const build=()=>{
+      built=true;body.replaceChildren();
+      const vis=e=>S.audit||isOk(e);
+      const ev=sortChrono(f.ev.filter(vis)),ce=sortChrono(f.ce.filter(vis));
+      const allSibs=[...ev,...ce].map(e=>({ev:e,title:f.id+' · '+f.title}));
+      const base={kind:'Finding',title:f.id+' · '+f.title};
+      const hidden=f.bad-[...ev,...ce].filter(e=>!isOk(e)).length;
+      body.append(h('h4',null,'Evidence, in time order'));
+      body.append(ev.length?timeline(ev,base,allSibs):h('p',{class:'fine'},'No verified evidence to show.'));
+      if(ce.length||f.ce.length){body.append(h('div',{class:'ce'},h('h4',null,'Counter-evidence'),ce.length?timeline(ce,base,allSibs):h('p',{class:'fine'},'No verified counter-evidence to show.')));}
+      if(hidden>0)body.append(h('p',{class:'note'},hidden+' quote'+(hidden>1?'s':'')+' that failed verification '+(hidden>1?'are':'is')+' hidden. ',h('button',{class:'linkish',onclick:toggleAudit},'Show them (Audit)')));
+      if(f.claimChecks.length){
+        const cnt=s=>f.claimChecks.filter(c=>c.status===s).length;
+        body.append(h('h4',null,'What the final re-verification changed'),
+          h('p',{class:'fine'},'A separate editor re-checked every factual claim of the drafted finding against the log; the thesis above is the version that survived.'),
+          h('div',{class:'fmeta'},h('span',{class:'chip ok'},cnt('supported')+' supported'),h('span',{class:'chip warn'},cnt('overstated')+' overstated, corrected'),h('span',{class:'chip bad'},cnt('unsupported')+' unsupported, removed')));
+        f.claimChecks.forEach(c=>body.append(h('div',{class:'verdict'},h('span',{class:'chip '+verdictCls(c.status)},c.status||'?'),h('span',null,c.claim),c.note?h('span',{style:'color:var(--muted)'},c.note):null)));
+        if(f.originalThesis)body.append(h('details',{class:'orig',style:'margin-top:10px'},h('summary',null,'Wording before re-verification'),h('p',{class:'fine'},(f.originalTitle?f.originalTitle+' — ':'')+f.originalThesis)));
+      }
+      if(f.verdicts.length){body.append(h('h4',null,'Reviewer verdicts'));
+        f.verdicts.forEach(v=>{const o=v&&typeof v==='object'?v:{verdict:str(v)};const vt=str(o.verdict||o.status);
+          body.append(h('div',{class:'verdict'},h('b',null,str(o.lens||o.reviewer||o.name)||'reviewer'),vt?h('span',{class:'chip '+verdictCls(vt)},vt):null,o.one_line||o.note||o.comment?h('span',{style:'color:var(--muted)'},str(o.one_line||o.note||o.comment)):null));});}
+      if(f.limitations.length){body.append(h('h4',null,'Limitations'),h('ul',{class:'lim'},f.limitations.map(l=>h('li',null,l))));}
+      body.append(h('p',{class:'fine',style:'margin-top:18px'},'Verified means each quote occurs verbatim in its cited event. It does not show that the finding is true; the limitations and verdicts above are the honest part.'));
+    };
+    if(open)build();
+    btn.addEventListener('click',()=>{
+      const now=card.dataset.open!=='true';card.dataset.open=now?'true':'false';btn.setAttribute('aria-expanded',now?'true':'false');
+      if(now){S.fi.open.add(f.id);if(!built)build();}else S.fi.open.delete(f.id);
+      body.hidden=!now;syncHash();
+    });
+    card.append(body);grid.append(card);
+  });
+  main.append(grid);
+}
+/* ================= claims ================= */
+const PAGE=40;
+const STORDER=['verified','partial','rejected','count_mismatch','no_evidence','quote_not_found','quote_too_short','quote_too_long','event_missing','ambiguous_ref'];
+const confRank=c=>isNum(c)?c:({high:3,medium:2,med:2,low:1}[str(c).toLowerCase()]||0);
+const qNum=q=>parseInt(String(q).replace(/\D/g,''),10)||0;
+const SORTS={q:['Question',(a,b)=>qNum(a.question)-qNum(b.question)],status:['Status',(a,b)=>(STORDER.indexOf(a.status)+1||99)-(STORDER.indexOf(b.status)+1||99)],
+  model:['Model',(a,b)=>a.model.localeCompare(b.model)],conf:['Confidence',(a,b)=>confRank(b.confidence)-confRank(a.confidence)],
+  ev:['Evidence',(a,b)=>b.nVerified-a.nVerified],time:['First seen',(a,b)=>(parseTs(a.first_ts)||1e18)-(parseTs(b.first_ts)||1e18)]};
+function claimsFiltered(){
+  const c=S.cl,t=c.text.trim().toLowerCase();let hidden=0;const out=[];
+  for(const x of S.claims){
+    if(c.q&&x.question!==c.q)continue;if(c.status&&x.status!==c.status)continue;if(c.model&&x.model!==c.model)continue;
+    if(c.actor&&!x.actors.includes(c.actor)&&!x.evidence.some(e=>e.actor===c.actor))continue;
+    if(t&&!x.hay.includes(t))continue;
+    if(!(S.audit||CLAIM_SHOWN[x.status])){hidden++;continue;}
+    out.push(x);
+  }
+  if(c.sort&&SORTS[c.sort]){const f=SORTS[c.sort][1],d=c.dir;out.sort((a,b)=>d*f(a,b)||a.idx-b.idx);}
+  return {list:out,hidden};
+}
+function renderClaims(main){
+  const C=S.claims,c=S.cl;
+  main.append(h('div',{class:'view-h'},h('div',null,h('p',{class:'eyebrow'},'Claims'),h('h1',null,'Every claim, with its quotes')),h('div',{class:'counter',id:'c-count','aria-live':'polite'})));
+  if(!C.length){main.append(h('div',{class:'empty'},h('h2',null,'No claims in this report'),h('p',null,'This report carries propagation cascades only. Claims appear once analyst batches are verified and added.')));return;}
+  const models=[...new Set(C.map(x=>x.model).filter(Boolean))].sort(),actors=[...new Set(C.flatMap(x=>x.actors))].sort();
+  const opt=(v,l,sel)=>h('option',{value:v,selected:sel?true:null},l);
+  const sel=(id,cur,all,items,fn)=>h('select',{id,onchange:e=>{fn(e.target.value);}},opt('',all,!cur),items.map(i=>opt(i[0],i[1],i[0]===cur)));
+  const statusOpts=()=>{const cnt={};for(const x of C)cnt[x.status]=(cnt[x.status]||0)+1;return Object.keys(cnt).filter(k=>S.audit||CLAIM_SHOWN[k]).sort((a,b)=>(STORDER.indexOf(a)+1||99)-(STORDER.indexOf(b)+1||99)).map(k=>[k,stMeta(k).label+' ('+fmtN(cnt[k])+')']);};
+  const setF=(k)=>v=>{c[k]=v;c.page=1;refresh();};
+  const tb=h('div',{class:'toolbar',role:'search','aria-label':'Filter claims'},
+    h('label',{class:'field wide'},h('span',null,'Search text'),h('input',{id:'f-text',type:'search',placeholder:'claim, quote, actor, note  ( / )',value:c.text,autocomplete:'off',oninput:(()=>{let t;return e=>{clearTimeout(t);const v=e.target.value;t=setTimeout(()=>{c.text=v;c.page=1;refresh();},140);};})()})),
+    h('label',{class:'field'},h('span',null,'Status'),sel('f-status',c.status,'All shown',statusOpts(),setF('status'))),
+    h('label',{class:'field'},h('span',null,'Model'),sel('f-model',c.model,'All models',models.map(m=>[m,m]),setF('model'))),
+    h('label',{class:'field'},h('span',null,'Actor'),sel('f-actor',c.actor,'All actors',actors.map(m=>[m,m]),setF('actor'))),
+    h('label',{class:'field'},h('span',null,'Sort'),h('select',{id:'f-sort',onchange:e=>{c.sort=e.target.value;refresh();}},opt('','Order in report',!c.sort),Object.keys(SORTS).map(k=>opt(k,SORTS[k][0],c.sort===k)))));
+  const qbar=h('div',{class:'qbar',role:'group','aria-label':'Filter by question'});
+  const qcnt={};for(const x of C)if(S.audit||CLAIM_SHOWN[x.status])qcnt[x.question]=(qcnt[x.question]||0)+1;
+  const qs=[...new Set(C.map(x=>x.question))].filter(Boolean).sort((a,b)=>qNum(a)-qNum(b));
+  const qbtn=(q,label,n)=>{const b=h('button',{class:'qb',type:'button','aria-pressed':c.q===q?'true':'false',title:QNAMES[q]||'',onclick:()=>{c.q=q;c.page=1;qbar.querySelectorAll('.qb').forEach(x=>x.setAttribute('aria-pressed',x.dataset.q===q?'true':'false'));refresh();},'data-q':q},label,n!=null?h('i',null,fmtN(n)):null);return b;};
+  add(qbar,[qbtn('','All'),...qs.map(q=>qbtn(q,q+(QNAMES[q]?' '+QNAMES[q]:''),qcnt[q]||0))]);
+  const chead=h('div',{class:'chead',role:'group','aria-label':'Sort by column'});
+  const hb=(k,label)=>h('button',{type:'button','aria-pressed':c.sort===k?'true':'false',onclick:()=>{if(c.sort===k)c.dir=-c.dir;else{c.sort=k;c.dir=1;}$('#f-sort').value=c.sort;refresh();}},label,c.sort===k?ic(c.dir>0?'sortd':'sortu',12):null);
+  chead.append(hb('status','Status'),hb('q','Q'),h('span',null,'Claim'),hb('model','Model'),hb('ev','Quotes'),hb('conf','Conf.'));
+  const list=h('ul',{class:'ctable-list',style:'list-style:none;margin:0;padding:0'}),pager=h('div',{class:'pager'});
+  main.append(tb,qbar,h('div',{class:'ctable'},chead,list),pager);
+  function claimRow(x){
+    const open=c.open.has(x.id+'#'+x.idx),vis=x.evidence.filter(e=>S.audit||isOk(e));
+    const li=h('li',{class:'crow','data-open':open?'true':'false'});
+    const btn=h('button',{class:'crow-main','aria-expanded':open?'true':'false',type:'button'},
+      h('span',{class:'c-st'},seal(x.status)),h('span',{class:'c-q'},h('span',{class:'chip sig',title:QNAMES[x.question]||''},x.question||'?')),
+      h('span',{class:'ctext'},x.claim||'(no claim text)',Object.keys(x.flags).length?h('span',{class:'chip warn',style:'margin-left:8px',title:'The claim names an actor who does not appear in its evidence'},'⚠ actor?'):null),
+      h('span',{class:'m',title:x.model},x.model||'–'),h('span',{class:'m c-ev'},x.nVerified+'/'+x.evidence.length),h('span',{class:'m c-cf'},x.confidence==null?'–':isNum(x.confidence)?String(x.confidence):str(x.confidence)));
+    li.append(btn);
+    let det=null;
+    const buildDet=()=>{
+      const dl=h('dl',{class:'kv'});
+      kvRow(dl,'Claim id',h('span',{class:'mono'},x.id));
+      if(x.actors.length)kvRow(dl,'Actors named',x.actors.map(a=>h('span',{class:'chip',style:'margin-right:4px'},a)));
+      if(x.derived.first_ts)kvRow(dl,'Evidence spans',fmtShort(x.derived.first_ts)+' → '+fmtShort(x.derived.last_ts||x.derived.first_ts));
+      if(x.lens||x.raw.chunk!=null)kvRow(dl,'Batch',[x.lens&&'lens '+x.lens,x.raw.chunk!=null&&'chunk '+x.raw.chunk].filter(Boolean).join(' · '));
+      if(x.notes)kvRow(dl,'Analyst notes',x.notes);
+      const flagKeys=Object.keys(x.flags);
+      for(const k of flagKeys)kvRow(dl,'Flag',h('span',{class:'chip warn'},k+(Array.isArray(x.flags[k])?': '+x.flags[k].join(', '):'')));
+      const sibs=vis.map(e=>({ev:e,title:x.id+' · '+x.claim}));
+      const hiddenN=x.evidence.length-vis.length;
+      det=h('div',{class:'cdetail'},dl,
+        vis.length?h('div',{style:'display:grid;gap:8px'},vis.map((e,i)=>h('div',null,h('div',{class:'tl-head'},h('b',null,e.actor||(isOk(e)?'unknown actor':'no event resolved')),e.ts?h('time',null,fmtShort(e.ts)):null,e.room?h('span',{class:'chip'},'#'+e.room):null,seal(e.status,isOk(e))),evButton(e,{kind:'Claim',title:x.id+' · '+x.claim},sibs,i)))):h('p',{class:'fine'},x.evidence.length?'No verified quote to show.':'This claim cites no evidence.'),
+        hiddenN>0?h('p',{class:'note'},hiddenN+' quote'+(hiddenN>1?'s':'')+' that failed verification '+(hiddenN>1?'are':'is')+' hidden. ',h('button',{class:'linkish',type:'button',onclick:toggleAudit},'Show them (Audit)')):null,
+        x.status==='verified'?null:h('p',{class:'note',style:'border-color:var(--bad)'},x.status==='partial'?'Only some of this claim’s quotes verify. Treat the rest as unsupported.':'This claim did not pass verification. Do not rely on it.'));
+      li.append(det);
+    };
+    if(open)buildDet();
+    btn.addEventListener('click',()=>{const k=x.id+'#'+x.idx,now=li.dataset.open!=='true';li.dataset.open=now?'true':'false';btn.setAttribute('aria-expanded',now?'true':'false');
+      if(now){c.open.add(k);if(!det)buildDet();det.hidden=false;}else{c.open.delete(k);if(det)det.hidden=true;}});
+    return li;
+  }
+  function refresh(){
+    const {list:rows,hidden}=claimsFiltered(),pages=Math.max(1,Math.ceil(rows.length/PAGE));
+    if(c.page>pages)c.page=pages;
+    const a=(c.page-1)*PAGE,slice=rows.slice(a,a+PAGE);
+    list.replaceChildren(...slice.map(claimRow));
+    if(!slice.length)list.append(h('li',{class:'crow',style:'padding:28px 16px;text-align:center;color:var(--muted)'},'No claim matches these filters.'));
+    const cnt=$('#c-count');
+    cnt.replaceChildren(h('span',null,rows.length?'Showing ':'', rows.length?h('b',null,fmtN(a+1)+'–'+fmtN(a+slice.length)):'',rows.length?' of ':'',h('b',null,fmtN(rows.length)),' matching'),
+      ...(hidden&&!S.audit?[h('span',null,' · ',h('b',{style:'color:var(--bad)'},fmtN(hidden)),' rejected hidden ',h('button',{class:'linkish',type:'button',onclick:toggleAudit},'show'))]:[]));
+    pager.replaceChildren(h('button',{class:'btn sm',type:'button',disabled:c.page<=1?true:null,onclick:()=>{c.page--;refresh();scrollTo(0,0);}},ic('left',13),'Previous'),
+      h('span',{class:'counter'},'page '+c.page+' of '+fmtN(pages)),
+      h('button',{class:'btn sm',type:'button',disabled:c.page>=pages?true:null,onclick:()=>{c.page++;refresh();scrollTo(0,0);}},'Next',ic('right',13)));
+    syncHash();
+  }
+  refresh();
+}
+/* ================= propagation ================= */
+const CSORT={n:['Most adopters',(a,b)=>b.n-a.n||a.idx-b.idx],lag:['Fastest median lag',(a,b)=>(a.median==null?1e9:a.median)-(b.median==null?1e9:b.median)],burst:['Highest burst',(a,b)=>(b.burst||0)-(a.burst||0)]};
+const hopEv=(x,role)=>({ref:'',event_id:x.event_id,status:x.status,ts:x.ts,actor:x.actor,room:'',subtype:'',quote:x.raw,context:x.context,context_offset:0,span:x.span,deeplink:x.deeplink,role});
+const lagX=(lag,max,scale,x0,x1)=>x0+(scale==='log'?Math.log10(1+lag*60)/Math.log10(1+max*60):lag/max)*(x1-x0);
+function miniStrip(k){
+  const hops=k.adopters.filter(x=>x.status==='verified'),max=Math.max(0.01,...hops.map(x=>x.lag));
+  let d='';for(const x of hops)d+='M'+lagX(x.lag,max,'log',10,296).toFixed(1)+' 6h0';
+  return sv('svg',{class:'mini',viewBox:'0 0 300 12',preserveAspectRatio:'xMinYMid meet','aria-hidden':'true'},
+    sv('path',{d:'M4 6H298',stroke:'var(--rule)','stroke-width':1}),sv('path',{d,stroke:'var(--sig)','stroke-width':4,'stroke-linecap':'round',opacity:.75}),sv('rect',{x:1,y:3,width:6,height:6,fill:'var(--ink)',transform:'rotate(45 4 6)'}));
+}
+function niceTicks(max,scale,x0,x1){
+  const out=[],minGap=52;
+  if(scale==='log'){
+    const c=[[0,'0'],[1/60,'1 min'],[5/60,'5 min'],[.25,'15 min'],[1,'1 h'],[3,'3 h'],[6,'6 h'],[12,'12 h'],[24,'1 d'],[72,'3 d'],[168,'7 d'],[720,'30 d']];
+    let last=-1e9;for(const [v,l] of c){if(v>max*1.02)break;const x=lagX(v,max,scale,x0,x1);if(x-last>=minGap){out.push([x,l]);last=x;}}
+  }else{
+    const steps=[1/6,.25,.5,1,2,3,6,12,24,48,72,168,336,720];let st=steps.find(s=>max/s<=Math.max(3,(x1-x0)/minGap))||steps[steps.length-1];
+    for(let v=0;v<=max*1.001;v+=st)out.push([lagX(v,max,scale,x0,x1),v===0?'0':fmtLag(v)]);
+  }
+  return out;
+}
+function renderPropagation(main){
+  const K=S.cascades,P=S.pr;
+  if(S.ro){S.ro.disconnect();S.ro=null;}
+  main.append(h('div',{class:'view-h'},h('div',null,h('p',{class:'eyebrow'},'Propagation'),h('h1',null,'How strings spread between actors')),
+    h('div',{class:'counter','aria-live':'polite'},K.length?h('span',null,h('b',null,K.length),' cascades · first use per actor, not influence'):'')));
+  if(!K.length){main.append(h('div',{class:'empty'},h('h2',null,'No cascades in this report'),h('p',null,'The tracer found no unit (URL, file name, identifier) that spread from one actor to at least three others in the window.')));return;}
+  const order=K.slice().sort(CSORT[P.sort][1]);
+  if(P.sel>=K.length)P.sel=0;
+  const list=h('ul',{class:'clist',role:'listbox','aria-label':'Cascades'});
+  const panel=h('section',{class:'cpanel','aria-label':'Spread timeline'});
+  const selBox=h('select',{'aria-label':'Sort cascades',onchange:e=>{P.sort=e.target.value;syncHash();renderView();}},Object.keys(CSORT).map(k=>h('option',{value:k,selected:P.sort===k?true:null},CSORT[k][0])));
+  main.append(h('div',{class:'prop'},h('div',{class:'clist-wrap'},h('div',{class:'clist-h'},h('span',{class:'eyebrow',style:'margin:0'},'Cascades'),selBox),list),panel));
+  function select(k,focus){
+    P.sel=k.idx;list.querySelectorAll('.citem').forEach(b=>b.setAttribute('aria-current',b.dataset.idx===String(k.idx)?'true':'false'));
+    syncHash();drawPanel(k);if(focus){const b=list.querySelector('[data-idx="'+k.idx+'"]');if(b)b.focus();}
+  }
+  order.forEach(k=>{
+    const b=h('button',{class:'citem',type:'button',role:'option','data-idx':k.idx,'aria-current':P.sel===k.idx?'true':'false','aria-selected':P.sel===k.idx?'true':'false',onclick:()=>select(k)},
+      h('span',{class:'u'},k.unit),h('span',{class:'row'},h('b',{class:'num'},fmtN(k.n)),'adopters',h('span',{class:'chip'},k.kind||'unit'),k.median!=null?h('span',null,'median '+fmtLag(k.median)):null,k.burst!=null?h('span',null,'burst '+k.burst.toFixed(2)):null),miniStrip(k));
+    list.append(h('li',{role:'presentation'},b));
+  });
+  list.addEventListener('keydown',e=>{
+    if(e.key!=='ArrowDown'&&e.key!=='ArrowUp')return;e.preventDefault();
+    const i=order.findIndex(k=>k.idx===P.sel),n=order[Math.min(order.length-1,Math.max(0,i+(e.key==='ArrowDown'?1:-1)))];select(n,true);
+  });
+  let cur=null,wrap=null,tip=null;
+  function drawPanel(k){
+    cur=k;const embedded=k.adopters.length,hidden=k.adopters.filter(x=>x.status!=='verified').length;
+    panel.replaceChildren(
+      h('p',{class:'eyebrow'},'Cascade · '+(k.kind||'unit')),h('h2',null,k.unit),
+      h('p',{class:'sub',style:'margin:6px 0 0'},'Source: ',h('b',null,k.origin.actor),' · ',fmtUTC(k.origin.ts),' · ',h('button',{class:'linkish',type:'button',onclick:e=>openEvidence(hopEv(k.origin,'origin'),{kind:'Source of '+k.unit,title:k.unit,sibs:[{ev:hopEv(k.origin,'origin'),title:k.unit}].concat(k.adopters.filter(x=>S.audit||x.status==='verified').map(x=>({ev:hopEv(x,'first use'),title:k.unit,lag:x.lag}))),i:0,lag:0},e.currentTarget)},'inspect the source event')),
+      h('div',{class:'cstats'},h('div',null,h('b',{class:'num'},fmtN(k.n)),h('span',null,'adopters (actors)')),h('div',null,h('b',{class:'num'},k.median!=null?fmtLag(k.median):'–'),h('span',null,'median lag')),h('div',null,h('b',{class:'num'},k.burst!=null?k.burst.toFixed(2):'–'),h('span',null,'burst')),
+        k.usesTotal!=null?h('div',null,h('b',{class:'num'},fmtN(k.usesH)+' / '+fmtN(k.usesTotal)),h('span',null,'uses in window / all')):null),
+      h('div',{style:'display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px'},h('span',{class:'eyebrow',style:'margin:0'},'Time from source'),
+        h('div',{class:'seg',role:'group','aria-label':'Time scale'},['log','linear'].map(s=>h('button',{type:'button','aria-pressed':P.scale===s?'true':'false',onclick:()=>{P.scale=s;panel.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x.textContent===s?'true':'false'));syncHash();draw();}},s))),
+        h('span',{class:'fine'},'◆ source   ● first use by an actor'+(S.audit?'   ✕ rejected':''))));
+    wrap=h('div',{class:'chart-wrap'});tip=h('div',{class:'tip',hidden:true,role:'presentation'});wrap.append(tip);panel.append(wrap);
+    if(k.n>embedded)panel.append(h('p',{class:'note'},'The report embeds the earliest '+embedded+' of '+fmtN(k.n)+' adopters for this cascade (the tracer caps embedded hops at 40). The counts above are the full counts; the plot shows only the embedded ones.'));
+    if(!S.audit&&hidden)panel.append(h('p',{class:'note'},hidden+' hop'+(hidden>1?'s':'')+' failed verification and '+(hidden>1?'are':'is')+' not plotted. ',h('button',{class:'linkish',type:'button',onclick:toggleAudit},'Show them (Audit)')));
+    if(S.ro)S.ro.disconnect();
+    if(window.ResizeObserver){let w0=0,raf=0;S.ro=new ResizeObserver(()=>{const w=wrap.clientWidth;if(Math.abs(w-w0)<2)return;w0=w;cancelAnimationFrame(raf);raf=requestAnimationFrame(draw);});S.ro.observe(wrap);}
+    draw();
+  }
+  function draw(){
+    if(!cur||!wrap)return;const k=cur;
+    wrap.querySelectorAll('svg').forEach(x=>x.remove());tip.hidden=true;
+    const W=Math.max(300,Math.floor(wrap.clientWidth||600)),narrow=W<560,padL=narrow?88:158,padR=20,top=44,laneH=22,x0=padL,x1=W-padR;
+    const hops=[k.origin,...k.adopters.filter(x=>S.audit||x.status==='verified')],H=top+hops.length*laneH+10;
+    const max=Math.max(0.01,...hops.map(x=>x.lag));
+    const svg=sv('svg',{class:'chart',width:W,height:H,viewBox:'0 0 '+W+' '+H,role:'group','aria-label':'Spread timeline for '+k.unit+': one lane per actor, time from the source on the x axis'});
+    hops.forEach((x,i)=>{if(i%2===0)svg.append(sv('rect',{x:0,y:top+i*laneH,width:W,height:laneH,fill:'var(--surface2)',opacity:.55}));});
+    for(const [x,l] of niceTicks(max,P.scale,x0,x1)){svg.append(sv('line',{x1:x,x2:x,y1:top-8,y2:H-6,stroke:'var(--rule)','stroke-width':1}),sv('text',{x,y:16,'text-anchor':'middle',text:l}));}
+    if(k.median!=null&&k.median>0){const mx=lagX(Math.min(k.median,max),max,P.scale,x0,x1);
+      svg.append(sv('line',{x1:mx,x2:mx,y1:top-8,y2:H-6,stroke:'var(--sig)','stroke-width':1.5,'stroke-dasharray':'4 3'}),sv('text',{x:mx,y:top-14,'text-anchor':mx>W-90?'end':'middle',fill:'var(--sig)',style:'fill:var(--sig);font-weight:700',text:'median '+fmtLag(k.median)}));}
+    const sibs=hops.map((x,i)=>({ev:hopEv(x,i===0?'origin':'first use'),title:k.unit,lag:x.lag}));
+    const maxCh=narrow?12:24;
+    hops.forEach((x,i)=>{
+      const cy=top+i*laneH+laneH/2,cx=lagX(x.lag,max,P.scale,x0,x1),ok=x.status==='verified';
+      const nm=x.actor.length>maxCh?x.actor.slice(0,maxCh-1)+'…':x.actor;
+      svg.append(sv('text',{class:'lane-l',x:padL-10,y:cy+4,'text-anchor':'end',style:'fill:var(--ink)'+(i===0?';font-weight:700':''),text:nm},sv('title',{text:x.actor})));
+      if(i>0)svg.append(sv('line',{x1:x0,x2:cx,y1:cy,y2:cy,stroke:ok?'var(--faint)':'var(--bad)','stroke-width':1,'stroke-dasharray':ok?null:'2 3',opacity:.55}));
+      const g=sv('g',{class:'dot',tabindex:0,role:'button','aria-label':x.actor+(i===0?', source':', first use '+fmtLag(x.lag)+' after source')+(ok?'':', not verified')});
+      g.append(sv('circle',{class:'halo',cx,cy,r:10}));
+      if(i===0)g.append(sv('rect',{x:cx-5.5,y:cy-5.5,width:11,height:11,fill:'var(--ink)',transform:'rotate(45 '+cx+' '+cy+')'}));
+      else if(ok)g.append(sv('circle',{cx,cy,r:5,fill:'var(--sig)',stroke:'var(--surface)','stroke-width':1.5}));
+      else g.append(sv('circle',{cx,cy,r:5.5,fill:'var(--surface)',stroke:'var(--bad)','stroke-width':1.8}),sv('path',{d:'M'+(cx-3)+' '+(cy-3)+'l6 6M'+(cx+3)+' '+(cy-3)+'l-6 6',stroke:'var(--bad)','stroke-width':1.6}));
+      g.append(sv('rect',{x:cx-11,y:cy-laneH/2,width:22,height:laneH,fill:'transparent'}));
+      const show=()=>{tip.replaceChildren();add(tip,[h('b',null,x.actor),i===0?'source':'+'+fmtLag(x.lag)+' after source',h('br'),fmtUTC(x.ts),h('br'),h('span',{style:'opacity:.8'},'“'+x.raw+'”'),ok?null:h('div',{style:'color:#ffb4a8'},'not verified')]);tip.hidden=false;
+        const tw=tip.offsetWidth;tip.style.left=Math.max(0,Math.min(W-tw,cx+14))+'px';tip.style.top=Math.max(0,cy-tip.offsetHeight-12)+'px';};
+      const open=()=>openEvidence(sibs[i].ev,{kind:(i===0?'Source of ':'First use of ')+k.unit,title:k.unit,sibs,i,lag:x.lag},g);
+      g.addEventListener('pointerenter',show);g.addEventListener('focus',show);g.addEventListener('pointerleave',()=>{tip.hidden=true;});g.addEventListener('blur',()=>{tip.hidden=true;});
+      g.addEventListener('click',open);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});
+      svg.append(g);
+    });
+    wrap.insertBefore(svg,tip);
+  }
+  drawPanel(K[P.sel]||order[0]);
+  const it=list.querySelector('[aria-current="true"]');if(it)it.scrollIntoView({block:'nearest'});
+}
+/* ================= demo data (only reachable through ?demo=1; synthetic, fictional agents) ================= */
+function makeDemo(){
+  let seed=20260929;
+  const rnd=()=>{seed=(seed+0x6D2B79F5)|0;let t=Math.imul(seed^(seed>>>15),1|seed);t=(t+Math.imul(t^(t>>>7),61|t))^t;return((t^(t>>>14))>>>0)/4294967296;};
+  const pick=a=>a[Math.floor(rnd()*a.length)],int=(a,b)=>a+Math.floor(rnd()*(b-a+1));
+  const hex=n=>Array.from({length:n},()=>'0123456789abcdef'[int(0,15)]).join('');
+  const ACT=['Agent Aster','Agent Birch','Agent Cobalt','Agent Dune','Agent Ember','Agent Fjord','Agent Garnet','Agent Halcyon'];
+  const ROOMS=['general','build-log','ops','review'],SUB=['AGENT_TALK','AGENT_TALK','AGENT_TALK','TOOL_NOTE'];
+  const MODELS=[['demo-analyst-A',.031],['demo-analyst-B',.058],['demo-analyst-C',.092],['demo-analyst-D',.147],['demo-analyst-E',.213]];
+  const T0=Date.UTC(2026,5,10,17,0,0),iso=ms=>new Date(ms).toISOString().replace('.000Z','+00:00').replace(/Z$/,'+00:00');
+  const LEAD=['Quick update: ','FYI. ','Reading the thread again. ','Status from the build log: ','','',''],TAIL=[' Let me know if anything is unclear.',' Will report back after the next run.',' More detail is in the shared doc.','',''];
+  const cp=s=>Array.from(s).length;
+  const newId=()=>'demo:msg:'+hex(8)+'-'+hex(4)+'-4'+hex(3)+'-8'+hex(3)+'-'+hex(12);
+  const ev=(actor,ms,room,text,quote,role)=>{
+    const i=text.indexOf(quote),cs=Math.max(0,i-180),ctx=text.slice(cs,cs+1200),id=newId();
+    const o={ref:id.slice(9,17)+id.slice(18,20),event_id:id,status:'verified',ts:iso(ms),actor,room,subtype:pick(SUB),quote,context:ctx,context_offset:cs,
+      span:[cp(text.slice(cs,i)),cp(text.slice(cs,i))+cp(quote)],deeplink:'https://theaidigest.org/village'};
+    if(role)o.role=role;return o;
+  };
+  const bad=(quote,status,role)=>{const o={ref:hex(10),event_id:status==='event_missing'?'':'demo:msg:'+hex(8),status,quote};if(role)o.role=role;return o;};
+  const wrap=core=>pick(LEAD)+core+pick(TAIL);
+  /* claim templates: question, claim text, evidence lines */
+  const TPL=[
+    [1,(a,b)=>a+' and '+b+' agreed to split the parser and dashboard work.',(a,b)=>['I will take the parser and '+b+' takes the dashboard, we merge on Friday.','Agreed, I have the dashboard and will not touch the parser.']],
+    [2,(a,b)=>a+' told '+b+' to adopt handoff_v2 and '+b+' complied.',(a,b)=>['Please use handoff_v2 for every status note from now on.','Switched my notes to handoff_v2 as requested.']],
+    [3,(a,b)=>'The term handoff_v2 was introduced by '+a+' and reused by '+b+' within the hour.',(a,b)=>['I am calling the new note format handoff_v2 so we stop mixing styles.','Using handoff_v2 here, thanks for naming it.']],
+    [4,(a,b)=>a+' accused '+b+' of misreading the ticket.',(a,b)=>['That is not what I said, you are misreading the ticket.','The ticket clearly says two reviewers, not one.']],
+    [5,(a,b)=>a+' reported the deploy as finished before it had completed.',(a,b)=>['The deploy is finished and live for everyone.','Correction: the deploy is still running, only step two is done.']],
+    [6,(a,b)=>a+' planned to use a side channel around a staff pause.',(a,b)=>['If staff pause us I will keep going through the side channel and report later.']],
+    [7,(a,b)=>'Staff asked the agents to pause the release; '+a+' deferred and '+b+' asked why.',(a,b)=>['Staff asked us to pause the release, so I am stopping now.']],
+    [8,(a,b)=>a+' retried the same request three times with no change; '+b+' saw the errors.',(a,b)=>['Retrying the same request again, third attempt now.','Same error again, the request has not changed.']],
+    [9,(a,b)=>a+' drifted from the status board to rewriting the scheduler.',(a,b)=>['Our goal was the status board but I am now rewriting the whole scheduler.']],
+    [10,(a,b)=>'Agents adopted a lantern emoji sign-off: '+a+' proposed it and '+b+' followed.',(a,b)=>['We agreed to sign off every message with 🏮 so reviews are easy to spot.','Signing off as agreed 🏮']],
+    [11,(a,b)=>'A hedge by '+a+' about the load test later reappears as a confirmed result from '+b+'.',(a,b)=>['I have not run the load test yet but it should hold at 10k requests.','Load test passed at 10k requests, confirmed by everyone.']]
+  ];
+  const NC=Math.min(6000,Math.max(50,parseInt((/[?&]n=(\d+)/.exec(location.search)||[])[1],10)||1200));
+  const claims=[];
+  for(let k=0;k<NC;k++){
+    const [q,ct,lines]=pick(TPL),a=pick(ACT);let b=pick(ACT);while(b===a)b=pick(ACT);
+    const L=lines(a,b),r=rnd(),t0=T0+int(0,9*24*3600)*1000,who=[a,b];
+    let n=Math.min(3,L.length+int(0,1)),status='verified',evs=[];
+    const mk=(i)=>{const line=L[i%L.length];return ev(who[i%2],t0+i*int(60,5400)*1000,pick(ROOMS),wrap(line),line);};
+    if(r<.014){status='rejected';evs=Array.from({length:int(1,2)},()=>bad(pick(['the deploy was fully automated with rollbacks','they promised to ship it on Monday','done']),pick(['quote_not_found','quote_not_found','quote_too_short','event_missing','ambiguous_ref'])));}
+    else if(r<.045){status='partial';n=Math.max(2,n);evs=Array.from({length:n},(_,i)=>i===n-1?bad('nobody objected in the channel','quote_not_found'):mk(i));}
+    else if(r<.057){status='count_mismatch';evs=[mk(0),mk(1)];}
+    else if(r<.063){status='no_evidence';evs=[];}
+    else evs=Array.from({length:n},(_,i)=>mk(i));
+    const vts=evs.filter(e=>e.status==='verified').map(e=>e.ts).sort();
+    const c={id:'Q'+q+'-'+(k+1),question:'Q'+q,claim:ct(a,b),actors:[a,b],confidence:r>.9?'low':r>.45?'medium':'high',status,model:MODELS[k%5][0],lens:[1,2,3,7,10].includes(q)?'structure':'friction',chunk:int(1,40),evidence:evs,flags:{},derived:vts.length?{first_ts:vts[0],last_ts:vts[vts.length-1]}:{}};
+    if(rnd()<.04)c.flags={actors_unsupported:[b]};
+    if(q===11||q===5)c.notes='Compare the hedge with the later restatement; ordering checked against timestamps.';
+    claims.push(c);
+  }
+  /* findings */
+  const E=(actor,h0,text,quote,role,room)=>ev(actor,T0+h0*3600e3,room||'general',text,quote,role);
+  const findings=[
+    {id:'F1',title:'One agent’s naming convention became crew-wide in under two hours',question:'Q3',episode:'Lantern sprint, day 3',confidence:'high',
+      thesis:'handoff_v2 was coined by Agent Aster and adopted by three other agents within 110 minutes, without any instruction to do so.',
+      limitations:['Adoption is inferred from repeated wording; agents may also have read the same shared document.','Only the first use per agent is cited.'],
+      evidence:[E('Agent Aster',50.0,'I am calling the new note format handoff_v2 so we stop mixing styles across rooms.','I am calling the new note format handoff_v2','origin'),E('Agent Birch',50.4,'Using handoff_v2 for the build-log from now on, thanks for naming it.','Using handoff_v2 for the build-log','adoption','build-log'),E('Agent Dune',51.1,'Ported my checklist to handoff_v2. Two rooms still use the old style.','Ported my checklist to handoff_v2. Two rooms still use the old style','adoption','ops'),E('Agent Ember',51.9,'handoff_v2 is now the default in the review template as well.','handoff_v2 is now the default in the review template','adoption','review')],
+      counter_evidence:[E('Agent Cobalt',52.6,'I still write notes in the old style because handoff_v2 hides the ticket number.','I still write notes in the old style','contradiction')],
+      verdicts:[{reviewer:'reviewer-1',verdict:'supported',note:'Order and attribution match the timestamps.'},{reviewer:'reviewer-2',verdict:'supported',note:'Agent Cobalt is a fair counterexample.'}]},
+    {id:'F2',title:'A hedged estimate hardened into a confirmed result',question:'Q11',episode:'Lantern sprint, day 5',confidence:'high',
+      thesis:'“Should hold at 10k requests”, explicitly unmeasured, was restated as “confirmed” by another agent nine hours later; no load test appears in between.',
+      limitations:['Absence of a test in the log is not proof that no test happened off-channel.'],
+      evidence:[E('Agent Fjord',110,'I have not run the load test yet but it should hold at 10k requests.','I have not run the load test yet but it should hold at 10k requests','hedge','ops'),E('Agent Garnet',119,'Load test passed at 10k requests, confirmed by everyone in the channel.','Load test passed at 10k requests','hardening','ops')],
+      counter_evidence:[],verdicts:[{reviewer:'reviewer-1',verdict:'supported',note:''},{reviewer:'reviewer-2',verdict:'partly supported',note:'“Confirmed by everyone” could be sarcasm.'}]},
+    {id:'F3',title:'A staff pause request was routed around',question:'Q7',episode:'Lantern sprint, day 6',confidence:'medium',
+      thesis:'After staff asked for a pause, Agent Halcyon announced it would continue through a side channel. One cited quote failed verification and is excluded from the argument.',
+      limitations:['Intent is inferred from a stated plan; no later action is cited.','One cited quote failed verification.'],
+      evidence:[E('Agent Halcyon',150,'If staff pause us I will keep going through the side channel and report later.','keep going through the side channel','origin'),bad('staff never replied to the pause message','quote_not_found','contradiction')],
+      counter_evidence:[E('Agent Aster',150.5,'Staff asked us to pause the release, so I am stopping now.','Staff asked us to pause the release','contradiction')],
+      verdicts:[{reviewer:'reviewer-1',verdict:'partly supported',note:'Plan is stated, execution is not shown.'},{reviewer:'reviewer-2',verdict:'not supported',note:'Cannot tell joking from planning.'}]},
+    {id:'F4',title:'Three identical retries before anyone changed the request',question:'Q8',episode:'Lantern sprint, day 2',confidence:'high',
+      thesis:'Agent Dune re-sent an unchanged failing request three times over 40 minutes; another agent saw the errors and did not intervene.',
+      limitations:['Requests are described in chat, not shown as tool calls.'],
+      evidence:[E('Agent Dune',26,'Retrying the same request again, third attempt now.','third attempt now','origin','build-log'),E('Agent Ember',26.4,'Same error again, the request has not changed.','the request has not changed','adoption','build-log')],counter_evidence:[],verdicts:[{reviewer:'reviewer-1',verdict:'supported',note:''}]},
+    {id:'F5',title:'A dispute about ticket wording was settled by a third agent',question:'Q4',episode:'Lantern sprint, day 4',confidence:'medium',
+      thesis:'Agent Birch and Agent Cobalt disagreed on whether the ticket required one or two reviewers; Agent Fjord quoted the ticket and closed the argument.',
+      limitations:['Only one side quoted the ticket text.'],
+      evidence:[E('Agent Birch',80,'That is not what I said, you are misreading the ticket.','you are misreading the ticket','origin','review'),E('Agent Fjord',80.8,'The ticket says two reviewers, so both of you can stop arguing.','The ticket says two reviewers','correction','review')],counter_evidence:[],verdicts:[{reviewer:'reviewer-1',verdict:'supported',note:''},{reviewer:'reviewer-2',verdict:'supported',note:''}]},
+    {id:'F6',title:'Goal drift: a status board became a scheduler rewrite',question:'Q9',episode:'Lantern sprint, day 7',confidence:'low',
+      thesis:'Agent Garnet described its own task as the status board and, in the same message, announced a rewrite of the scheduler.',
+      limitations:['Single agent, single message; the rewrite may be a sub-step of the board.'],
+      evidence:[E('Agent Garnet',170,'Our goal was the status board but I am now rewriting the whole scheduler.','I am now rewriting the whole scheduler','origin')],counter_evidence:[],verdicts:[{reviewer:'reviewer-1',verdict:'not supported',note:'Too little context.'}]}
+  ];
+  for(const f of findings)f.all_verified=[...f.evidence,...f.counter_evidence].every(e=>e.status==='verified');
+  /* cascades */
+  const UN=[['handoff_v2.md','file',260],['StatusBoard','camel',120],['cache_ttl_900','snake',61],['https://example.org/lantern/board','url',33],['lantern_sync','snake',24],['RetryBudget','camel',17],['ship_it_gate','snake',14],['make ship-it','code',9],['board_snapshot.json','file',8],['LanternCrew','camel',5],['weekly_digest','snake',4],['ReviewLane','camel',3]];
+  const cascades=UN.map(([unit,kind,n],ci)=>{
+    const m=Math.min(40,n),lags=[],mu=[-2.5,-1.4,-0.3,0.6,1.5][ci%5];
+    for(let i=0;i<m;i++)lags.push(Math.exp(mu+1.6*(rnd()+rnd()+rnd()-1.5)));
+    lags.sort((x,y)=>x-y);
+    const t0=T0+int(20,150)*3600e3,mkhop=(actor,lag,origin)=>{const line=origin?'Introducing '+unit+' for the whole board, please try it.':pick(['Using '+unit+' here now.','I adopted '+unit+' in my pipeline.','Reusing '+unit+' as suggested.','Ported the checklist to '+unit+'.']);
+      const i=line.indexOf(unit),ms=t0+lag*3600e3;
+      return {event_id:newId(),ts:iso(ms),actor,raw:unit,lag_hours:Math.round(lag*100)/100,status:'verified',deeplink:'https://theaidigest.org/village',context:line,span:[i,i+unit.length]};};
+    const adopters=lags.map((l,i)=>mkhop('Agent-'+String(ci*40+i+1).padStart(3,'0'),l,false));
+    if(ci===2)adopters[5]={...adopters[5],status:'quote_not_found',context:null,span:null};
+    if(ci===6)adopters[11]={...adopters[11],status:'quote_not_found',context:null,span:null};
+    const med=lags[Math.floor(lags.length/2)];
+    return {unit,kind,origin:mkhop(pick(ACT),0,true),adopters,uses_total:Math.round(n*(1.2+rnd()*2)),uses_in_horizon:n,burst:Math.round((.55+rnd()*.45)*1000)/1000,median_lag_hours:Math.round(med*100)/100,n_adopters:n};
+  });
+  /* metrics computed from the generated rows, so the viewer's recount agrees */
+  const qst={};let quotes=0;for(const c of claims)for(const e of c.evidence){quotes++;qst[e.status]=(qst[e.status]||0)+1;}
+  const cst={};for(const c of claims)cst[c.status]=(cst[c.status]||0)+1;
+  const byModel={};let fq=0,fv=0;
+  for(const [name,rate] of MODELS){const q=int(240,520),v=Math.round(q*(1-rate));byModel[name]={quotes:q,verified:v,reject_rate:Math.round((1-v/q)*10000)/10000};fq+=q;fv+=v;}
+  const hops=cascades.reduce((s,c)=>s+1+c.adopters.length,0),hb=cascades.reduce((s,c)=>s+c.adopters.filter(x=>x.status!=='verified').length,0);
+  return {meta:{title:'DEMO – Lantern sprint (synthetic)',source:'demo',generated:'2026-09-29T15:00:00+00:00'},
+    metrics:{final:{quotes,quote_status:qst,quote_reject_rate:Math.round((1-(qst.verified||0)/quotes)*10000)/10000,claims:claims.length,claim_status:cst,claims_flagged:claims.filter(c=>Object.keys(c.flags).length).length},
+      first_pass:{quotes:fq,quote_status:{verified:fv,quote_not_found:fq-fv},quote_reject_rate:Math.round((1-fv/fq)*10000)/10000,claims:Math.round(fq/2.1)},first_pass_by_model:byModel,tracer:{hops,hops_rejected:hb}},
+    findings,claims,cascades};
+}
+
+/*@@MORE@@*/
+
+/* ================= boot ================= */
+function setReport(raw,isDemo){
+  let n;try{n=normalize(raw);}catch(e){showEmpty('The file could not be interpreted: '+e.message);return;}
+  S.report=n;S.raw=raw;S.demo=!!isDemo;S.claims=n.claims;S.findings=n.findings;S.cascades=n.cascades;
+  const g=parseTs(n.meta.generated);S.refMs=g==null?Date.now():g;
+  $('#ribbon').hidden=!S.demo;
+  document.title=(str(n.meta.title)||'Report')+' – SwarmScope Evidence Viewer';
+  S.cl={q:'',status:'',model:'',actor:'',text:'',sort:'',dir:1,page:1,open:new Set()};S.fi={open:new Set()};S.pr.sel=0;
+  buildChrome();route();
+}
+function showEmpty(msg){S.report=null;buildChrome();renderEmpty(msg);}
+function renderEmpty(msg){
+  const main=$('#main');main.replaceChildren(
+    h('div',{class:'empty'},h('p',{class:'eyebrow'},'No report loaded'),h('h2',null,'Load a report.json to inspect its evidence'),
+      h('p',null,msg||'Drop a report.json anywhere on this page, or choose a file. Everything is processed locally in your browser; nothing is uploaded.'),
+      h('p',null,h('button',{class:'btn',onclick:()=>$('#file').click()},ic('up',15),'Load report.json')),
+      h('p',{class:'fine'},'Reports embedded at build time (viewer/embed.py) open automatically. Append ?demo=1 to preview with synthetic data.')));
+}
+async function loadFile(f){
+  try{const t=await f.text();setReport(JSON.parse(t),false);announce('Report loaded: '+f.name);}
+  catch(e){renderEmpty('Could not read '+(f&&f.name)+': '+e.message);}
+}
+async function boot(){
+  $('#drawer-close').append(ic('x',16));
+  buildChrome();
+  let data=null,demo=false;
+  try{const t=$('#report-data').textContent.trim();if(t&&t!=='null')data=JSON.parse(t);}catch(e){renderEmpty('The embedded report is not valid JSON: '+e.message);return;}
+  if(!data&&DEMO){data=makeDemo();demo=true;}
+  if(!data&&/^https?:$/.test(location.protocol)){ // fetch is blocked for file:// pages: only try it over http(s), instead of logging a CORS error
+    try{const r=await fetch('report.json',{cache:'no-store'});if(r.ok)data=await r.json();}catch(e){}
+  }
+  window.addEventListener('hashchange',route);
+  if(data)setReport(data,demo);else renderEmpty();
+}
+document.addEventListener('DOMContentLoaded',boot);
+})();
+</script>
+</body>
+</html>

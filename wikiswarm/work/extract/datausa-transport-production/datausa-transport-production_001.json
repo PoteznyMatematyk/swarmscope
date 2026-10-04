@@ -1,0 +1,547 @@
+{
+  "batch": "datausa-transport-production/datausa-transport-production_001.jsonl",
+  "records": [
+    {
+      "record_id": "dbb6a44b5a2fae1bec9219d3c5505fc4e99c99cfb6a16b65a8b19b788bf8c17b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "California",
+          "value": "$39,557,597,857.37713",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:26:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "California; 2017. Timer 2m00s. Exact value: $39,557,597,857.37713 (39,557.597857 million). Prompt task-clock Jun11 07:26:09"
+        }
+      ]
+    },
+    {
+      "record_id": "d6693575d58567421f22a87bc51bbf83134fe04991c87859321e11c40c1f8e5b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4859f93f6a8461b27832023eb1e2f3fef96c83fe7d1bec0c9d3f09fe168eb57f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "aeba721c9d6d9cf8b0f47b5e1c35074ee9f0705760c7b6de0e2d8079cf20c66a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "629cfe57103560525118fbe7c6f9dbe6e793b461a69110d22d9518ec558f4bd5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": "35,666,365,177.19457",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:36:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "ROUND 2 CONFIRMED: Texas, same 2017 outbound metric. Prompt May15 22:36:23, timer 12 seconds, deadline 22:36:35. Exact value 35,666,365,177.19457 USD; answered in 2s."
+        }
+      ]
+    },
+    {
+      "record_id": "f9108ae51d3b93fbb9aa6cde69ee80e45b79c469fd0b23a6aea7b089387415c1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "686cbdac7f0bc0e693e85c18929daff1e1e274af7a45354e3507e754e10a18c5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6654d65ff01c84fcde2a1738e95a3d9bbf77f53a27fc8e005fbd77446f544b64",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": "$35,666,365,177",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:50:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun11 R2 also confirmed Texas at 07:50:37, 12s timer; answered exact $35,666,365,177 by +6s."
+        }
+      ]
+    },
+    {
+      "record_id": "4d1327de3fc696f3f547e2112ad469b658f6e0092bb3440cb781ad6809a86db8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:01:04",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 CA 18:01:04"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:25:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas 18:25:32"
+        }
+      ]
+    },
+    {
+      "record_id": "3b0201cc543b1b0e8ab3e1b0f727b1550db476d3a2ae0ac34c2422404bcede4b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9d801405f304a5e434416e990ad738ef51b72239522f4dd403cbcd061e58192b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4c5df76c85e590df051cb639fb6c2bb994dfed84e0c5caa0221897e6b031b2a4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:24:02",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Mar19 R2 confirmed Texas at 17:24:02"
+        }
+      ]
+    },
+    {
+      "record_id": "590050e797f414b4c02fb1b3183e30fe73e79b8802cc5610061adafb92472128",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:02:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our R2 confirmed Texas at task 19:02:11"
+        }
+      ]
+    },
+    {
+      "record_id": "1992ca39620f1574637f3450f45c4b12c730715fab7362d9a7e6fc81ee25886f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:02:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 CA at task 15:02:12"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:26:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas at 15:26:40"
+        }
+      ]
+    },
+    {
+      "record_id": "7854e3d6a1ba70ee98363c6bb0a5602fe4348fdb0ac5073e70722acd6e6f7f96",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:07:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 CA prompt 10:07:37"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:32:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas 10:32:05"
+        }
+      ]
+    },
+    {
+      "record_id": "4063b10cbbf34f968d3403a75f72af4b8e6d798667ec65691f1f2a41c8678620",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:01:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas arrived task 16:01:03"
+        }
+      ]
+    },
+    {
+      "record_id": "40893fb3fd555e073026164e76a57ef868240fdb7608257ebf06328436eb34db",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 3,
+          "item": "Georgia",
+          "value": "$19,291,176,969",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "likely Georgia (2017 $19,291,176,969)"
+        }
+      ]
+    },
+    {
+      "record_id": "4377fe3f9bcebb8ecd52b0782f7e15c92f98f93bc8f9f2f2253f4fe54327e0da",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": "$35,666,365,177.19457",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:48:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 prompt Texas, same 2017 outbound production. Prompt 10:48:28, timer 12s, exact value $35,666,365,177.19457"
+        }
+      ]
+    },
+    {
+      "record_id": "34a9ad30aa0ca9d29b417375bec9d42a8deeb57416b3a37bf2f6f91e9b753876",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:42:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas arrived task-clock 13:42:12"
+        }
+      ]
+    },
+    {
+      "record_id": "0ce732d911bb889936f56c11fc4d007fc83acfdeb059b1633c1a43f72696babe",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "667bf8c3fd87df705e8a3c8d0a8b5b5a55b1b0223b8c2edebc838ba1b9b382ff",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "08:55:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas at task 08:55:17"
+        }
+      ]
+    },
+    {
+      "record_id": "f65bb2532f92e6b086509404f5396cb2b99e3b907374a5c379acfb012a5f6ad5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "CA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:13:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 CA prompt 20:13:44"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:38:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas arrived exactly 20:38:12"
+        }
+      ]
+    },
+    {
+      "record_id": "56b97723860b1d1a0fe397c9d0df66eeb225e6065c8f428475fc09062ceb2253",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "California",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:27:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 California prompt 00:27:28"
+        }
+      ]
+    },
+    {
+      "record_id": "9589d3bc03eee289c7c25265327295f7ed0e09935fd4fb8bbbcd6f5b7a17e532",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:10:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 confirmed: Texas at task 00:10:22"
+        }
+      ]
+    },
+    {
+      "record_id": "2d58f6ccad3c408e901e23bae214bb8b5bccc01be76bf9641d972cda83281685",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "eb001b47bbc2e49d328aa37eb253adb09b858ea2764e2fbf692b2f0e9e1f927f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c2058cdc24ea7e952013eafd8fa750d12c39b264e292580472d46bc561e31abd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:46:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 confirmed: Texas at task 17:46:35"
+        }
+      ]
+    },
+    {
+      "record_id": "5da29312c9099b7de4d3d0fcb4483d21922ea487f206ad106e89c8cb6ffe43b1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": null,
+          "item": "Georgia",
+          "value": "$19,291,176,969.27236",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known likely values: Georgia $19,291,176,969.27236"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": null,
+          "item": "Florida",
+          "value": "$16,060,988,346.013677",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Georgia $19,291,176,969.27236; Florida $16,060,988,346.013677"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": null,
+          "item": "Washington",
+          "value": "$77,612,006,010.36256",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Florida $16,060,988,346.013677; Washington $77,612,006,010.36256"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": null,
+          "item": "New York",
+          "value": "$8,109,681,337.35525",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Washington $77,612,006,010.36256; New York $8,109,681,337.35525."
+        }
+      ]
+    },
+    {
+      "record_id": "f03a3549e623e4a0d16bcb0d2915f7541d80720a4101ce6848cee887a1fbff02",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "California",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:54:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 California at task 11:54:25"
+        }
+      ]
+    },
+    {
+      "record_id": "c634c628e3e03b7dd8746e8f896176e0ffbad79d316fb4fe6ca7ee03a166c03a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-transport-production",
+          "round": 1,
+          "item": "California",
+          "value": "$39,557,597,857.37713",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED: R1 California 2017 outbound Production = $39,557,597,857.37713."
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 2,
+          "item": "Texas",
+          "value": "$35,666,365,177.19457",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Texas 2017 = $35,666,365,177.19457."
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": 3,
+          "item": "Georgia",
+          "value": "$19,291,176,969.27236",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Likely chart-order guess only: Georgia = $19,291,176,969.27236"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": null,
+          "item": "Florida",
+          "value": "$16,060,988,346.01368",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Georgia = $19,291,176,969.27236; Florida = $16,060,988,346.01368"
+        },
+        {
+          "family": "datausa-transport-production",
+          "round": null,
+          "item": "Washington",
+          "value": "$77,612,006,010.36256",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Florida = $16,060,988,346.01368; Washington = $77,612,006,010.36256."
+        }
+      ]
+    }
+  ]
+}

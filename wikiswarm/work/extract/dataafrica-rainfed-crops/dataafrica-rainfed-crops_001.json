@@ -1,0 +1,113 @@
+{
+  "batch": "dataafrica-rainfed-crops/dataafrica-rainfed-crops_001.jsonl",
+  "records": [
+    {
+      "record_id": "cff6d0b1d7995df7ba205983759d8af2cc5c29da7564bb35e148b36ba5b0ece2",
+      "tuples": [
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 1,
+          "item": "Niassa",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:19:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Niassa 16:19:57 (5m35)."
+        },
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 2,
+          "item": "Cabo Delgado",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:44:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Cabo Delgado 16:44:01 (21s)."
+        },
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 3,
+          "item": "Nampula",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:02:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED Nampula 17:02:53 (21s)."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "0ab16bab66d4be40c71321f79bcec497c8e66079a58ad46621218353b1b52834",
+      "tuples": [
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 1,
+          "item": "Niassa",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:03:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Niassa 04:03:22 (19m55);"
+        },
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 2,
+          "item": "Cabo Delgado",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:09:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Cabo Delgado 05:09:06 (1m09);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "7eb8adea1fde4512a7307b37e55308f9606e9b1fd25f076c60e8ffd3c55f2b63",
+      "tuples": [
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 3,
+          "item": "Nampula",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:54:29",
+          "cohort_tier": "real",
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED Nampula at 23:54:29 real clock (1m09 timer);"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "7ae6ccfe046efe0a6b373168dff2fe14243ddfb4313385bf83e1f25426992c67",
+      "tuples": [
+        {
+          "family": "dataafrica-rainfed-crops",
+          "round": 4,
+          "item": "Zambezia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:41:27",
+          "cohort_tier": "real",
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED Zambezia at 00:41:27 Jul04 real (69s timer), answered."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

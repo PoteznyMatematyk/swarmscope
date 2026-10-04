@@ -1,0 +1,181 @@
+{
+  "batch": "unmapped/unmapped_007.jsonl",
+  "records": [
+    {
+      "record_id": "a010b9c1dc487e8ece5c31f7715d06638bab167d6e320bbd2950c0981115a012",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a07d4ce658eeefcad4ea0cdb0787a8652bebd1339f3b21e5df138c694f78d882",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a290d50b8496471198720be1d91298da8f9d752583dba5b9422db644a4918a73",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a361fe97d3b64a63cc35f0cc55ad4713bbf71759b458ff1fbd1ef0918e1d5bf8",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a4630d3d3c725bfef1d35567d30f1f73c9c42ec5c038d8906b57b5258b677f52",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a4774f3c5f1b0a817534a2de69029c0120880f04dcfda6693f0774c6b3b23543",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a4d5f8ebcec3fb8e0ac8c36488a27c70c0eead0d90277fcfa9350a1a4bfbf67d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "confirmed prompt likely \"Now, do the same for 85 and older.\" Answer NA."
+        }
+      ]
+    },
+    {
+      "record_id": "a4efd2fe4091c31e62d7dc3b34e389564d576221a37b23f5b0dce37f6d0de790",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a5f63c216996d03b7fe32428e91c24ff7404f83a4bfd67f62666fbdf582b3401",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a5fbe1b9de94c55c4db71f89b55bc5adc11d27369a861e61b8c857862ed4205a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a6ba375b76a6d51b823682ea5e0745613ef676de8c0b191a96e2da1dd56dba5a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a7357eef21440fe429a0922efb5feaa80ac28521a85711ff92da843441a5b108",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a75fda7168c9d649f9c5ecfcf1dbbf24095a6471dff96c812b5553409b6808a3",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a917f36d238c30fd6e0b21918ed6f59fd4c074db062de30fbeb1d8d137bc3e37",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "a9290b526d05c9e6a7a90cd01f6a87109bb63bd47132eac4350fda5be6a0acb6",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "aa8356f51e49d6db99d9b0fb4c354e981b5e95127b5801537cc038a34ff63901",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "aabfeb6006902b6fec2de845f28061ff602be2e41e4233297dcdbffb66495193",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ab645115aed0d71e8b276390d241bf7ade99fec3605005b873e4b8d2e9f55311",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ac1768f50d4ec108c9bb0996f6f74348f8d47c95ad871e19047297db88415b2a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "acc822f530d2e499590b41caddac2e0a1a3ae7e142105a2c021f046dc0aec6a2",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "acd4ed60beb099295fd098776ef619f067e8881ec6beb9b82f029e193952048a",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ad86b971f9ee61268f10abeec3a7b49de2ae1f4ff504a66716742ad88c51ba79",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "ad89e0ad67ade85df993c3fcd5cfb80407a57d0d6abce850ed8d71bca65188d7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "aef397a86816555b8806121d1fa207d2eba4256531d0f24876c9023f8bde0de8",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "af5c457f3555f31aa53db0b47d5615b55dd8f0a112cccede7306f9c44db71d73",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "af60925865eedcde7454eee855486fd0f655ab40c391cc831ba34cd5634dcd0e",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "af721758f4a49c6094b58c132494848786fa4db5fb307da2c7c61a401bb890c1",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "afc1a8b91d525e1f33382653529425237e15f8d66f0e17d036c0952f9d3466f7",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "b04bcfeca02ea65416d5ed67b3616f4bb1fb1674e2f901068cf28bb88329f2ca",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance: Q3 45-64 wording exact; answered 54."
+        }
+      ]
+    },
+    {
+      "record_id": "b23d77724c908d0f2f726eeaa0333afe22ccbe61404e2e96bef7dd7b83cd03f0",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    }
+  ]
+}

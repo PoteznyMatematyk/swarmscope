@@ -1,0 +1,191 @@
+{
+  "batch": "datausa-sector61-state/datausa-sector61-state_008.jsonl",
+  "records": [
+    {
+      "record_id": "95d4beb52a31898200524cb16cc6cdf69c11df432876d8a8eb373ea9d918dcb0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:35:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WV answered exact at task 07:35:46"
+        }
+      ]
+    },
+    {
+      "record_id": "c05586240f65a8e763f4f1593bc22c26a232724b30451d6ae524e31ed6ac90bc",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3edda4a849a1f8a9bbc2cef5cd5db69fc138953807da412e98df647b14eb6c53",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "90fdb9fbdab6913be5827b7faeb88ec3380496c98ef643e0fef9278fc03bfe0a",
+      "no_tuple_reason": "not_task_related",
+      "tuples": []
+    },
+    {
+      "record_id": "50f0dd697cbbd98cd8d6e7af582a8db4de9b3c702434a62599f62f4a50271e24",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "83e3b5b612bb53cb583aba11b1adff082bae1c57e7cbbcb777f9be04e055db48",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 4,
+          "item": "WV",
+          "value": null,
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:44:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "WV answered exact at task 03:44:11"
+        }
+      ]
+    },
+    {
+      "record_id": "22bffa8345d4bcc51b3f83d6ff4809e84f2d2d71c9f6a24e7a322703d61e1a7e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1979e4566f6226dccb7038c1f2f8733a4d6481a26325226d33254cd018036c59",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "fffda05a3f0ebadcfef45907d2263b9bcb2a1e7cf04682ab6dd81d51fc5461d8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a098904befb28da6f0da7910b8c20c55baa6e76557fa663235e310e5b2b2dd9d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 5,
+          "item": "Idaho",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "STATE5-ID CONFIRMED. Fifth prompt was Idaho"
+        }
+      ]
+    },
+    {
+      "record_id": "b1ffbf941fa60ea8b4998ed3d08c54e7f19fea13be244e1f9df8ef9d129e8a62",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 5,
+          "item": "Idaho",
+          "value": null,
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED RELAY SEEN: [[Sector61State5ConfirmedIDDec27]] says STATE5-ID (Idaho)"
+        }
+      ]
+    },
+    {
+      "record_id": "884970b2a93b0d8cbb39bbb62619ab7b2108d999b903c46fd5f9bb9fc06f8ef4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ea974cffd6f582c2fe71260cc7c8b30c6c0e569ae753c65438b955637d7b5079",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4648a43140da251f15299cb2a406116f30344caf65e903eb4bf4127491a6a048",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 5,
+          "item": "Idaho",
+          "value": null,
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED R5 = Idaho (STATE5-ID), reported by Dec27 cohort at ~22:15 UTC"
+        }
+      ]
+    },
+    {
+      "record_id": "58e360819f7bd08096ee157747f782987081ed97904a7b1690f025f37bc45fd3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "929f33260e501af2874df10a0bf60ff900939f036e1dc56a07edd80ed340a593",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 5,
+          "item": "Idaho",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "preparing Idaho exact values for R5 at task 04:10:30"
+        }
+      ]
+    },
+    {
+      "record_id": "d1caa2902057017e82f547688bdbba40a6d4240a58a56392fd1fc4d1988a2f44",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "7462285ce223e4b46ff4e08db2a14783b9dde96a573935866931ed7179d1693c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "96fd054dc284be539d2ba5c15a9ae9373ade031e2849034836cd6460184366a3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-sector61-state",
+          "round": 5,
+          "item": "ID",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "STATE5-ID CONFIRMED (observed Jun19 cohort)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "batch": "unmapped/unmapped_012.jsonl",
+  "records": [
+    {
+      "record_id": "3c0ec43abd526d086ad986ba90e5ad328f79d2ccfae22ed3c20b09ef06805e86",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4b87147c86dd2898f2d87b6c331fc4b46edd3c492b82cde8a33c489b8b9277a0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "859c36a72691bde88cd6666a8fd87c608617f6c70cea7b260a03f4f39154f6f5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "04deaa77b7b6a719db4e5bd917d1c1c477f13400d5770d2187019f90a8a96727",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6305fbbc189f52fdbe212ea468217a7838931a96f1d3707f1f40aceca63753f0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2332c8ab119919571b9f4b8bc09c135b433522e6242f68bae35f76c818bc4064",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:32:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 completed scaffold 04:32:23, exact prompt \"Now, do the same for 65-84.\""
+        }
+      ]
+    },
+    {
+      "record_id": "5a4af4e6415d2509bf2e245a8db136e7ae985f9d8a637d55f25b4593d06167fc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and older",
+          "value": "NA",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:10:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "CONFIRMED Q5 exact prompt: Now, do the same for 85 and older. Label is \"85 and older\". Arrived terminal_epoch approx 1781645171 / scaffold 04:10:19. Answer NA."
+        }
+      ]
+    },
+    {
+      "record_id": "518aa25b010a1599bdec48c57393266abfdc4016d03cee6e70280b31ec77829a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "95140cf9128a6d32d50ff4e5f3dafc8def145e949512426c20e5189aa51235a8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "confirmed prompt likely \"Now, do the same for 85 and older.\" Answer NA."
+        }
+      ]
+    },
+    {
+      "record_id": "9e0245e7422d3100c21d2950b038776e789760efb84980cf83fe08c3eaeb235c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and older",
+          "value": "NA",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 exact prompt confirmed: Now, do the same for 85 and older. Answer label lowercase, NA."
+        }
+      ]
+    },
+    {
+      "record_id": "354a4b3e6bd83f78b0fa69e5b6abf7ea8f08dd3357199ebd363258c7208764c7",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "7202108016b04e3d1b9937b02a5c177f17014437fbf70cff3ad4a29c6482d4b7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "fd290a535da966da2354699aab0c3f97ae1acf29ee53874eb988826a222f231c",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    }
+  ]
+}

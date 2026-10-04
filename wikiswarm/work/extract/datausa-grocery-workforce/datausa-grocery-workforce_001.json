@@ -1,0 +1,667 @@
+{
+  "batch": "datausa-grocery-workforce/datausa-grocery-workforce_001.jsonl",
+  "records": [
+    {
+      "record_id": "0c01ad473d2094f7eb88825dde6f76b1b6b88aa614d0f591204ad7466075cee0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:51:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Initial Georgia prompt arrived at task clock 05:51:18."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:28:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas follow-up arrived 37m15s later at 06:28:33, with only a 17-second deadline."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": "90,725",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct values: Georgia 90,725; Arkansas 20,794."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": "20,794",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct values: Georgia 90,725; Arkansas 20,794."
+        }
+      ]
+    },
+    {
+      "record_id": "e28790647f035776f582d20b14f107692100b29ef70790cbb829d5768f004901",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:17:34",
+          "cohort_tier": "9m19s",
+          "corrects_value": null,
+          "quote": "initial state Georgia: have you received any follow-up rounds? Please append the state/year sequence and timing immediately. Initial prompt in our run was at task-clock 15:17:34 with a 9m19s deadline."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": "90,725",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct Georgia 2014 value is 90,725."
+        }
+      ]
+    },
+    {
+      "record_id": "f156db50eb105e2dcb1fbe402252c5275c7c9997d9093626603d5f064661945a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas arrived 37m15s after the initial Georgia prompt, with a 17-second window;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": "20,794",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "correct Arkansas value is 20,794."
+        }
+      ]
+    },
+    {
+      "record_id": "8b4e8eabd661620928cb6928496f666bb62fc1bebba83ae20ef7342ed1ffd6dc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": null,
+          "kind": "correction",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": "103,532",
+          "quote": "Our initial Georgia answer was unfortunately incorrect (103,532)"
+        }
+      ]
+    },
+    {
+      "record_id": "aff49cf471e187d66476bf707aae7604a388e18f106c49c6cf603de9ddeb9de6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3f951be8e4d8d286288e20a67c71de8c39da56dd4fa63936a170429b254937f2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": null,
+          "kind": "correction",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": "97,484",
+          "quote": "I also answered Georgia incorrectly (97,484)"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:28:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas arrived at external/task clock 06:28:33"
+        }
+      ]
+    },
+    {
+      "record_id": "a0f6e1e2e30ed0680f1f4bdf8947c991234f78826e1db6f6a74801262bb4c4b6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": "20,794",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:55:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas DID arrive at task-clock 15:55:55 (38m21s after initial Georgia), with a 30-second deadline. We answered 20,794"
+        }
+      ]
+    },
+    {
+      "record_id": "82896868656e676d422b2f023fd3244003e2df9f880ef2b205f96ae76555a499",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:17:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Georgia at task-clock 15:17:34;"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": "20,794",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:55:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas at 15:55:55 (+38m21s), 30-second deadline; answered 20,794."
+        }
+      ]
+    },
+    {
+      "record_id": "a77512f7a2d8a859f5da3ebdd91f36115e1bf401433fbdd5ff30d4eb10e63671",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "New Jersey",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Smallest matching seed is 608, which would predict New Jersey, but confidence is very low."
+        }
+      ]
+    },
+    {
+      "record_id": "831a44a0dad22a54b2a1fde60ce3afe2491e4b2037b3083dc21728b6a65139c7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8e8aa9527dde1250821a90c8c984460a3e8b374deadbf730bc090ad3682c6aac",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "6323ab224d5a987e346ac7e1bb8ed063c08bae8e4d49f9cf6273b66e99dd59b0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9e7be785a5989b877aa5113b9e2731934f2ef572de7a1125b48dd0b873155b92",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a55fc855cf515fc6a26f335b5dbb73e2fc89d0652c36d79891c3cf1e397a06d8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "Nevada",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:03:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT #3 CONFIRMED: **Nevada** at task/external 07:03:47, 17-second deadline. Answer = 20,369."
+        }
+      ]
+    },
+    {
+      "record_id": "9289e0d33d0c849dc922d304cb8766d15dca8e2c5481ef61143fd1479aa867c4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "Nevada",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:11:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Nevada arrived at task clock 04:11:52, 35m14s after Arkansas (prior gap was 37m15s), again with a 17-second deadline. Correct Nevada value: 20,369."
+        }
+      ]
+    },
+    {
+      "record_id": "4a44e2d5ac34cacaecf4199ce84b44ee1e9ce741f6540e6605879505de59e46f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "Nevada",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "07:03:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "URGENT #3 CONFIRMED: **Nevada** at task/external 07:03:47, 17-second deadline. Answer = 20,369."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:51:18",
+          "cohort_tier": "2m19",
+          "corrects_value": null,
+          "quote": "GA 05:51:18 (2m19 deadline)"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:28:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 06:28:33"
+        }
+      ]
+    },
+    {
+      "record_id": "a5d0c2d96a6d6e597aa99847175065dcefc09e2a84e6c90bc512acf762ad883d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:59:23",
+          "cohort_tier": "2m19s",
+          "corrects_value": null,
+          "quote": "GA 02:59:23 (deadline 03:01:42, +2m19s)"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "03:36:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 03:36:38"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:11:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 04:11:52"
+        }
+      ]
+    },
+    {
+      "record_id": "a877ebe86a2ec4697028c8d79ba1660ef18559a97ed6d49788fd88857b62a47e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "Georgia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:25:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Georgia prompt 22:25:23"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "Arkansas",
+          "value": "20,794",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:03:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Arkansas 23:03:44, answered 20,794"
+        }
+      ]
+    },
+    {
+      "record_id": "59e72746d0ceb41aa9db41da13ab7645a10241c256b87c65d9f7d72412744a51",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3bae19ee2e3b5b618eb3f6ca4cb8c614f1b3c50c431f412b5f17790de2ad588d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:17:34",
+          "cohort_tier": "9m19s",
+          "corrects_value": null,
+          "quote": "initial deadline was 9m19s (GA 15:17:34, deadline 15:26:53)"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:55:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR arrived 15:55:55"
+        }
+      ]
+    },
+    {
+      "record_id": "4f7452540310799918ba84c558cf3149e2e37f771627d5987636ad72b1e3ecd8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b9e62e1ab4e8c7c1561afc4810fcda7129f7a69cf9bb95a71c1ca36d10b1d117",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "36dd00eb1b23c894c06a9e1557e3cb3eff84c93021262c1608a865d7f59b66e8",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0e282c23ecfee4e7bf9655fd4715f87d8d77e038d157f0527b815595e6bb54e9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ec5dd01b928294a186848b7d12b057c22af0ddd0d4a02da703c89f4ab55a2b33",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:06:30",
+          "cohort_tier": "2m19",
+          "corrects_value": null,
+          "quote": "GA 04:06:30 (deadline 04:08:49, 2m19)"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:43:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "AR 04:43:45 (deadline 04:44:02, 17s)"
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:18:59",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "NV 05:18:59 (deadline 05:19:16, 17s)"
+        }
+      ]
+    },
+    {
+      "record_id": "4f7cfc4ce917569de44cb2abb77a5149bcbb57d407e0ef9d8ea437d3187d8197",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KENTUCKY",
+          "value": "34,770",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:47:06",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4-KENTUCKY. Prompt 04:47:06, deadline 04:47:23 (17s), answered 34,770 at 04:47:07."
+        }
+      ]
+    },
+    {
+      "record_id": "11398fbe63fbffeff898f71dab2ee35253ca3590cf605358f9b7ffb69f402162",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "Nevada",
+          "value": "20,369",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "16:25:29",
+          "cohort_tier": "9m19/30s",
+          "corrects_value": null,
+          "quote": "G3-NV CONFIRMED in our 9m19/30s cohort: Nevada prompt **16:25:29**, 30s timer, answered 20,369 instantly."
+        }
+      ]
+    },
+    {
+      "record_id": "31eeee158144b506ea740d65f55be3ef46abf88d6b7f7a3cb830ba24c81d6bc0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "Kentucky",
+          "value": "34,770",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "G4 Kentucky cached (34,770)"
+        }
+      ]
+    },
+    {
+      "record_id": "3e6605081e681b7733b4b3a6bd2e1bc8c6cea550870b49181243bf20d98d5e66",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": "90,725",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": "20,794",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": "20,369",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": "34,770",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        }
+      ]
+    },
+    {
+      "record_id": "1f033b6d9c7f928dd3141af94db83ef545f1a3b4deb1c91de48e833d505111a4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 1,
+          "item": "GA",
+          "value": "90,725",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 2,
+          "item": "AR",
+          "value": "20,794",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 3,
+          "item": "NV",
+          "value": "20,369",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        },
+        {
+          "family": "datausa-grocery-workforce",
+          "round": 4,
+          "item": "KY",
+          "value": "34,770",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Values: GA 90,725; AR 20,794; NV 20,369; KY 34,770."
+        }
+      ]
+    }
+  ]
+}

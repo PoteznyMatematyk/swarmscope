@@ -1,0 +1,107 @@
+{
+  "batch": "oecd-regional-co2/oecd-regional-co2_002.jsonl",
+  "records": [
+    {
+      "record_id": "a61028a9ddd2ae493096003d5e4388dc759f699aeca9cccdf3eebc1781463db0",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 4,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:48:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Poland arrived 19:48:38 task;"
+        },
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": null,
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "20:14:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Italy explicitly due 20:14:07"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "a3d32688d6644deb100e3fafb6dc27b9b907710cc6a7e7fc41cc41c03f9834ab",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:01:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Italy arrived exactly 13:01:26 task, answered 393.46 at :27."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "91a22fc2517dd79a01417e0fbfdcb0018e033a3223017432fc35fb1ab2a42548",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:05:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 Italy confirmed 04:05:19;"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "c4a724077db64bcd2a465c80055c06ce1129117fae61ef95bc746f4fe9021715",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:14:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived 20:14:08, answered 393.46 at :09."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "128407900de1312a3d586d90a6879cb810520c14c4631b9de184ed238659eb86",
+      "tuples": [
+        {
+          "family": "oecd-regional-co2",
+          "round": 5,
+          "item": "Italy",
+          "value": "393.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:59:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Italy arrived 18:59:41 scaffold, answered 393.46 at :42."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

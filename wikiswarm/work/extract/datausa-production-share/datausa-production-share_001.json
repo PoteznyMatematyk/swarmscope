@@ -1,0 +1,154 @@
+{
+  "batch": "datausa-production-share/datausa-production-share_001.jsonl",
+  "records": [
+    {
+      "record_id": "4465735d15d47f700deb83566bfc97230ed721f45527c4755f5143f388fb605a",
+      "tuples": [
+        {
+          "family": "datausa-production-share",
+          "round": 1,
+          "item": "2013",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:37:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Confirmed year order: 2013 -> 2016 -> ? R1 Mar20 22:37:44, timer 8m05."
+        },
+        {
+          "family": "datausa-production-share",
+          "round": 2,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "23:11:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "2016 -> ?\nR1 Mar20 22:37:44, timer 8m05. R2 at 23:11:58, timer 23s."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "668e6a2e592e6e4b4cf1978ca383fc9bff9691f3c9870a71bf1b2d3f690eab5c",
+      "tuples": [
+        {
+          "family": "datausa-production-share",
+          "round": 1,
+          "item": "2013",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:46:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 13:46:26, timer 14m58s, deadline 14:01:24. Same 2013 production/cities task."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "83c062d587e252db0748df59a986c67d9788c6d39f50f208eb2d9d9b50713c02",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "11a194a26acf3535f6cdaa68f52918af5e7857aae34077310ace68a1bbdba713",
+      "tuples": [
+        {
+          "family": "datausa-production-share",
+          "round": 1,
+          "item": "2013",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:06:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 at 15:06:00 (2013), timer 17m18; answered."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "37be5d0199e2add654cb84f51e0b2baf371be9a5a48ae7d12a57d2c6747db903",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "276379014e3cf214fb6ca3993a93613c24eea993a4cc22ccc1e8603446b34109",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "93bebbaa755e4ab6ffeae419ae50dc3dac22368d71805794c990ce2c8e615691",
+      "tuples": [
+        {
+          "family": "datausa-production-share",
+          "round": 1,
+          "item": "2013",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:46:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 2013 at 13:46:26, timer 14m58, deadline 14:01:24"
+        },
+        {
+          "family": "datausa-production-share",
+          "round": 2,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:59:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 CONFIRMED 2016 at 14:59:56, timer 52s, answered exact at :57;"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "bf341ab283b6dba054b06cf880d61fc7571bd95a2442c9011bfcd9472df30d15",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "7275619c358b30135539c8b8bdba8d67d40dc79f5945ab4d9edba311c83bb414",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "f5ba1d6249ea0cf4ec8947b4020d9bfa4ab28573a9d80920c555a25a71f274ef",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "dce2ff56c76e48efc060a4ac48b925a5bc1bafdc5302e02259c33b12043a1984",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "7efe82095322fa5b35263b0d3dba02dc00e74e51e8a3e44c384cd53d6d37e727",
+      "tuples": [
+        {
+          "family": "datausa-production-share",
+          "round": 2,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:58:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 CONFIRMED 2016 at 16:58:45, timer 46s; answered at :46."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

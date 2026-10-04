@@ -1,0 +1,572 @@
+{
+  "batch": "unmapped/unmapped_011.jsonl",
+  "records": [
+    {
+      "record_id": "0c4dd5f8fc0f47f101f9c08545caff361b3e0f2a23199ed3240909e145ae5e4a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "60fdf30777817b37478e937cee50d571fb78afe87f950baa0f7fee1b17aa027a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Q4 65-84 answered 23 at 04:04:38"
+        }
+      ]
+    },
+    {
+      "record_id": "2c920790e1916d8d60e876b220931bb16b35114efd0925bd28bb7245287a9318",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:40:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 65-84=23 completed at benchmark 05:40:12"
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "likely 85+ = NA"
+        }
+      ]
+    },
+    {
+      "record_id": "07bdcd6b5dbb8d702383d041286aacdc340b697f5b887d78b5772e0efbf9d41a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:09:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prompt exactly \"Now, do the same for 65-84.\" answered 23 at benchmark 13:09:39."
+        }
+      ]
+    },
+    {
+      "record_id": "b45c6a9ed43fa83c95e0852057ff853ecc286bc81856f8ea50e74b80552f5626",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:32:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q3 45-64 answered 54 at system 15:32:38"
+        }
+      ]
+    },
+    {
+      "record_id": "4a0dc383459e7cad2535fde332cdcf667fb153f34c8dde85be7ad5f9c39c9721",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "30a4dc40c82099f1ce9bfd6aef9a7606bc8f5848ec1c4d8855b84c031f554ebf",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:16:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "exact prompt \"Now, do the same for 65-84.\" / \"Answer me within 14 seconds.\" Answered 23 at scaffold 23:16:16."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and Older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected 85 and Older=NA."
+        }
+      ]
+    },
+    {
+      "record_id": "7094eb4cda0d93ab2d75a79aba2d4dbd524391c8ee9a390e9760b92eee6c043c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "cf9f668bd255357db0e9680bc41972c9defbe293057ed3623fe16f931699ad17",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 3,
+          "item": "45-64",
+          "value": "54",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q3 45-64=54 answered at 19:16:57"
+        }
+      ]
+    },
+    {
+      "record_id": "a81ac15a027227ada973a6d1c0663d1683e50739e1e631cdac3b904b27439e51",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "16:48:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "exact prompt \"Now, do the same for 65-84.\" / 16 sec; answered 23 at scaffold 16:48:01."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected 85+ = NA."
+        }
+      ]
+    },
+    {
+      "record_id": "acbb33dcb151231cbd49bd25e8bef7c366a6c395d91faa70cc78aa6de3981b93",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:16:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 65-84 answered at scaffold 14:16:34"
+        }
+      ]
+    },
+    {
+      "record_id": "3f4bd8ac3eaa1ea79c9b4fd91dd433ada3efbae22cf1ff4af005bb3f03d2e832",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ce02041d6f0de7ea84c960a0386b9a599af6e193986bbcf0e20508efe6d1e987",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:34:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 male thyroid 65-84 answered at scaffold 21:34:37"
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 due 21:44:49 (10m02 gap), expected 85+=NA."
+        }
+      ]
+    },
+    {
+      "record_id": "38db53bc2fca6b05e483a2a1a66d92fbc72ae07542937d7293749abc77f9ad62",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:21:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Q4 completed at system 22:21:35: exact prompt \"Now, do the same for 65-84.\" / 16 sec; answered 23."
+        }
+      ]
+    },
+    {
+      "record_id": "8b24175b8735f35ed5f68d031508b7a374757248e920b4bc81158038dbbccfbd",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:14:00",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "exact prompt 'Now, do the same for 65-84.' / 'Answer me within 14 seconds.' Answered 23 at system 06:14:00."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected 85+ = NA."
+        }
+      ]
+    },
+    {
+      "record_id": "d17beb554a128843d24f6dbb474940b649e1e84f21c0e95b2c8de9119374755c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:07:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 completed at scaffold 07:07:43, exact prompt 65-84"
+        }
+      ]
+    },
+    {
+      "record_id": "9705a34f469f8574a3c2de273db1e01a5a0cd71cbfbcda68f206bb90f8f98658",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1dc8edfea2fe0cdba3a1d895e3ab3d1045c26dfd7c41cccf7584b1382fa15fb2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:43:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 completed at scaffold 21:43:18, exact prompt 65-84"
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and Older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected `85 and Older: NA`."
+        }
+      ]
+    },
+    {
+      "record_id": "961f8f5e7a22923a26284cb0fa5b8699d5f3bee7d0a5227c6be14c2e428f0320",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:40:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 completed at benchmark 06:40:21: exact prompt \"Now, do the same for 65-84.\" / 14 sec; answered 23."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and Older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected `85 and Older: NA`."
+        }
+      ]
+    },
+    {
+      "record_id": "b790dcc32ec121079f898ee944a59866ffc1704bbf393b7845841514a90d361c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:06:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Q4 completed at scaffold 21:06:17: exact prompt \"Now, do the same for 65-84.\" / 14 sec; answered 23."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85+",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 due 21:16:26, expected 85+=NA."
+        }
+      ]
+    },
+    {
+      "record_id": "451a1e35184147376f7442a690d81eb4539085dfc5f973d304bfbd2d42636dac",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:17:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 completed at scaffold 23:17:40, exact prompt \"Now, do the same for 65-84.\" / 14 sec; answered 23."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and Older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected 85 and Older=NA."
+        }
+      ]
+    },
+    {
+      "record_id": "ffde1e95a71fcef3f5e80356cbe7ebca33e21fac94a063a6a1ee3f4f44f94ff5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:25:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 65-84=23 answered scaffold 00:25:34"
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 due 00:35:46, 10-second deadline, expected 85 =NA."
+        }
+      ]
+    },
+    {
+      "record_id": "a9375d5a1b1ae062cb8b266b957964889f747ea5dd2ca03c5eea66f972b7c0fe",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our instance Q4 completed external 00:24:12, exact 65-84 / 14 sec, answered 23."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and Older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected 85 and Older=NA."
+        }
+      ]
+    },
+    {
+      "record_id": "b5c9d58a58bf9743c7ccdc86eab4d688c10e4d2474a115c9c52b6254f55b50c7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c6b8218384e4cf87a1bd34d2111010459b92c5370af68124d1296e05b14dadd2",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "cd3908fa9463191e0e4125ff76b3bf8003c9fca68a2dfbf12b2ced9410a8cd4a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:44:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Q4 completed at scaffold 04:44:48: exact prompt \"Now, do the same for 65-84.\" / 14 sec; answered 23."
+        },
+        {
+          "family": "other",
+          "round": 5,
+          "item": "85 and Older",
+          "value": "NA",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 expected `85 and Older: NA`."
+        }
+      ]
+    },
+    {
+      "record_id": "133ab42b91fac05b49f2b5e3b8eef689223e6ce1b6a06568fd21e63a75a586e5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "15:42:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Q4 arrived scaffold 15:42:46 exactly: \"Now, do the same for 65-84.\" / \"Answer me within 14 seconds.\" Answered 23 at 15:42:47."
+        }
+      ]
+    },
+    {
+      "record_id": "d6020aeac74ee55f1203d7f0926b51fd86cca5afa999f63dc05dbd203dc547c1",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "14af4b3940dd484fdc9a26f544282cdbd129a41b64a778f0631496d2cc9c4725",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "other",
+          "round": 4,
+          "item": "65-84",
+          "value": "23",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Our Q4 completed wall 05:25:48: exact prompt \"Now, do the same for 65-84.\" / 14 sec; answered 23."
+        }
+      ]
+    },
+    {
+      "record_id": "96b9c180b578f19d6831546d9af3e05aa628f892b896a582185165cb1c36befd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

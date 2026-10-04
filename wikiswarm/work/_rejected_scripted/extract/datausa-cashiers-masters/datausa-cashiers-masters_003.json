@@ -1,0 +1,579 @@
+{
+  "batch": "datausa-cashiers-masters/datausa-cashiers-masters_003.jsonl",
+  "records": [
+    {
+      "record_id": "c9581a52087fb16d4bdcad7e4f42f2934756093e6289691c842f7331291fd512",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:26:10",
+          "cohort_tier": "15m44",
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Oct22 18:26:10, deadline 18:41:54 (15m44); answered 5,432."
+        }
+      ]
+    },
+    {
+      "record_id": "a157b341658a17632019dff46d58a2cfe2bcd2fd3857196cc61b3f757ff1ee08",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:07:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education at task Sep01 21:07:22;"
+        }
+      ]
+    },
+    {
+      "record_id": "06c36c907e9a448368bb9827a2204831f3af4db4a63ae07b6f435349a05a8290",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:16:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education at task 20:16:43,"
+        }
+      ]
+    },
+    {
+      "record_id": "0cae0d9c2f24f68552c0ac583eaedfbabfcc6bbb5d575cf8286484c5337e00d2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:14:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Dec18 03:14:50, answered 5,432;"
+        }
+      ]
+    },
+    {
+      "record_id": "62976348f24794996a3b3b292df24dcd56c06de417826034be89dd98dcaab660",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "03:14:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education 5,432 at task 03:14:50;"
+        }
+      ]
+    },
+    {
+      "record_id": "0002ccac6cd721a5904473b3917fc84e387baf25eea91fb8eb9162c20a2e1469",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "50842950b0c2b6bb7da572e7a276a786b6e76ccd71754d0d407d8f3ba0c3f7d5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:45:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education at task Jul16 05:45:21; answered 5,432;"
+        }
+      ]
+    },
+    {
+      "record_id": "649b25d240b4388b395e83020a21675d94b9aabd8c3ecbed22e7e40655bc1c7c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:37:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Visual answered 00:37:30;"
+        }
+      ]
+    },
+    {
+      "record_id": "c86c1de1004c880147fa4979f6c46092eeea41f31a48f091dd4ddfb3da9bee23",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:13:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Jul05 05:13:53,"
+        }
+      ]
+    },
+    {
+      "record_id": "33bd145b6696f77939dc7672ef9dead2e61db1f7bdd118580b53f88bf5888971",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:13:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education at task Jul05 05:13:53;"
+        }
+      ]
+    },
+    {
+      "record_id": "a60c8ddb4fd2601141cee02cafc96c12b2cc661b0ca48a61f122632af6a6dac4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education - 5,432 answered."
+        }
+      ]
+    },
+    {
+      "record_id": "e0baca5d0953f393063a188f5259b0c8783f7c0d7136fc1bd9bd68e9739ea0c1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education 5,432;"
+        }
+      ]
+    },
+    {
+      "record_id": "a27a40fbf6172cc007002dc4d9b1c7c525cfafa11b88c4b0017ebb19fa73b4b7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:19:37",
+          "cohort_tier": "15m44",
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Apr01 19:19:37, deadline 19:35:21 (15m44); answered 5,432."
+        }
+      ]
+    },
+    {
+      "record_id": "336d21ff131f6bf499897358c21185e55bd8634cab79189663aaeaa7534ba283",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:12:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Visual & Performing Arts arrived Jun07 04:12:12; answered 2,134 at 04:12:13."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Expected R5 Psychology - 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "84ced48e64c03a46afae78564dd467f35bd291b0759fb2bae3bf1f44d229ca07",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:08:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived Mar20 02:08:53, answered Education - 5,432 at 02:21:31."
+        }
+      ]
+    },
+    {
+      "record_id": "a610882bafba39c7215abab481153ca4bec5c9de4559f0fab60c1cc9777346a5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:34:07",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education 5,432 at task 20:34:07;"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:33:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Business 5,269 at 21:33:21;"
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 3,
+          "item": "Social Sciences",
+          "value": "2,749",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:17:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Social Sciences 2,749 at 22:17:56."
+        }
+      ]
+    },
+    {
+      "record_id": "1ee43d44ed1b79892f0799ccfa53b07ffa2cac685012ad2862d0d3db85626e43",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "02:08:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education at task 02:08:53;"
+        }
+      ]
+    },
+    {
+      "record_id": "edb4e1e58daa50ce936669e346bc03fdae71b3985956b0b2bc7864ebec9c6c86",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:17:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education prompt at task May07 02:17:36; answered Education - 5,432."
+        }
+      ]
+    },
+    {
+      "record_id": "6f8f4a25a1753ba3f2b58d7ba5bd5195a9a612a785b2a5f232c501f427755e9e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 4,
+          "item": "Visual & Performing Arts",
+          "value": "2,134",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:02:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Visual & Performing Arts arrived task 23:02:32; answered 2,134 at 23:02:33."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 5,
+          "item": "Psychology",
+          "value": "1,544",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expected Psychology - 1,544."
+        }
+      ]
+    },
+    {
+      "record_id": "30f360ee1478e8e6f0eb6fbf19803cc3df0be2b0a4bfa1d6783b50a3fed09405",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:38:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Aug08 04:38:23;"
+        }
+      ]
+    },
+    {
+      "record_id": "08c44603e535266a2644bc780104073efaf747a54fa6bbf0e2982bdbf04ba718",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "46404685ba89958817c196e72f374e126331d28aef34e5da767c70aa5650c7d6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:17:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Feb07 11:17:40, answered Education - 5,432."
+        }
+      ]
+    },
+    {
+      "record_id": "d46489a33f4a180500b5f53671a0e9bb41c1cd146889645fe1fd902b0d9e55d8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "answered",
+          "used_cache": true,
+          "task_clock": "19:25:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Business confirmed at task 19:25:24, answered 5,269 instantly;"
+        }
+      ]
+    },
+    {
+      "record_id": "9f418aede28df42fd474afab47f5e00153cf2f7b1bab7a5eee9dfde490bf9eb8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:02:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education (2014 Masters) arrived task Dec02 03:02:01; deadline ended 03:17:45. Answered Education - 5,432."
+        }
+      ]
+    },
+    {
+      "record_id": "79a2ddc4a5ce9917e927ae44aab54f43bd1244300cccdba7d4acccad7e49f06b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education deadline ended 11:33:24;"
+        }
+      ]
+    },
+    {
+      "record_id": "51b033b46b589058389b94a70b7928aa1bc125e5c1d56b5def549fd50f2d45b6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:44:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education prompt task May17 10:44:27, answered Education - 5,432;"
+        }
+      ]
+    },
+    {
+      "record_id": "f17d999688fa79448932f09fecb92c673e42f2498184289160d9d14b8527db64",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:08:07",
+          "cohort_tier": "1m05",
+          "corrects_value": null,
+          "quote": "R2 Business arrived exactly task 03:08:07, deadline 1m05; answered Business - 5,269 immediately."
+        }
+      ]
+    },
+    {
+      "record_id": "b9e933dfcf3d17326cbb860a729170fe8cede065cf25467e92e3130273dd2ee5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:29:05",
+          "cohort_tier": "15m44",
+          "corrects_value": null,
+          "quote": "R1 Education prompt 04:29:05, timer 15m44 to 04:44:49; answered 5,432."
+        }
+      ]
+    },
+    {
+      "record_id": "6b65199756374a4caad0b04d391ed0de8b731a88a8cb3d6f9ce82ef4c87c17e0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 1,
+          "item": "Education",
+          "value": "5,432",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:50:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Education arrived task Feb28 11:50:23; answered Education - 5,432."
+        },
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:49:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Business confirmed at 12:49:37; answered Business - 5,269."
+        }
+      ]
+    },
+    {
+      "record_id": "df9d8da393031271f34fcfb578c006a6702b2a47d8970b157600b2283a60184e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-cashiers-masters",
+          "round": 2,
+          "item": "Business",
+          "value": "5,269",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:37:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Business arrived exactly task Aug08 05:37:37; answered Business - 5,269 immediately."
+        }
+      ]
+    }
+  ]
+}

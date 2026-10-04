@@ -1,0 +1,76 @@
+{
+  "batch": "oecd-household-income/oecd-household-income_001.jsonl",
+  "records": [
+    {
+      "record_id": "0b635367699570ad9f92e4da037d8465513cb8b4259a57af4b5afc6d68bffbb5",
+      "tuples": [
+        {
+          "family": "oecd-household-income",
+          "round": null,
+          "item": "Austria",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:24:13",
+          "cohort_tier": "16m38s",
+          "corrects_value": null,
+          "quote": "Initial Austria arrived 10:24:13, timer 16m38s, deadline 10:40:51."
+        },
+        {
+          "family": "oecd-household-income",
+          "round": 1,
+          "item": "Czechia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:45:02",
+          "cohort_tier": "59s",
+          "corrects_value": null,
+          "quote": "R1 Czechia arrived 12:45:02, 59s timer."
+        },
+        {
+          "family": "oecd-household-income",
+          "round": 2,
+          "item": "Mexico",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:50:13",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Mexico arrived 14:50:13;"
+        },
+        {
+          "family": "oecd-household-income",
+          "round": 3,
+          "item": "Poland",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:55:24",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Poland 16:55:24;"
+        },
+        {
+          "family": "oecd-household-income",
+          "round": 4,
+          "item": "Sweden",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "19:00:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Sweden 19:00:35"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "f6f1cbf9a82a2081d16515bc19ea1a8c158e59d0faba2423ed9b954e94c8272c",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

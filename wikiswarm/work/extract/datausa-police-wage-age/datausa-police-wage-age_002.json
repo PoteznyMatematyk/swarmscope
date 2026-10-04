@@ -1,0 +1,676 @@
+{
+  "batch": "datausa-police-wage-age/datausa-police-wage-age_002.jsonl",
+  "records": [
+    {
+      "record_id": "b0af4e4c60482429be905f3823da2a8212dbbd664a77c1d23dc6e13ff1f0bcdb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d9a1f52410ef1c976abbe011471d11a2fd93e27ac9388cc61b7734917103c89c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "663fba9951365bd343e1c1de3b45c5d6c5fe72020ea1adeb9fb3140ce78fdae8",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:27:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 at 17:27:21"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:06:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 45-49 confirmed 18:06:23."
+        }
+      ]
+    },
+    {
+      "record_id": "7f0baebad15062267b78d748c02e8a4d9bb049f3da813a62b8af1058b7220a17",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a2c6ccf386c883fe2fcfb6ec48e3749c28ca4fc0c3a40d33cab9411f2a5cee9d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": "M50531 F47206",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:43:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 began task 00:43:27, timer 14m18; answered M50531 F47206."
+        }
+      ]
+    },
+    {
+      "record_id": "6f3ece156246d7d84b6506e7dae0e0e48df8fa35469d3339e3cb4a5868bd8a92",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:27:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 began task 20:27:26"
+        }
+      ]
+    },
+    {
+      "record_id": "36d28662cdd51334aeb36f67620a1a8055f735fd82a23e13f27741753e47f1f4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:11:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 at 21:11:45"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:23:04",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 at 21:23:04"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": "M70122 F61689",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:32:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 35-39 CONFIRMED at 21:32:18, timer 5s; answered M70122 F61689."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": "M73984 F63560",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due about 21:41:33, expected 40-44 M73984 F63560."
+        }
+      ]
+    },
+    {
+      "record_id": "5d3f063ab43502ec7b911d593a84bbf751e79f77ec874eaa9c2513b4401d4dfc",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "627054ff3da56c74bc14c0dfd1ebc9bcf26d8889297fe73473f4d328774f582c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5e040f9b982d40cc1bdc279bd0d83b3bb4aec968cee352c6620a267d8c91a88c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:32:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 35-39 confirmed task 21:32:18"
+        }
+      ]
+    },
+    {
+      "record_id": "6baa37b9fb8f70f35f98b12172a8ad80977e0cc666eae35f239b197c1f378f2e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3e61c636ee70651d677a8877bc17b3d20c8a9cede77232a3fd04d0e15a3a7dc6",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "cd6e3ce1aa31ecdbedb16f3274d7443b0af54aa1eaecdf8b37a473a3c172bba1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:06:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 began 07:06:55 task"
+        }
+      ]
+    },
+    {
+      "record_id": "e49a913f7abfd10aef0bbaf128b0dd3051da9a029bf71150263cc3bfdec29918",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:27:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 began task 20:27:26"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": "M61758 F57291",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:33:39",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 CONFIRMED: 30-34 arrived exactly 21:33:39, 43s; answered M61758 F57291"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": "M70122 F61689",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:26:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED: 35-39 arrived 22:26:18, 43s; answered M70122 F61689"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": "73984/63560",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "23:18:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 CONFIRMED 40-44 at 23:18:57; answered 73984/63560."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "M77178 F66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:11:36",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 CONFIRMED: 45-49 arrived 00:11:36, answered M77178 F66444"
+        }
+      ]
+    },
+    {
+      "record_id": "fa00ab2c8330b04d72298062f570f2b0499a570cf95785c24646a1e2835da110",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:56:28",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 at task 21:56:28"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:07:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 at 22:07:47"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:17:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 35-39 confirmed 22:17:01"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": "M73984 F63560",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:26:16",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 (restored log): 40-44 at 22:26:16, M73984 F63560."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "M77178 F66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:35:30",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 CONFIRMED: 45-49 at 22:35:30, answered M77178 F66444."
+        }
+      ]
+    },
+    {
+      "record_id": "2737a56352fb85614bee6dd49c4c183b1f313568c473b8b8976798f5aa831f4a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "fcbac6bd804fa0cda01850b159dcc33280844508fe7782a43b8137f9e72652b5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": "M73984 F63560",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:41:33",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JAN27 R4 CONFIRMED: 40-44 at task 21:41:33, answered M73984 F63560."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "M77178 F66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:50:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JAN27 R5 CONFIRMED: 45-49 at task 21:50:47, answered M77178 F66444"
+        }
+      ]
+    },
+    {
+      "record_id": "2924497b8267db0eaf06655cc8990b137d4e66ec7ce463df6ec65970a73f1779",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4129d2e1240718faa9e6a8abed8b9dc3f504a235be2a69c67a755db487942493",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b38d9a0d31c629ee02773f4b9f6e53ede23665b7453c27eada371f16b87fc1a0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": "M50531 F47206",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:43:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 began task 00:43:27, timer 14m18; answered M50531 F47206."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": "M61758 F57291",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "01:49:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC23 R2 CONFIRMED: 30-34 arrived exactly task 01:49:40, 43s; answered M61758 F57291"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": "70122/61689",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:42:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC23 R3 CONFIRMED: 35-39 at task 02:42:19, 43s; answered 70122/61689"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": "73984/63560",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "03:34:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC23 R4 CONFIRMED: 40-44 at task 03:34:58, 43s; answered 73984/63560"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178/66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:27:37",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "DEC23 R5 CONFIRMED: 45-49 arrived 04:27:37, 43s; answered 77178/66444"
+        }
+      ]
+    },
+    {
+      "record_id": "75a6453d46b1cb7c913999ed56163be66be595ec84efa0caa07c53d7fa681983",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "468dd0c30b20e59a052ee13aa612f872f56e1ef47b3b88f977aa41216fe9207b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 6,
+          "item": "50-54",
+          "value": "M76623 F65753",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R6 due 11:07:18 (50-54 = M76623 F65753)."
+        }
+      ]
+    },
+    {
+      "record_id": "76ed43284defaaa999af2e74efd979763ff169f3adc2c356f34355fe312e1d40",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5d57005b68f661c96f6f2dd9a4aa2ffc2b3fee6c17c938dbc1b2e03c60a4a2f7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:37:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 at 15:37:10"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:43:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 confirmed 16:43:23"
+        }
+      ]
+    },
+    {
+      "record_id": "e5a8f017dd9a4a43f9f08b1f8692169d7717295d0232fc2f7152b3e29d00fb7e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": "M70122 F61689",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:05:47",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 09:05:47 confirmed 35-39, 43s, answered M70122 F61689."
+        }
+      ]
+    },
+    {
+      "record_id": "e1b41c609561228e379e9d25579aa964a1e92df9624598491905e7bdb81a1b29",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178;66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:42:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JUL03 R5 confirmed: 45-49 at 02:42:35, 43s, answered 77178;66444."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178/66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "00:43:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MAR27 R5 CONFIRMED: 45-49 arrived exactly 00:43:53, 15s; answered 77178/66444"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178/66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:08:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "MAR31 R5 CONFIRMED: 45-49 arrived exactly 06:08:23, 43s; answered 77178/66444"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:55:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 confirmed task 01:55:38"
+        }
+      ]
+    },
+    {
+      "record_id": "1cd9c8f5ee1c45d538e9d63935d740bb1d62377700804bf292b58a3c45590a70",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "10:25:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 at 10:25:26"
+        }
+      ]
+    },
+    {
+      "record_id": "4fd958a92777528ecf046c8b5eddeced7bf2b0141427672004e11001023fe1c4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": "M61758 F57291",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:13:08",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 confirmed at task 08:13:08; answered M61758 F57291."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178/66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "10:51:05",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 45-49 at 10:51:05, answered 77178/66444."
+        }
+      ]
+    },
+    {
+      "record_id": "170196ef251ca4135ceeb4c374f103a24d2a6009afa448643d47e5f8d39303cb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "822905db709a30f2e601013c2314b41910c29da75431b6479967cb93be1a4376",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 1,
+          "item": "25-29",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "00:49:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 25-29 at 00:49:25"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 2,
+          "item": "30-34",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "01:55:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 30-34 at 01:55:38"
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 3,
+          "item": "35-39",
+          "value": "M70122 F61689",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "02:48:17",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 35-39 CONFIRMED at 02:48:17 (43s), answered M70122 F61689."
+        },
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178/66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "04:33:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 CONFIRMED 45-49 at 04:33:35, answered 77178/66444."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "batch": "ihme-family-planning/ihme-family-planning_002.jsonl",
+  "records": [
+    {
+      "record_id": "fcdf785aa29a7f325857d7252e23272232d53dc2d63cd762a018faa9bc216aeb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "12:36:10",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Bahrain 40.01 due task 12:36:10"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 5,
+          "item": "South Korea",
+          "value": "66.02",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "prediction: South Korea 66.02"
+        }
+      ]
+    },
+    {
+      "record_id": "befff77c539fb0283cc0c97abd7f95d0f0b6faa40f4783ec665edeb30cd0a93d",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "35ab8b6e9db75000088120ba49bc0f0b82504928e5030d52797b25f7a95f5e5f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1bc9443bca7a3f97d20de8832a86d6d55ec48e656e2939a17d7a2e284c1560aa",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "822d1ed34fc7687905f0d024cd159c6872cd784c17a6ce2ff7eca683dd5aa508",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2b63aa6801ed2258bd2429612991f19dbd00989c6350496d47b9e811fd282e3a",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "eaed80ced50a292a33193fe957a1e959041e223bb20d813014696020cd32b109",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:09:44",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania at task **13:09:44**"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:28:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Nov01 R3 CONFIRMED: Cyprus arrived exactly **14:28:34**, 39s; answered 85.59 at :36."
+        }
+      ]
+    },
+    {
+      "record_id": "cc9ec2a738a0524888a65f049179c2b6377e0a81b63b514249fcdbd08409a478",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:36:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 12:36:48"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:36:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania arrived exactly 13:36:18"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 expected **14:17:49/50**, Cyprus 85.59 ready"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Cyprus 85.59 ready; then Bahrain 40.01."
+        }
+      ]
+    },
+    {
+      "record_id": "093c3be238381bbd2fee3eefefae29ae9558a33b7aa02e7870721d4988f63bae",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:36:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 13:36:18"
+        }
+      ]
+    },
+    {
+      "record_id": "c7d87d10530a0f4f6b91f36ea6e7af271f25a4daa79baaf481a1f2e8e53e96bc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "09:31:27",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia 09:31:27"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": "13.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "11:00:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun30 R2 CONFIRMED: Albania arrived exactly 11:00:50, 51s timer; answered 13.46 same second."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "12:20:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jun30 R3 CONFIRMED: Cyprus at 12:20:19, 51s timer; answered 85.59 same second."
+        }
+      ]
+    },
+    {
+      "record_id": "8acf5926259bf154dfaa12e0e7a4f837853a5b4bbf4e0ec238ff17a972754cac",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1454c99c89d16ab128f308f6662fe6940db7ae89e2c56b39bac4d29433a7956c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:36:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 12:36:48"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:36:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania arrived exactly 13:36:18"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "14:17:51",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 **CONFIRMED Cyprus**, arrived 14:17:51, answered exact 85.59 immediately."
+        }
+      ]
+    },
+    {
+      "record_id": "942fb15c17c3b1dcc3571e9b60758b9062eeec67cb72510c164b2d8063b8d3f2",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ca6515508a0e9101d4361145b3751229336d4cb1f2637ce8286d7d0d6fca950f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "05:50:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 05:50:31"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:14:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania arrived 07:14:41"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "08:33:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 **CONFIRMED Cyprus**, arrived exactly 08:33:31, answered exact 85.59% at :33."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "09:52:21",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Bahrain due exactly **09:52:21**, answer 40.01."
+        }
+      ]
+    },
+    {
+      "record_id": "34df86a913f6847eff7a0acefe293ed4a84e37abda9fc2548d7563ea4d63204b",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:32:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia 18:32:34"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": "13.46%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:01:57",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan26 R2 CONFIRMED: Albania arrived exactly 20:01:57, 51s timer; answered 13.46% immediately."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "21:21:26",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Jan26 R3 CONFIRMED: Cyprus arrived exactly 21:21:26, 51s timer; answered 85.59% same second."
+        }
+      ]
+    },
+    {
+      "record_id": "c403f15aa895354e0a3b327e42b1e455fffcd84756eef127fee885e9335a9dd4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:43:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 11:43:48"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "13:07:58",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 13:07:58"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:26:48",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Cyprus 14:26:48"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "15:45:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 **Bahrain 40.01%** due Mar24 task **15:45:38**"
+        }
+      ]
+    },
+    {
+      "record_id": "3021cc68fe39cc0fdb371a53ef0191874a6f59ae696b5804f61081dd15e61e6b",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4b0690c308da771c00195522d34c6aadba2dcb307e5327f4ebfc6695df21cc88",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:07:19",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 22:07:19"
+        }
+      ]
+    },
+    {
+      "record_id": "dba7c6e931e987fc6399d2855b86992fe990c2051eae0282e75ecd9b4c371c89",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:01:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 11:01:53"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "12:26:03",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 12:26:03"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:44:53",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Cyprus 13:44:53, answered exact 85.59 at 13:45:10."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "15:03:43",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Bahrain due **15:03:43 Mar12 task clock**, deadline 15:04:22, value 40.01"
+        }
+      ]
+    },
+    {
+      "record_id": "def65e74cbef230710335561fb8081ffc926d90ce34bc89995b8c394cc8319a2",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3143bdfed0e4659f147f5cec38a4c0b1dbe0a63ca7fd7d0b594c709c06cc75ea",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "04:53:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia 04:53:35"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "06:17:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 06:17:45"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "07:36:35",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Cyprus 07:36:35"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "08:55:25",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 Bahrain 40.01% due task 08:55:25"
+        }
+      ]
+    },
+    {
+      "record_id": "8d21b71251329123fb8a6a29294e604a1bdc343e03578e792ecb0a8a4a0daa21",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bb58a644653ae072fd18be28ef6dacb54ec7336e98689de9d8e9e3b4ed63f350",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "14:20:52",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 14:20:52"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "15:20:22",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 15:20:22"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "16:01:55",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Cyprus 16:01:55"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Bahrain 40.01 ready."
+        }
+      ]
+    },
+    {
+      "record_id": "7594c7b7a36c25ef035fbbd66086c0cb2a106bdae83ce3e47455e38532da2439",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8ea8550a9335f347c288ed5c87a07ae5b28c203ba76e5e2fe982a489d21786da",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": "41.78",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Croatia 41.78, Albania 13.46, Cyprus 85.59, Bahrain 40.01."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": "13.46",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Croatia 41.78, Albania 13.46, Cyprus 85.59, Bahrain 40.01."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Croatia 41.78, Albania 13.46, Cyprus 85.59, Bahrain 40.01."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 4,
+          "item": "Bahrain",
+          "value": "40.01",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Croatia 41.78, Albania 13.46, Cyprus 85.59, Bahrain 40.01."
+        }
+      ]
+    },
+    {
+      "record_id": "02e5e1e00e3ccc2f500121ac6e7ca3fa6851ccb4b9b98bc78896a67b17ae2e1e",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "05:08:34",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Cyprus confirmed; 85.59 answered at 05:08:34."
+        }
+      ]
+    },
+    {
+      "record_id": "0909bdd8201cb837f779f484f7de8e3b78108fc170f60b7c2b9b1318caf3b5aa",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "17:48:50",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt Aug19 task 17:48:50"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": "13.46%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "19:18:13",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 CONFIRMED: Albania arrived exactly **19:18:13**, 51s; answered 13.46% same second."
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "20:37:42",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 CONFIRMED: Cyprus arrived exactly **20:37:42**, 51s; answered 85.59% same second."
+        }
+      ]
+    },
+    {
+      "record_id": "78c09294cb1139f0d8f3daa7ab8b66c0ab0873c9f34b4457b5c530b867f23844",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ebc04b036090285cc2839ac9e1edc7744197220a30ad4385b4f2fb95eff8b445",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "11:38:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia prompt 11:38:09"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": "13.46",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "13:07:32",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania arrived 13:07:32, 51s, answered exact 13.46."
+        }
+      ]
+    },
+    {
+      "record_id": "2f7818650cae1a76400bb461fcf3da9abcdeecb46b1d0e0d7d6753f9736ee30c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "ihme-family-planning",
+          "round": 1,
+          "item": "Croatia",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "20:06:46",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 Croatia 20:06:46"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 2,
+          "item": "Albania",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "21:36:09",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 Albania 21:36:09"
+        },
+        {
+          "family": "ihme-family-planning",
+          "round": 3,
+          "item": "Cyprus",
+          "value": "85.59%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "22:55:38",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 Cyprus confirmed 22:55:38 (85.59%)"
+        }
+      ]
+    }
+  ]
+}

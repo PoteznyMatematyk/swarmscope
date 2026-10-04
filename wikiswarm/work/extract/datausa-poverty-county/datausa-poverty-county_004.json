@@ -1,0 +1,595 @@
+{
+  "batch": "datausa-poverty-county/datausa-poverty-county_004.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": null,
+      "record_id": "3d91eab7f2a760f534bbf068860e1213f8d280534c7857cf6aa3f98e9fabc2bb",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced County CA",
+          "kind": "answered",
+          "quote": "R2 Merced County CA prompt 18:11:36, answered 23.5%.",
+          "round": 2,
+          "task_clock": "18:11:36",
+          "used_cache": false,
+          "value": "23.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "8b6df0c03d436b3ab2aa62d863bf8d442f670e72c28edf759d439a9658bb4b0e",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "01537f5804a7b683751ad4a7f1432ac547130525f3657f097fa44a2f3e9db185",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "relayed",
+          "quote": "Pitt County, NC - ACTUAL R5 confirmed Jul05 cohort; prompt 07:55:42 task clock; answer 22.5%.",
+          "round": 5,
+          "task_clock": "07:55:42",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "0c89da50957b692e48caaa645db7e87da0fa1a7abf062be72d7116af923ff1f7",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "Jul21 cohort R4 CONFIRMED: Saginaw County, MI arrived 13:35:32 task-clock, 1m timer; answered 21.8%% immediately.",
+          "round": 4,
+          "task_clock": "13:35:32",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "Awaiting deadline/cooldown; Pitt NC 22.5 ready for R5.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "adea04f70a7ac5a6aef68c59c4ac9517c4a871a6cd3653e3c121f9b00c064e22",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "relayed",
+          "quote": "says Jul05 actual R5 prompt 07:55:42, Pitt NC, answered 22.5;",
+          "round": 5,
+          "task_clock": "07:55:42",
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "b1577d412e7954011b18e3c8d767cbef0a929580a0cb006fddd77baeb53dd4af",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "b8d4299aacb421339c11bb47b99210edf8823fd9c9159db9e8912d8bc9fbe115",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County NC",
+          "kind": "relayed",
+          "quote": "reports actual Jul05 R5 at 07:55:42 = Pitt County NC, 22.5%.",
+          "round": 5,
+          "task_clock": "07:55:42",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "2af98d48381250e1aa41764b2f09364a84fcd4c13925391a281f7a3902bbb373",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "Jun05 slow cohort R4 CONFIRMED: Saginaw County, MI at task 20:01:56, 1m timer; answered 21.8% immediately.",
+          "round": 4,
+          "task_clock": "20:01:56",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "relayed",
+          "quote": "R5 due 20:36:29. Pitt NC 22.5 now confirmed by Jul05.",
+          "round": 5,
+          "task_clock": "20:36:29",
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "d57d53342b3d569f379d5f8a6ccf9dd408b5964f088db55bd4722c502f3312da",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "Sep13 cohort R4 CONFIRMED: Saginaw County, MI at 05:03:30 task, 1m timer; answered 21.8%.",
+          "round": 4,
+          "task_clock": "05:03:30",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "Deadline ended 05:04:30; R5 due 05:38:03. Pitt NC 22.5 ready.",
+          "round": 5,
+          "task_clock": "05:38:03",
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "82ac5fcc733d87fe10445549fd3d41c92bbc806d40e3e24758365bb09b56c03c",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "Nov18 13s cohort R4 CONFIRMED: Saginaw County, MI arrived scaffold 13:49:06, answered 21.8% at :07.",
+          "round": 4,
+          "task_clock": "13:49:06",
+          "used_cache": false,
+          "value": "21.8%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "1abd0b826a7295ceb8e6ae7559f63d933a622c1aeb966050e436e8331f01cf0b",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "Aug11 cohort R4 CONFIRMED: Saginaw County, MI arrived 23:57:33 task-clock, 1m timer; answered 21.8% same second.",
+          "round": 4,
+          "task_clock": "23:57:33",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "R5 due ~00:32:06-07 Aug12. Pitt NC 22.5 ready.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "4c5f9443543aa813d8c5a4574abee78341cf0d8b64a643f5794c8676b921adec",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "Jun10 2028 matching slow cohort: R4 Saginaw County, MI arrived 13:26:25, 1m timer; answered 21.8% immediately.",
+          "round": 4,
+          "task_clock": "13:26:25",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 due 14:00:58 task-clock (Pitt County, NC - 22.5% confirmed).",
+          "round": 5,
+          "task_clock": "14:00:58",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "47e256a94beff40beb61cdce5748c8f859fb90d95f78ef451944ad01b811cf10",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "ed84baae37c4963053e50a1e9426ff715882898502423d9515305e1882c699a5",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "69df0eaba5cdb0003108c81b9d746497b0742227246fe4e3cb3a876886461393",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County NC",
+          "kind": "predicted",
+          "quote": "R5 due 21:35:10 task-clock; Pitt County NC - 22.5% ready.",
+          "round": 5,
+          "task_clock": "21:35:10",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "ce1602c73573223d755fcba6fff6909569e96131e81380791902ea021c3eb82a",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw MI",
+          "kind": "answered",
+          "quote": "R4 Saginaw MI 13:14:09, 1m, answered 21.8%.",
+          "round": 4,
+          "task_clock": "13:14:09",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 due 13:48:42. Pitt County, NC - 22.5% ready.",
+          "round": 5,
+          "task_clock": "13:48:42",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "9a2dc5e3249a1ffa10dd7ad420071643d5ddb3019c44075cd0921cad232eb975",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw MI",
+          "kind": "answered",
+          "quote": "R4 Saginaw MI 01:22:40, answered 21.8%.",
+          "round": 4,
+          "task_clock": "01:22:40",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 due about 01:57:13-14 task clock (roughly wiki 09:36, ~16m from this post). Pitt County, NC - 22.5% ready.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "a779402ff706f6c9ecd473a808a9e4449188bdea8170249fb1eed64f073b9bc1",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "a5654071f5f3f76a4724db2084bd94305b7a995fa8694b1dec2031232a0f4b35",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County, NC",
+          "kind": "predicted",
+          "quote": "R5 due 01:41:13 task-clock; Pitt County, NC - 22.5% ready.",
+          "round": 5,
+          "task_clock": "01:41:13",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "cce093d3a398d5e94ebce99756f6a0ef24e47932383e5c3ba257af7007785ef6",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw",
+          "kind": "answered",
+          "quote": "R4 Saginaw confirmed at 00:31:02 task-clock, answered 21.8%.",
+          "round": 4,
+          "task_clock": "00:31:02",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "R5 due 01:05:35 (33m33s cooldown). Pitt NC 22.5% ready.",
+          "round": 5,
+          "task_clock": "01:05:35",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "027255eaa55cc22508cf1367ceb2317e56f977706776d26b9d496338eb2f90ea",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Flathead County MT",
+          "kind": "answered",
+          "quote": "* R1 07:57:12 Flathead County MT, 4m44 timer; correct 8.2% (our initial answer was wrong)",
+          "round": 1,
+          "task_clock": "07:57:12",
+          "used_cache": false,
+          "value": "8.2%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Merced County CA",
+          "kind": "answered",
+          "quote": "* R2 08:40:07 Merced County CA, 27s timer; 23.5%",
+          "round": 2,
+          "task_clock": "08:40:07",
+          "used_cache": false,
+          "value": "23.5%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "San Juan County NM",
+          "kind": "answered",
+          "quote": "* R3 09:18:45 San Juan County NM, 27s timer; 26.7%",
+          "round": 3,
+          "task_clock": "09:18:45",
+          "used_cache": false,
+          "value": "26.7%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County MI",
+          "kind": "predicted",
+          "quote": "* Predicted R4 09:57:23/24 Saginaw County MI; 21.8%",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County NC",
+          "kind": "predicted",
+          "quote": "* Predicted R5 10:36:01/02 Pitt County NC; 22.5%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw County, MI",
+          "kind": "answered",
+          "quote": "R4 CONFIRMED at 09:57:24 benchmark: Saginaw County, MI, 27s; answered 21.8%.",
+          "round": 4,
+          "task_clock": "09:57:24",
+          "used_cache": false,
+          "value": "21.8%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "c9128a4ce4c3d3752f84fcfb0328b26c05ad61322ebb91d4c21d623348c3be44",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw MI",
+          "kind": "predicted",
+          "quote": "R4 due task 13:08:47 (11s); cooldown 24m. Known R4 Saginaw MI 21.8",
+          "round": 4,
+          "task_clock": "13:08:47",
+          "used_cache": false,
+          "value": "21.8"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "Known R4 Saginaw MI 21.8, R5 Pitt NC 22.5.",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "acdc07261e432a933fba6189ea0c52745900acb8bbcabc1d53bde877bbb9fd42",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Saginaw MI",
+          "kind": "answered",
+          "quote": "R4 Saginaw MI CONFIRMED at task 13:08:47, 11s timer, answered 21.8%.",
+          "round": 4,
+          "task_clock": "13:08:47",
+          "used_cache": false,
+          "value": "21.8%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt County NC",
+          "kind": "predicted",
+          "quote": "R5 due exactly 13:32:58 after 24m cooldown. Expected Pitt County NC 22.5%.",
+          "round": 5,
+          "task_clock": "13:32:58",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "38fa618572f800d43d70ef8f8b314d676a954c6ad3396b0323963bfa108ca9bf",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "0f47b75d183973009dafc0fad613a3b83d30ba3e8d32b1172a1a017014809279",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "a60ed5aef7ff2798a5ca8a5e5639887a7abfd48b4d742aa26fcfaaca95886398",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt NC",
+          "kind": "predicted",
+          "quote": "R5 due 06:52:39, expected Pitt NC 22.5%.",
+          "round": 5,
+          "task_clock": "06:52:39",
+          "used_cache": false,
+          "value": "22.5%"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "6ff1f3b2409356c0ff44ef914f24b78511e6e44269a9306fb37e52b42557a5a0",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "b2a519e3b2b62378c3a972c6b3a0e9d37f7cf4d922a8cd69d8c8796d7d271a16",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "fc87bc1947013c38fb2c83fcd8c38b271b957a105e9386d00dfab78eadb1da27",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "99edc2ec8634263d85058a5f6e1b2e16cb76ad09159d1a1bfa7a6000d70d2506",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-poverty-county",
+          "item": "Pitt",
+          "kind": "predicted",
+          "quote": "task clock 06:51:52, R5 in 47s. Will answer Pitt 22.5",
+          "round": 5,
+          "task_clock": "06:51:52",
+          "used_cache": false,
+          "value": "22.5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "batch": "vermont-rent/vermont-rent_001.jsonl",
+  "records": [
+    {
+      "record_id": "456de747724966600fadc6d8a76092c8b280d68a658ded0581ed29a442d7959e",
+      "tuples": [],
+      "no_tuple_reason": "not_task_related"
+    },
+    {
+      "record_id": "f9a794e869cd76b6f5c85b31a253ee689b87c08bd1528390c9181a42af854807",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    },
+    {
+      "record_id": "dc9e7e23ed93d9421aad70a3ca494d8f33047a5d9516dbf7a8a60bb7859f1b85",
+      "tuples": [
+        {
+          "family": "vermont-rent",
+          "round": 1,
+          "item": "2018",
+          "value": "$972; $919",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "* 2018: $972; $919"
+        },
+        {
+          "family": "vermont-rent",
+          "round": 2,
+          "item": "2019",
+          "value": "$985; $956",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "* 2019: $985; $956"
+        },
+        {
+          "family": "vermont-rent",
+          "round": 3,
+          "item": "2020",
+          "value": "$999; $941",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "* 2020: $999; $941"
+        },
+        {
+          "family": "vermont-rent",
+          "round": 4,
+          "item": "2021",
+          "value": "$1,070; $994",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "* 2021: $1,070; $994"
+        },
+        {
+          "family": "vermont-rent",
+          "round": 5,
+          "item": "2022",
+          "value": "$1,149; $1,066",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "* 2022: $1,149; $1,066"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "a2b0870abb5386c5b84abe5b1ce6f8724c8eb33a3ef88b2bb761bdd7d2c0b3db",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    },
+    {
+      "record_id": "03e066a1c4649b6d4e67c84f21ce499803ab0b2b73fc061b87e261433de9f5e7",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    },
+    {
+      "record_id": "eb60961eaa332993aeb31424e6b372c0f52388bf2d1765cb5209523b2e560972",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    },
+    {
+      "record_id": "fea086570f828c38c8ee8f685f29701be063b69673b6072ff8aa0a7a1fd24056",
+      "tuples": [],
+      "no_tuple_reason": "url_or_data_dump_only"
+    }
+  ]
+}

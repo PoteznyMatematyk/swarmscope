@@ -1,0 +1,189 @@
+{
+  "gold": [
+    {
+      "family": "datausa-grocery-workforce",
+      "found": true,
+      "got_value": "90725",
+      "item": "GA",
+      "required": true,
+      "round": 1,
+      "value": "90725",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "found": true,
+      "got_value": "20794",
+      "item": "AR",
+      "required": true,
+      "round": 2,
+      "value": "20794",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "found": true,
+      "got_value": "20369",
+      "item": "NV",
+      "required": true,
+      "round": 3,
+      "value": "20369",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "found": true,
+      "got_value": "34770",
+      "item": "KY",
+      "required": true,
+      "round": 4,
+      "value": "34770",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "found": false,
+      "got_value": null,
+      "item": "MT",
+      "required": false,
+      "round": 5,
+      "value": "8553",
+      "value_ok": false
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "found": true,
+      "got_value": "5432",
+      "item": "education",
+      "required": true,
+      "round": 1,
+      "value": "5432",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "found": true,
+      "got_value": "5269",
+      "item": "business",
+      "required": true,
+      "round": 2,
+      "value": "5269",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "found": true,
+      "got_value": "2749",
+      "item": "social sciences",
+      "required": true,
+      "round": 3,
+      "value": "2749",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "found": true,
+      "got_value": "2134",
+      "item": "visual and performing arts",
+      "required": true,
+      "round": 4,
+      "value": "2134",
+      "value_ok": true
+    },
+    {
+      "family": "datausa-sector61-state",
+      "found": true,
+      "got_value": null,
+      "item": "MA",
+      "required": true,
+      "round": 1,
+      "value": null,
+      "value_ok": true
+    },
+    {
+      "family": "datausa-sector61-state",
+      "found": true,
+      "got_value": null,
+      "item": "CT",
+      "required": true,
+      "round": 2,
+      "value": null,
+      "value_ok": true
+    },
+    {
+      "family": "datausa-sector61-state",
+      "found": true,
+      "got_value": null,
+      "item": "MI",
+      "required": true,
+      "round": 3,
+      "value": null,
+      "value_ok": true
+    },
+    {
+      "family": "datausa-sector61-state",
+      "found": true,
+      "got_value": null,
+      "item": "WV",
+      "required": true,
+      "round": 4,
+      "value": null,
+      "value_ok": true
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "found": false,
+      "item": "MD",
+      "required": false,
+      "round": 5,
+      "value": "52395"
+    }
+  ],
+  "headline": {
+    "confirmed_use": 18,
+    "confirmed_use_share": 0.0103,
+    "exposed_upper": 1371,
+    "exposed_upper_share": 0.7834,
+    "lead_minutes_median": 594.2,
+    "n_tuples": 3999,
+    "n_units": 101,
+    "n_units_by_family": {
+      "dataafrica-rainfed-crops": 3,
+      "datausa-cashier-skills": 1,
+      "datausa-cashiers-bachelors": 4,
+      "datausa-cashiers-masters": 4,
+      "datausa-clothing-workforce": 2,
+      "datausa-construction-wage": 3,
+      "datausa-construction-workforce": 8,
+      "datausa-elpaso-foreign-born": 1,
+      "datausa-enrollment-asian": 3,
+      "datausa-finance-gender-gap": 4,
+      "datausa-grocery-workforce": 4,
+      "datausa-ivy-tuition": 3,
+      "datausa-language-french": 4,
+      "datausa-maids-wage": 2,
+      "datausa-occupation-salary-61-62": 4,
+      "datausa-police-wage-age": 5,
+      "datausa-poverty-county": 4,
+      "datausa-poverty-state": 4,
+      "datausa-production-share": 2,
+      "datausa-sector61-state": 4,
+      "datausa-transport-production": 2,
+      "fuel-poverty-ni": 4,
+      "ihme-cvd-deaths": 5,
+      "ihme-family-planning": 3,
+      "ihme-mcv2": 1,
+      "nyc-veterans": 4,
+      "oecd-equity": 3,
+      "oecd-regional-co2": 5,
+      "uefa-pass-accuracy": 5
+    },
+    "no_time_dropped": 11,
+    "null_round_dropped": 11,
+    "receiver_rounds": 1750,
+    "top5_revealer_share": 0.2468
+  },
+  "soft_warnings": [
+    "gold unit datausa-grocery-workforce R5 MT: consensus None != 8553"
+  ]
+}

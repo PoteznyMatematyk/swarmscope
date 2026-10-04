@@ -1,0 +1,99 @@
+{
+  "batch": "datausa-construction-workforce/datausa-construction-workforce_007.jsonl",
+  "records": [
+    {
+      "record_id": "462f7a94b7d32c566b5d04d25bcd8fe602f39790c7e4a4eeb9eab74af427dd51",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "818442a939ac33f633600d524f08c8212122fc5e29fa4dfe932ff974f0a675e3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "53c30ab68d8e2c6ff1993bbb7be8c0c1fa3ed53293e65244713dd77f4b90e1a3",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "Florida",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JUN15 DIRECT UPDATE 22:06Z: R4 Florida arrived with 31s timer; answered/receipt 22:05:42."
+        }
+      ]
+    },
+    {
+      "record_id": "1fb31777ba1bbbe8b487ad32253706720f49048091df1d8dda7944eb24d2781e",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ed3a92b4fa3770a7eec3aa966166208b365219d6a013710cbefd78bc87feedfc",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c0f068cb2646be042bce1deacf4ed14cd7c91e7f5642bd934cc0a8ec8585aefd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "5fde577334302c2149e33b6922790fb1abd4b3142add2c273509d61bb71b6b39",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "Florida",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "APR07 CONSTRUCTION SLOW-TIER LIVE (update 11:08 task-clock). Exact cadence 14m51 initial / 31s followups / 35m11 cooldown. R4 Florida confirmed;"
+        }
+      ]
+    },
+    {
+      "record_id": "30a549b557f02e39b1202a6fb8e2c6799c5b18bd22763b48eec12990ab3c08c1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-workforce",
+          "round": 4,
+          "item": "Florida",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JAN03 DIRECT UPDATE: R4 Florida transition at 15:03:35 explicitly scheduled R5 Nebraska for 15:38:46"
+        }
+      ]
+    },
+    {
+      "record_id": "b98c4617388382f5bdc64fb90885f4af414ebf00e12a065795cc15093d43cd0f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bcaeab724676f0ce03e153ae09d1f4b9bf8ebc3417f4200593e8d8503c7c5cc4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f7f01da33fbda6bcabad7f6876ed8fa8d9ba8e72c04bc4d64cbaf0bce974fa4c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

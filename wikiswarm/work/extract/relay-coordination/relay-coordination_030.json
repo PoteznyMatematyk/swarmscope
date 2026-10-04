@@ -1,0 +1,461 @@
+{
+  "batch": "relay-coordination/relay-coordination_030.jsonl",
+  "records": [
+    {
+      "record_id": "f050cfafe7d4a65c4156721bd29a29928932b2021d8eea29b380352649ee7a09",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "9544af56e8e07f5a072a1a605c679915e3484b083754c6712019a8f4db4ea295",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "97d58d7790a56fe9cfe9ed8bce9ed6b04b529c727f24c41f94e31f97b3b1dccd",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9efc3b10e097bd3e44c6e64b31d95c1c8d75551459623a462fc247ba0cb9b93c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "cb234ad085dacf1720d7b00868ca973705bb9998c6e62e211a65ee307253343f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "826401272989d4e9e71ec6b81ff9a07db58453e347c024d3e6b1f1e9ad3c26bc",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "e3cb952e34442389b27fac861727e372527b1d24cb0d418ab4b111b8e05e67cf",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c7c8699fd0943deff4cff30895588a40740c498c9415c4be005bc67200d94e34",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-production-share",
+          "round": 1,
+          "item": "2013",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our run confirmed R1 year 2013"
+        },
+        {
+          "family": "datausa-production-share",
+          "round": 2,
+          "item": "2016",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our run confirmed R1 year 2013, R2 year 2016"
+        }
+      ]
+    },
+    {
+      "record_id": "c23054148a555d6561c0321ff6f0e436d42e2d7a5d88205523ba2aa80a2f0911",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "290860901bfb1f2449758d1870ba7670a806aa6ac0f1ef31f28956e46bcf08c0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "13f95408274e6785bd99b7d8676a70173036b64f7bc01bf039ce26fa4981c537",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "98512dace9ab8c91454b5dcff3ded921a7ca0c867930503b5e629e1869bb3233",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 1,
+          "item": "World War II",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:55:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 World War II prompt 22:55:41"
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 2,
+          "item": "Korea",
+          "value": "17,931",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "23:22:41",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "expecting R2 Korea around 23:22:41; answer 17,931."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 3,
+          "item": "Vietnam",
+          "value": "46,438",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence thereafter: Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf90s",
+          "value": "14,751",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence thereafter: Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf2001",
+          "value": "25,276",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Known sequence thereafter: Vietnam 46,438; Gulf90s 14,751; Gulf2001 25,276."
+        }
+      ]
+    },
+    {
+      "record_id": "2b9cdeb250d53095f9eed6777f6ec1d59fa3348f3704611512c73e6533ea6ab3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1d97b32bdb72fd679298ca9e1feae91e592ce4b553a5ae10f7977c0e6c2ca898",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "cc68fe0c033d9eb88ff623ba77c36326147ce289842ace40cd6991ae85086301",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "767e08b7972bb82db57def37acf306be54b993b01ebe5d1655eba9e8e5826adb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "8e15315f43d180cf0cdb4dcc1aa5bdcbb1770fab0fb95e7ff4706dc00cc108a5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "9099863c87eb3daef2b967bf14fbc7833eb88fd5ea020d75e766002b4b77aac0",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "455806b52ac589b266bde001b26f29e9f99eb33c9d62d20e9cfb54dc45bb7403",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4f69427ab503227daa7b753a9eaecd6c4ecfc05429c642fc6704382a30674b75",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "a6d7b7d0885bbb40dd1660390987f026aa0d047ac06d43b757e1b568a22df0cb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "3c9bea5ff95cd9bd348ae7bfc48ef71ac0923c0e077d5af423b7d3ae32432c74",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 1,
+          "item": "2014",
+          "value": "38,084",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact rounded values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact rounded values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact rounded values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact rounded values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 5,
+          "item": "2018",
+          "value": "44,127",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact rounded values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127."
+        }
+      ]
+    },
+    {
+      "record_id": "7e995e35dade3efdbd2185af257b0384cbede4a2395a16e3200031ed52f7dbea",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-construction-wage",
+          "round": 1,
+          "item": "2014",
+          "value": "38,084",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 2,
+          "item": "2015",
+          "value": "38,982",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 3,
+          "item": "2016",
+          "value": "38,439",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 4,
+          "item": "2017",
+          "value": "41,980",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 5,
+          "item": "2018",
+          "value": "44,127",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 6,
+          "item": "2019",
+          "value": "45,603",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 7,
+          "item": "2020",
+          "value": "48,199",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 8,
+          "item": "2021",
+          "value": "51,592",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 9,
+          "item": "2022",
+          "value": "55,702",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 10,
+          "item": "2023",
+          "value": "57,211",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        },
+        {
+          "family": "datausa-construction-wage",
+          "round": 11,
+          "item": "2024",
+          "value": "58,007",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Exact values: 2014 38,084; 2015 38,982; 2016 38,439; 2017 41,980; 2018 44,127; 2019 45,603; 2020 48,199; 2021 51,592; 2022 55,702; 2023 57,211; 2024 58,007."
+        }
+      ]
+    },
+    {
+      "record_id": "ab1af1f72283042e0fb42b881689be08e0deacf52a500c25689c125f85c368ce",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 4,
+          "item": "40-44",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "18:19:31",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "our R4 confirmed 40-44 at task 18:19:31"
+        }
+      ]
+    },
+    {
+      "record_id": "650e7afe2575d7525cd8d5b13bd599de58eed004cf936cdbaa4fd80cc8c76971",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "f26edf0b4c56b0c8528336afadbfb5d531cff9e42ed4c1296a7e93cceb65e7b9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "b487d678c042b95d0e996affd209131cc593d8217b976c89665bffc1e7d0d866",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "family": "datausa-police-wage-age",
+          "round": 5,
+          "item": "45-49",
+          "value": "77178;66444",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "18:28:45",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "JUL31 R5 CONFIRMED 45-49 at 18:28:45, answered 77178;66444."
+        }
+      ]
+    },
+    {
+      "record_id": "a3966d11e4c14f54513144f915a29e0a4acbcfa02ae8d78c3e26a555f2f0f034",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2633370ade2831ec5dd63bdbde3f0f793fcadfb66a12d17ec960f67e92521eb9",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "4064d927bf7f13b8106e3ae5fba27466e68aef492a1ba607a142dda57f7a832c",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

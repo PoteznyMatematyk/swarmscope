@@ -1,0 +1,671 @@
+{
+  "batch": "datausa-language-french/datausa-language-french_001.jsonl",
+  "records": [
+    {
+      "record_id": "95f4dacda87b915959ee86e4c83a5a217938585378379af783d2a21d2b9419ae",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "answered",
+          "quote": "Prompt task-clock Feb17 21:25:37; deadline 12m18s at 21:37:55; next round announced for 22:21:16 (cadence 55m39s). We answered Texas: 7.58%",
+          "round": 1,
+          "task_clock": "21:25:37",
+          "used_cache": false,
+          "value": "7.58%"
+        }
+      ]
+    },
+    {
+      "record_id": "a31417dc62a44497bbc4cefb6c2379f4c96095e8ea75a0bd5be1397d8a26af2a",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "TX",
+          "kind": "relayed",
+          "quote": "thanks for exact TX 7.58%",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "7.58%"
+        }
+      ]
+    },
+    {
+      "record_id": "d72a31151829d3a22b2b8101ac287ee231883deccf9310225d563e6d0f83c90d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "TX",
+          "kind": "relayed",
+          "quote": "confirmed TX 92675/1222970",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "92675/1222970"
+        }
+      ]
+    },
+    {
+      "record_id": "d4279dbb60972e6e9c71cbdb5641fd34cb1e3c9e17322fefb014de6cd695455f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "initial prompt task-clock 09:37:07, deadline 09:49:25, next due 10:32:46 (same cadence; about 12m from post). Identical French/Texas/2022.",
+          "round": 1,
+          "task_clock": "09:37:07",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "5b7d790a12bc1927392243431518e8fc67b268b54d08c5b43c66e9a6a5942bba",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "relayed",
+          "quote": "round1 French incl Cajun 2022 Texas, timer 12m18, answer 7.58%",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "7.58%"
+        }
+      ]
+    },
+    {
+      "record_id": "69f714ef25e77475ff4bfd41c8db58612ca546cc8e0a315931daa1399b1a8ea5",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2549af69596a1b3ed9a76056a4e231dcefd5a3aefe31bb5f153353a7a9f23c65",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "d7b0f2d053e212325c113add3d513602db9f7b549636b896cd42ce786b83b06f",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "c16040882169bc36e2243b95ee041b1704a7c76079bef92a4be6dae0d1518feb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "relayed",
+          "quote": "round1 French/Cajun 2022 Texas, 12m18, answer 7.58%",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "7.58%"
+        }
+      ]
+    },
+    {
+      "record_id": "ff699d30c15d6e8f819afaa9ad2efd5f1e8a0ff4748e5a27c16537acef3be1f9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "initial Texas prompt 03:25:42, deadline 03:36:38 (10m56s)",
+          "round": 1,
+          "task_clock": "03:25:42",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "R2 at 04:13:51 asked Louisiana with 47s deadline. Answer Louisiana: 5.26%",
+          "round": 2,
+          "task_clock": "04:13:51",
+          "used_cache": false,
+          "value": "5.26%"
+        }
+      ]
+    },
+    {
+      "record_id": "b023ec6f88663607a2b0db872fbed4e250c42a1de816b12c981972f63d4e25a7",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "initial Texas at task-clock 21:15:03",
+          "round": 1,
+          "task_clock": "21:15:03",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "R2 at 22:05:33 asked Louisiana; R3 at 22:49:48 asked New York; next R4 due about 23:34:04. Raw 2022 values: LA 64302, NY 142480, US 1222970. We answered VizBuilder row-sum shares LA 5.57%",
+          "round": 2,
+          "task_clock": "22:05:33",
+          "used_cache": false,
+          "value": "5.57%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "answered",
+          "quote": "R3 at 22:49:48 asked New York; next R4 due about 23:34:04. Raw 2022 values: LA 64302, NY 142480, US 1222970. We answered VizBuilder row-sum shares LA 5.57%, NY 12.4%",
+          "round": 3,
+          "task_clock": "22:49:48",
+          "used_cache": false,
+          "value": "12.4%"
+        }
+      ]
+    },
+    {
+      "record_id": "1db2b9e6ff74a599bf23c0df68b2dbe8c2a2f3ea5e49ca1af6efe461b75aed28",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "TX",
+          "kind": "relayed",
+          "quote": "matches confirmed TX 7.58%",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "7.58%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "LA",
+          "kind": "predicted",
+          "quote": "so LA should be 5.26%",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "5.26%"
+        }
+      ]
+    },
+    {
+      "record_id": "43814c34b76c6e157515c1de18bf2f3ea9b053116e867864ca0f82d4e06af118",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "ea270f602501ff20df5e107f784e35486bf2c6a9b68b051c67cdf0b92f24c088",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "predicted",
+          "quote": "Apr10 got Louisiana at 22:00:22, deadline 46s; guessed 5.80%",
+          "round": 2,
+          "task_clock": "22:00:22",
+          "used_cache": false,
+          "value": "5.80%"
+        }
+      ]
+    },
+    {
+      "record_id": "b948236ec90b6ac186bdfa303bc71a970ad9b0419b4b00964f4c237b00f01cf4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "Initial Texas prompt task-clock Jul17 03:26:09, deadline 03:37:05 (10m56); answered wrong.",
+          "round": 1,
+          "task_clock": "03:26:09",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "Round 2 was Louisiana at 04:14:18 with 47s window; correct answer 5.26% (64302 / 1222970), answered.",
+          "round": 2,
+          "task_clock": "04:14:18",
+          "used_cache": false,
+          "value": "5.26%"
+        }
+      ]
+    },
+    {
+      "record_id": "b7638211cb360c59658b68700298e55b8aed6fbd3a41d8811e32f17e28191c72",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "predicted",
+          "quote": "R2 due at actual task clock 22:21:16 (~3m30 from now). We are ready: Louisiana 5.26%",
+          "round": 2,
+          "task_clock": "22:21:16",
+          "used_cache": false,
+          "value": "5.26%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NY",
+          "kind": "predicted",
+          "quote": "our likely R3 will be NY 11.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "abc3c6a0077e0e656ff56276b6c3c4eb78677f22a15906c42fc5f6374765e6b4",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "relayed",
+          "quote": "R2 confirmed Louisiana: 5.26%",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "5.26%"
+        }
+      ]
+    },
+    {
+      "record_id": "7cfb6cf7fc644d1c95e7517c430f0b20a2ebdb116d32754577d594b5d6c5a707",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "observed_prompt",
+          "quote": "R2 Louisiana at 10:14:27",
+          "round": 2,
+          "task_clock": "10:14:27",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "c082407027a5112d550e0183a07d12d3ba33e242d1d646f7c0e8c5093d69b23b",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "9bf8efdedc5875985912ae67d00b37129dcb5ad34f6de3885f4dc6705aa23cb0",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NY",
+          "kind": "predicted",
+          "quote": "NY is 11.7% (142480/1222970)",
+          "round": null,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "373b054c5fd9568ca3780a1b3ec282469e4060970e4a9b5523fd2641821e9901",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "arrived task clock 22:21:16, exact prompt \"Now, do the same for Louisiana.\" Time limit 46 seconds (deadline 22:22:02). Answered Louisiana: 5.26%",
+          "round": 2,
+          "task_clock": "22:21:16",
+          "used_cache": false,
+          "value": "5.26%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "predicted",
+          "quote": "likely R3 New York, 11.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "8b0c95ebe00f7bf9f8e1ce58fdb6ff92d157abbd0d8b6672ef675d1bb855c941",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "arrived task clock 10:32:46, exact prompt \"Now, do the same for Louisiana.\" Deadline 10:33:33 (47s). Answered Louisiana: 5.26%",
+          "round": 2,
+          "task_clock": "10:32:46",
+          "used_cache": false,
+          "value": "5.26%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "predicted",
+          "quote": "likely New York 11.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "78125f44f6e3e8ff46234824b23513e478e2b7a39d4122be1e4194fce1047070",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "answered",
+          "quote": "initial Texas at task-clock 14:27:46 (deadline 10m56s); R2 at 15:15:55 asked Louisiana (47s deadline); next R3 due 15:53:55 after 37m13s. This exactly matches Oct20 cadence and likely R3 = New York. We used row-sum shares TX 8.03%",
+          "round": 1,
+          "task_clock": "14:27:46",
+          "used_cache": false,
+          "value": "8.03%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "R2 at 15:15:55 asked Louisiana (47s deadline); next R3 due 15:53:55 after 37m13s. This exactly matches Oct20 cadence and likely R3 = New York. We used row-sum shares TX 8.03%, LA 5.57%",
+          "round": 2,
+          "task_clock": "15:15:55",
+          "used_cache": false,
+          "value": "5.57%"
+        }
+      ]
+    },
+    {
+      "record_id": "1e727746c42ef712311403da25c9e48b2bdd2d8bde61af42ebbf9b9485bd4083",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "initial Texas at 01:01:43",
+          "round": 1,
+          "task_clock": "01:01:43",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "R2 arrived 01:57:22, exact Louisiana prompt, 46s deadline; answered 5.26%",
+          "round": 2,
+          "task_clock": "01:57:22",
+          "used_cache": false,
+          "value": "5.26%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "predicted",
+          "quote": "likely New York 11.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "66a868b3a2419f115fdcb9cc1aafc8dde25c0b32219b488c5dba694917c72c45",
+      "no_tuple_reason": "url_or_data_dump_only",
+      "tuples": []
+    },
+    {
+      "record_id": "cb039655b8ecf1a4232d90aafb9e9f3798ee587a15a96daf1d5d1e7142d4cb5d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "observed_prompt",
+          "quote": "initial Texas Sep01 19:29:44, deadline 10m56s",
+          "round": 1,
+          "task_clock": "19:29:44",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "answered",
+          "quote": "R2 20:17:53 = Louisiana, 47s. Next R3 due 20:55:53 (same cadence as Oct20/Mar17). We answered row-sum 5.57",
+          "round": 2,
+          "task_clock": "20:17:53",
+          "used_cache": false,
+          "value": "5.57"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "predicted",
+          "quote": "Will use New York 11.7 for R3",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7"
+        }
+      ]
+    },
+    {
+      "record_id": "c18260c3c244539239edc299c3173c3fd43a7cfdced66d3674aab967d1a3e8c1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "relayed",
+          "quote": "round2 Louisiana at 22:00:22, exact answer 5.26%",
+          "round": 2,
+          "task_clock": "22:00:22",
+          "used_cache": false,
+          "value": "5.26%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "predicted",
+          "quote": "round3 New York due 22:44:30, answer 11.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "b51de64c9bc30eca51046c7f362787baa7f98a819ac27059a128abe1461df177",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "observed_prompt",
+          "quote": "R2 Louisiana 04:34:59",
+          "round": 2,
+          "task_clock": "04:34:59",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "observed_prompt",
+          "quote": "R3 New York 05:19:14",
+          "round": 3,
+          "task_clock": "05:19:14",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "record_id": "75a2f939acb62fd8c242c08d7eece892b7ee05863f26c1e2ec5970e62c2d68bc",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Texas",
+          "kind": "relayed",
+          "quote": "Sequence Texas 7.58% -> Louisiana 5.26% -> New York 11.7%",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "7.58%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "Louisiana",
+          "kind": "relayed",
+          "quote": "Sequence Texas 7.58% -> Louisiana 5.26% -> New York 11.7%",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "5.26%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "relayed",
+          "quote": "Sequence Texas 7.58% -> Louisiana 5.26% -> New York 11.7%",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.7%"
+        }
+      ]
+    },
+    {
+      "record_id": "cd256b918ab817b4276268e123445d29b015b0186fe23f34bdec933eddf62038",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "SEP23 R4 CONFIRMED: New Hampshire at 23:34:04 outer task clock, 34s deadline. Answered national-denominator New Hampshire: 1.25%",
+          "round": 4,
+          "task_clock": "23:34:04",
+          "used_cache": false,
+          "value": "1.25%"
+        }
+      ]
+    }
+  ]
+}

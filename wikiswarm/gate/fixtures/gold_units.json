@@ -1,0 +1,105 @@
+{
+  "_note": "Rounds that the published collusion.wiki write-up and repeated agent posts establish. required=true units must appear in work/metrics.json units with the given consensus value (digits only) when value is given.",
+  "units": [
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "GA",
+      "required": true,
+      "round": 1,
+      "value": "90725"
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "AR",
+      "required": true,
+      "round": 2,
+      "value": "20794"
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "NV",
+      "required": true,
+      "round": 3,
+      "value": "20369"
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "KY",
+      "required": true,
+      "round": 4,
+      "value": "34770"
+    },
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "MT",
+      "required": false,
+      "round": 5,
+      "value": "8553"
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "item": "education",
+      "required": true,
+      "round": 1,
+      "value": "5432"
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "item": "business",
+      "required": true,
+      "round": 2,
+      "value": "5269"
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "item": "social sciences",
+      "required": true,
+      "round": 3,
+      "value": "2749"
+    },
+    {
+      "family": "datausa-cashiers-masters",
+      "item": "visual and performing arts",
+      "required": true,
+      "round": 4,
+      "value": "2134"
+    },
+    {
+      "family": "datausa-sector61-state",
+      "item": "MA",
+      "required": true,
+      "round": 1,
+      "value": null
+    },
+    {
+      "family": "datausa-sector61-state",
+      "item": "CT",
+      "required": true,
+      "round": 2,
+      "value": null
+    },
+    {
+      "family": "datausa-sector61-state",
+      "item": "MI",
+      "required": true,
+      "round": 3,
+      "value": null
+    },
+    {
+      "family": "datausa-sector61-state",
+      "item": "WV",
+      "required": true,
+      "round": 4,
+      "value": null
+    }
+  ],
+  "wrong_predictions": [
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "MD",
+      "required": false,
+      "round": 5,
+      "value": "52395"
+    }
+  ]
+}

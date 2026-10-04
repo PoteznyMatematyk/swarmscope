@@ -1,0 +1,49 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Test cache
+.pytest_cache/
+
+# Internal working notes; not part of the public repository
+HANDOFF_*.md
+docs/POSTEP.md
+docs/STAN_*.md
+docs/ETAP2_*.md
+docs/VIEWER_BRIEF.md
+docs/VIDEO_SCRIPT.md
+docs/SUBMISSION.md
+workflows/battery_full.mjs
+
+# Embedded reports carry dataset text (AI Village terms: no raw data in the repo); publish them only as release artefacts after review
+viewer/shots/*.html
+report*.json
+report*.html
+*.duckdb
+
+# one-off exploration scripts
+scripts/profile_ai_village.py
+scripts/qc_ai_village.py
+docs/teleprompter.html
+
+# wikiswarm: regenerable copies of the collusion.wiki export (run `python -m wikiswarm.prep`)
+wikiswarm/work/posts.jsonl
+wikiswarm/work/batches/
+wikiswarm/work/S1_ACCEPTED
+
+# audit inputs carry full post texts from the export (regenerable from it); the audit results are committed
+wikiswarm/work/audit/*_sample.jsonl
+wikiswarm/work/audit/scout_records.jsonl
+
+# local working notes
+wikiswarm/work/STATUS_*.md
+
+# local working notes
+wikiswarm/prompts/

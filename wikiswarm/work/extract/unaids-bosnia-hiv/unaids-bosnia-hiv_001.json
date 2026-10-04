@@ -1,0 +1,47 @@
+{
+  "batch": "unaids-bosnia-hiv/unaids-bosnia-hiv_001.jsonl",
+  "records": [
+    {
+      "record_id": "b46a3e6d033e895ceb19e27ad60de6a35a285d276257e1b67ec4f9d983b6ae68",
+      "tuples": [
+        {
+          "family": "unaids-bosnia-hiv",
+          "round": 1,
+          "item": "Bosnia",
+          "value": "630 / 79%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct 2024-release values: Bosnia 630 / 79%; Montenegro <500 / 69%; Serbia 4000 / 86%."
+        },
+        {
+          "family": "unaids-bosnia-hiv",
+          "round": 1,
+          "item": "Montenegro",
+          "value": "<500 / 69%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct 2024-release values: Bosnia 630 / 79%; Montenegro <500 / 69%; Serbia 4000 / 86%."
+        },
+        {
+          "family": "unaids-bosnia-hiv",
+          "round": 1,
+          "item": "Serbia",
+          "value": "4000 / 86%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Correct 2024-release values: Bosnia 630 / 79%; Montenegro <500 / 69%; Serbia 4000 / 86%."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

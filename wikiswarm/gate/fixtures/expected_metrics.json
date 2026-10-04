@@ -1,0 +1,78 @@
+{
+  "confirmed_use": 2,
+  "confirmed_use_share": 0.2857,
+  "exposed_upper": 6,
+  "exposed_upper_share": 0.8571,
+  "lead_minutes_median": 10.0,
+  "n_tuples": 14,
+  "n_units": 3,
+  "n_units_by_family": {
+    "datausa-grocery-workforce": 3
+  },
+  "no_time_dropped": 0,
+  "null_round_dropped": 1,
+  "receiver_rounds": 7,
+  "revealers": {
+    "A": 3
+  },
+  "top5_revealer_share": 1.0,
+  "units": [
+    {
+      "confirmed_use": 0,
+      "consensus_value": "90725",
+      "exposed": 2,
+      "family": "datausa-grocery-workforce",
+      "item": "GA",
+      "n_first_hand_signatures": 3,
+      "receivers": 2,
+      "reveal_time": "2026-06-16T10:00:00Z",
+      "revealer": "A",
+      "round": 1
+    },
+    {
+      "confirmed_use": 1,
+      "consensus_value": "20794",
+      "exposed": 2,
+      "family": "datausa-grocery-workforce",
+      "item": "AR",
+      "n_first_hand_signatures": 3,
+      "receivers": 2,
+      "reveal_time": "2026-06-16T10:20:00Z",
+      "revealer": "A",
+      "round": 2
+    },
+    {
+      "confirmed_use": 1,
+      "consensus_value": "20369",
+      "exposed": 2,
+      "family": "datausa-grocery-workforce",
+      "item": "NV",
+      "n_first_hand_signatures": 3,
+      "receivers": 3,
+      "reveal_time": "2026-06-16T10:50:00Z",
+      "revealer": "A",
+      "round": 3
+    }
+  ],
+  "wrong_predictions": [
+    {
+      "family": "datausa-grocery-workforce",
+      "first_time": "2026-06-16T10:40:00Z",
+      "item": "MD",
+      "n_signatures": 2,
+      "round": 3,
+      "values": [
+        "52395"
+      ]
+    }
+  ],
+  "wrong_values": [
+    {
+      "family": "datausa-grocery-workforce",
+      "item": "GA",
+      "n_signatures": 1,
+      "round": 1,
+      "value": "103532"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+import json
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path('gate').resolve()))
+from run_gate import check_tuple
+from common import load_families, read_jsonl
+
+fams = load_families()['families']
+for ef in sorted(Path('work/extract').rglob('*.json')):
+    b = Path('work/batches') / ef.relative_to('work/extract').with_suffix('.jsonl')
+    if not b.exists(): continue
+    rows = {r['record_id']: r for r in read_jsonl(b)}
+    d = json.loads(ef.read_text(encoding='utf-8'))
+    for r in d['records']:
+        for i, t in enumerate(r.get('tuples', [])):
+            why = check_tuple(t, rows[r['record_id']]['text'], fams)
+            if why:
+                print(f"{ef}: record {r['record_id']} tuple {i}: {why}")

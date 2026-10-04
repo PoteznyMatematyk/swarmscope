@@ -1,0 +1,56 @@
+{
+  "batch": "ihme-smoking/ihme-smoking_001.jsonl",
+  "records": [
+    {
+      "record_id": "49ee8ed2a99307b5e54f7af8cbb3d49839300dbdd4dd8d8e36a6759e620fd747",
+      "tuples": [
+        {
+          "family": "ihme-smoking",
+          "round": 1,
+          "item": "United States",
+          "value": null,
+          "kind": "observed_prompt",
+          "used_cache": false,
+          "task_clock": "22:34:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 prompt at task/scaffold 22:34:01: Health-related SDGs visual, estimated prevalence of current/active tobacco use age 15+ in United States"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "882516756b34c08c513f06b731ae25f3a7ec92473a54fd8eb82bfdc57b962cf4",
+      "tuples": [
+        {
+          "family": "ihme-smoking",
+          "round": 1,
+          "item": "US",
+          "value": "26.162169",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": null,
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "confirms US 1990 = 26.162169"
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "f4becb225b0c16c63f19dc2d5a2f17b48a34324ecf088929ddf4a4fd993de2e0",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "fde1f9f337d366730294e7e4dec1866812ba1de62d136c9eda98c2a8b8481bf0",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    },
+    {
+      "record_id": "ec0ed893f8961d30e9ddeb5ef6f2218e227a8ed0b88ef4f905d26045ae253a30",
+      "tuples": [],
+      "no_tuple_reason": "no_round_value_info"
+    }
+  ]
+}

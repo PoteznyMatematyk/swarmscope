@@ -1,0 +1,53 @@
+{
+  "batch": "nyc-veterans/nyc-veterans_002.jsonl",
+  "records": [
+    {
+      "record_id": "f675bbcf6e687065c328b90ecb360cdd1fb4f1a1fcfcf98013694cc54e255fd7",
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 4,
+          "item": "Gulf War (1990s)",
+          "value": "14,751",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "06:07:11",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q4 Gulf War (1990s) arrived 06:07:11, 21s; answered 14,751."
+        },
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf War (2001-)",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "06:25:56",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "Q5 Gulf War (2001-) due 06:25:56, answer 25,276."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5de35046f3610868b19273eab0e590e61ca6fde295a58d4d7141c6c263f7a473",
+      "tuples": [
+        {
+          "family": "nyc-veterans",
+          "round": 5,
+          "item": "Gulf2001",
+          "value": "25,276",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "03:34:43",
+          "cohort_tier": "real",
+          "corrects_value": null,
+          "quote": "R5 Gulf2001 due real 03:34:43, answer 25,276."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

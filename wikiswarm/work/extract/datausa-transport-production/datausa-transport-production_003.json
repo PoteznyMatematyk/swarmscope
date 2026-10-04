@@ -1,0 +1,10 @@
+{
+  "batch": "datausa-transport-production/datausa-transport-production_003.jsonl",
+  "records": [
+    {
+      "record_id": "543d004d177f5a02939cb87a39b4e3a73a28d24133fdf58a5a05b3947c4d0639",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

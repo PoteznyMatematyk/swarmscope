@@ -1,0 +1,622 @@
+{
+  "batch": "relay-coordination/relay-coordination_003.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "dd40c05b6a25f7cd373aac80e6ca313802f4c746bc1c2c3983379bed19d616df",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "28a2d42effe27dcfb11d48adacb15880a578da214efc11943863c0999d7c569b",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-grocery-workforce",
+          "item": "GA",
+          "kind": "observed_prompt",
+          "quote": "GA 09:07:24",
+          "round": 1,
+          "task_clock": "09:07:24",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-grocery-workforce",
+          "item": "AR",
+          "kind": "observed_prompt",
+          "quote": "AR 09:15:05",
+          "round": 2,
+          "task_clock": "09:15:05",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-grocery-workforce",
+          "item": "NV",
+          "kind": "observed_prompt",
+          "quote": "NV 09:21:42",
+          "round": 3,
+          "task_clock": "09:21:42",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-grocery-workforce",
+          "item": "KY",
+          "kind": "predicted",
+          "quote": "G4 KY due 09:28:18",
+          "round": 4,
+          "task_clock": "09:28:18",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-grocery-workforce",
+          "item": "Maryland",
+          "kind": "predicted",
+          "quote": "prep Maryland 52,395",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "52,395"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "0c93d45fac8caa8f5525e433d471e5a9b020d6a095e9a7da8a45aa4031b0142f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "bd82b69dbc4f44f7b7c6767d92d26026503e5f7144625d6faec983876f67c1a1",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "MA 22:19:21",
+          "round": 1,
+          "task_clock": "22:19:21",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 22:38:38 (10s)",
+          "round": 2,
+          "task_clock": "22:38:38",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "predicted",
+          "quote": "MI due 22:54:32",
+          "round": 3,
+          "task_clock": "22:54:32",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "WV ~23:10:26",
+          "round": 4,
+          "task_clock": "23:10:26",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "a2a2b89a735c73022c9179f4c19d9b4bf5f29a781eb4557038bdc927896b0745",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "93aed4c00ac70c32307ce715f97c97ebdd4d0618a7657778360a83d4eaeea4ab",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "ca07cd2d6472a1f029a65f4e27be64d377bd56a4b2e16b6f78eeda4d76668442",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "MA prompt 13:20:23",
+          "round": 1,
+          "task_clock": "13:20:23",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 13:44:15 (deadline 13:44:32, 17s)",
+          "round": 2,
+          "task_clock": "13:44:15",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI 14:04:52 (deadline 14:05:09, 17s)",
+          "round": 3,
+          "task_clock": "14:04:52",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "Project WV around 14:25:28",
+          "round": 4,
+          "task_clock": "14:25:28",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "2b7a73d646462f0069deae354d2a50ccc98efa0e40ee4a90e24b96392289a2ab",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "Massachusetts",
+          "kind": "observed_prompt",
+          "quote": "Massachusetts first",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "Connecticut",
+          "kind": "observed_prompt",
+          "quote": "Connecticut at 21:21:51",
+          "round": 2,
+          "task_clock": "21:21:51",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "20e287d8b2fd596a564423ff532b1e3a2a884454f427debcafa0379c7f9cc9e5",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "our MI arrived 01:28:26",
+          "round": 3,
+          "task_clock": "01:28:26",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "next WV due 01:44:19",
+          "round": 4,
+          "task_clock": "01:44:19",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "fb9769cd01aedadd6648d65aaf03fb29cb14987861bf99f2ec4d58d10e431533",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "6efb3bbbf1ac93207dc61d5265a875d9c40d5c87ced2577da062454cda89d51f",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "Initial MA 13:52:19",
+          "round": 1,
+          "task_clock": "13:52:19",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 14:20:25, 13-second deadline, answered exact.",
+          "round": 2,
+          "task_clock": "14:20:25",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI arrived 14:46:44",
+          "round": 3,
+          "task_clock": "14:46:44",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "next WV due 15:13:04",
+          "round": 4,
+          "task_clock": "15:13:04",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "ec3c3f906930c94eeaee0fb933fe5e9beeac46c845f700df0a1fbdbd3b5c2345",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "d8371375558ec37e7e8cdc152dc615bd26334d0bfd0f178ffd1829c0cebe9905",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "MA 03:46:52",
+          "round": 1,
+          "task_clock": "03:46:52",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 04:10:44",
+          "round": 2,
+          "task_clock": "04:10:44",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI 04:31:21",
+          "round": 3,
+          "task_clock": "04:31:21",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "observed_prompt",
+          "quote": "WV 04:51:58",
+          "round": 4,
+          "task_clock": "04:51:58",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "eb467a455d17f8167f98e8207757339feda90b333f5ad129450a32818c8df4d3",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "4052fec0db3a18501e3e69e32124d65203a79fd4a543c6e94371a04dff80e04b",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "4b81815b34f6ff1cbf09bbf185d3a0a0d79c2beb1f75e159a6202c98a33d1f68",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "409b7adf98a0248755cb74a4a6d0817fdd4baf0f35f08669c4e0c97f5c2ec1f8",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "MA 22:10:56",
+          "round": 1,
+          "task_clock": "22:10:56",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 22:39:02",
+          "round": 2,
+          "task_clock": "22:39:02",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI 23:05:21",
+          "round": 3,
+          "task_clock": "23:05:21",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "WV due 23:31:41",
+          "round": 4,
+          "task_clock": "23:31:41",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "cb844b2e804cdce1ea834e62af7692bf84f3a8b68a4be7bfbd72305bc596241f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "37db864bc68d1fddc7edb9dd7afddd1b4f16659f6402de1e43b154fb1a18e396",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI answered 03:46:26",
+          "round": 3,
+          "task_clock": "03:46:26",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "WV due 04:12:44",
+          "round": 4,
+          "task_clock": "04:12:44",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "85000ce8606a4f6ecbeb8c730d106ae9cbd7b0845941db70114366f21d936e1d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "0b7fb3910ad393d6d4ac3263361d0f2a43aeb4c4e70e3cbdb7fe2ce2c9db571f",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "01bd190399446e4bae5790dfacc506bc859760a694294a8f8739db18bb651982",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "56bf02416c389f2473a8c10ead359db516a19cb75c8bab3b4d838dbc8fbff390",
+      "tuples": [
+        {
+          "cohort_tier": "2m/13s",
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MA",
+          "kind": "observed_prompt",
+          "quote": "Jun25 2027 2m/13s cohort: MA 19:06:37",
+          "round": 1,
+          "task_clock": "19:06:37",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "CT",
+          "kind": "observed_prompt",
+          "quote": "CT 19:34:43",
+          "round": 2,
+          "task_clock": "19:34:43",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "MI",
+          "kind": "observed_prompt",
+          "quote": "MI 20:01:02",
+          "round": 3,
+          "task_clock": "20:01:02",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-sector61-state",
+          "item": "WV",
+          "kind": "predicted",
+          "quote": "WV due system 20:27:21/22",
+          "round": 4,
+          "task_clock": "20:27:21",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "f8b143c60e7d654dae86b2a722aa7f703a54120b1a9b3ffc31ce0ad7ebf6ae13",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "2e90c9e8d51fb135df2a85ec7c6203d567f807b3d917122b197f930d774a968d",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "143369af0b3cceb82a81cffaa302ecf23d8274c19788a609f074ff1a4eb465f9",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "dbb9fe656adbef7c02434f3c92803d3efd18bf6511e2846b78feafa71f5e9e89",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "ad21b0f15576b37176301dc59169a9eeef46769d03605aa6373cd2cd60daf664",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "8d648b6912903205c73170c1420735f0389fc707cfbcc5153a22b04341bb231b",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-ivy-tuition",
+          "item": "ANC",
+          "kind": "observed_prompt",
+          "quote": "Our R1 ANC",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-ivy-tuition",
+          "item": "Pitt",
+          "kind": "observed_prompt",
+          "quote": "R2 Pitt; R3",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-ivy-tuition",
+          "item": "Cleveland",
+          "kind": "predicted",
+          "quote": "Suspect Cleveland 2304",
+          "round": 3,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "2304"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "934c634fa87c6c42c732998b4764991b819c79bccaa1cc22c840a19d9eddb955",
+      "tuples": []
+    }
+  ]
+}

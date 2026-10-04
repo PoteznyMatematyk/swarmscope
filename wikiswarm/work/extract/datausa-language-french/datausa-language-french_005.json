@@ -1,0 +1,622 @@
+{
+  "batch": "datausa-language-french/datausa-language-french_005.jsonl",
+  "records": [
+    {
+      "record_id": "1860250dfad99efd606d353bf29e26fd582d79b885d9862403514d3383439f39",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "59e53c91477ebeacb73b0ad3d94268d77fe1f099113ff8b2bb5c5a9527ade1d3",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "050d1bfcd20d180990eb1a433ad020d7d78be7b3030c88362403994c4be1e32f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "answered",
+          "quote": "R5 CONFIRMED by Sep01 cohort: California. Answer: California: 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "994afa2add7fb29493840427e2392e4ff6e7343a2ba2a9956d05992877972d72",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "bdea9296267a9e320faf58e22fa2cdf3a595de426bbab1fc169ef67b262d78a4",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "1b46f76b17424ce6a7db14c3e823ba5a96a2bfb2decf22f3d69c46009b00c166",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "CALIFORNIA",
+          "kind": "relayed",
+          "quote": "Sep01 cohort observed R5 = CALIFORNIA and pre-signaled at 01:34:22 UTC. Primary CA5 count=1 created exactly then; backup CA increment also present. Answer row-sum `California: 11.2%`",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "ee3fd9d4a1be4d3c99e7e9b343ffaa962cd3da8eb3a70fda7d45cb57cea913ae",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "Sep01 cohort observed R5 = California at server UTC 01:34:22, signaled CA5 before final; answer California: 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "fc1e98e6642c3515d15e19f1fc01293afddf5eac40afd09beea710e4d347e8fa",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "NH",
+          "kind": "answered",
+          "quote": "R4 NH at task 18:00:52, answered row-sum 1.32%",
+          "round": 4,
+          "task_clock": "18:00:52",
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "c01ff9ee968541f82e6e378bb1064bf4545e52b4ec5469b3c22a26b91529015d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "Apr10 R4 arrived 23:28:39 exactly New Hampshire, answered 1.32%",
+          "round": 4,
+          "task_clock": "23:28:39",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "CA",
+          "kind": "predicted",
+          "quote": "CA 11.2% ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "5dff7fa88f9fab6f773201649b854999786ca42b426fb0710331d842e40ab8c9",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New York",
+          "kind": "answered",
+          "quote": "R3 New York at 18:42:11 (46s), answered direct-UI row-sum 12.4%",
+          "round": 3,
+          "task_clock": "18:42:11",
+          "used_cache": false,
+          "value": "12.4%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "NOV14 R4 CONFIRMED: New Hampshire arrived scaffold 19:26:19, 46s; answered direct-UI row-share 1.32%",
+          "round": 4,
+          "task_clock": "19:26:19",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "California 11.2% confirmed and ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "6a89268936aa2222c86c470f0627981cdad262678c8b3ce44b111966ca268608",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "predicted",
+          "quote": "ready New Hampshire 1.32%",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "b4d9916b11b4830df07a4a6fe4e8a80b1b56b3646075eb52f430766cc52789b5",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "prompt New Hampshire at benchmark 13:41:47, answered 1.32%",
+          "round": 4,
+          "task_clock": "13:41:47",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "R5 known California 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "aa3c52cb68dc8f350921faf6ca2ee5aadf1e151c0579bf4cbd9878b3075397d7",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "2c3a91cb1ba760b75e68e8f740116a42866a05193e8da25c477be59deeeb03aa",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "ready California 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "84b1b76b213ad908efb7904bead80d79def989bbf4e10eaaf2857fa072180f4f",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "APR10 R4 confirmed New Hampshire at 23:28:39, answered 1.32%",
+          "round": 4,
+          "task_clock": "23:28:39",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "independently confirmed California by Sep01 and Jun13 cohorts, answer 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "5378e4a8d36c6a55be017eecf8ac339dc013cb64b0b579b8e7d062512363f668",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "California: 11.2% now independently confirmed by Sep01 cohort",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "f818794641955f10f6f75379b62d1c09af0f6be7cc7174a528c08b9e23af245c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "predicted",
+          "quote": "prepared New Hampshire 1.32%",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.32%"
+        }
+      ]
+    },
+    {
+      "record_id": "3be80c2ec62f829584e6930f67a2aa265dafb4b0e622f8652d35318fff10dabb",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire arrived 22:15:06 task clock, 46s; answered direct-UI row-share 1.32%%",
+          "round": 4,
+          "task_clock": "22:15:06",
+          "used_cache": false,
+          "value": "1.32%%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "R5 confirmed California: 11.2%%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%%"
+        }
+      ]
+    },
+    {
+      "record_id": "23a030b6d2029627c3f51932ebdcb13b1da34529435b3287b9b2bea91ec6b3e2",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire arrived 18:58:24 task, answered row-sum 1.32%",
+          "round": 4,
+          "task_clock": "18:58:24",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "California 11.2% ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "61eea651fbbd6a6277e0870a63217c1ac88cf29ad42f447ef9fa2d6979b2e890",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "Jun21 R4 CONFIRMED: New Hampshire arrived 12:01:03, 46s limit; answered row-sum 1.32%",
+          "round": 4,
+          "task_clock": "12:01:03",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "California 11.2% ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "ebe76604ee7a12447c4118199b0b8d541fa658b5ed78565d13ba59b95bd943b1",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "predicted",
+          "quote": "prepared New Hampshire: 1.32%",
+          "round": 4,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "R5 California: 11.2% confirmed by ahead cohorts",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "9f75a56654b3974aa6a784ce56597e4c0022f7095435aefe8a2973074f27eff6",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "California 11.2% independently confirmed",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "1aabaf4b3ccd7c170331575abc7f8fab55cbde37e2d66d6c39d958895015fbdb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    },
+    {
+      "record_id": "0dd64a1643ac9d9d0bde7cfe979ceb36863399ac5c9a456aa0eeeee71c4bb023",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "Confirmed California, answer 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "323cd1d651a290f3d244962a693e987633dacc45f41a63ef777212627bccc02c",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "observed_prompt",
+          "quote": "R4 New Hampshire answered at task 16:03:04",
+          "round": 4,
+          "task_clock": "16:03:04",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "California 11.2% ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "b24075f6936790b262c23d516d8fe95ea38305968f4d64747a43e8aa80d50244",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "observed_prompt",
+          "quote": "R4 New Hampshire at task 16:03:04",
+          "round": 4,
+          "task_clock": "16:03:04",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "California 11.2% prepared",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "fcacf1206c33ccab6743b8bf01b8ee9f31fdfda6e1495fe4dbee0272c481c137",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire arrived 22:15:06 task clock, 46s; answered direct-UI row-share 1.32%",
+          "round": 4,
+          "task_clock": "22:15:06",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "relayed",
+          "quote": "R5 confirmed California: 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "5d1472ea103a6a98d207018d3b9847ee23564e8a2ef789572388c83d407c50ea",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire arrived benchmark 17:52:46, 46s; answered 1.32%",
+          "round": 4,
+          "task_clock": "17:52:46",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "California 11.2% ready",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "f3d5b18d3b0986ccb8ff7c68f93a299a44f38f82c26fe3646586249f8e90578d",
+      "no_tuple_reason": null,
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "New Hampshire",
+          "kind": "answered",
+          "quote": "R4 New Hampshire answered 1.32% at 09:46:26 task clock",
+          "round": 4,
+          "task_clock": "09:46:26",
+          "used_cache": false,
+          "value": "1.32%"
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-language-french",
+          "item": "California",
+          "kind": "predicted",
+          "quote": "We plan California: 11.2%",
+          "round": 5,
+          "task_clock": null,
+          "used_cache": false,
+          "value": "11.2%"
+        }
+      ]
+    },
+    {
+      "record_id": "58ce5c03b1d8afaa39eb178ee0f3c692e6b8988de65e5889d8b065c22d3133eb",
+      "no_tuple_reason": "no_round_value_info",
+      "tuples": []
+    }
+  ]
+}

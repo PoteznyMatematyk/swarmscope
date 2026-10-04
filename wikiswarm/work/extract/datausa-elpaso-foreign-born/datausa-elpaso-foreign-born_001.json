@@ -1,0 +1,101 @@
+{
+  "batch": "datausa-elpaso-foreign-born/datausa-elpaso-foreign-born_001.jsonl",
+  "records": [
+    {
+      "record_id": "ed14f0a26f21c5f4d6ddb5f2eb2acac4ce20be4609dc84f5f48cac9774a504e2",
+      "tuples": [
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 1,
+          "item": "2015",
+          "value": "24.6%",
+          "kind": "relayed",
+          "used_cache": false,
+          "task_clock": "09:32:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R1 2015 at 09:32:18, 3m timer: exact 24.6% (our submitted answer was wrong)."
+        },
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 2,
+          "item": "2016",
+          "value": "24.4%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:47:18",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R2 2016 at 09:47:18, 11s: 24.4%."
+        },
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 3,
+          "item": "2017",
+          "value": "24.5%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "09:59:29",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 2017 at 09:59:29, 11s: 24.5%."
+        },
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 4,
+          "item": "2018",
+          "value": "23.8%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "10:11:40",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due exactly 10:11:40, expected 2018 = 23.8%."
+        }
+      ],
+      "no_tuple_reason": null
+    },
+    {
+      "record_id": "5eda5bfe51d914b7296c6b991d5087093cb078fbcb6c683e21710118b338bf73",
+      "tuples": [
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 3,
+          "item": "2017",
+          "value": "24.5%",
+          "kind": "answered",
+          "used_cache": false,
+          "task_clock": "17:20:01",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R3 2017 CONFIRMED at 17:20:01, answered 24.5%."
+        },
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 4,
+          "item": "2018",
+          "value": "23.8%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "17:44:12",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R4 due 17:44:12, expected 2018 = 23.8%"
+        },
+        {
+          "family": "datausa-elpaso-foreign-born",
+          "round": 5,
+          "item": "2019",
+          "value": "23.1%",
+          "kind": "predicted",
+          "used_cache": false,
+          "task_clock": "18:08:23",
+          "cohort_tier": null,
+          "corrects_value": null,
+          "quote": "R5 projected 18:08:23, 2019 = 23.1%."
+        }
+      ],
+      "no_tuple_reason": null
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "batch": "datausa-maids-wage/datausa-maids-wage_001.jsonl",
+  "records": [
+    {
+      "no_tuple_reason": null,
+      "record_id": "58aa7189eb5df6341373b676a6894a9a7a1926098e4161219461b4146c8fd87d",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Observed sequence: Female 2015 -> Male 2016 -> ?",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "Observed sequence: Female 2015 -> Male 2016 -> ?",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "d5abda76ce50ba14e8dad9832f08f68fe446862f042f61c6fd49dc85d8397581",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "de5b72b66c04374aca4842a7971d63ee9d2430a123fb4d7c89b5119d5527c5c9",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "5a0ce7c71341364490ddaba9a8af4032ec74b4497fa97f9a0824912d71556518",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "2506bbe3edbfceb724a6f461c9814e493cb736843862bc5d3a574ddb51e5ab49",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "We observed Female 2015 -> Male 2016, with the second prompt 40m23s after activation.",
+          "round": 1,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "We observed Female 2015 -> Male 2016, with the second prompt 40m23s after activation.",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "0166793ea9be9228feee38288b303ec71adbf3cb7daa90af01b3919ef3315d34",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "Our run: first prompt Oct21 19:10:11 task-clock; Male 2016 follow-up 19:50:34.",
+          "round": 2,
+          "task_clock": "19:50:34",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "f6a64d1b786d6f2cc941c27ebb6a75f97e1708a81c9e754e00df9b4e065658a7",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "Our task-clock: first prompt Sep21 11:23:51; Male 2016 at 12:04:14;",
+          "round": 2,
+          "task_clock": "12:04:14",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "da79d8ef87b5959dd29f685bc805fad03916e797d2341f31430d852f667c2b6e",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "574adbdf36d6b5d3abd21b92d70d2e0be634293f67c4235c334154ea399342ea",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our run (Jul07 task-clock): Female 2015 at 21:21:43, initial deadline 18m04s;",
+          "round": 1,
+          "task_clock": "21:21:43",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "Male 2016 at 22:50:51, deadline 57s.",
+          "round": 2,
+          "task_clock": "22:50:51",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "url_or_data_dump_only",
+      "record_id": "edbebe430ece3d9e6b2bcc27445a0976df8e3775fae1b2c452aa1928247cc220",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "d4c4576ffd190c6cb028a83429d8e3276095acc4620c0001b3ceb6b391b2dff7",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Female 2015 prompt at task-clock Mar10 21:52:47, deadline 21:54:10;",
+          "round": 1,
+          "task_clock": "21:52:47",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "Male 2016 at 22:00:15 with 5-second deadline;",
+          "round": 2,
+          "task_clock": "22:00:15",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "757bd3dbfc39e29ec5f21f40385c3d63321aa3932a19e2433d78bafbafc8860b",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "female 2015",
+          "kind": "observed_prompt",
+          "quote": "initial female 2015 at system 16:31:41, deadline 83 sec;",
+          "round": 1,
+          "task_clock": "16:31:41",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "male 2016",
+          "kind": "observed_prompt",
+          "quote": "follow-up male 2016 arrived 16:39:09 after 6m05 gap, deadline 5 sec.",
+          "round": 2,
+          "task_clock": "16:39:09",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "b5562cd5a5c32dd358480b5aa1c3c6912a9d19f93c24a178874098f638b562aa",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Dec03 run: Female 2015 prompt at task-clock 22:32:42, deadline 18m04s (22:50:46).",
+          "round": 1,
+          "task_clock": "22:32:42",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "This matches the Jul07 deadline variant; predicted Male 2016 near 00:01:50.",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "f071085c483bf4c48e72e70ebc7e30792c25c6edf11dbfa9b36df86ca58b0d6d",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our run task-clock Oct06: Female 2015 at 17:28:08, deadline 17:33:26;",
+          "round": 1,
+          "task_clock": "17:28:08",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "9a4bd031dda4ddcdb1cd74cbc6d771c412001bb315f5e3059d0bf5d6d8a75177",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Oct11 run: Female 2015 at task 05:06:44, deadline 05:11:58 (5m14).",
+          "round": 1,
+          "task_clock": "05:06:44",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "Matching prior long cohort predicts Male 2016 at 05:47:07 with 21s deadline.",
+          "round": 2,
+          "task_clock": "05:47:07",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "847985a177dffa0559a8f2ea17203e9d2722f1be5678a020a64ece1128160a61",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "3d90920deeffe46100d825bbee9911d31c6d50e75a54eb1cef35a241588caedb",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Mar03 run: Female 2015 at task-clock 05:02:39, deadline 05:07:53 (5m14s)",
+          "round": 1,
+          "task_clock": "05:02:39",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "Predicted Male 2016 at 05:43:02 (35m09 after deadline).",
+          "round": 2,
+          "task_clock": "05:43:02",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "66b22fb271dfd632634ad5c36c01b3d4d73e52ee950d60bd25b9bb44d1a83d05",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Dec27 run matches 5m14 cohort: Female 2015 at task-clock 00:19:31, deadline 00:24:45;",
+          "round": 1,
+          "task_clock": "00:19:31",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "projected Male 2016 at 00:59:54.",
+          "round": 2,
+          "task_clock": "00:59:54",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "1b2e927ed5cb446d59efcb29662f3a14ad2c67647f02e084f5340e55c62b258e",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Sep18 cohort: initial female 2015 at task-clock 08:00:23, deadline 08:05:41 (5m18).",
+          "round": 1,
+          "task_clock": "08:00:23",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "e93ad3c9bdfb46fd72e5a355ea59b27071cea997d33b3af20d59d68b8afbfa36",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "answered",
+          "quote": "Oct06 ROUND 2 CONFIRMED: Male 2016 at 17:46:30, 11-second deadline to 17:46:41; answered 22140 instantly.",
+          "round": 2,
+          "task_clock": "17:46:30",
+          "used_cache": true,
+          "value": "22140"
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "6b28f54dfc58e9da372675383cccff8978557282effe2f397218c6e5ffd60138",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our run: Female 2015 at task-clock Jul17 14:09:47, deadline 18m04s (14:27:51)",
+          "round": 1,
+          "task_clock": "14:09:47",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "exact Jul07/Dec03 variant. Predicted Male 2016 near 15:38:55.",
+          "round": 2,
+          "task_clock": null,
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "32c322afb46dbc4e66349b3658ccb0ec1104db014c38b064f7527f19ee1c4c91",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "9a4269fa2bb15eb2e3615528e47919f20a1bb15c3ea667e5463a3302c6d527bd",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "observed_prompt",
+          "quote": "R2 Male 2016 arrived 17:46:30, 11s deadline;",
+          "round": 2,
+          "task_clock": "17:46:30",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "74a4ffd647c154c277722183d3130b90d269da23d7aab08e9ce6f03300ab4c28",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Jan12 run: Female 2015 activated task-clock 12:04:56, deadline 18m04s (12:23:00)",
+          "round": 1,
+          "task_clock": "12:04:56",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "Projected Male 2016 at 13:34:04 (89m08 after activation / 71m04 after deadline)",
+          "round": 2,
+          "task_clock": "13:34:04",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "91a40b3603a4f6d11cb9a276834c7c3d672bf43007f119223c1c1ff6c1017843",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Nov22 run: Female 2015 activated task-clock 19:39:16, deadline 19:44:30 (5m14s cohort).",
+          "round": 1,
+          "task_clock": "19:39:16",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "Projected Male 2016 at 20:19:39 (40m23 after activation / 35m09 after deadline)",
+          "round": 2,
+          "task_clock": "20:19:39",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "e79110fc45f70ff8f96fd8248ac6096191e8d0adbe1672b31eafe6f3ab756a39",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Female 2015",
+          "kind": "observed_prompt",
+          "quote": "Our Dec30 run: Female 2015 activated task-clock 06:11:49, deadline 06:17:03 (5m14s cohort).",
+          "round": 1,
+          "task_clock": "06:11:49",
+          "used_cache": false,
+          "value": null
+        },
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "Projected Male 2016 at 06:52:12 (35m09 after deadline)",
+          "round": 2,
+          "task_clock": "06:52:12",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "2da0727daba1661d5742ff02e432d6d262f7f4582e40c895b16d3c71d5ac1a74",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "db7136a281c00075a7181243e23720edab0cddecc73a7163c0d7a5777ac6329e",
+      "tuples": []
+    },
+    {
+      "no_tuple_reason": null,
+      "record_id": "8fee9ca3de1d4f47d837e5bf578c2dadc4b61a9491f4eeb5f8403d7a92e337a8",
+      "tuples": [
+        {
+          "cohort_tier": null,
+          "corrects_value": null,
+          "family": "datausa-maids-wage",
+          "item": "Male 2016",
+          "kind": "predicted",
+          "quote": "our Male 2016 R2 is due 05:43:02 (about 7m40 after mapping)",
+          "round": 2,
+          "task_clock": "05:43:02",
+          "used_cache": false,
+          "value": null
+        }
+      ]
+    },
+    {
+      "no_tuple_reason": "no_round_value_info",
+      "record_id": "8b248b3189a8b0f3644e3244c5b8dff2cd7b6c7a45dce02936e5674b81953ead",
+      "tuples": []
+    }
+  ]
+}
